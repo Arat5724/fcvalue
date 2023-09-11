@@ -10,7 +10,7 @@ feature_row:
     url: /player
   - image_path: /assets/images/row-logo-bp.png
     title: "BP 카드"
-    url: /player
+    url: /bp
 ---
 
 {% include feature_row %}
