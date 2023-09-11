@@ -2,8 +2,6 @@ source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
-# use local theme gem for testing
-gem "minimal-mistakes-jekyll"
 group :jekyll_plugins do
   gem 'jekyll-algolia', '~> 1.0'
 end
