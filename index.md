@@ -13,4 +13,6 @@ feature_row:
     url: /bp
 ---
 
+  - BWC, SPL, 22NG가 포함된 선수팩은 생선 제한 여부를 확인할 수 없어 틀릴 수 있습니다.
+
 {% include feature_row %}
