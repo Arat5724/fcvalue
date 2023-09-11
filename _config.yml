@@ -67,9 +67,9 @@ yandex_site_verification :
 
 # Analytics
 analytics:
-  provider               : "google-gtag"
+  provider               : false #"google-gtag"
   google:
-    tracking_id          : "G-4ZX17DGFG4"
+    tracking_id          : false #"G-4ZX17DGFG4"
 
 
 # Site Author
