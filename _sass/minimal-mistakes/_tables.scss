@@ -11,7 +11,7 @@ table {
   border-collapse: collapse;
   overflow-x: auto;
 
-  & + table {
+  &+table {
     margin-top: 1em;
   }
 }
