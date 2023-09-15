@@ -1,19 +1,19 @@
 ---
-title: "[CC 8강 0.2% + CC 5강 확정] 더 블랙 에디션 상자"
+title: "[FO4 전용][CC 8강 0.2% + CC 5강 확정] 더 블랙 에디션 상자"
 header:
   teaser: /assets/images/product/13259.png
   image: /assets/images/product/13259.png
-rank: 1
-efficiency: 138.74668562849047
-excerpt: 139배
+rank: 3
+efficiency: 114.46601564350463
+excerpt: 114배
 categories: general-product
 ---
-[상품정보 상세보기](https://shop.fifaonline4.nexon.com/Shop/View?strPid=None)
+[상품정보 상세보기](https://shop.fifaonline4.nexon.com/Shop/View?strPid=the-balck-edition-box)
 
 ## 효율
-### 139배
+### 114배
 ## 가격
-### 9,900FC
+### 12,000FC
 ## 기댓값
 ### 1373억5921만BP
   - 선수팩 842억1654만BP
