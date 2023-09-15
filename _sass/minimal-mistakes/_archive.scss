@@ -424,6 +424,83 @@
   }
 }
 
+.pachinko__item-excerpt {
+  margin-top: 0;
+  font-size: $type-size-5;
+
+  &+p {
+    text-indent: 0;
+  }
+
+  a {
+    position: relative;
+  }
+}
+
+.pachinko__item-teaser {
+  position: relative;
+  border-radius: $border-radius;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+  }
+}
+
+.pachinko__wrapper {
+  // @include clearfix();
+  margin-bottom: 2em;
+
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  /* 가로 가운데 정렬 */
+
+  .archive__item-title {
+    margin-bottom: 0;
+  }
+}
+
+.pachinko__item,
+.pachinko__item--first {
+  position: relative;
+  margin-bottom: 2em;
+  font-size: 0.75em;
+
+  @include breakpoint($small) {
+    float: left;
+    margin-bottom: 0;
+    width: span(3 of 15);
+
+    .pachinko__item-teaser {
+      max-height: 200px;
+      overflow: hidden;
+    }
+  }
+
+  @include breakpoint($medium) {
+    font-size: 1em;
+  }
+
+  .archive__item-body {
+    padding-left: gutter(1 of 15);
+    padding-right: gutter(1 of 15);
+  }
+
+  a.btn::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.pachinko__item--first {
+  border: yellow 2px solid;
+}
+
 /* Place inside an archive layout */
 
 .archive {
