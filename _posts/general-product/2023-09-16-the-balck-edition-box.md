@@ -17,14 +17,17 @@ categories: general-product
 ## 효율
 ### 115배
 ## 기댓값
-### 1374억6987만BP
-
+<details>
+<summary>1374억6987만BP</summary>
+<div markdown="1">
 - 선수팩 843억3682만BP
   - 수수료 쿠폰 40% 적용 시 809억6335만BP
   - 수수료 쿠폰 30% 적용 시 775억8987만BP
   - 수수료 쿠폰 20% 적용 시 742억1640만BP
 - BP 카드 598억8000만BP
 
+</div>
+</details>
 ## 구성품
 
 |아이템|개수|선수팩|BP 카드|
