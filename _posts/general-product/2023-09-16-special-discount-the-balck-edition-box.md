@@ -12,10 +12,10 @@ categories: general-product
 [상품정보 상세보기](https://shop.fifaonline4.nexon.com/Shop/View?strPid=special-discount-the-balck-edition-box)
 
 
-## 효율
-### 139배
 ## 가격
 ### 9,900FC
+## 효율
+### 139배
 ## 기댓값
 ### 1374억6987만BP
 
