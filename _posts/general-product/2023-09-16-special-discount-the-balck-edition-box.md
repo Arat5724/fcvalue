@@ -4,10 +4,10 @@ header:
   teaser: /assets/images/product/13259.png
   image: /assets/images/product/13259.png
 
-rank1: 2
+rank1: 1
 rank2: 1
-efficiency1: 139배
-efficiency2: 139배
+efficiency1: 155배
+efficiency2: 155배
 categories: general-product
 ---
 [상품정보 상세보기](https://shop.fifaonline4.nexon.com/Shop/View?strPid=special-discount-the-balck-edition-box)
@@ -16,15 +16,15 @@ categories: general-product
 ## 가격
 ### 9,900FC
 ## 효율
-### 139배
+### 155배
 ## 기댓값
 <details>
-<summary>1374억6987만BP</summary>
+<summary>1539억2670만BP</summary>
 <div markdown="1">
-- 선수팩 843억3682만BP
-  - 수수료 쿠폰 40% 적용 시 809억6335만BP
-  - 수수료 쿠폰 30% 적용 시 775억8987만BP
-  - 수수료 쿠폰 20% 적용 시 742억1640만BP
+- 선수팩 1022억2467만BP
+  - 수수료 쿠폰 40% 적용 시 981억3568만BP
+  - 수수료 쿠폰 30% 적용 시 940억4670만BP
+  - 수수료 쿠폰 20% 적용 시 899억5771만BP
 - BP 카드 598억8000만BP
 
 </div>
@@ -33,5 +33,5 @@ categories: general-product
 
 |아이템|개수|선수팩|BP 카드|
 |---|---|---|---|---|
-|[CC 70명 지명 선수팩 (5강, 106+)](/player/7353)|1|834억9565만||
+|[CC 70명 지명 선수팩 (5강, 106+)](/player/7353)|1|1013억8350만||
 |[[CC 8강 0.2%] CC 8강 or BP 상자](/box/7377)|1|8억4117만|598억8000만|
