@@ -5,6 +5,9 @@ feature_row1:
   - image_path: /assets/images/row-logo-general.png
     title: "FC 효율"
     url: /general-product
+  - image_path: /assets/images/row-logo-general.png
+    title: "FC 효율(1개 구매 시)"
+    url: /general-product-1
   - image_path: /assets/images/row-logo-mileage.png
     title: "MP 효율"
     url: /mileage-product

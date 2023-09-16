@@ -4,9 +4,10 @@ header:
   teaser: /assets/images/product/201704206.png
   image: /assets/images/product/201704206.png
 
-rank: 5
-efficiency: 114.55823222646087
-excerpt: 115배
+rank1: 5
+rank2: 3
+efficiency1: 115배
+efficiency2: 115배
 categories: general-product
 ---
 [상품정보 상세보기](https://shop.fifaonline4.nexon.com/Shop/View?strPid=the-balck-edition-box)

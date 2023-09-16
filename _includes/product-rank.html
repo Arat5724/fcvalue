@@ -1,5 +1,4 @@
-
-{%- assign sorted_posts = site.categories[include.taxonomy] | sort: 'rank' -%}
+{%- assign sorted_posts = site.categories[include.taxonomy] | sort: include.key -%}
 {%- for post in sorted_posts -%}
   {%- unless post.hidden -%}
     {% include archive-single.html %}

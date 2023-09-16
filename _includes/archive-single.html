@@ -25,6 +25,13 @@
       {% endif %}
     </h2>
     {% include page__meta.html type=include.type %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+
+    {% if include.description and include.description == "efficiency1" and post.efficiency1 %}
+    <p class="archive__item-excerpt" itemprop="description">{{ post.efficiency1 | markdownify | strip_html | truncate: 160 }}</p>
+    {% elsif include.description and include.description == "efficiency2" and post.efficiency2 %}
+    <p class="archive__item-excerpt" itemprop="description">{{ post.efficiency2 | markdownify | strip_html | truncate: 160 }}</p>
+    {% elsif post.excerpt %}
+    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>
+    {% endif %}
   </article>
 </div>
