@@ -31,6 +31,8 @@ feature_row2:
   - 현재 아이콘 팩 기댓값 계산에 문제가 생겨 확인 중입니다.
     - [https://www.fmkorea.com/6197641378](https://www.fmkorea.com/6197641378)
 
+{% include high_rank %}
+
 {% include feature_row id="feature_row1" %}
 
 {% include feature_row id="feature_row2" %}
