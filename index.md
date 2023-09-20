@@ -22,6 +22,10 @@ feature_row2:
     title: "BP 카드"
     url: /bp
 ---
+
+<details>
+<summary>공지사항</summary>
+<div markdown="1">
   - 목요일 제외 매일 0시 ~ 1시에 갱신됩니다.
   - 가격을 갱신하는 동안 사이트 접속이 원할하지 않을 수 있습니다.
   - 기댓값/효율은 수수료 쿠폰 30% 사용을 기준으로 계산합니다.
@@ -30,9 +34,14 @@ feature_row2:
   - 이제 생성 제한 정보를 적용해, 더욱 정확하게 계산합니다.
   - 현재 아이콘 팩 기댓값 계산에 문제가 생겨 확인 중입니다.
     - [https://www.fmkorea.com/6197641378](https://www.fmkorea.com/6197641378)
+</div>
+</details>
 
+## 오늘의 효율 TOP3
 {% include high_rank %}
 
+## 효율
 {% include feature_row id="feature_row1" %}
 
+## 기댓값
 {% include feature_row id="feature_row2" %}

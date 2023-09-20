@@ -1,6 +1,5 @@
 {% assign high_rank = site.posts | where: "categories", "general-product" | sort: "rank1" %}
 
-<h2>오늘의 효율 TOP3</h2>
 <div class="feature__wrapper">
   {% for post in high_rank %}
   {% if post.rank1 > 3 %}{% break %}{% endif %}
