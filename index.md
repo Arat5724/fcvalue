@@ -2,23 +2,23 @@
 layout: splash
 permalink: /
 feature_row1:
-  - image_path: /assets/images/row-logo-general.png
+  - image_path: https://fo4.dn.nexoncdn.co.kr/live/externalAssets/shop/items/product/105_s.png
     title: "FC 효율"
     url: /general-product
-  - image_path: /assets/images/row-logo-general.png
+  - image_path: https://fo4.dn.nexoncdn.co.kr/live/externalAssets/shop/items/product/101_s.png
     title: "FC 효율(1개 구매 시)"
     url: /general-product-1
-  - image_path: /assets/images/row-logo-mileage.png
+  - image_path: /assets/images/mileage.png
     title: "MP 효율"
     url: /mileage-product
 feature_row2:
-  - image_path: /assets/images/row-logo-box.png
+  - image_path: https://fo4.dn.nexoncdn.co.kr/live/externalAssets/shop/items/usePack/201704206.png
     title: "상자"
     url: /box
-  - image_path: /assets/images/row-logo-player.png
+  - image_path: https://ssl.nexon.com/s2/game/fo4/shop/item_temp/230831_2737NE39PA12/200230051.png
     title: "선수팩"
     url: /player
-  - image_path: /assets/images/row-logo-bp.png
+  - image_path: https://ssl.nexon.com/s2/game/fo4/shop/item_temp/usePack/200335004.png
     title: "BP 카드"
     url: /bp
 ---
