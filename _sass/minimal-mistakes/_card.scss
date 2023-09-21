@@ -1,0 +1,174 @@
+.thumb {
+    position: relative;
+    width: 189px;
+    height: 303px;
+
+    .img {
+        position: absolute;
+        top: 56px;
+        right: 5px;
+        z-index: 1;
+        width: 155px;
+        height: 169px;
+        overflow: hidden;
+
+        img {
+            max-width: none;
+            vertical-align: baseline;
+            width: 169px;
+        }
+    }
+
+    .ovr {
+        font-size: 37px;
+        font-weight: bold;
+        color: #fff;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        text-align: center;
+        width: 61px;
+        text-align: center;
+        font-weight: 400;
+        z-index: 2;
+        text-shadow: 0px 0px 3px rgba(0, 0, 0, .5);
+        font-family: "INGAME";
+    }
+
+    .position {
+        font-size: 26px;
+        color: #fff;
+        position: absolute;
+        top: 82px;
+        left: 0;
+        text-align: center;
+        width: 61px;
+        text-align: center;
+        z-index: 2;
+        text-shadow: 0px 0px 3px rgba(0, 0, 0, .5);
+        font-family: "INGAME";
+        font-weight: 100;
+    }
+
+    .nation {
+        position: absolute;
+        top: 114px;
+        left: 0;
+        width: 62px;
+        text-align: center;
+        z-index: 2;
+
+        img {
+            width: 28px;
+        }
+    }
+
+    >.season {
+        position: absolute;
+        top: 170px;
+        left: 9px;
+        text-align: center;
+        width: 46px;
+        height: 46px;
+        z-index: 2;
+        border-radius: 46px;
+        overflow: hidden;
+        background: #fff;
+
+        img {
+            width: 33px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    .name_wrap {
+        width: 100%;
+        position: absolute;
+        top: 230px;
+        left: 0;
+        text-align: center;
+
+        .season {
+            margin-right: 3px;
+            display: inline-block;
+            margin-top: 2px;
+            vertical-align: top;
+
+            img {
+                height: 16px;
+                vertical-align: top;
+                margin-top: -1px;
+            }
+        }
+
+        .name {
+            display: inline-block;
+            max-width: 140px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 19px;
+            font-weight: 500;
+        }
+    }
+
+    .pay {
+        position: absolute;
+        bottom: 11px;
+        left: 50%;
+        width: 30px;
+        height: 18px;
+        background-color: rgba(0, 0, 0, 0);
+        margin: 8.66px 0;
+        border-left: solid 2px #a7a9ae;
+        border-right: solid 2px #a7a9ae;
+        transform: scale(0.8) translateX(-20px);
+        font-size: 19px;
+        color: #3f434a;
+        text-align: center;
+        font-weight: bold;
+        font-family: "EASANS";
+        letter-spacing: 1px;
+        opacity: .7;
+        line-height: 1.2;
+
+        &::before {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            width: 21px;
+            height: 21px;
+            -webkit-transform: scaleY(0.6) rotate(-45deg);
+            -ms-transform: scaleY(0.6) rotate(-45deg);
+            transform: scaleY(0.6) rotate(-45deg);
+            background-color: inherit;
+            left: 2.5px;
+            z-index: 1;
+
+            top: -11px;
+            border-top: solid 2.8px #a7a9ae;
+            border-right: solid 2.8px #a7a9ae;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            width: 21px;
+            height: 21px;
+            -webkit-transform: scaleY(0.6) rotate(-45deg);
+            -ms-transform: scaleY(0.6) rotate(-45deg);
+            transform: scaleY(0.6) rotate(-45deg);
+            background-color: inherit;
+            left: 2.5px;
+            z-index: 1;
+
+            bottom: -11px;
+            border-bottom: solid 2.8px #a7a9ae;
+            border-left: solid 2.8px #a7a9ae;
+        }
+    }
+}
