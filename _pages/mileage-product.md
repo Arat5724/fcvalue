@@ -1,5 +1,5 @@
 ---
-title: "마일리지 상품"
+title: "MP 효율"
 layout: rank
 key: rank1
 description: efficiency1
