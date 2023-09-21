@@ -23,11 +23,6 @@ feature_row2:
     url: /bp
 ---
 
-## FCA, 23HW 시즌 업데이트 완료.
-- 가격 형성이 안 된 선수팩이 많습니다. 주의하세요.
-- 연쇄 상품 오늘 중으로 추가 예정입니다.
-- "BP카드 350억"이 350BP로 계산되는 오류가 수정되었습니다.
-
 <details>
 <summary>공지사항</summary>
 <div markdown="1">
@@ -39,6 +34,11 @@ feature_row2:
     - [https://www.fmkorea.com/6197641378](https://www.fmkorea.com/6197641378)
 </div>
 </details>
+
+## FCA, 23HW 시즌 업데이트 완료.
+- 가격 형성이 안 된 선수팩이 많습니다. 주의하세요.
+- 연쇄 상품 오늘 중으로 추가 예정입니다.
+- "BP카드 350억"이 350BP로 계산되는 오류가 수정되었습니다.
 
 ## 오늘의 효율 TOP3
 {% include high_rank %}
