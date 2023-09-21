@@ -1,8 +1,8 @@
 ---
 title: "[특별할인][FCO 전용][23HW 포함][CC 8강 0.2% + CC 5강 확정] 더 블랙 에디션 상자"
 header:
-  teaser: https://fco.dn.nexoncdn.co.kr/live/externalAssets/shop/items/product/13259_s.png
-  image: https://fco.dn.nexoncdn.co.kr/live/externalAssets/shop/items/product/13259_s.png
+  teaser: https://fco.dn.nexoncdn.co.kr/live/externalAssets/shop/items/product/13272_s.png
+  image: https://fco.dn.nexoncdn.co.kr/live/externalAssets/shop/items/product/13272_s.png
 
 rank1: 1
 rank2: 1
