@@ -12,13 +12,13 @@ feature_row1:
     title: "MP 효율"
     url: /mileage-product
 feature_row2:
-  - image_path: https://fo4.dn.nexoncdn.co.kr/live/externalAssets/shop/items/usePack/201704206.png
+  - image_path: https://fo4.dn.nexoncdn.co.kr/live/externalAssets/shop/items/usePack/201704339_s.png
     title: "상자"
     url: /box
-  - image_path: https://ssl.nexon.com/s2/game/fo4/shop/item_temp/230831_2737NE39PA12/200230051.png
+  - image_path: https://fo4.dn.nexoncdn.co.kr/live/externalAssets/shop/items/playerPack/200235004_s.png
     title: "선수팩"
     url: /player
-  - image_path: https://ssl.nexon.com/s2/game/fo4/shop/item_temp/usePack/200335004.png
+  - image_path: https://fo4.dn.nexoncdn.co.kr/live/externalAssets/shop/items/usePack/200357000_s.png
     title: "BP 카드"
     url: /bp
 ---
