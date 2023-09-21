@@ -12,14 +12,14 @@ minimal_mistakes_skin    : "dark" # "default"  "air", "aqua", "contrast", "dark"
 locale                   : "ko-KR"
 title                    : "FC VALUE"
 title_separator          : "-"
-subtitle                 : "FC 온라인(진) 확률형 아이템 기댓값 정보"
+subtitle                 : "FC 온라인 확률형 아이템 기댓값 정보"
 name                     : "fcvalue.com"
-description              : "FC 온라인(진) 확률형 아이템 기댓값 정보"
+description              : "FC 온라인 확률형 아이템 기댓값 정보"
 url                      : "https://fcvalue.com/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # "/test"
 repository               : arat5724/fcvalue # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# logo                     : "/assets/images/apple-touch-icon.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logo64.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "FC VALUE" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -49,9 +49,9 @@ comments:
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
-search_provider          : "lunr"
+search                   : # true # true, false (default)
+search_full_content      : # true # true, false (default)
+search_provider          : #"lunr"
 lunr:
   search_within_pages    : true
 algolia:
