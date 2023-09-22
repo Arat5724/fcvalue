@@ -1,0 +1,37 @@
+.fixed_buttons {
+    display: block;
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    height: 25px;
+    width: 25px;
+    z-index: 1000;
+}
+
+.fixed_buttons--first {
+    display: block;
+    position: fixed;
+    right: 5px;
+    height: 25px;
+    width: 25px;
+    bottom: 10px;
+    z-index: 9999999;
+
+    .img {
+        z-index: 9999999;
+    }
+}
+
+.fixed_buttons--second {
+    display: block;
+    position: fixed;
+    right: 5px;
+    height: 25px;
+    width: 25px;
+    bottom: 45px;
+    z-index: 9999999;
+
+    .img {
+        z-index: 9999999;
+    }
+}
