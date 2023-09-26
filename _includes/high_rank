@@ -8,7 +8,7 @@
       <div class="archive__item">
         {% if post.header.teaser %}
           <div class="archive__item-teaser">
-            <img src="{{ post.header.teaser | relative_url }}">
+            <img src="{{ post.header.teaser | relative_url }}" alt="{{ post.title }}">
           </div>
         {% endif %}
         <div class="archive__item-body">
