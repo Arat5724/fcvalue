@@ -26,11 +26,6 @@
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-    <ins class="kakao_ad_area" style="display:none;"
-    data-ad-unit = "DAN-SwoG0s8LqF6MOhAm"
-    data-ad-width = "300"
-    data-ad-height = "250"></ins>
-    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
@@ -55,6 +50,10 @@
     <a class="fixed_buttons--first" href="#remark42"><img src="/assets/images/comment.png"></a>
     {% endif %}
     {% include scripts.html %}
-
+    <ins class="kakao_ad_area" style="display:none;"
+    data-ad-unit = "DAN-SwoG0s8LqF6MOhAm"
+    data-ad-width = "300"
+    data-ad-height = "250"></ins>
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
   </body>
 </html>
