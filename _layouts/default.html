@@ -50,8 +50,10 @@
       </footer>
     </div>
     {% if page.comments %}
-    <a class="fixed_buttons--second" href="#"><img src="/assets/images/arrow.png"></a>
-    <a class="fixed_buttons--first" href="#remark42"><img src="/assets/images/comment.png"></a>
+    <a class="fixed_buttons--second" href="#remark42"><img src="/assets/images/comment.webp" alt="comment icon"></a>
+    {% endif %}
+    {% if page.top %}
+    <a class="fixed_buttons--first" href="#"><img src="/assets/images/arrow.webp" alt="top icon"></a>
     {% endif %}
     {% include scripts.html %}
   </body>
