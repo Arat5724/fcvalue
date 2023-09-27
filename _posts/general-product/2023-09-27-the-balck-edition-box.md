@@ -4,10 +4,10 @@ header:
   teaser: /assets/images/item/201704339_s.png
   image: /assets/images/item/201704339_s.png
 
-rank1: 4
-rank2: 2
-efficiency1: 132배
-efficiency2: 132배
+rank1: 6
+rank2: 5
+efficiency1: 123배
+efficiency2: 123배
 categories: general-product
 ---
 
@@ -15,15 +15,15 @@ categories: general-product
 ## 가격
 ### 12,000FC
 ## 효율
-### 132배
+### 123배
 ## 기댓값
 <details>
-<summary>1578억71만BP</summary>
+<summary>1480억4715만BP</summary>
 <div markdown="1">
-- 선수팩 1065억6599만BP
-  - 수수료 쿠폰 40% 적용 시 1023억335만BP
-  - 수수료 쿠폰 30% 적용 시 980억4071만BP
-  - 수수료 쿠폰 20% 적용 시 937억7807만BP
+- 선수팩 959억6430만BP
+  - 수수료 쿠폰 40% 적용 시 921억2573만BP
+  - 수수료 쿠폰 30% 적용 시 882억8715만BP
+  - 수수료 쿠폰 20% 적용 시 844억4858만BP
 - BP 카드 597억6000만BP
 
 </div>
@@ -32,5 +32,5 @@ categories: general-product
 
 |아이템|개수|선수팩|BP 카드|
 |---|---|---|---|
-|[CC 70명 지명 선수팩 (5강, 106+)](/player/7353)|1|1041억866만||
-|[[23HW 포함][CC 8강 0.2%] CC 8강 or 23HW 8강 or BP 상자](/box/7588)|1|24억5733만|597억6000만|
+|[CC 70명 지명 선수팩 (5강, 106+)](/player/7353)|1|934억9600만||
+|[[23HW 포함][CC 8강 0.2%] CC 8강 or 23HW 8강 or BP 상자](/box/7588)|1|24억6830만|597억6000만|
