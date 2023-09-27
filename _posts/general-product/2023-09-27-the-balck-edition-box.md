@@ -1,8 +1,8 @@
 ---
 title: "[FCO 전용][23HW 포함][CC 8강 0.2% + CC 5강 확정] 더 블랙 에디션 상자"
 header:
-  teaser: https://fco.dn.nexoncdn.co.kr/live/externalAssets/shop/items/usePack/201704339_s.png
-  image: https://fco.dn.nexoncdn.co.kr/live/externalAssets/shop/items/usePack/201704339_s.png
+  teaser: /assets/images/item/201704339_s.png
+  image: /assets/images/item/201704339_s.png
 
 rank1: 4
 rank2: 2
@@ -10,7 +10,6 @@ efficiency1: 132배
 efficiency2: 132배
 categories: general-product
 ---
-[상품정보 상세보기](https://shop.fconline.nexon.com/Shop/View?strPid=the-balck-edition-box)
 
 
 ## 가격
