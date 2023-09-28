@@ -14,15 +14,8 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
 
-  display: flex;
-  justify-content: center;
-
-  // fixed
-  // @include breakpoint($x-large) {
-  //   max-width: $max-width;
-  // }
-  @include breakpoint($large) {
-    width: calc(100% - #{$right-sidebar-width-narrow} * 2);
+  @include breakpoint($x-large) {
+    max-width: $max-width;
   }
 }
 
@@ -43,16 +36,16 @@ body {
 }
 
 .page {
-  // @include breakpoint($large) {
-  // float: right;
-  // width: calc(100% - #{$right-sidebar-width-narrow});
-  // padding-right: $right-sidebar-width-narrow;
-  // }
+  @include breakpoint($large) {
+    float: right;
+    width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-right: $right-sidebar-width-narrow;
+  }
 
-  // @include breakpoint($x-large) {
-  //   width: calc(100% - #{$right-sidebar-width-narrow});
-  //   padding-right: $right-sidebar-width-narrow;
-  // }
+  @include breakpoint($x-large) {
+    width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-right: $right-sidebar-width-narrow;
+  }
 
   .page__inner-wrap {
     float: left;
