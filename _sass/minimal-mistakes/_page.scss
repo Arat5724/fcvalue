@@ -24,10 +24,6 @@
   @include breakpoint($large) {
     width: calc(100% - #{$right-sidebar-width-narrow} * 2);
   }
-
-  @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width} * 2);
-  }
 }
 
 body {
