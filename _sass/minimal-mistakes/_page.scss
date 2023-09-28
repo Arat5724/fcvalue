@@ -17,8 +17,16 @@
   display: flex;
   justify-content: center;
 
+  // fixed
+  // @include breakpoint($x-large) {
+  //   max-width: $max-width;
+  // }
+  @include breakpoint($large) {
+    width: calc(100% - #{$right-sidebar-width-narrow} * 2);
+  }
+
   @include breakpoint($x-large) {
-    max-width: $max-width;
+    width: calc(100% - #{$right-sidebar-width} * 2);
   }
 }
 
@@ -39,12 +47,11 @@ body {
 }
 
 .page {
-  @include breakpoint($large) {
-    // float: right;
-    // width: calc(100% - #{$right-sidebar-width-narrow});
-    // padding-right: $right-sidebar-width-narrow;
-    width: calc(100% - #{$right-sidebar-width-narrow} * 2);
-  }
+  // @include breakpoint($large) {
+  // float: right;
+  // width: calc(100% - #{$right-sidebar-width-narrow});
+  // padding-right: $right-sidebar-width-narrow;
+  // }
 
   // @include breakpoint($x-large) {
   //   width: calc(100% - #{$right-sidebar-width-narrow});
