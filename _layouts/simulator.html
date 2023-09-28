@@ -5,27 +5,28 @@ layout: single
 
 <p>Beta 버전입니다.</p>
 <p>※실제 선수팩과 결과가 다를 수 있습니다※</p>
-
+<div class="button_wrap">
+    <div class="player_price">기댓값: {{ page.expected_value }}</div>
+</div>
 <div id="card-display">
     <div class="thumb"></div>
     <div class="player_price"></div>
+    <div class="player_price">↓버튼을 누르세요↓</div>
 </div>
 <div class="button_wrap">
     <button id="open-pack-button">1장 개봉</button>
 </div>
+<div id="chart"></div>
 <script>
-    document.getElementById('open-pack-button').addEventListener('click', function() {
-
-    var cardDisplay = document.getElementById('card-display');
-
-    var players = [
+    const players = [
     {% for player in page.players %}
     {
         name: "{{ player.name }}",
         id: "{{ player.id }}",
         season: "{{ player.season }}",
         upgrade: {{ player.upgrade }},
-        value: "{{ player.value }}",
+        value_cut: "{{ player.value_cut }}",
+        value: {{ player.value }},
         prob: {{ player.prob }},
         position: "{{ player.position }}",
         ovr: {{ player.ovr }},
@@ -34,15 +35,93 @@ layout: single
     {% endfor %}
     ];
 
+    const intervals = [{x: 100, y: players[0].value}];
+    const xlabels = [];
+
+    let start = 100;
+
+    for (let i = 0; i < players.length; i++) {
+        start -= players[i].prob * 100;
+        if (i === players.length - 1) {
+            start = 0; // 마지막 구간의 오차 보정
+        }
+        const interval = {
+            x: start,
+            y: players[i].value
+        };
+        intervals.push(interval);
+        xlabels.push("상위 " + (100 - start).toString() + "% "+ players[i].name);
+    }
+
+    // 차트 옵션 설정
+    const options2 = {
+        chart: {
+            type: 'line',
+            height: '400px',
+            // background: '#ffffff'
+        },
+        series: [{
+            name: '가격',
+            data: intervals
+        }],
+        xaxis: {
+            type: 'numeric',
+            min: 0,          // X 축의 최소값
+            max: 100,        // X 축의 최대값
+            categories: xlabels,
+            labels: {
+                formatter: function (val) {
+                    return "상위 " + (100 - val).toFixed(10).toString().replace(/0+$/, "").replace(/.$/, "") + "%";
+                }
+            }
+        },
+        yaxis: {
+            min: 0,
+            labels: {
+                formatter: function (val) {
+                    const units = ["", "만", "억", "조", "경", "해"];
+                    let first = 0;
+                    let second = parseInt(val);
+                    let cnt = -1;
+                    while (second >= 10000) {
+                        first = second % 10000;
+                        second = Math.floor(second / 10000);
+                        cnt++;
+                    }
+                    if (second >= 100 || cnt === -1) {
+                        return second.toString() + units[cnt + 1];
+                    }
+                    return second.toString() + units[cnt + 1] + first.toString() + units[cnt];
+                }
+            }
+        },
+        theme: {
+            mode: 'dark',
+            palette: 'palette1' // upto palette10
+        }
+    };
+
+    // 차트 생성
+    const chart = new ApexCharts(document.querySelector('#chart'), options2);
+    chart.render();
+
+    document.getElementById('open-pack-button').addEventListener('click', function() {
+
+    var cardDisplay = document.getElementById('card-display');
+    const numberPlayers = players.length;
+
     const randomNum = Math.random();
     let cumulativeProbability = 0;
-    for (let i = 0; i < players.length; i++) {
+    let i = 0;
+    for (; i < players.length; i++) {
         cumulativeProbability += players[i].prob;
         if (randomNum <= cumulativeProbability) {
             var player = players[i];
             break;
         }
     }
+
+    cumulativeProbability = "상위 " + ((cumulativeProbability * 100).toFixed(8)).toString().replace(/0+$/, "").replace(/.$/, "") + "%";
     // Create new card element for each player
     var newCardElement = document.createElement('div');
     newCardElement.classList.add("card");
@@ -143,9 +222,20 @@ layout: single
         // price
         var playerPriceDiv = document.createElement('div');
         playerPriceDiv.classList.add("player_price");
-        playerPriceDiv.innerHTML = player.value;
+        playerPriceDiv.innerHTML = player.value_cut;
         cardDisplay.appendChild(playerPriceDiv);
 
+        // percentile
+        var percentileDiv = document.createElement('div');
+        percentileDiv.classList.add("player_price");
+        percentileDiv.innerHTML = cumulativeProbability;
+        cardDisplay.appendChild(percentileDiv);
+
+        // rank
+        var rankDiv = document.createElement('div');
+        rankDiv.classList.add("player_price");
+        rankDiv.innerHTML = (i + 1).toString() + "/" + numberPlayers.toString() + "등";
+        cardDisplay.appendChild(rankDiv);
     }, 0); // wait for half second to start moving up
 
 });
