@@ -10,6 +10,7 @@
 -->
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
+    {% if jekyll.environment == 'production' %}
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1954438714964825"
     crossorigin="anonymous"></script>
     <!-- Google tag (gtag.js) -->
@@ -21,6 +22,7 @@
 
       gtag('config', 'G-2FQ3LH41T4');
     </script>
+    {% endif %}
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     {% include head.html %}
     {% include head/custom.html %}
