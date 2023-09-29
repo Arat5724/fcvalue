@@ -1,6 +1,7 @@
 ---
 layout: splash
 permalink: /
+description: "FC 온라인 아이템 분석/시뮬레이터"
 feature_row1:
   - image_path: https://fo4.dn.nexoncdn.co.kr/live/externalAssets/shop/items/product/105_s.png
     title: "FC 효율"
