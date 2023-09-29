@@ -62,29 +62,28 @@ layout: default
 
       <!-- {% include post_pagination.html %} -->
     </div>
-    {% if page.comments %}
-    <div class="page__comments">
-    <script>
-      var remark_config = {
-        host: 'https://remark42.fcvalue.com',
-        site_id: 'remark',
-        theme: 'dark',
-        locale: 'ko',
-        show_email_subscription: false,
-        show_rss_subscription: false,
-        no_footer: true,
-        simple_view: true,
-      }
-    </script>
-    <script>!function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);</script>
-    <div id="remark42"></div>
-    </div>
-    {% endif %}
     <!-- {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %} -->
   </article>
-
+  {% if page.comments %}
+  <div class="page__comments">
+  <script>
+    var remark_config = {
+      host: 'https://remark42.fcvalue.com',
+      site_id: 'remark',
+      theme: 'dark',
+      locale: 'ko',
+      show_email_subscription: false,
+      show_rss_subscription: false,
+      no_footer: true,
+      simple_view: true,
+    }
+  </script>
+  <script>!function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);</script>
+  <div id="remark42"></div>
+  </div>
+  {% endif %}
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
