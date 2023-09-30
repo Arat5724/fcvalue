@@ -3,18 +3,24 @@ layout: single
 ---
 {{ content }}
 
-<p>Beta 버전입니다.</p>
+<p>Beta 버전입니다. 자유게시판에 자유롭게 의견 남겨주세요.</p>
 <p>※실제 선수팩과 결과가 다를 수 있습니다※</p>
-<div class="button_wrap">
-    <div class="player_price">기댓값: {{ page.expected_value }}</div>
-</div>
+
 <div id="card-display">
-    <div class="thumb"></div>
-    <div class="player_price"></div>
-    <div class="player_price">↓버튼을 누르세요↓</div>
-</div>
-<div class="button_wrap">
-    <button id="open-pack-button">1장 개봉</button>
+    <div>기댓값</div>
+    <div>{{ page.expected_value }}</div>
+    <div class="thumb" id="thumb"></div>
+    <div class="card-info" id="card-info">
+        <div>선수 가치</div>
+        <div id="price"><span>0</span></div>
+        <div>
+            상위 <div id="percentile"><span>0</span></div>
+        </div>
+        <div>
+            <div id="rank"><span>0등</span></div>/{{ page.players.size }}명
+        </div>
+    </div>
+    <button id="open-pack-button">1개 열기</button>
 </div>
 <div id="chart"></div>
 <script>
@@ -105,138 +111,157 @@ layout: single
     const chart = new ApexCharts(document.querySelector('#chart'), options2);
     chart.render();
 
-    document.getElementById('open-pack-button').addEventListener('click', function() {
+    function openPack() {
+        const numberPlayers = players.length;
 
-    var cardDisplay = document.getElementById('card-display');
-    const numberPlayers = players.length;
-
-    const randomNum = Math.random();
-    let cumulativeProbability = 0;
-    let i = 0;
-    for (; i < players.length; i++) {
-        cumulativeProbability += players[i].prob;
-        if (randomNum <= cumulativeProbability) {
-            var player = players[i];
-            break;
-        }
-    }
-
-    cumulativeProbability = "상위 " + ((cumulativeProbability * 100).toFixed(8)).toString().replace(/0+$/, "").replace(/.$/, "") + "%";
-    // Create new card element for each player
-    var newCardElement = document.createElement('div');
-    newCardElement.classList.add("card");
-
-    setTimeout(function () {
-        cardDisplay.innerHTML = "";
-
-        var thumbDiv = document.createElement('div');
-        thumbDiv.classList.add("thumb", player.season);
-
-        // back
-        var cardBackDiv = document.createElement('div');
-        cardBackDiv.classList.add("card_back");
-        var imgElement = document.createElement('img');
-        imgElement.src =
-            "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/card/" + player.season + ".png";
-
-        imgElement.alt="";
-
-        cardBackDiv.appendChild(imgElement);
-        thumbDiv.appendChild(cardBackDiv);
-
-        // faceon
-        var faceonDiv = document.createElement('div');
-        faceonDiv.classList.add("img");
-
-        var faceonElement = document.createElement('img');
-        faceonElement.src =
-            "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p" + player.id +  ".png";
-        faceonElement.onerror = function() {
-            faceonElement.src = "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersHigh/p" + player.id.substring(3) +  ".png";
-            faceonElement.onerror = function() {
-                faceonElement.src = "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/players/not_found.png";
+        const randomNum = Math.random();
+        let cumulativeProbability = 0;
+        let i = 0;
+        for (; i < players.length; i++) {
+            cumulativeProbability += players[i].prob;
+            if (i === players.length - 1) {
+                cumulativeProbability = 1; // 마지막 구간의 오차 보정
             }
-        };
-        faceonDiv.appendChild(faceonElement);
-        thumbDiv.appendChild(faceonDiv);
-
-        //ovr
-        var ovrDiv = document.createElement('div');
-        ovrDiv.classList.add("ovr");
-        ovrDiv.innerHTML = player.ovr;
-        thumbDiv.appendChild(ovrDiv);
-
-        // position
-        var positionDiv = document.createElement('div');
-        positionDiv.classList.add("position");
-        positionDiv.innerHTML = player.position;
-        thumbDiv.appendChild(positionDiv);
-
-        // season
-        var seasonDiv = document.createElement('div');
-        seasonDiv.classList.add("season");
-        var imgElement = document.createElement('img');
-        imgElement.src =
-        "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/" + player.season + "_big.png";
-        seasonDiv.appendChild(imgElement);
-        thumbDiv.appendChild(seasonDiv);
-
-        // upgrade
-        var selectorDiv = document.createElement('div');
-        selectorDiv.classList.add("selector_wrap");
-        selectorDiv.innerHTML = player.upgrade;
-
-        if (8 <= player.upgrade) {
-            selectorDiv.classList.add("upgrade_gold");
-        } else if (5 <= player.upgrade) {
-            selectorDiv.classList.add("upgrade_silver");
-        } else if (2 <= player.upgrade) {
-            selectorDiv.classList.add("upgrade_cooper");
+            if (randomNum <= cumulativeProbability) {
+                var player = players[i];
+                break;
+            }
         }
-        thumbDiv.appendChild(selectorDiv);
 
-        // name wrap
-        var nameWrapDiv = document.createElement('div');
-        nameWrapDiv.classList.add("name_wrap");
-        var seasonDiv = document.createElement('div');
-        seasonDiv.classList.add("season");
-        var imgElement = document.createElement('img');
-        imgElement.src =
-        "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/" + player.season + ".png";
-        seasonDiv.appendChild(imgElement);
-        nameWrapDiv.appendChild(seasonDiv);
-        var nameDiv = document.createElement('div');
-        nameDiv.classList.add("name");
-        nameDiv.innerHTML = player.name;
-        nameWrapDiv.appendChild(nameDiv);
-        thumbDiv.appendChild(nameWrapDiv);
+        cumulativeProbability = ((cumulativeProbability * 100).toFixed(8)).toString().replace(/0+$/, "").replace(/.$/, "") + "%";
+        document.getElementById('open-pack-button').removeEventListener('click', openPack);
+        setTimeout(function() {document.getElementById('open-pack-button').addEventListener('click', openPack);}, 1000);
+        setTimeout(function () {
+            var thumbDiv = document.getElementById('thumb');
+            thumbDiv.innerHTML = "";
+            thumb.classList = "";
+            thumbDiv.classList.add("thumb", player.season);
 
-        // pay
-        var payDiv = document.createElement('div');
-        payDiv.classList.add("pay");
-        payDiv.innerHTML = player.pay;
-        thumbDiv.appendChild(payDiv);
+            // back
+            var cardBackDiv = document.createElement('div');
+            cardBackDiv.classList.add("card_back");
+            var imgElement = document.createElement('img');
+            imgElement.src =
+                "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/card/" + player.season + ".png";
 
-        cardDisplay.appendChild(thumbDiv);
+            imgElement.alt="";
 
-        // price
-        var playerPriceDiv = document.createElement('div');
-        playerPriceDiv.classList.add("player_price");
-        playerPriceDiv.innerHTML = player.value_cut;
-        cardDisplay.appendChild(playerPriceDiv);
+            cardBackDiv.appendChild(imgElement);
+            thumbDiv.appendChild(cardBackDiv);
 
-        // percentile
-        var percentileDiv = document.createElement('div');
-        percentileDiv.classList.add("player_price");
-        percentileDiv.innerHTML = cumulativeProbability;
-        cardDisplay.appendChild(percentileDiv);
+            // back
+            var cardBackDiv = document.createElement('div');
+            cardBackDiv.classList.add("card_back_white");
+            var imgElement = document.createElement('img');
+            imgElement.src =
+                "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/card/" + player.season + ".png";
+                // "/assets/images/card_white.png";
+            imgElement.alt="";
 
-        // rank
-        var rankDiv = document.createElement('div');
-        rankDiv.classList.add("player_price");
-        rankDiv.innerHTML = (i + 1).toString() + "/" + numberPlayers.toString() + "등";
-        cardDisplay.appendChild(rankDiv);
-    }, 0); // wait for half second to start moving up
+            cardBackDiv.appendChild(imgElement);
+            thumbDiv.appendChild(cardBackDiv);
 
-});
+            // faceon
+            var faceonDiv = document.createElement('div');
+            faceonDiv.classList.add("img");
+
+            var faceonElement = document.createElement('img');
+            faceonElement.src =
+                "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p" + player.id +  ".png";
+            faceonElement.onerror = function() {
+                faceonElement.src = "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersHigh/p" + player.id.substring(3) +  ".png";
+                faceonElement.onerror = function() {
+                    faceonElement.src = "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/players/not_found.png";
+                }
+            };
+            faceonDiv.appendChild(faceonElement);
+            thumbDiv.appendChild(faceonDiv);
+
+            //ovr
+            var ovrDiv = document.createElement('div');
+            ovrDiv.classList.add("ovr");
+            ovrDiv.innerHTML = player.ovr;
+            thumbDiv.appendChild(ovrDiv);
+
+            // position
+            var positionDiv = document.createElement('div');
+            positionDiv.classList.add("position");
+            positionDiv.innerHTML = player.position;
+            thumbDiv.appendChild(positionDiv);
+
+            // season
+            var seasonDiv = document.createElement('div');
+            seasonDiv.classList.add("season");
+            var imgElement = document.createElement('img');
+            imgElement.src =
+            "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/" + player.season + "_big.png";
+            seasonDiv.appendChild(imgElement);
+            thumbDiv.appendChild(seasonDiv);
+
+            // upgrade
+            var selectorDiv = document.createElement('div');
+            selectorDiv.classList.add("selector_wrap");
+            selectorDiv.innerHTML = player.upgrade;
+
+            if (8 <= player.upgrade) {
+                selectorDiv.classList.add("upgrade_gold");
+            } else if (5 <= player.upgrade) {
+                selectorDiv.classList.add("upgrade_silver");
+            } else if (2 <= player.upgrade) {
+                selectorDiv.classList.add("upgrade_cooper");
+            }
+            thumbDiv.appendChild(selectorDiv);
+
+            // name wrap
+            var nameWrapDiv = document.createElement('div');
+            nameWrapDiv.classList.add("name_wrap");
+            var seasonDiv = document.createElement('div');
+            seasonDiv.classList.add("season");
+            var imgElement = document.createElement('img');
+            imgElement.src =
+            "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/" + player.season + ".png";
+            seasonDiv.appendChild(imgElement);
+            nameWrapDiv.appendChild(seasonDiv);
+            var nameDiv = document.createElement('div');
+            nameDiv.classList.add("name");
+            nameDiv.innerHTML = player.name;
+            nameWrapDiv.appendChild(nameDiv);
+            thumbDiv.appendChild(nameWrapDiv);
+
+            // pay
+            var payDiv = document.createElement('div');
+            payDiv.classList.add("pay");
+            payDiv.innerHTML = player.pay;
+            thumbDiv.appendChild(payDiv);
+
+
+            // price
+            var playerPriceDiv = document.getElementById('price');
+            var innerSpan = document.createElement('span');
+            innerSpan.classList.add("blur")
+            innerSpan.innerHTML = player.value_cut;
+            playerPriceDiv.innerHTML = "";
+            playerPriceDiv.appendChild(innerSpan);
+
+            // percentile
+            var percentileDiv = document.getElementById('percentile');
+            var innerSpan = document.createElement('span');
+            innerSpan.classList.add("blur")
+            innerSpan.innerHTML = cumulativeProbability;
+            percentileDiv.innerHTML = "";
+            percentileDiv.appendChild(innerSpan);
+
+            // rank
+            var rankDiv = document.getElementById('rank');
+            var innerSpan = document.createElement('span');
+            innerSpan.classList.add("blur")
+            innerSpan.innerHTML = (i + 1).toString() + "등";
+            rankDiv.innerHTML = "";
+            rankDiv.appendChild(innerSpan);
+            
+        }, 0); // wait for half second to start moving up
+
+    }
+    openPack();
+    document.getElementById('open-pack-button').addEventListener('click', openPack);
 </script>
