@@ -127,7 +127,7 @@ layout: single
                 break;
             }
         }
-
+        var p = cumulativeProbability;
         cumulativeProbability = ((cumulativeProbability * 100).toFixed(8)).toString().replace(/0+$/, "").replace(/.$/, "") + "%";
         document.getElementById('open-pack-button').removeEventListener('click', openPack);
         setTimeout(function() {document.getElementById('open-pack-button').addEventListener('click', openPack);}, 1000);
@@ -136,6 +136,37 @@ layout: single
             thumbDiv.innerHTML = "";
             thumb.classList = "";
             thumbDiv.classList.add("thumb", player.season);
+
+            // effects
+            if (p <= 0.02) {
+                for (let i = 0; i < 2; i++) {
+                    var flameDiv = document.createElement('div');
+                    var imgElement = document.createElement('img');
+                    imgElement.src =
+                        "/assets/images/simulator/flame.gif";
+                    imgElement.alt="";
+                    flameDiv.appendChild(imgElement);
+                    if (i === 0)
+                        flameDiv.classList.add("flame-right");
+                    else
+                        flameDiv.classList.add("flame-left");
+                    thumbDiv.appendChild(flameDiv);
+                }
+            } else if (p <= 0.1) {
+                for (let i = 0; i < 2; i++) {
+                    var sparkleDiv = document.createElement('div');
+                    var imgElement = document.createElement('img');
+                    imgElement.src =
+                        "/assets/images/simulator/sparkle.gif";
+                    imgElement.alt="";
+                    sparkleDiv.appendChild(imgElement);
+                    if (i === 0)
+                        sparkleDiv.classList.add("sparkle-right");
+                    else
+                        sparkleDiv.classList.add("sparkle-left");
+                    thumbDiv.appendChild(sparkleDiv);
+                }
+            }
 
             // back
             var cardBackDiv = document.createElement('div');
@@ -169,7 +200,7 @@ layout: single
             faceonElement.src =
                 "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p" + player.id +  ".png";
             faceonElement.onerror = function() {
-                faceonElement.src = "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersHigh/p" + player.id.substring(3) +  ".png";
+                faceonElement.src = "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersHigh/p" + Number.parseInt(player.id.substring(3)).toString() +  ".png";
                 faceonElement.onerror = function() {
                     faceonElement.src = "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/players/not_found.png";
                 }

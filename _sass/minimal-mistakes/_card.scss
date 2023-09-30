@@ -12,6 +12,44 @@
     height: 303px;
     margin: 10px;
 
+    .sparkle-left {
+        z-index: 5;
+        position: absolute;
+        bottom: 0px;
+        left: -100px;
+        filter: hue-rotate(180deg) saturate(70%);
+    }
+
+    .sparkle-right {
+        z-index: 5;
+        position: absolute;
+        bottom: 0px;
+        right: -100px;
+        filter: hue-rotate(180deg) saturate(70%);
+    }
+
+    .flame-left {
+        z-index: 5;
+        position: absolute;
+        bottom: 0px;
+        width: 50%;
+        left: -60px;
+        -webkit-transform: rotate(10deg);
+        -ms-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+
+    .flame-right {
+        z-index: 5;
+        position: absolute;
+        bottom: 0px;
+        width: 50%;
+        right: -42px;
+        -webkit-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+
     .img {
         position: absolute;
         top: 56px;
