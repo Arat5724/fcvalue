@@ -37,11 +37,11 @@ feature_row2:
 
 
 ## FCA, 23HW 시즌 업데이트 완료.
-- 가격 형성이 안 된 선수팩이 많습니다. 주의하세요.
 - 연쇄 상품이 추가되었습니다.
 - [자유게시판](https://fcvalue.com/board/)이 생겼습니다.
 - [[23.10] 빌드업 열쇠](/general-product/43270/#[23.10]%20%EB%B9%8C%EB%93%9C%EC%97%85%20%EC%97%B4%EC%87%A0%201%EA%B0%9C%EB%8B%B9%20%EA%B8%B0%EB%8C%93%EA%B0%92)의 정보가 추가되었습니다.
 - [선수팩 시뮬레이터 Beta](/simulator/7353/)가 추가되었습니다.
+- [백분위수](/general-product/special-discount-the-balck-edition-box/#백분위수-1개-구매-시)가 추가되었습니다. 선택에 참고하세요.
 
 ## 오늘의 효율 TOP3
 {% include high_rank %}
