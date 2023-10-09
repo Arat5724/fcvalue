@@ -36,7 +36,7 @@ feature_row2:
 </details>
 
 
-## 상품 추천 (2023/10/07)
+## 상품 추천
 - 50만원 미만
   - [[특별할인][FCO 전용][23HW 포함][CC 8강 0.2% + CC 5강 확정] 더 블랙 에디션 상자](/general-product/special-discount-the-balck-edition-box/)
   - [추석 한상 프리미엄 패키지](/general-product/43273/)
