@@ -4,8 +4,8 @@ header:
   teaser: /assets/images/item/201704312_s.png
   image: /assets/images/item/201704312_s.png
 
-rank1: 12
-rank2: 12
+rank1: 15
+rank2: 15
 efficiency1: 107배
 efficiency2: 107배
 categories: general-product
