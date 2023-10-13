@@ -24,6 +24,8 @@ feature_row2:
     url: /bp
 ---
 
+## 최근 업데이트 : {{ "now" | date: "%Y-%m-%d %H시"}}
+
 <details>
 <summary>공지사항</summary>
 <div markdown="1">
