@@ -6,23 +6,52 @@ layout: single
 <p>※실제 선수팩과 동일 확률이지만, 갱신 시간 차이로 인해 가격이 다를 수 있습니다※</p>
 
 <div id="card-display">
-    <div>기댓값</div>
-    <div>{{ page.expected_value }}</div>
-    <div class="thumb" id="thumb"></div>
-    <div class="card-info" id="card-info">
-        <div>선수 가치</div>
-        <div id="price"><span>0</span></div>
-        <div>
-            상위 <div id="percentile"><span>0</span></div>
-        </div>
-        <div>
-            <div id="rank"><span>0등</span></div>/{{ page.players.size }}명
+    <div>기댓값 <span class="primary">{{ page.expected_value }}</span></div>
+    <div>총 <span class="primary" id="openCount"></span>개</div>
+    <div>합 <span class="primary" id="sum">0</span></div>
+    <div>평균 <span class="primary" id="mean">0</span></div>
+
+    <div class="main-card">
+        <div id="thumb"></div>
+        <div class="card-info" id="card-info">
+            <div>
+                선수 가치 <div id="price"><span>0</span></div>
+            </div>
+            <div>
+                상위 <div id="percentile"><span>0</span></div>
+            </div>
+            <div>
+                <div id="rank"><span>0등</span></div>/{{ page.players.size }}명
+            </div>
         </div>
     </div>
-    <button id="open-pack-button">1개 열기</button>
+    <div class="minor-card" id="minor-card"></div>
+    <div class="open-pack-buttons">
+        <button id="open-pack-button">1개 열기</button>
+        <button id="open-10pack-button">10개 열기</button>
+    </div>
 </div>
 <div id="chart"></div>
 <script>
+    var sum = 0;
+    var n = 0;
+
+    function value_cut(val) {
+        const units = ["", "만", "억", "조", "경", "해"];
+        let first = 0;
+        let second = parseInt(val);
+        let cnt = -1;
+        while (second >= 10000) {
+            first = second % 10000;
+            second = Math.floor(second / 10000);
+            cnt++;
+        }
+        if (second >= 100 || first === 0) {
+            return second.toString() + units[cnt + 1];
+        }
+        return second.toString() + units[cnt + 1] + first.toString() + units[cnt];
+    }
+
     const players = [
     {% for player in page.players %}
     {
@@ -83,21 +112,7 @@ layout: single
         yaxis: {
             min: 0,
             labels: {
-                formatter: function (val) {
-                    const units = ["", "만", "억", "조", "경", "해"];
-                    let first = 0;
-                    let second = parseInt(val);
-                    let cnt = -1;
-                    while (second >= 10000) {
-                        first = second % 10000;
-                        second = Math.floor(second / 10000);
-                        cnt++;
-                    }
-                    if (second >= 100 || cnt === -1) {
-                        return second.toString() + units[cnt + 1];
-                    }
-                    return second.toString() + units[cnt + 1] + first.toString() + units[cnt];
-                }
+                formatter: value_cut
             }
         },
         theme: {
@@ -110,160 +125,191 @@ layout: single
     const chart = new ApexCharts(document.querySelector('#chart'), options2);
     chart.render();
 
-    function openPack() {
-        const numberPlayers = players.length;
+    function createCard(player) {
+        var tempDiv = document.createElement('div');
+        tempDiv.classList.add("thumb", player.season);
 
-        const randomNum = Math.random();
-        let cumulativeProbability = 0;
-        let i = 0;
-        for (; i < players.length; i++) {
-            cumulativeProbability += players[i].prob;
-            if (i === players.length - 1) {
-                cumulativeProbability = 1; // 마지막 구간의 오차 보정
+        // back
+        var cardBackDiv = document.createElement('div');
+        cardBackDiv.classList.add("card_back");
+        var imgElement = document.createElement('img');
+        imgElement.src =
+            "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/card/" + player.season + ".png";
+
+        imgElement.alt="";
+
+        cardBackDiv.appendChild(imgElement);
+        tempDiv.appendChild(cardBackDiv);
+
+        // back
+        var cardBackDiv = document.createElement('div');
+        cardBackDiv.classList.add("card_back_white");
+        var imgElement = document.createElement('img');
+        imgElement.src =
+            "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/card/" + player.season + ".png";
+            // "/assets/images/card_white.png";
+        imgElement.alt="";
+
+        cardBackDiv.appendChild(imgElement);
+        tempDiv.appendChild(cardBackDiv);
+
+        // faceon
+        var faceonDiv = document.createElement('div');
+        faceonDiv.classList.add("img");
+
+        var faceonElement = document.createElement('img');
+        faceonElement.src =
+            "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p" + player.id +  ".png";
+        faceonElement.onerror = function() {
+            faceonElement.src = "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersHigh/p" + Number.parseInt(player.id.substring(3)).toString() +  ".png";
+            faceonElement.onerror = function() {
+                faceonElement.src = "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/players/not_found.png";
             }
-            if (randomNum <= cumulativeProbability) {
-                var player = players[i];
-                break;
-            }
+        };
+        faceonDiv.appendChild(faceonElement);
+        tempDiv.appendChild(faceonDiv);
+
+        //ovr
+        var ovrDiv = document.createElement('div');
+        ovrDiv.classList.add("ovr");
+        ovrDiv.innerHTML = player.ovr;
+        tempDiv.appendChild(ovrDiv);
+
+        // position
+        var positionDiv = document.createElement('div');
+        positionDiv.classList.add("position");
+        positionDiv.innerHTML = player.position;
+        tempDiv.appendChild(positionDiv);
+
+        // season
+        var seasonDiv = document.createElement('div');
+        seasonDiv.classList.add("season");
+        var imgElement = document.createElement('img');
+        imgElement.src =
+        "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/" + player.season + "_big.png";
+        seasonDiv.appendChild(imgElement);
+        tempDiv.appendChild(seasonDiv);
+
+        // upgrade
+        var selectorDiv = document.createElement('div');
+        selectorDiv.classList.add("selector_wrap");
+        selectorDiv.innerHTML = player.upgrade;
+
+        if (8 <= player.upgrade) {
+            selectorDiv.classList.add("upgrade_gold");
+        } else if (5 <= player.upgrade) {
+            selectorDiv.classList.add("upgrade_silver");
+        } else if (2 <= player.upgrade) {
+            selectorDiv.classList.add("upgrade_cooper");
         }
-        var p = cumulativeProbability;
-        cumulativeProbability = ((cumulativeProbability * 100).toFixed(8)).toString().replace(/0+$/, "").replace(/.$/, "") + "%";
-        document.getElementById('open-pack-button').removeEventListener('click', openPack);
-        setTimeout(function() {document.getElementById('open-pack-button').addEventListener('click', openPack);}, 1000);
-        setTimeout(function () {
+        tempDiv.appendChild(selectorDiv);
+
+        // name wrap
+        var nameWrapDiv = document.createElement('div');
+        nameWrapDiv.classList.add("name_wrap");
+        var seasonDiv = document.createElement('div');
+        seasonDiv.classList.add("season");
+        var imgElement = document.createElement('img');
+        imgElement.src =
+        "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/" + player.season + ".png";
+        seasonDiv.appendChild(imgElement);
+        nameWrapDiv.appendChild(seasonDiv);
+        var nameDiv = document.createElement('div');
+        nameDiv.classList.add("name");
+        nameDiv.innerHTML = player.name;
+        nameWrapDiv.appendChild(nameDiv);
+        tempDiv.appendChild(nameWrapDiv);
+
+        // pay
+        var payDiv = document.createElement('div');
+        payDiv.classList.add("pay");
+        payDiv.innerHTML = player.pay;
+        tempDiv.appendChild(payDiv);
+
+        return tempDiv;
+    }
+
+
+    function controlButtonEventListener() {
+        document.getElementById('open-pack-button').disabled = true;
+        document.getElementById('open-10pack-button').disabled = true;
+        setTimeout(function() {document.getElementById('open-pack-button').disabled = false;}, 1000);
+        setTimeout(function() {document.getElementById('open-10pack-button').disabled = false;}, 1000);
+    }
+
+    function openPack(openCount) {
+        function wrapper() {
+            controlButtonEventListener();
+
+            var opened = [];
+            for (let j = 0; j < openCount; j++) {
+                const randomNum = Math.random();
+                let cumulativeProbability = 0;
+                for (let i = 0; i < players.length; i++) {
+                    cumulativeProbability += players[i].prob;
+                    if (i === players.length - 1) {
+                        cumulativeProbability = 1; // 마지막 구간의 오차 보정
+                    }
+                    if (randomNum <= cumulativeProbability) {
+                        var player = players[i];
+                        opened.push([player, cumulativeProbability, i]);
+                        break;
+                    }
+                }
+            }
+
+            opened.sort(function(a, b) {
+                return a[2] - b[2];
+            });
+
+            for (let j = 0; j < opened.length; j++) {
+                sum += opened[j][0].value;
+                n++;
+            }
+            var openCountDiv = document.getElementById('openCount');
+            var innerSpan = document.createElement('span');
+            innerSpan.innerHTML = value_cut(n);
+            openCountDiv.innerHTML = "";
+            openCountDiv.appendChild(innerSpan);
+
+            var sumDiv = document.getElementById('sum');
+            var innerSpan = document.createElement('span');
+            innerSpan.innerHTML = value_cut(sum);
+            sumDiv.innerHTML = "";
+            sumDiv.appendChild(innerSpan);
+
+            var meanDiv = document.getElementById('mean');
+            var innerSpan = document.createElement('span');
+            innerSpan.innerHTML = value_cut(sum / n);
+            meanDiv.innerHTML = "";
+            meanDiv.appendChild(innerSpan);
+
+            var player = opened[0][0];
+            var p = opened[0][1];
+            var cumulativeProbability = ((p * 100).toFixed(8)).toString().replace(/0+$/, "").replace(/.$/, "") + "%";
+
             var thumbDiv = document.getElementById('thumb');
+            var tempDiv = createCard(opened[0][0]);
             thumbDiv.innerHTML = "";
-            thumb.classList = "";
-            thumbDiv.classList.add("thumb", player.season);
+            thumbDiv.appendChild(tempDiv);
 
             // effects
-            if (p <= 0.02) {
+            if (p <= 0.1) {
+                let effect = (p <= 0.02) ? "flame" :  "sparkle";
                 for (let i = 0; i < 2; i++) {
-                    var flameDiv = document.createElement('div');
+                    var effectDiv = document.createElement('div');
                     var imgElement = document.createElement('img');
                     imgElement.src =
-                        "/assets/images/simulator/flame.gif";
+                        "/assets/images/simulator/" + effect + ".gif";
                     imgElement.alt="";
-                    flameDiv.appendChild(imgElement);
+                    effectDiv.appendChild(imgElement);
                     if (i === 0)
-                        flameDiv.classList.add("flame-right");
+                        effectDiv.classList.add(effect + "-right");
                     else
-                        flameDiv.classList.add("flame-left");
-                    thumbDiv.appendChild(flameDiv);
-                }
-            } else if (p <= 0.1) {
-                for (let i = 0; i < 2; i++) {
-                    var sparkleDiv = document.createElement('div');
-                    var imgElement = document.createElement('img');
-                    imgElement.src =
-                        "/assets/images/simulator/sparkle.gif";
-                    imgElement.alt="";
-                    sparkleDiv.appendChild(imgElement);
-                    if (i === 0)
-                        sparkleDiv.classList.add("sparkle-right");
-                    else
-                        sparkleDiv.classList.add("sparkle-left");
-                    thumbDiv.appendChild(sparkleDiv);
+                        effectDiv.classList.add(effect + "-left");
+                    tempDiv.appendChild(effectDiv);
                 }
             }
-
-            // back
-            var cardBackDiv = document.createElement('div');
-            cardBackDiv.classList.add("card_back");
-            var imgElement = document.createElement('img');
-            imgElement.src =
-                "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/card/" + player.season + ".png";
-
-            imgElement.alt="";
-
-            cardBackDiv.appendChild(imgElement);
-            thumbDiv.appendChild(cardBackDiv);
-
-            // back
-            var cardBackDiv = document.createElement('div');
-            cardBackDiv.classList.add("card_back_white");
-            var imgElement = document.createElement('img');
-            imgElement.src =
-                "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/card/" + player.season + ".png";
-                // "/assets/images/card_white.png";
-            imgElement.alt="";
-
-            cardBackDiv.appendChild(imgElement);
-            thumbDiv.appendChild(cardBackDiv);
-
-            // faceon
-            var faceonDiv = document.createElement('div');
-            faceonDiv.classList.add("img");
-
-            var faceonElement = document.createElement('img');
-            faceonElement.src =
-                "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p" + player.id +  ".png";
-            faceonElement.onerror = function() {
-                faceonElement.src = "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersHigh/p" + Number.parseInt(player.id.substring(3)).toString() +  ".png";
-                faceonElement.onerror = function() {
-                    faceonElement.src = "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/players/not_found.png";
-                }
-            };
-            faceonDiv.appendChild(faceonElement);
-            thumbDiv.appendChild(faceonDiv);
-
-            //ovr
-            var ovrDiv = document.createElement('div');
-            ovrDiv.classList.add("ovr");
-            ovrDiv.innerHTML = player.ovr;
-            thumbDiv.appendChild(ovrDiv);
-
-            // position
-            var positionDiv = document.createElement('div');
-            positionDiv.classList.add("position");
-            positionDiv.innerHTML = player.position;
-            thumbDiv.appendChild(positionDiv);
-
-            // season
-            var seasonDiv = document.createElement('div');
-            seasonDiv.classList.add("season");
-            var imgElement = document.createElement('img');
-            imgElement.src =
-            "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/" + player.season + "_big.png";
-            seasonDiv.appendChild(imgElement);
-            thumbDiv.appendChild(seasonDiv);
-
-            // upgrade
-            var selectorDiv = document.createElement('div');
-            selectorDiv.classList.add("selector_wrap");
-            selectorDiv.innerHTML = player.upgrade;
-
-            if (8 <= player.upgrade) {
-                selectorDiv.classList.add("upgrade_gold");
-            } else if (5 <= player.upgrade) {
-                selectorDiv.classList.add("upgrade_silver");
-            } else if (2 <= player.upgrade) {
-                selectorDiv.classList.add("upgrade_cooper");
-            }
-            thumbDiv.appendChild(selectorDiv);
-
-            // name wrap
-            var nameWrapDiv = document.createElement('div');
-            nameWrapDiv.classList.add("name_wrap");
-            var seasonDiv = document.createElement('div');
-            seasonDiv.classList.add("season");
-            var imgElement = document.createElement('img');
-            imgElement.src =
-            "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/" + player.season + ".png";
-            seasonDiv.appendChild(imgElement);
-            nameWrapDiv.appendChild(seasonDiv);
-            var nameDiv = document.createElement('div');
-            nameDiv.classList.add("name");
-            nameDiv.innerHTML = player.name;
-            nameWrapDiv.appendChild(nameDiv);
-            thumbDiv.appendChild(nameWrapDiv);
-
-            // pay
-            var payDiv = document.createElement('div');
-            payDiv.classList.add("pay");
-            payDiv.innerHTML = player.pay;
-            thumbDiv.appendChild(payDiv);
-
 
             // price
             var playerPriceDiv = document.getElementById('price');
@@ -285,13 +331,30 @@ layout: single
             var rankDiv = document.getElementById('rank');
             var innerSpan = document.createElement('span');
             innerSpan.classList.add("blur")
-            innerSpan.innerHTML = (i + 1).toString() + "등";
+            innerSpan.innerHTML = (opened[0][2] + 1).toString() + "등";
             rankDiv.innerHTML = "";
             rankDiv.appendChild(innerSpan);
-            
-        }, 0); // wait for half second to start moving up
 
+            var minorCardDiv = document.getElementById('minor-card');
+            minorCardDiv.innerHTML = "";
+            for (let i = 1; i < opened.length; i++) {
+                var tempDiv2 = document.createElement('div');
+
+                var thumbSmallDiv = createCard(opened[i][0]);
+                thumbSmallDiv.classList.add("thumb-small");
+                tempDiv2.appendChild(thumbSmallDiv);
+
+                var thumbSmallPriceDiv = document.createElement('div');
+                thumbSmallPriceDiv.classList.add("thumb-small-price");
+                thumbSmallPriceDiv.innerHTML = value_cut(opened[i][0].value);
+                tempDiv2.appendChild(thumbSmallPriceDiv);
+
+                minorCardDiv.appendChild(tempDiv2);
+            }
+        }
+        return wrapper;
     }
-    openPack();
-    document.getElementById('open-pack-button').addEventListener('click', openPack);
+    openPack(10)();
+    document.getElementById('open-pack-button').addEventListener('click', openPack(1));
+    document.getElementById('open-10pack-button').addEventListener('click', openPack(10));
 </script>

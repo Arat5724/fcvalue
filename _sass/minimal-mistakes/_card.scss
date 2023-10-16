@@ -1,9 +1,26 @@
 #card-display {
     display: flex;
+
     flex-direction: column;
     align-items: center;
     margin-bottom: 10px;
     font-family: 'Roboto Condensed', sans-serif;
+    .primary {
+        color: mix(#fff, $primary-color, 50%);
+        font-size: 20px;
+    }
+}
+
+.main-card {
+    display: flex;
+}
+
+.minor-card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 .thumb {
@@ -266,17 +283,140 @@
     }
 }
 
+.thumb-small {
+    width: 94.5px;
+    height: 156.5px;
+    margin: 5px;
+
+    .img {
+        top: 28px;
+        right: 2.5px;
+        z-index: 1;
+        width: 77.5px;
+        height: 84.5px;
+
+        img {
+            width: 84.5px;
+        }
+    }
+
+    .ovr {
+        font-size: 18.5px;
+        top: 24px;
+        width: 30.5px;
+        font-weight: 400;
+    }
+
+    .position {
+        font-size: 13px;
+        top: 41px;
+        width: 30.5px;
+        font-weight: 100;
+    }
+
+    .nation {
+        top: 57px;
+        width: 31px;
+
+        img {
+            width: 14px;
+        }
+    }
+
+    >.season {
+        top: 85px;
+        left: 4.5px;
+        width: 23px;
+        height: 23px;
+        border-radius: 23px;
+
+        img {
+            width: 16.5px;
+        }
+    }
+
+    .selector_wrap {
+        top: 100px;
+        right: 2px;
+        font-size: 7.5px;
+        width: 24px;
+        height: 12.5px;
+        font-size: 10px;
+    }
+
+    .name_wrap {
+        display: flex;
+        justify-content: center;
+        top: 115px;
+
+        .season {
+            margin-right: 1px;
+            margin-top: 4px;
+
+            img {
+                height: 8px;
+                margin-top: -0.5px;
+            }
+        }
+
+        .name {
+            height: 12.5px;
+            max-width: 70px;
+            font-size: 7.5px;
+            font-weight: 100;
+        }
+    }
+
+    .pay {
+        bottom: 8px;
+        left: 50%;
+        width: 15px;
+        height: 9px;
+        margin: 4.33px 0;
+        border-left: solid 1px #a7a9ae;
+        border-right: solid 1px #a7a9ae;
+        transform: scale(0.8) translateX(-10px);
+        font-size: 9.5px;
+        letter-spacing: 0.5px;
+        line-height: 0.6;
+
+        &::before {
+            width: 10.5px;
+            height: 10.5px;
+            left: 1.25px;
+
+            top: -5.5px;
+            border-top: solid 1.4px #a7a9ae;
+            border-right: solid 1.4px #a7a9ae;
+        }
+
+        &::after {
+            width: 10.5px;
+            height: 10.5px;
+            left: 1.25px;
+
+
+            bottom: -5.5px;
+            border-bottom: solid 1.4px #a7a9ae;
+            border-left: solid 1.4px #a7a9ae;
+        }
+    }
+}
+
 .card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: 15px;
     color: white;
-    text-align: center;
+    text-align: right;
 
     #price,
     #percentile,
     #rank {
         display: inline-block;
         color: mix(#fff, $primary-color, 50%);
-        font-size: 30px;
+        font-size: 25px;
         .blur {
             animation-name: blur;
             animation-duration: 1s;
@@ -289,8 +429,20 @@
     }
 }
 
+.thumb-small-price {
+    text-align: center;
+    color: mix(#fff, $primary-color, 50%);
+    font-size: 15px;
+}
+
+.open-pack-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
 #open-pack-button {
-    width: 150px;
+    width: 120px;
     height: 35px;
     border-radius: 25px;
     border: none;
@@ -301,6 +453,25 @@
 
     &:hover {
         background: #e6e6e6;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+#open-10pack-button {
+    width: 120px;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+
+    background: mix(#fff, $primary-color, 10%);
+    font-weight: 700;
+    font-size: 15px;
+
+    &:hover {
+        background: mix(#fff, $primary-color, 0%);
     }
 
     &:focus {
