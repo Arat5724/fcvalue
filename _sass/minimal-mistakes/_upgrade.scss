@@ -1,0 +1,112 @@
+.search-bar {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#searchName {
+    height: 60px;
+    background-color: white;
+    color: black;
+    margin: 0px;
+    border: 4px solid #3a3a50;
+    padding: 0px 10px;
+}
+
+#searchButton {
+    width: 93px;
+    height: 60px;
+    background-color: #3a3a50;
+    color: white;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.season-button {
+    width: 40px;
+    height: 26px;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    .img {
+        width: 30px;
+        height: 24px;
+    }
+}
+
+#playerList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 320px;
+    overflow-y: auto;
+    padding: 0px;
+    margin: 0px;
+    background-color: #edeff8;
+}
+
+.player-info:hover {
+    background-color: #cdcfd6;
+}
+
+.player-info {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+
+    background-color: #edeff8;
+    border-bottom: 1px solid #3a3a50;
+
+    font-size: 15px;
+
+    .faceon {
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+    }
+
+    .player-name-wrap {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+
+        >.season {
+            width: 17.5px;
+            margin: 5px;
+            align-items: center;
+            >img {
+                width: 17.5px;
+                height: 14px;
+            }
+        }
+
+        >.player-name {
+            color: #3a3a50;
+        }
+    }
+
+    .player-pos {
+        font-weight: 500;
+    }
+
+    .FW {
+        color: #f6425f;
+    }
+
+    .MF {
+        color: #00d28b;
+    }
+
+    .DF {
+        color: #2b7def;
+    }
+
+    .GK {
+        color: #f2be57;
+    }
+
+    .player-ovr {
+        color: #858498;
+    }
+}
