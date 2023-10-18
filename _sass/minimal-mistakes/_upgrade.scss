@@ -28,6 +28,7 @@
     height: 26px;
     padding: 0px;
     background-color: rgba(255, 255, 255, 0);
+
     .img {
         width: 30px;
         height: 24px;
@@ -38,7 +39,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 320px;
+    max-height: 280px;
     overflow-y: auto;
     padding: 0px;
     margin: 0px;
@@ -55,10 +56,13 @@
     width: 100%;
     height: 80px;
 
+    color: #3a3a50;
     background-color: #edeff8;
     border-bottom: 1px solid #3a3a50;
 
     font-size: 15px;
+
+    cursor: pointer;
 
     .faceon {
         width: 60px;
@@ -75,6 +79,7 @@
             width: 17.5px;
             margin: 5px;
             align-items: center;
+
             >img {
                 width: 17.5px;
                 height: 14px;
@@ -88,6 +93,7 @@
 
     .player-pos {
         font-weight: 500;
+        margin-right: 5px;
     }
 
     .FW {
@@ -109,4 +115,164 @@
     .player-ovr {
         color: #858498;
     }
+}
+
+#simulator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upgrade-animation {
+    animation: vibrate 2s ease-in-out;
+}
+
+@keyframes vibrate {
+    0% {
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(5px);
+    }
+
+    30% {
+        transform: translateX(-5px);
+    }
+
+    37% {
+        transform: translateX(5px);
+    }
+
+    45% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    55% {
+        transform: translateX(-5px);
+    }
+
+    59% {
+        transform: translateX(5px);
+    }
+
+    63% {
+        transform: translateX(-5px);
+    }
+
+    66% {
+        transform: translateX(5px);
+    }
+
+    69% {
+        transform: translateX(-5px);
+    }
+
+    72% {
+        transform: translateX(5px);
+    }
+
+    74% {
+        transform: translateX(-5px);
+    }
+
+    76% {
+        transform: translateX(5px);
+    }
+
+    78% {
+        transform: translateX(-5px);
+    }
+
+    80% {
+        transform: translateX(5px);
+    }
+
+    81% {
+        transform: translateX(-5px);
+    }
+
+    82% {
+        transform: translateX(5px);
+    }
+
+    83% {
+        transform: translateX(-5px);
+    }
+
+    84% {
+        transform: translateX(5px);
+    }
+
+    85% {
+        transform: translateX(-5px);
+    }
+
+    86% {
+        transform: translateX(5px);
+    }
+
+    87% {
+        transform: translateX(-5px);
+    }
+
+    88% {
+        transform: translateX(5px);
+    }
+
+    89% {
+        transform: translateX(-5px);
+    }
+
+    90% {
+        transform: translateX(5px);
+    }
+
+    91% {
+        transform: translateX(-5px);
+    }
+
+    92% {
+        transform: translateX(5px);
+    }
+
+    93% {
+        transform: translateX(-5px);
+    }
+
+    94% {
+        transform: translateX(5px);
+    }
+
+    95% {
+        transform: translateX(-5px);
+    }
+
+    96% {
+        transform: translateX(5px);
+    }
+
+    97% {
+        transform: translateX(-5px);
+    }
+
+    98% {
+        transform: translateX(5px);
+    }
+
+    99% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+#probability-bar {
+    width: 189px;
 }
