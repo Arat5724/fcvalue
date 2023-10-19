@@ -5,6 +5,7 @@
     align-items: center;
     margin-bottom: 10px;
     font-family: 'Roboto Condensed', sans-serif;
+
     .primary {
         color: mix(#fff, $primary-color, 50%);
         font-size: 20px;
@@ -21,6 +22,18 @@
     display: flex;
     overflow-x: auto;
     white-space: nowrap;
+}
+
+.upgrade-success {
+    filter: brightness(110%);
+    // img {
+    // }
+}
+
+.upgrade-fail {
+    filter: brightness(95%) grayscale(95%);
+    // img {
+    // }
 }
 
 .thumb {
@@ -67,6 +80,24 @@
         transform: rotate(-10deg);
     }
 
+    .success-left {
+        z-index: 5;
+        position: absolute;
+        bottom: 0px;
+        width: 50%;
+        left: -60px;
+        filter: hue-rotate(135deg);
+    }
+
+    .success-right {
+        z-index: 5;
+        position: absolute;
+        bottom: 0px;
+        width: 50%;
+        right: -48px;
+        filter: hue-rotate(135deg);
+    }
+
     .img {
         position: absolute;
         top: 56px;
@@ -87,15 +118,64 @@
         position: absolute;
         top: 0px;
         z-index: 4;
-        opacity:0;
+        opacity: 0;
         animation-name: scatter;
         animation-duration: 1s;
+
         @keyframes scatter {
-            0% { opacity: 1; filter: drop-shadow(0px 0px 15px black) invert(100%); }
-            50% { opacity: 1; filter: drop-shadow(0px 0px 15px black) invert(100%); }
-            100% { opacity: 0; filter: drop-shadow(0px 0px 0px black) invert(100%); }
+            0% {
+                opacity: 1;
+                filter: drop-shadow(0px 0px 15px black) invert(100%);
+            }
+
+            50% {
+                opacity: 1;
+                filter: drop-shadow(0px 0px 15px black) invert(100%);
+            }
+
+            100% {
+                opacity: 0;
+                filter: drop-shadow(0px 0px 0px black) invert(100%);
+            }
         }
+
         filter: invert(100%);
+
+        img {
+            filter: brightness(0%);
+        }
+    }
+    .card_back_upgrade {
+        position: absolute;
+        top: 0px;
+        z-index: 4;
+        opacity: 0;
+        filter: invert(100%);
+        animation-name: upgrade;
+        animation-duration: 2.1s;
+
+        @keyframes upgrade {
+            0% {
+                opacity: 0;
+                filter: drop-shadow(0px 0px 15px black) invert(100%);
+            }
+
+            50% {
+                opacity: 1;
+                filter: drop-shadow(0px 0px 15px black) invert(100%);
+            }
+
+            95% {
+                opacity: 1;
+                filter: drop-shadow(0px 0px 0px black) invert(100%);
+            }
+
+            100% {
+                opacity: 0;
+                filter: invert(100%);
+            }
+        }
+
         img {
             filter: brightness(0%);
         }
@@ -168,6 +248,8 @@
         right: 4px;
         font-size: 15px;
         background-color: #51545a;
+        border-bottom: 1px solid #c5c8c9;
+        border-right: 1px solid #c5c8c9;
         color: #c5c8c9;
         display: inline-block;
         width: 48px;
@@ -176,21 +258,59 @@
         vertical-align: top;
         text-align: center;
         font-size: 20px;
+        font-weight: 500;
+    }
+
+    .selector_list {
+        position: absolute;
+        top: 227px;
+        right: 4px;
+        width: 48px;
+
+        z-index: 50;
+
+        >ul {
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+
+    .selector_item {
+        background-color: #51545a;
+        color: #c5c8c9;
+        border-bottom: 1px solid #c5c8c9;
+        border-right: 1px solid #c5c8c9;
+        display: inline-block;
+        width: 48px;
+        height: 25px;
+        z-index: 2;
+        vertical-align: top;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 2px;
     }
 
     .upgrade_cooper {
         background-color: #de946b;
         color: #7e3f27;
+        border-bottom: 1px solid #7e3f27;
+        border-right: 1px solid #7e3f27;
     }
 
     .upgrade_silver {
         background-color: #d8dadc;
         color: #4e545e;
+        border-bottom: 1px solid #4e545e;
+        border-right: 1px solid #4e545e;
+
     }
 
     .upgrade_gold {
         background-color: #f9dd62;
         color: #695100;
+        border-bottom: 1px solid #695100;
+        border-right: 1px solid #695100;
     }
 
     .name_wrap {
@@ -417,13 +537,23 @@
         display: inline-block;
         color: mix(#fff, $primary-color, 50%);
         font-size: 25px;
+
         .blur {
             animation-name: blur;
             animation-duration: 1s;
+
             @keyframes blur {
-                0% { filter: blur(15px); }
-                50% { filter: blur(15px); }
-                100% { filter: blur(0px); }
+                0% {
+                    filter: blur(15px);
+                }
+
+                50% {
+                    filter: blur(15px);
+                }
+
+                100% {
+                    filter: blur(0px);
+                }
             }
         }
     }
