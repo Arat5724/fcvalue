@@ -5,3 +5,5 @@ permalink: /simulator/
 taxonomy: simulator
 # entries_layout: grid
 ---
+
+## [강화 시뮬레이터 BETA](/simulator/upgrade)

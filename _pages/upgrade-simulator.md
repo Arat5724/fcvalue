@@ -1,6 +1,5 @@
 ---
-title: "선수팩"
+title: "강화 시뮬레이터 Beta"
 layout: upgrade
 permalink: /simulator/upgrade
-sitemap: false
 ---

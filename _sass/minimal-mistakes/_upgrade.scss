@@ -13,6 +13,7 @@
     padding: 0px 10px;
 }
 
+#resetButton,
 #searchButton {
     width: 93px;
     height: 60px;
@@ -117,10 +118,23 @@
     }
 }
 
-#simulator {
+.simulator {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.result-msg__success {
+    font-size: 30px;
+    color: #81fff7;
+    font-weight: 500;
+}
+
+.result-msg__fail {
+    font-size: 30px;
+    color: #858498;
+    font-weight: 500;
 }
 
 .upgrade-animation {
@@ -273,6 +287,47 @@
     }
 }
 
-#probability-bar {
-    width: 189px;
+.simulator-button {
+    width: 120px;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+
+    background: white;
+    font-weight: 700;
+    font-size: 15px;
+
+    &:hover {
+        background: #e6e6e6;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.retry-button {
+    width: 120px;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+
+    background: mix(#fff, $primary-color, 10%);
+    font-weight: 700;
+    font-size: 15px;
+
+    &:hover {
+        background: mix(#fff, $primary-color, 0%);
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.button-wrap {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10px;
 }

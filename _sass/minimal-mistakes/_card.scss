@@ -24,6 +24,18 @@
     white-space: nowrap;
 }
 
+.upgrade-success {
+    filter: brightness(110%);
+    // img {
+    // }
+}
+
+.upgrade-fail {
+    filter: brightness(95%) grayscale(95%);
+    // img {
+    // }
+}
+
 .thumb {
     position: relative;
     width: 189px;
@@ -133,16 +145,16 @@
             filter: brightness(0%);
         }
     }
-
     .card_back_upgrade {
         position: absolute;
         top: 0px;
         z-index: 4;
         opacity: 0;
-        animation-name: scatter;
+        filter: invert(100%);
+        animation-name: upgrade;
         animation-duration: 2.1s;
 
-        @keyframes scatter {
+        @keyframes upgrade {
             0% {
                 opacity: 0;
                 filter: drop-shadow(0px 0px 15px black) invert(100%);
@@ -160,11 +172,9 @@
 
             100% {
                 opacity: 0;
-                filter: drop-shadow(0px 0px 15px black) invert(100%);
+                filter: invert(100%);
             }
         }
-
-        filter: invert(100%);
 
         img {
             filter: brightness(0%);
