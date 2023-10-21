@@ -181,6 +181,7 @@ export function createCard(player, upgrade, setUpgrade, setUpgrade2) {
 
 function BlockBar(blockState, SetBlockState) {
     let blockBarInput = document.createElement("input");
+    blockBarInput.classList.add("gage-input");
     blockBarInput.type = "range";
     blockBarInput.min = 0.1;
     blockBarInput.max = 5;
@@ -189,7 +190,6 @@ function BlockBar(blockState, SetBlockState) {
     blockBarInput.oninput = function () {
         SetBlockState(blockBarInput.value);
     }
-    blockBarInput.style.width = 189;
     return blockBarInput;
 }
 
@@ -203,29 +203,49 @@ export function createSimulator(player, upgrade, setUpgrade, blockState, setBloc
         probInfoDiv.classList.add("prob-info");
 
         let blockDiv = document.createElement("div");
+        blockDiv.classList.add("prob-info");
         let blockPrimaryDiv = document.createElement("span");
         blockPrimaryDiv.innerHTML = blockState;
         blockDiv.appendChild(blockPrimaryDiv);
         blockDiv.appendChild(document.createTextNode("칸"));
 
         let probDiv = document.createElement("div");
+        probDiv.classList.add("prob-info");
         let probPrimaryDiv = document.createElement("span");
         probPrimaryDiv.innerHTML = Math.round(successProb * 10000) / 100;
         probDiv.appendChild(document.createTextNode("강화 확률 "));
         probDiv.appendChild(probPrimaryDiv);
         probDiv.appendChild(document.createTextNode("%"));
 
+        let blockBarDiv = document.createElement("div");
+        blockBarDiv.classList.add("boost");
+
+        var gageDefaultDiv = document.createElement("div");
+        gageDefaultDiv.classList.add("gage");
+        gageDefaultDiv.style.backgroundImage = "url(/assets/images/simulator/default.png)";
+        blockBarDiv.appendChild(gageDefaultDiv);
+
+        var gageBarDiv = document.createElement("div");
+        gageBarDiv.classList.add("gage");
+        gageBarDiv.style.backgroundImage = "url(/assets/images/simulator/bar.png)";
+        gageBarDiv.style.width = (blockState / 5 * 100) + "%";
+        blockBarDiv.appendChild(gageBarDiv);
+
         function setBlockState2(v) {
             setBlockState(v);
             blockState = v;
+            gageBarDiv.style.width = (blockState / 5 * 100) + "%";
             blockPrimaryDiv.innerHTML = blockState;
             successProb = upgradeProb[upgrade] * blockState / 5;
             probPrimaryDiv.innerHTML = Math.round(successProb * 10000) / 100;
         }
 
-        let blockBarDiv = document.createElement("div");
         var blockBarInput = BlockBar(blockState, setBlockState2);
         blockBarDiv.appendChild(blockBarInput);
+
+        let blockBarAdviceDiv = document.createElement("div");
+        blockBarAdviceDiv.innerHTML = "클릭하여 조절할 수 있습니다.";
+        blockBarAdviceDiv.style.color = "#cccccc";
 
         function setUpgrade2(i) {
             upgrade = i;
@@ -237,6 +257,7 @@ export function createSimulator(player, upgrade, setUpgrade, blockState, setBloc
 
         simulatorDiv.appendChild(tempDiv);
         simulatorDiv.appendChild(blockBarDiv);
+        simulatorDiv.appendChild(blockBarAdviceDiv);
         simulatorDiv.appendChild(blockDiv);
         simulatorDiv.appendChild(probDiv);
 

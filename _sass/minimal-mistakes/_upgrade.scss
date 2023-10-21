@@ -125,6 +125,81 @@
     justify-content: center;
 }
 
+.boost {
+    position: relative;
+    display: flex;
+    width: 258px;
+    height: 30px;
+
+    .gage {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 258px;
+        height: 30px;
+    }
+
+    .gage-input {
+        position: absolute;
+        top: 0;
+        left: 5px;
+        width: 253px;
+        height: 30px;
+        padding: 0px;
+    }
+
+    >input[type=range] {
+        width:100%;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        background: transparent;
+    }
+
+    >input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 6px;
+        height: 30px;
+        border-radius: 3px;
+        border: 1px solid #3a3a50;
+        background: #ffffff;
+        cursor: pointer;
+    }
+
+    >input[type=range]::-moz-slider-thumb {
+        -moz-appearance: none;
+        width: 6px;
+        height: 30px;
+        border-radius: 3px;
+        border: 1px solid #3a3a50;
+        background: #ffffff;
+        cursor: pointer;
+    }
+
+    >input[type=range]::-ms-slider-thumb {
+        -ms-appearance: none;
+        width: 6px;
+        height: 30px;
+        border-radius: 3px;
+        border: 1px solid #3a3a50;
+        background: #ffffff;
+        cursor: pointer;
+    }
+
+    >input[type=range]:focus {
+        outline: none;
+    }
+}
+
+.prob-info {
+    font-size: 20px;
+    span {
+        color: $primary-color;
+        font-weight: 500;
+    }
+}
+
 .result-msg__success {
     font-size: 30px;
     color: #81fff7;
