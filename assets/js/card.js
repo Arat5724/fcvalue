@@ -246,6 +246,7 @@ export function createSimulator(player, upgrade, setUpgrade, blockState, setBloc
         let blockBarAdviceDiv = document.createElement("div");
         blockBarAdviceDiv.innerHTML = "클릭하여 조절할 수 있습니다.";
         blockBarAdviceDiv.style.color = "#cccccc";
+        blockBarAdviceDiv.style.fontSize = "15px";
 
         function setUpgrade2(i) {
             upgrade = i;
