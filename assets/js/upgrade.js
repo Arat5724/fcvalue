@@ -46,6 +46,8 @@ function resetSeasonButton() {
         seasonState[i] = false;
         seasonButtons.childNodes[i].style.opacity = 0.3;
     }
+    searchName = "";
+    document.getElementById("searchName").value = "";
 }
 
 for (let i = 0; i < players.length; i++) {
