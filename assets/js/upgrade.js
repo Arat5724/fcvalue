@@ -10,16 +10,8 @@ let seasonButtons = document.getElementById("seasonButtons");
 var simulatorDiv;
 
 var currentPlayer;
-var upgrade = 1;
-var blockState = 5;
-
-function setUpgrade(value) {
-    upgrade = value;
-}
-
-function setBlockState(value) {
-    blockState = value;
-}
+var [upgrade, setUpgrade] = [1, (value) => { upgrade = value; }];
+var [blockState, setBlockState] = [5, (value) => { blockState = value; }];
 
 for (let i = 0; i < players.length; i++) {
     seasonState.push(false);
