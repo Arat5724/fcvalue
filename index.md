@@ -41,6 +41,9 @@ feature_row2:
 
 ## [강화 시뮬레이터 BETA 바로가기](/simulator/upgrade)
 
+## 2023-10-26 로스터 업데이트 반영 완료
+- 8강 최대 배율 조정으로 인해 8강 포함 선수팩의 가격이 변동될 확률이 높습니다.
+
 ## 오늘의 효율 TOP3
 
 {% include high_rank %}
