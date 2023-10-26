@@ -41,14 +41,6 @@ feature_row2:
 
 ## [강화 시뮬레이터 BETA 바로가기](/simulator/upgrade)
 
-## 상품 추천
-
-- 50만원 미만
-  - [[특별할인][FCO 전용][23HW 포함][CC 8강 0.2% + CC 5강 확정] 더 블랙 에디션 상자](/general-product/special-discount-the-balck-edition-box/)
-- 50만원 이상
-  - [[나혼자만SSS:RE] 스페셜게임](/general-product/special/)
-    - [등급별 기댓값 바로가기](/general-product/special/#SSS)
-
 ## 오늘의 효율 TOP3
 
 {% include high_rank %}
