@@ -246,11 +246,11 @@
         position: absolute;
         top: 200px;
         right: 4px;
-        font-size: 15px;
-        background-color: #51545a;
-        border-bottom: 1px solid #c5c8c9;
-        border-right: 1px solid #c5c8c9;
+        background: linear-gradient(140deg, #51545a 0%, #51545a 0%, #42464d 100%);
         color: #c5c8c9;
+        border: 1.5px solid #393a3c;
+        border-top-color: #62676d;
+        border-left-color: #62676d;
         display: inline-block;
         width: 48px;
         height: 25px;
@@ -468,10 +468,10 @@
     .selector_wrap {
         top: 100px;
         right: 2px;
-        font-size: 7.5px;
         width: 24px;
         height: 12.5px;
         font-size: 10px;
+        border: 0.75px;
     }
 
     .name_wrap {
