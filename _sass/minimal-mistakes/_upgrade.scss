@@ -200,17 +200,33 @@
     }
 }
 
-.result-msg__success {
+.result-msg {
     font-size: 30px;
-    color: #81fff7;
     font-weight: 500;
+
+    &__success {
+        font-size: 30px;
+        font-weight: 500;
+        color: #81fff7;
+    }
+    &__fail {
+        font-size: 30px;
+        font-weight: 500;
+        color: #858498;
+    }
 }
 
-.result-msg__fail {
-    font-size: 30px;
-    color: #858498;
-    font-weight: 500;
-}
+// .result-msg__success {
+//     font-size: 30px;
+//     color: #81fff7;
+//     font-weight: 500;
+// }
+
+// .result-msg__fail {
+//     font-size: 30px;
+//     color: #858498;
+//     font-weight: 500;
+// }
 
 .upgrade-animation {
     animation: vibrate 2s ease-in-out;
