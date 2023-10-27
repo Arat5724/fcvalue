@@ -127,7 +127,8 @@ layout: single
 
     function createCard(player) {
         var tempDiv = document.createElement('div');
-        tempDiv.classList.add("thumb", player.season);
+        tempDiv.classList.add("thumb",
+            '0' <= player.season[0] && player.season[0] <= '9' ? '_' + player.season : player.season);
 
         // back
         var cardBackDiv = document.createElement('div');
