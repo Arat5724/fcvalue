@@ -14,11 +14,17 @@
 @font-face {
     font-family: "INGAME";
     font-weight: 300;
-    src: url("//fco.vod.nexoncdn.co.kr/fonts/YoonGothic530.woff2") format("woff2"),url("//fco.vod.nexoncdn.co.kr/fonts/YoonGothic530.woff") format("woff")
+    src: url('/assets/fonts/oswald.light.ttf') format('truetype'),
 }
 
 @font-face {
     font-family: "INGAME";
     font-weight: 400;
-    src: url("//fco.vod.nexoncdn.co.kr/fonts/YoonGothic540.woff2") format("woff2"),url("//fco.vod.nexoncdn.co.kr/fonts/YoonGothic540.woff") format("woff")
+    src: url('/assets/fonts/oswald.regular.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: "INGAME";
+    font-weight: 700;
+    src: url('/assets/fonts/oswald.bold.ttf') format('truetype'),
 }

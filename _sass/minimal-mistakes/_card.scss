@@ -192,19 +192,19 @@
         width: 61px;
         z-index: 2;
         font-family: "INGAME";
-        font-weight: 300;
-        font-stretch: condensed;
-        letter-spacing: -1px;
+        font-weight: 400;
     }
 
     .ovr {
-        font-size: 37px;
+        font-size: 30px;
         top: 48px;
+        letter-spacing: 1px;
     }
 
     .position {
-        font-size: 26px;
+        font-size: 20px;
         top: 82px;
+        letter-spacing: -1px;
     }
 
     .nation {
@@ -258,6 +258,8 @@
         text-align: center;
         font-size: 20px;
         font-weight: 500;
+        font-family: "EASANS";
+        line-height: 1.3;
     }
 
     .selector_list {
@@ -287,7 +289,9 @@
         text-align: center;
         font-size: 20px;
         font-weight: 500;
+        font-family: "EASANS";
         margin-bottom: 2px;
+        line-height: 1.3;
     }
 
     .upgrade_cooper {
@@ -318,12 +322,17 @@
         top: 230px;
         left: 0;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        line-height: 1.3;
 
         .season {
             margin-right: 3px;
             display: inline-block;
             margin-top: 2px;
             vertical-align: top;
+            display: flex;
+            justify-content: center;
 
             img {
                 height: 16px;
@@ -348,7 +357,7 @@
         position: absolute;
         bottom: 11px;
         left: 50%;
-        width: 30px;
+        width: 34px;
         height: 18px;
         background-color: rgba(0, 0, 0, 0);
         margin: 8.66px 0;
@@ -362,7 +371,7 @@
         font-family: "EASANS";
         letter-spacing: 1px;
         opacity: .7;
-        line-height: 1.2;
+        line-height: 1.1;
 
         &::before {
             content: "";
@@ -420,17 +429,15 @@
     }
 
     .ovr {
-        font-size: 18.5px;
+        font-size: 15px;
         top: 24px;
         width: 30.5px;
-        font-weight: 400;
     }
 
     .position {
-        font-size: 13px;
+        font-size: 10px;
         top: 41px;
         width: 30.5px;
-        font-weight: 100;
     }
 
     .nation {
@@ -464,16 +471,15 @@
     }
 
     .name_wrap {
-        display: flex;
-        justify-content: center;
         top: 115px;
 
         .season {
-            margin-right: 1px;
-            margin-top: 4px;
+            margin-right: 1.5px;
+            margin-top: 1px;
 
             img {
                 height: 8px;
+                vertical-align: top;
                 margin-top: -0.5px;
             }
         }
@@ -489,7 +495,7 @@
     .pay {
         bottom: 8px;
         left: 50%;
-        width: 15px;
+        width: 17px;
         height: 9px;
         margin: 4.33px 0;
         border-left: solid 1px #a7a9ae;
@@ -497,7 +503,7 @@
         transform: scale(0.8) translateX(-10px);
         font-size: 9.5px;
         letter-spacing: 0.5px;
-        line-height: 0.6;
+        line-height: 1.1;
 
         &::before {
             width: 10.5px;
@@ -608,9 +614,263 @@
     }
 }
 
+.ICON,
 .ICONTM {
     .ovr,
     .position {
         color: #5d573d;
+    }
+}
+
+.CC {
+    .ovr,
+    .position {
+        color: #f5ff51;
+    }
+}
+
+.RTN {
+    .ovr,
+    .position {
+        color: #ffe9b5;
+    }
+}
+
+.BWC {
+    .ovr,
+    .position {
+        color: #fdf4cd;
+    }
+}
+
+.RMCF {
+    .ovr,
+    .position {
+        color: #031352;
+    }
+}
+
+.SPL {
+    .ovr,
+    .position {
+        color: #80ffd6;
+    }
+}
+
+.LN {
+    .ovr,
+    .position {
+        color: #dafd65;
+    }
+}
+
+.LOL {
+    .ovr,
+    .position {
+        color: #fdaaea;
+    }
+}
+
+._23HR {
+    .ovr,
+    .position {
+        color: #fef6c4;
+    }
+}
+
+._22HR {
+    .ovr,
+    .position {
+        color: #aedefb;
+    }
+}
+
+.BTB {
+    .ovr,
+    .position {
+        color: #fff94a;
+    }
+}
+
+.EBS {
+    .ovr,
+    .position {
+        color: #ede7ad;
+    }
+}
+
+.BOE {
+    .ovr,
+    .position {
+        color: #530815;
+    }
+}
+
+.NTG {
+    .ovr,
+    .position {
+        color: #957d54;
+    }
+}
+
+.UP {
+    .ovr,
+    .position {
+        color: #58ffd6;
+    }
+}
+
+.MC {
+    .ovr,
+    .position {
+        color: #080d39;
+    }
+}
+
+.VTR {
+    .ovr,
+    .position {
+        color: #f1debd;
+    }
+}
+
+.MOG {
+    .ovr,
+    .position {
+        color: #ff8125;
+    }
+}
+
+._22NG {
+    .ovr,
+    .position {
+        color: #ffe066;
+    }
+}
+
+._21NG {
+    .ovr,
+    .position {
+        color: #f5ff4e;
+    }
+}
+
+._20NG {
+    .ovr,
+    .position {
+        color: #faff51;
+    }
+}
+
+._19NG {
+    .ovr,
+    .position {
+        color: #befd74;
+    }
+}
+
+.OTW {
+    .ovr,
+    .position {
+        color: #fc5461;
+    }
+}
+
+.COC {
+    .ovr,
+    .position {
+        color: #ffdc74;
+    }
+}
+
+.HOT {
+    .ovr,
+    .position {
+        color: #fe2b38;
+    }
+}
+
+.MCICON {
+    .ovr,
+    .position {
+        color: #0f69af;
+    }
+}
+
+.GR {
+    .ovr,
+    .position {
+        color: #61521a;
+    }
+}
+
+.TT {
+    .ovr,
+    .position {
+        color: #d3c070;
+    }
+}
+
+.TB {
+    .ovr,
+    .position {
+        color: #2a2c2e;
+    }
+}
+
+._23TY,
+._23TYN,
+._22TY,
+._22TYN,
+._21TY,
+._21TYN,
+._20TY,
+._20TYN,
+._19TY {
+    .ovr,
+    .position {
+        color: #ffee90;
+    }
+}
+
+._18TY {
+    .ovr,
+    .position {
+        color: #d0b361;
+    }
+}
+
+._23TS,
+._22TS,
+._21TS,
+._20TS,
+._19TS {
+    .ovr,
+    .position {
+        color: #eedc82;
+    }
+}
+
+.LH {
+    .ovr,
+    .position {
+        color: #f6b3a3;
+    }
+}
+
+.MCFC {
+    .ovr,
+    .position {
+        color: #00285e;
+    }
+}
+
+._12KH,
+._22KB,
+._21KB,
+._20KB {
+    .ovr,
+    .position {
+        color: #e4d58c;
     }
 }

@@ -160,10 +160,14 @@ layout: single
         var faceonElement = document.createElement('img');
         faceonElement.src =
             "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p" + player.id +  ".png";
-        faceonElement.onerror = function() {
-            faceonElement.src = "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersHigh/p" + Number.parseInt(player.id.substring(3)).toString() +  ".png";
-            faceonElement.onerror = function() {
-                faceonElement.src = "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/players/not_found.png";
+        const playerIdShort = Number.parseInt(player.id.toString().substring(3)).toString();
+        faceonElement.onerror = function () {
+            faceonElement.src = "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersHigh/p" + playerIdShort + ".png";
+            faceonElement.onerror = function () {
+                faceonElement.src = "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/players/p" + playerIdShort + ".png";
+                faceonElement.onerror = function () {
+                    faceonElement.src = "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/players/not_found.png";
+                }
             }
         };
         faceonDiv.appendChild(faceonElement);
@@ -184,10 +188,13 @@ layout: single
         // season
         var seasonDiv = document.createElement('div');
         seasonDiv.classList.add("season");
-        var imgElement = document.createElement('img');
-        imgElement.src =
-        "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/" + player.season + "_big.png";
-        seasonDiv.appendChild(imgElement);
+        var imgBigElement = document.createElement('img');
+        imgBigElement.src =
+            "https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/" + player.season + "_big.png";
+        imgBigElement.onerror = function () {
+            imgBigElement.remove();
+        };
+        seasonDiv.appendChild(imgBigElement);
         tempDiv.appendChild(seasonDiv);
 
         // upgrade
