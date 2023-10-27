@@ -146,6 +146,7 @@
             filter: brightness(0%);
         }
     }
+
     .card_back_upgrade {
         position: absolute;
         top: 0px;
@@ -277,10 +278,11 @@
     }
 
     .selector_item {
-        background-color: #51545a;
+        background: linear-gradient(140deg, #51545a 0%, #51545a 0%, #42464d 100%);
         color: #c5c8c9;
-        border-bottom: 1px solid #c5c8c9;
-        border-right: 1px solid #c5c8c9;
+        border: 1.5px solid #393a3c;
+        border-top-color: #62676d;
+        border-left-color: #62676d;
         display: inline-block;
         width: 48px;
         height: 25px;
@@ -295,25 +297,27 @@
     }
 
     .upgrade_cooper {
-        background-color: #de946b;
-        color: #7e3f27;
-        border-bottom: 1px solid #7e3f27;
-        border-right: 1px solid #7e3f27;
+        background: linear-gradient(140deg, #de946b 0%, #de946b 0%, #ad5f42 100%) !important;
+        color: #7e3f27 !important;
+        border: 1.5px solid #864229 !important;
+        border-top-color: #e4b7a2 !important;
+        border-left-color: #e4b7a2 !important;
     }
 
     .upgrade_silver {
-        background-color: #d8dadc;
-        color: #4e545e;
-        border-bottom: 1px solid #4e545e;
-        border-right: 1px solid #4e545e;
-
+        background: linear-gradient(140deg, rgb(2, 0, 36) 0%, rgb(216, 217, 220) 0%, rgb(184, 189, 202) 100%) !important;
+        color: #4e545e !important;
+        border: 1.5px solid #a5a8ae !important;
+        border-top-color: #d8dadc !important;
+        border-left-color: #d8dadc !important;
     }
 
     .upgrade_gold {
-        background-color: #f9dd62;
-        color: #695100;
-        border-bottom: 1px solid #695100;
-        border-right: 1px solid #695100;
+        background: linear-gradient(140deg, #f9dd62 0%, #f9dd62 0%, #dca908 100%) !important;
+        color: #695100 !important;
+        border: 1.5px solid #cda000 !important;
+        border-top-color: #e9d36c !important;
+        border-left-color: #e9d36c !important;
     }
 
     .name_wrap {
@@ -622,6 +626,7 @@
     }
 }
 
+._23HW,
 .CC {
     .ovr,
     .position {
@@ -699,7 +704,7 @@
     }
 }
 
-.BOE {
+.BOE21 {
     .ovr,
     .position {
         color: #530815;
