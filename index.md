@@ -27,8 +27,8 @@ feature_row2:
 ---
 
 ## 최근 업데이트 : {{ "now" | date: "%Y-%m-%d %H시"}}
-
-## 넥슨의 봇 차단으로 인해, 업데이트가 지연되고 있습니다.
+- 12월 패키지 업데이트
+- [강화 시뮬레이터](/simulator/upgrade) DC 시즌 업데이트
 
 <details>
 <summary>공지사항</summary>
