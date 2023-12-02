@@ -171,7 +171,7 @@ export function createCard(player, upgrade, setUpgrade, setUpgrade2) {
     return [tempDiv, setTargetUpgrade];
 }
 
-function BlockBar(blockState, SetBlockState) {
+function BlockBar(blockState, setBlockState) {
     let blockBarInput = document.createElement("input");
     blockBarInput.classList.add("gage-input");
     blockBarInput.type = 'range';
@@ -180,7 +180,7 @@ function BlockBar(blockState, SetBlockState) {
     blockBarInput.step = 0.1;
     blockBarInput.value = blockState;
     blockBarInput.oninput = function () {
-        SetBlockState(blockBarInput.value);
+        setBlockState(blockBarInput.value);
     };
     return blockBarInput;
 }
@@ -223,11 +223,12 @@ export function createSimulator(player, upgrade, setUpgrade, blockState, setBloc
     gageBarDiv.style.width = blockState / 0x5 * 0x64 + '%';
     blockBarDiv.appendChild(gageBarDiv);
 
-    function setBlockState2(blockState) {
-        setBlockState(blockState);
-        gageBarDiv.style.width = blockState / 0x5 * 0x64 + '%';
-        blockPrimaryDiv.innerHTML = blockState;
-        successProb = upgradeProb[upgrade] * blockState / 0x5;
+    function setBlockState2(x) {
+        setBlockState(x);
+        blockState = x;
+        gageBarDiv.style.width = x / 0x5 * 0x64 + '%';
+        blockPrimaryDiv.innerHTML = x;
+        successProb = upgradeProb[upgrade] * x / 0x5;
         probPrimaryDiv.innerHTML = Math.round(successProb * 0x2710) / 0x64;
     }
 
