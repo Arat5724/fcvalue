@@ -27,8 +27,8 @@ feature_row2:
 ---
 
 ## 최근 업데이트 : {{ "now" | date: "%Y-%m-%d %H시"}}
-- 12월 패키지 업데이트
-- [강화 시뮬레이터](/simulator/upgrade) DC 시즌 업데이트
+
+- [스카이박스 패스](/general-product/231207skybox) 업데이트
 
 <details>
 <summary>공지사항</summary>
