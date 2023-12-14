@@ -28,7 +28,8 @@ feature_row2:
 
 ## 최근 업데이트 : {{ "now" | date: "%Y-%m-%d %H시"}}
 
-- [스카이박스 패스](/general-product/231207skybox) 업데이트
+- [강화 시뮬레이터](/simulator/upgrade) 24HR, 23NG, 23KFA, 23KLB 업데이트 (완료)
+- 빠칭코 업데이트 (진행 중)
 
 <details>
 <summary>공지사항</summary>
