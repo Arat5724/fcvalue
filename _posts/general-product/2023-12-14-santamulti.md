@@ -4,7 +4,7 @@ header:
   teaser: /assets/images/item/201704576_s.png
   image: /assets/images/item/201704576_s.png
 
-rank1: 8
+rank1: 10
 rank2: 8
 efficiency1: 141배
 efficiency2: 141배

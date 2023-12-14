@@ -4,9 +4,9 @@ header:
   teaser: /assets/images/product/SantaMiraclePuzzleNormal.png
   image: /assets/images/product/SantaMiraclePuzzleNormal.png
 
-rank1: 12
+rank1: 5
 rank2: 12
-efficiency1: 138배
+efficiency1: 152배
 efficiency2: 138배
 categories: general-product
 
@@ -126,13 +126,29 @@ pachinko:
         image_path: /assets/images/item/200333041_s.png
         value: 66억 2,962만BP
 ---
+* 1개 구매 시 효율이 낮은 상품입니다.
 
 
 ## 가격
 ### 1,200FC
 ## 효율
-### 138배
+### 152배
 ## 기댓값
+<details>
+<summary>182억BP</summary>
+<div markdown="1">
+- 선수팩 169억BP
+  - 수수료 쿠폰 40% 적용 시 163억BP
+  - 수수료 쿠폰 30% 적용 시 156억BP
+  - 수수료 쿠폰 20% 적용 시 149억BP
+- BP 카드 25억 9,566만BP
+
+</div>
+</details>
+
+## 1개 구매 시 효율
+### 138배
+## 1개 구매 시 기댓값
 <details>
 <summary>165억BP</summary>
 <div markdown="1">
