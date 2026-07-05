@@ -3,25 +3,25 @@
     "id": "23071",
     "name": "[글로리] TK 클래스 Top Price 90 선수팩 (3~7강, 116+)",
     "image": null,
-    "expectedBp": 30508003462987.88,
+    "expectedBp": 21265609361384.273,
     "expectedValue": {
-        "bp_player": 30508003462987.88
+        "bp_player": 21265609361384.273
     },
     "percentile": {
-        "0": 7600000000000000,
-        "1": 66500000000000,
-        "2": 58800000000000,
-        "5": 58300000000000,
-        "10": 55700000000000,
-        "20": 34300000000000,
-        "30": 31400000000000,
-        "40": 28600000000000,
-        "50": 27700000000000,
-        "60": 26400000000000,
-        "70": 23800000000000,
-        "80": 18100000000000,
-        "90": 15600000000000,
-        "100": 11800000000000
+        "0": 6440000000000000,
+        "1": 49800000000000,
+        "2": 43400000000000,
+        "5": 41300000000000,
+        "10": 32200000000000,
+        "20": 25500000000000,
+        "30": 23500000000000,
+        "40": 20700000000000,
+        "50": 19200000000000,
+        "60": 18100000000000,
+        "70": 15400000000000,
+        "80": 13000000000000,
+        "90": 10400000000000,
+        "100": 8040000000000
     },
     "playerList": [
         {
@@ -36,7 +36,7 @@
                 "upgrade": 7,
                 "pay": 32
             },
-            "value": 7600000000000000,
+            "value": 6440000000000000,
             "probability": 3.395086178604e-06
         },
         {
@@ -51,7 +51,22 @@
                 "upgrade": 7,
                 "pay": 32
             },
-            "value": 7320000000000000,
+            "value": 5620000000000000,
+            "probability": 3.395086178604e-06
+        },
+        {
+            "player": {
+                "id": 39943,
+                "name": "박지성",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 133,
+                "position": "LM",
+                "nation": 167,
+                "upgrade": 7,
+                "pay": 31
+            },
+            "value": 4400000000000000,
             "probability": 3.395086178604e-06
         },
         {
@@ -66,37 +81,7 @@
                 "upgrade": 7,
                 "pay": 31
             },
-            "value": 5100000000000000,
-            "probability": 3.395086178604e-06
-        },
-        {
-            "player": {
-                "id": 140057,
-                "name": "차두리",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 130,
-                "position": "RB",
-                "nation": 167,
-                "upgrade": 7,
-                "pay": 30
-            },
-            "value": 3920000000000000,
-            "probability": 3.395086178604e-06
-        },
-        {
-            "player": {
-                "id": 39943,
-                "name": "박지성",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 133,
-                "position": "LM",
-                "nation": 167,
-                "upgrade": 7,
-                "pay": 31
-            },
-            "value": 3840000000000000,
+            "value": 4270000000000000,
             "probability": 3.395086178604e-06
         },
         {
@@ -111,7 +96,22 @@
                 "upgrade": 7,
                 "pay": 31
             },
-            "value": 3490000000000000,
+            "value": 3480000000000000,
+            "probability": 3.395086178604e-06
+        },
+        {
+            "player": {
+                "id": 140057,
+                "name": "차두리",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 130,
+                "position": "RB",
+                "nation": 167,
+                "upgrade": 7,
+                "pay": 30
+            },
+            "value": 3120000000000000,
             "probability": 3.395086178604e-06
         },
         {
@@ -126,7 +126,7 @@
                 "upgrade": 6,
                 "pay": 32
             },
-            "value": 1620000000000000,
+            "value": 1390000000000000,
             "probability": 3.395086178604e-06
         },
         {
@@ -141,22 +141,7 @@
                 "upgrade": 6,
                 "pay": 32
             },
-            "value": 1530000000000000,
-            "probability": 3.395086178604e-06
-        },
-        {
-            "player": {
-                "id": 7489,
-                "name": "안정환",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 128,
-                "position": "CF",
-                "nation": 167,
-                "upgrade": 6,
-                "pay": 31
-            },
-            "value": 1020000000000000,
+            "value": 1060000000000000,
             "probability": 3.395086178604e-06
         },
         {
@@ -171,22 +156,37 @@
                 "upgrade": 6,
                 "pay": 31
             },
-            "value": 846000000000000,
+            "value": 869000000000000,
             "probability": 3.395086178604e-06
         },
         {
             "player": {
-                "id": 180283,
-                "name": "기성용",
+                "id": 7489,
+                "name": "안정환",
                 "season": "TK",
                 "season_no": 864,
-                "ovr": 129,
-                "position": "CM",
+                "ovr": 128,
+                "position": "CF",
                 "nation": 167,
                 "upgrade": 6,
                 "pay": 31
             },
-            "value": 644000000000000,
+            "value": 759000000000000,
+            "probability": 3.395086178604e-06
+        },
+        {
+            "player": {
+                "id": 138161,
+                "name": "홍명보",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 133,
+                "position": "CB",
+                "nation": 167,
+                "upgrade": 7,
+                "pay": 32
+            },
+            "value": 701000000000000,
             "probability": 8.8272240643708e-05
         },
         {
@@ -201,37 +201,22 @@
                 "upgrade": 6,
                 "pay": 30
             },
-            "value": 617000000000000,
+            "value": 593000000000000,
             "probability": 8.8272240643708e-05
         },
         {
             "player": {
-                "id": 200104,
-                "name": "손흥민",
+                "id": 180283,
+                "name": "기성용",
                 "season": "TK",
                 "season_no": 864,
-                "ovr": 128,
-                "position": "ST",
+                "ovr": 129,
+                "position": "CM",
                 "nation": 167,
-                "upgrade": 5,
-                "pay": 32
+                "upgrade": 6,
+                "pay": 31
             },
-            "value": 536000000000000,
-            "probability": 8.8272240643708e-05
-        },
-        {
-            "player": {
-                "id": 138161,
-                "name": "홍명보",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 133,
-                "position": "CB",
-                "nation": 167,
-                "upgrade": 7,
-                "pay": 32
-            },
-            "value": 534000000000000,
+            "value": 584000000000000,
             "probability": 8.8272240643708e-05
         },
         {
@@ -246,22 +231,22 @@
                 "upgrade": 7,
                 "pay": 30
             },
-            "value": 498000000000000,
+            "value": 473000000000000,
             "probability": 8.8272240643708e-05
         },
         {
             "player": {
-                "id": 140053,
-                "name": "유상철",
+                "id": 200104,
+                "name": "손흥민",
                 "season": "TK",
                 "season_no": 864,
-                "ovr": 127,
-                "position": "CM",
+                "ovr": 128,
+                "position": "ST",
                 "nation": 167,
                 "upgrade": 5,
                 "pay": 32
             },
-            "value": 423000000000000,
+            "value": 397000000000000,
             "probability": 8.8272240643708e-05
         },
         {
@@ -276,7 +261,22 @@
                 "upgrade": 7,
                 "pay": 30
             },
-            "value": 401000000000000,
+            "value": 356000000000000,
+            "probability": 8.8272240643708e-05
+        },
+        {
+            "player": {
+                "id": 140053,
+                "name": "유상철",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 127,
+                "position": "CM",
+                "nation": 167,
+                "upgrade": 5,
+                "pay": 32
+            },
+            "value": 274000000000000,
             "probability": 8.8272240643708e-05
         },
         {
@@ -291,22 +291,7 @@
                 "upgrade": 4,
                 "pay": 32
             },
-            "value": 255000000000000,
-            "probability": 8.8272240643708e-05
-        },
-        {
-            "player": {
-                "id": 7489,
-                "name": "안정환",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 126,
-                "position": "CF",
-                "nation": 167,
-                "upgrade": 5,
-                "pay": 31
-            },
-            "value": 246000000000000,
+            "value": 189000000000000,
             "probability": 8.8272240643708e-05
         },
         {
@@ -321,7 +306,22 @@
                 "upgrade": 5,
                 "pay": 31
             },
-            "value": 221000000000000,
+            "value": 173000000000000,
+            "probability": 8.8272240643708e-05
+        },
+        {
+            "player": {
+                "id": 7489,
+                "name": "안정환",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 126,
+                "position": "CF",
+                "nation": 167,
+                "upgrade": 5,
+                "pay": 31
+            },
+            "value": 165000000000000,
             "probability": 8.8272240643708e-05
         },
         {
@@ -336,52 +336,7 @@
                 "upgrade": 5,
                 "pay": 30
             },
-            "value": 165000000000000,
-            "probability": 0.00037006439346785403
-        },
-        {
-            "player": {
-                "id": 19580,
-                "name": "이운재",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 132,
-                "position": "GK",
-                "nation": 167,
-                "upgrade": 7,
-                "pay": 27
-            },
-            "value": 151000000000000,
-            "probability": 0.00037006439346785403
-        },
-        {
-            "player": {
-                "id": 140053,
-                "name": "유상철",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 125,
-                "position": "CM",
-                "nation": 167,
-                "upgrade": 4,
-                "pay": 32
-            },
-            "value": 146000000000000,
-            "probability": 0.00037006439346785403
-        },
-        {
-            "player": {
-                "id": 33730,
-                "name": "김남일",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 131,
-                "position": "CDM",
-                "nation": 167,
-                "upgrade": 7,
-                "pay": 30
-            },
-            "value": 141000000000000,
+            "value": 150000000000000,
             "probability": 0.00037006439346785403
         },
         {
@@ -396,37 +351,7 @@
                 "upgrade": 3,
                 "pay": 32
             },
-            "value": 121000000000000,
-            "probability": 0.00037006439346785403
-        },
-        {
-            "player": {
-                "id": 247686,
-                "name": "조규성",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 128,
-                "position": "ST",
-                "nation": 167,
-                "upgrade": 7,
-                "pay": 30
-            },
-            "value": 108000000000000,
-            "probability": 0.00037006439346785403
-        },
-        {
-            "player": {
-                "id": 180283,
-                "name": "기성용",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 127,
-                "position": "CM",
-                "nation": 167,
-                "upgrade": 5,
-                "pay": 31
-            },
-            "value": 103000000000000,
+            "value": 102000000000000,
             "probability": 0.00037006439346785403
         },
         {
@@ -441,7 +366,52 @@
                 "upgrade": 7,
                 "pay": 30
             },
-            "value": 102000000000000,
+            "value": 97300000000000,
+            "probability": 0.00037006439346785403
+        },
+        {
+            "player": {
+                "id": 140053,
+                "name": "유상철",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 125,
+                "position": "CM",
+                "nation": 167,
+                "upgrade": 4,
+                "pay": 32
+            },
+            "value": 95300000000000,
+            "probability": 0.00037006439346785403
+        },
+        {
+            "player": {
+                "id": 247686,
+                "name": "조규성",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 128,
+                "position": "ST",
+                "nation": 167,
+                "upgrade": 7,
+                "pay": 30
+            },
+            "value": 94500000000000,
+            "probability": 0.00037006439346785403
+        },
+        {
+            "player": {
+                "id": 180283,
+                "name": "기성용",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 127,
+                "position": "CM",
+                "nation": 167,
+                "upgrade": 5,
+                "pay": 31
+            },
+            "value": 91700000000000,
             "probability": 0.00037006439346785403
         },
         {
@@ -456,7 +426,37 @@
                 "upgrade": 7,
                 "pay": 30
             },
-            "value": 88100000000000,
+            "value": 81900000000000,
+            "probability": 0.00037006439346785403
+        },
+        {
+            "player": {
+                "id": 33730,
+                "name": "김남일",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 131,
+                "position": "CDM",
+                "nation": 167,
+                "upgrade": 7,
+                "pay": 30
+            },
+            "value": 75700000000000,
+            "probability": 0.00037006439346785403
+        },
+        {
+            "player": {
+                "id": 19580,
+                "name": "이운재",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 132,
+                "position": "GK",
+                "nation": 167,
+                "upgrade": 7,
+                "pay": 27
+            },
+            "value": 73400000000000,
             "probability": 0.00037006439346785403
         },
         {
@@ -471,142 +471,52 @@
                 "upgrade": 7,
                 "pay": 30
             },
-            "value": 86900000000000,
+            "value": 73000000000000,
             "probability": 0.00037006439346785403
         },
         {
             "player": {
-                "id": 155355,
-                "name": "이청용",
+                "id": 140057,
+                "name": "차두리",
                 "season": "TK",
                 "season_no": 864,
-                "ovr": 131,
-                "position": "RW",
-                "nation": 167,
-                "upgrade": 7,
-                "pay": 31
-            },
-            "value": 86600000000000,
-            "probability": 0.00126070866765501
-        },
-        {
-            "player": {
-                "id": 136590,
-                "name": "이정수",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 130,
-                "position": "CB",
-                "nation": 167,
-                "upgrade": 7,
-                "pay": 30
-            },
-            "value": 81400000000000,
-            "probability": 0.00126070866765501
-        },
-        {
-            "player": {
-                "id": 7489,
-                "name": "안정환",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 124,
-                "position": "CF",
+                "ovr": 123,
+                "position": "RB",
                 "nation": 167,
                 "upgrade": 4,
-                "pay": 31
-            },
-            "value": 68600000000000,
-            "probability": 0.00126070866765501
-        },
-        {
-            "player": {
-                "id": 176403,
-                "name": "이근호",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 129,
-                "position": "ST",
-                "nation": 167,
-                "upgrade": 7,
                 "pay": 30
             },
-            "value": 67200000000000,
+            "value": 65100000000000,
             "probability": 0.00126070866765501
         },
         {
             "player": {
-                "id": 242878,
-                "name": "하석주",
+                "id": 103133,
+                "name": "설기현",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 127,
+                "position": "RW",
+                "nation": 167,
+                "upgrade": 6,
+                "pay": 30
+            },
+            "value": 58200000000000,
+            "probability": 0.00126070866765501
+        },
+        {
+            "player": {
+                "id": 226380,
+                "name": "황희찬",
                 "season": "TK",
                 "season_no": 864,
                 "ovr": 129,
-                "position": "LM",
+                "position": "LW",
                 "nation": 167,
                 "upgrade": 7,
                 "pay": 29
             },
-            "value": 66500000000000,
-            "probability": 0.00126070866765501
-        },
-        {
-            "player": {
-                "id": 191566,
-                "name": "박주호",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 129,
-                "position": "CDM",
-                "nation": 167,
-                "upgrade": 7,
-                "pay": 30
-            },
-            "value": 65500000000000,
-            "probability": 0.00126070866765501
-        },
-        {
-            "player": {
-                "id": 34666,
-                "name": "이영표",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 129,
-                "position": "LWB",
-                "nation": 167,
-                "upgrade": 6,
-                "pay": 30
-            },
-            "value": 63800000000000,
-            "probability": 0.00126070866765501
-        },
-        {
-            "player": {
-                "id": 200577,
-                "name": "이용",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 128,
-                "position": "RB",
-                "nation": 167,
-                "upgrade": 7,
-                "pay": 28
-            },
-            "value": 62900000000000,
-            "probability": 0.00126070866765501
-        },
-        {
-            "player": {
-                "id": 19580,
-                "name": "이운재",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 129,
-                "position": "GK",
-                "nation": 167,
-                "upgrade": 6,
-                "pay": 27
-            },
-            "value": 62900000000000,
+            "value": 56400000000000,
             "probability": 0.00126070866765501
         },
         {
@@ -621,53 +531,38 @@
                 "upgrade": 3,
                 "pay": 32
             },
-            "value": 60500000000000,
+            "value": 50000000000000,
             "probability": 0.00126070866765501
         },
         {
             "player": {
-                "id": 39943,
-                "name": "박지성",
+                "id": 7489,
+                "name": "안정환",
                 "season": "TK",
                 "season_no": 864,
-                "ovr": 126,
-                "position": "LM",
+                "ovr": 124,
+                "position": "CF",
                 "nation": 167,
                 "upgrade": 4,
                 "pay": 31
             },
-            "value": 58800000000000,
-            "probability": 0.0145649197062119
+            "value": 49800000000000,
+            "probability": 0.00126070866765501
         },
         {
             "player": {
-                "id": 33730,
-                "name": "김남일",
+                "id": 155355,
+                "name": "이청용",
                 "season": "TK",
                 "season_no": 864,
-                "ovr": 128,
-                "position": "CDM",
-                "nation": 167,
-                "upgrade": 6,
-                "pay": 30
-            },
-            "value": 58700000000000,
-            "probability": 0.0145649197062119
-        },
-        {
-            "player": {
-                "id": 226380,
-                "name": "황희찬",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 129,
-                "position": "LW",
+                "ovr": 131,
+                "position": "RW",
                 "nation": 167,
                 "upgrade": 7,
-                "pay": 29
+                "pay": 31
             },
-            "value": 58300000000000,
-            "probability": 0.0145649197062119
+            "value": 48100000000000,
+            "probability": 0.00126070866765501
         },
         {
             "player": {
@@ -681,68 +576,53 @@
                 "upgrade": 6,
                 "pay": 32
             },
-            "value": 58100000000000,
-            "probability": 0.0145649197062119
+            "value": 45500000000000,
+            "probability": 0.00126070866765501
         },
         {
             "player": {
-                "id": 84333,
-                "name": "김정우",
+                "id": 136590,
+                "name": "이정수",
                 "season": "TK",
                 "season_no": 864,
-                "ovr": 129,
-                "position": "CDM",
-                "nation": null,
+                "ovr": 130,
+                "position": "CB",
+                "nation": 167,
                 "upgrade": 7,
                 "pay": 30
             },
-            "value": 57100000000000,
-            "probability": 0.0145649197062119
+            "value": 45400000000000,
+            "probability": 0.00126070866765501
         },
         {
             "player": {
-                "id": 140057,
-                "name": "차두리",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 123,
-                "position": "RB",
-                "nation": 167,
-                "upgrade": 4,
-                "pay": 30
-            },
-            "value": 55700000000000,
-            "probability": 0.0145649197062119
-        },
-        {
-            "player": {
-                "id": 136553,
-                "name": "이동국",
+                "id": 34666,
+                "name": "이영표",
                 "season": "TK",
                 "season_no": 864,
                 "ovr": 129,
-                "position": "ST",
-                "nation": 167,
-                "upgrade": 7,
-                "pay": 31
-            },
-            "value": 53300000000000,
-            "probability": 0.0145649197062119
-        },
-        {
-            "player": {
-                "id": 103133,
-                "name": "설기현",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 127,
-                "position": "RW",
+                "position": "LWB",
                 "nation": 167,
                 "upgrade": 6,
                 "pay": 30
             },
-            "value": 44400000000000,
-            "probability": 0.0145649197062119
+            "value": 45300000000000,
+            "probability": 0.00126070866765501
+        },
+        {
+            "player": {
+                "id": 191566,
+                "name": "박주호",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 129,
+                "position": "CDM",
+                "nation": 167,
+                "upgrade": 7,
+                "pay": 30
+            },
+            "value": 43400000000000,
+            "probability": 0.00126070866765501
         },
         {
             "player": {
@@ -761,6 +641,141 @@
         },
         {
             "player": {
+                "id": 200577,
+                "name": "이용",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 128,
+                "position": "RB",
+                "nation": 167,
+                "upgrade": 7,
+                "pay": 28
+            },
+            "value": 42500000000000,
+            "probability": 0.0145649197062119
+        },
+        {
+            "player": {
+                "id": 176403,
+                "name": "이근호",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 129,
+                "position": "ST",
+                "nation": 167,
+                "upgrade": 7,
+                "pay": 30
+            },
+            "value": 41300000000000,
+            "probability": 0.0145649197062119
+        },
+        {
+            "player": {
+                "id": 242878,
+                "name": "하석주",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 129,
+                "position": "LM",
+                "nation": 167,
+                "upgrade": 7,
+                "pay": 29
+            },
+            "value": 37000000000000,
+            "probability": 0.0145649197062119
+        },
+        {
+            "player": {
+                "id": 39943,
+                "name": "박지성",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 126,
+                "position": "LM",
+                "nation": 167,
+                "upgrade": 4,
+                "pay": 31
+            },
+            "value": 34500000000000,
+            "probability": 0.0145649197062119
+        },
+        {
+            "player": {
+                "id": 84333,
+                "name": "김정우",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 129,
+                "position": "CDM",
+                "nation": null,
+                "upgrade": 7,
+                "pay": 30
+            },
+            "value": 32200000000000,
+            "probability": 0.0145649197062119
+        },
+        {
+            "player": {
+                "id": 136553,
+                "name": "이동국",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 129,
+                "position": "ST",
+                "nation": 167,
+                "upgrade": 7,
+                "pay": 31
+            },
+            "value": 31700000000000,
+            "probability": 0.0145649197062119
+        },
+        {
+            "player": {
+                "id": 19580,
+                "name": "이운재",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 129,
+                "position": "GK",
+                "nation": 167,
+                "upgrade": 6,
+                "pay": 27
+            },
+            "value": 28200000000000,
+            "probability": 0.0145649197062119
+        },
+        {
+            "player": {
+                "id": 103133,
+                "name": "설기현",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 125,
+                "position": "RW",
+                "nation": 167,
+                "upgrade": 5,
+                "pay": 30
+            },
+            "value": 26400000000000,
+            "probability": 0.0145649197062119
+        },
+        {
+            "player": {
+                "id": 180283,
+                "name": "기성용",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 125,
+                "position": "CM",
+                "nation": 167,
+                "upgrade": 4,
+                "pay": 31
+            },
+            "value": 26100000000000,
+            "probability": 0.0145649197062119
+        },
+        {
+            "player": {
                 "id": 182152,
                 "name": "구자철",
                 "season": "TK",
@@ -771,22 +786,7 @@
                 "upgrade": 6,
                 "pay": 30
             },
-            "value": 40900000000000,
-            "probability": 0.0145649197062119
-        },
-        {
-            "player": {
-                "id": 155355,
-                "name": "이청용",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 128,
-                "position": "RW",
-                "nation": 167,
-                "upgrade": 6,
-                "pay": 31
-            },
-            "value": 36100000000000,
+            "value": 26000000000000,
             "probability": 0.0336962303226463
         },
         {
@@ -801,37 +801,67 @@
                 "upgrade": 6,
                 "pay": 30
             },
-            "value": 34300000000000,
+            "value": 25500000000000,
             "probability": 0.0336962303226463
         },
         {
             "player": {
-                "id": 136590,
-                "name": "이정수",
+                "id": 247686,
+                "name": "조규성",
                 "season": "TK",
                 "season_no": 864,
-                "ovr": 127,
-                "position": "CB",
+                "ovr": 125,
+                "position": "ST",
                 "nation": 167,
                 "upgrade": 6,
                 "pay": 30
             },
-            "value": 33900000000000,
+            "value": 25300000000000,
             "probability": 0.0336962303226463
         },
         {
             "player": {
-                "id": 180283,
-                "name": "기성용",
+                "id": 140057,
+                "name": "차두리",
                 "season": "TK",
                 "season_no": 864,
-                "ovr": 125,
-                "position": "CM",
+                "ovr": 121,
+                "position": "RB",
                 "nation": 167,
-                "upgrade": 4,
-                "pay": 31
+                "upgrade": 3,
+                "pay": 30
             },
-            "value": 32300000000000,
+            "value": 23800000000000,
+            "probability": 0.0336962303226463
+        },
+        {
+            "player": {
+                "id": 226380,
+                "name": "황희찬",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 126,
+                "position": "LW",
+                "nation": 167,
+                "upgrade": 6,
+                "pay": 29
+            },
+            "value": 23500000000000,
+            "probability": 0.0336962303226463
+        },
+        {
+            "player": {
+                "id": 33730,
+                "name": "김남일",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 128,
+                "position": "CDM",
+                "nation": 167,
+                "upgrade": 6,
+                "pay": 30
+            },
+            "value": 22900000000000,
             "probability": 0.0336962303226463
         },
         {
@@ -846,22 +876,22 @@
                 "upgrade": 7,
                 "pay": 28
             },
-            "value": 31400000000000,
+            "value": 22100000000000,
             "probability": 0.0336962303226463
         },
         {
             "player": {
-                "id": 136600,
-                "name": "최진철",
+                "id": 138161,
+                "name": "홍명보",
                 "season": "TK",
                 "season_no": 864,
-                "ovr": 127,
+                "ovr": 128,
                 "position": "CB",
                 "nation": 167,
-                "upgrade": 6,
-                "pay": 30
+                "upgrade": 5,
+                "pay": 32
             },
-            "value": 31200000000000,
+            "value": 20700000000000,
             "probability": 0.0336962303226463
         },
         {
@@ -876,22 +906,22 @@
                 "upgrade": 5,
                 "pay": 30
             },
-            "value": 29000000000000,
+            "value": 20600000000000,
             "probability": 0.0336962303226463
         },
         {
             "player": {
-                "id": 19580,
-                "name": "이운재",
+                "id": 155355,
+                "name": "이청용",
                 "season": "TK",
                 "season_no": 864,
-                "ovr": 127,
-                "position": "GK",
+                "ovr": 128,
+                "position": "RW",
                 "nation": 167,
-                "upgrade": 5,
-                "pay": 27
+                "upgrade": 6,
+                "pay": 31
             },
-            "value": 28600000000000,
+            "value": 20000000000000,
             "probability": 0.0336962303226463
         },
         {
@@ -906,37 +936,37 @@
                 "upgrade": 7,
                 "pay": 30
             },
-            "value": 28300000000000,
-            "probability": 0.0336962303226463
+            "value": 19200000000000,
+            "probability": 0.023799554112015203
         },
         {
             "player": {
-                "id": 176403,
-                "name": "이근호",
+                "id": 136600,
+                "name": "최진철",
                 "season": "TK",
                 "season_no": 864,
-                "ovr": 126,
-                "position": "ST",
+                "ovr": 127,
+                "position": "CB",
                 "nation": 167,
                 "upgrade": 6,
                 "pay": 30
             },
-            "value": 28000000000000,
-            "probability": 0.0336962303226463
+            "value": 19100000000000,
+            "probability": 0.023799554112015203
         },
         {
             "player": {
-                "id": 242878,
-                "name": "하석주",
+                "id": 136590,
+                "name": "이정수",
                 "season": "TK",
                 "season_no": 864,
-                "ovr": 126,
-                "position": "LM",
+                "ovr": 127,
+                "position": "CB",
                 "nation": 167,
                 "upgrade": 6,
-                "pay": 29
+                "pay": 30
             },
-            "value": 27700000000000,
+            "value": 18900000000000,
             "probability": 0.023799554112015203
         },
         {
@@ -951,173 +981,8 @@
                 "upgrade": 6,
                 "pay": 30
             },
-            "value": 27300000000000,
+            "value": 18100000000000,
             "probability": 0.023799554112015203
-        },
-        {
-            "player": {
-                "id": 33730,
-                "name": "김남일",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 126,
-                "position": "CDM",
-                "nation": 167,
-                "upgrade": 5,
-                "pay": 30
-            },
-            "value": 26700000000000,
-            "probability": 0.023799554112015203
-        },
-        {
-            "player": {
-                "id": 139443,
-                "name": "조원희",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 127,
-                "position": "CDM",
-                "nation": 167,
-                "upgrade": 7,
-                "pay": 28
-            },
-            "value": 26600000000000,
-            "probability": 0.023799554112015203
-        },
-        {
-            "player": {
-                "id": 138161,
-                "name": "홍명보",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 128,
-                "position": "CB",
-                "nation": 167,
-                "upgrade": 5,
-                "pay": 32
-            },
-            "value": 26400000000000,
-            "probability": 0.023799554112015203
-        },
-        {
-            "player": {
-                "id": 200577,
-                "name": "이용",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 125,
-                "position": "RB",
-                "nation": 167,
-                "upgrade": 6,
-                "pay": 28
-            },
-            "value": 26200000000000,
-            "probability": 0.023799554112015203
-        },
-        {
-            "player": {
-                "id": 247686,
-                "name": "조규성",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 125,
-                "position": "ST",
-                "nation": 167,
-                "upgrade": 6,
-                "pay": 30
-            },
-            "value": 26200000000000,
-            "probability": 0.023799554112015203
-        },
-        {
-            "player": {
-                "id": 226380,
-                "name": "황희찬",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 126,
-                "position": "LW",
-                "nation": 167,
-                "upgrade": 6,
-                "pay": 29
-            },
-            "value": 24200000000000,
-            "probability": 0.023799554112015203
-        },
-        {
-            "player": {
-                "id": 84333,
-                "name": "김정우",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 126,
-                "position": "CDM",
-                "nation": null,
-                "upgrade": 6,
-                "pay": 30
-            },
-            "value": 23800000000000,
-            "probability": 0.023799554112015203
-        },
-        {
-            "player": {
-                "id": 136553,
-                "name": "이동국",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 126,
-                "position": "ST",
-                "nation": 167,
-                "upgrade": 6,
-                "pay": 31
-            },
-            "value": 22200000000000,
-            "probability": 0.023799554112015203
-        },
-        {
-            "player": {
-                "id": 155630,
-                "name": "조재진",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 127,
-                "position": "ST",
-                "nation": 167,
-                "upgrade": 7,
-                "pay": 29
-            },
-            "value": 21800000000000,
-            "probability": 0.0177087695075993
-        },
-        {
-            "player": {
-                "id": 103133,
-                "name": "설기현",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 125,
-                "position": "RW",
-                "nation": 167,
-                "upgrade": 5,
-                "pay": 30
-            },
-            "value": 20200000000000,
-            "probability": 0.0177087695075993
-        },
-        {
-            "player": {
-                "id": 182152,
-                "name": "구자철",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 126,
-                "position": "CAM",
-                "nation": 167,
-                "upgrade": 5,
-                "pay": 30
-            },
-            "value": 18600000000000,
-            "probability": 0.0177087695075993
         },
         {
             "player": {
@@ -1132,51 +997,126 @@
                 "pay": 29
             },
             "value": 18100000000000,
-            "probability": 0.0177087695075993
+            "probability": 0.023799554112015203
         },
         {
             "player": {
-                "id": 140057,
-                "name": "차두리",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 121,
-                "position": "RB",
-                "nation": 167,
-                "upgrade": 3,
-                "pay": 30
-            },
-            "value": 17600000000000,
-            "probability": 0.0177087695075993
-        },
-        {
-            "player": {
-                "id": 138161,
-                "name": "홍명보",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 126,
-                "position": "CB",
-                "nation": 167,
-                "upgrade": 4,
-                "pay": 32
-            },
-            "value": 17600000000000,
-            "probability": 0.0177087695075993
-        },
-        {
-            "player": {
-                "id": 19580,
-                "name": "이운재",
+                "id": 200577,
+                "name": "이용",
                 "season": "TK",
                 "season_no": 864,
                 "ovr": 125,
-                "position": "GK",
+                "position": "RB",
                 "nation": 167,
-                "upgrade": 4,
-                "pay": 27
+                "upgrade": 6,
+                "pay": 28
             },
-            "value": 17400000000000,
+            "value": 17700000000000,
+            "probability": 0.023799554112015203
+        },
+        {
+            "player": {
+                "id": 176403,
+                "name": "이근호",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 126,
+                "position": "ST",
+                "nation": 167,
+                "upgrade": 6,
+                "pay": 30
+            },
+            "value": 17200000000000,
+            "probability": 0.023799554112015203
+        },
+        {
+            "player": {
+                "id": 139443,
+                "name": "조원희",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 127,
+                "position": "CDM",
+                "nation": 167,
+                "upgrade": 7,
+                "pay": 28
+            },
+            "value": 16200000000000,
+            "probability": 0.023799554112015203
+        },
+        {
+            "player": {
+                "id": 242878,
+                "name": "하석주",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 126,
+                "position": "LM",
+                "nation": 167,
+                "upgrade": 6,
+                "pay": 29
+            },
+            "value": 15400000000000,
+            "probability": 0.023799554112015203
+        },
+        {
+            "player": {
+                "id": 7489,
+                "name": "안정환",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 122,
+                "position": "CF",
+                "nation": 167,
+                "upgrade": 3,
+                "pay": 31
+            },
+            "value": 14700000000000,
+            "probability": 0.023799554112015203
+        },
+        {
+            "player": {
+                "id": 84333,
+                "name": "김정우",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 126,
+                "position": "CDM",
+                "nation": null,
+                "upgrade": 6,
+                "pay": 30
+            },
+            "value": 13400000000000,
+            "probability": 0.0177087695075993
+        },
+        {
+            "player": {
+                "id": 136553,
+                "name": "이동국",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 126,
+                "position": "ST",
+                "nation": 167,
+                "upgrade": 6,
+                "pay": 31
+            },
+            "value": 13200000000000,
+            "probability": 0.0177087695075993
+        },
+        {
+            "player": {
+                "id": 155630,
+                "name": "조재진",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 127,
+                "position": "ST",
+                "nation": 167,
+                "upgrade": 7,
+                "pay": 29
+            },
+            "value": 13200000000000,
             "probability": 0.0177087695075993
         },
         {
@@ -1191,22 +1131,37 @@
                 "upgrade": 3,
                 "pay": 31
             },
-            "value": 17200000000000,
+            "value": 13000000000000,
             "probability": 0.0177087695075993
         },
         {
             "player": {
-                "id": 155355,
-                "name": "이청용",
+                "id": 19580,
+                "name": "이운재",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 127,
+                "position": "GK",
+                "nation": 167,
+                "upgrade": 5,
+                "pay": 27
+            },
+            "value": 12800000000000,
+            "probability": 0.0177087695075993
+        },
+        {
+            "player": {
+                "id": 182152,
+                "name": "구자철",
                 "season": "TK",
                 "season_no": 864,
                 "ovr": 126,
-                "position": "RW",
+                "position": "CAM",
                 "nation": 167,
                 "upgrade": 5,
-                "pay": 31
+                "pay": 30
             },
-            "value": 16400000000000,
+            "value": 11800000000000,
             "probability": 0.0177087695075993
         },
         {
@@ -1221,22 +1176,67 @@
                 "upgrade": 5,
                 "pay": 30
             },
-            "value": 15600000000000,
+            "value": 11600000000000,
             "probability": 0.0177087695075993
         },
         {
             "player": {
-                "id": 136590,
-                "name": "이정수",
+                "id": 247686,
+                "name": "조규성",
                 "season": "TK",
                 "season_no": 864,
-                "ovr": 125,
-                "position": "CB",
+                "ovr": 123,
+                "position": "ST",
                 "nation": 167,
                 "upgrade": 5,
                 "pay": 30
             },
-            "value": 15400000000000,
+            "value": 11500000000000,
+            "probability": 0.0177087695075993
+        },
+        {
+            "player": {
+                "id": 226380,
+                "name": "황희찬",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 124,
+                "position": "LW",
+                "nation": 167,
+                "upgrade": 5,
+                "pay": 29
+            },
+            "value": 10700000000000,
+            "probability": 0.0177087695075993
+        },
+        {
+            "player": {
+                "id": 33730,
+                "name": "김남일",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 126,
+                "position": "CDM",
+                "nation": 167,
+                "upgrade": 5,
+                "pay": 30
+            },
+            "value": 10400000000000,
+            "probability": 0.0177087695075993
+        },
+        {
+            "player": {
+                "id": 138161,
+                "name": "홍명보",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 126,
+                "position": "CB",
+                "nation": 167,
+                "upgrade": 4,
+                "pay": 32
+            },
+            "value": 10400000000000,
             "probability": 0.00850808596358204
         },
         {
@@ -1251,22 +1251,7 @@
                 "upgrade": 4,
                 "pay": 30
             },
-            "value": 15300000000000,
-            "probability": 0.00850808596358204
-        },
-        {
-            "player": {
-                "id": 136600,
-                "name": "최진철",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 125,
-                "position": "CB",
-                "nation": 167,
-                "upgrade": 5,
-                "pay": 30
-            },
-            "value": 14200000000000,
+            "value": 10400000000000,
             "probability": 0.00850808596358204
         },
         {
@@ -1281,22 +1266,67 @@
                 "upgrade": 6,
                 "pay": 28
             },
-            "value": 13100000000000,
+            "value": 9200000000000,
             "probability": 0.00850808596358204
         },
         {
             "player": {
-                "id": 242878,
-                "name": "하석주",
+                "id": 155355,
+                "name": "이청용",
                 "season": "TK",
                 "season_no": 864,
-                "ovr": 124,
-                "position": "LM",
+                "ovr": 126,
+                "position": "RW",
+                "nation": 167,
+                "upgrade": 5,
+                "pay": 31
+            },
+            "value": 9090000000000,
+            "probability": 0.00850808596358204
+        },
+        {
+            "player": {
+                "id": 136600,
+                "name": "최진철",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 125,
+                "position": "CB",
+                "nation": 167,
+                "upgrade": 5,
+                "pay": 30
+            },
+            "value": 8670000000000,
+            "probability": 0.00850808596358204
+        },
+        {
+            "player": {
+                "id": 136590,
+                "name": "이정수",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 125,
+                "position": "CB",
+                "nation": 167,
+                "upgrade": 5,
+                "pay": 30
+            },
+            "value": 8610000000000,
+            "probability": 0.00850808596358204
+        },
+        {
+            "player": {
+                "id": 199266,
+                "name": "지동원",
+                "season": "TK",
+                "season_no": 864,
+                "ovr": 123,
+                "position": "ST",
                 "nation": 167,
                 "upgrade": 5,
                 "pay": 29
             },
-            "value": 12600000000000,
+            "value": 8240000000000,
             "probability": 0.00850808596358204
         },
         {
@@ -1311,37 +1341,22 @@
                 "upgrade": 5,
                 "pay": 30
             },
-            "value": 12400000000000,
+            "value": 8210000000000,
             "probability": 0.00850808596358204
         },
         {
             "player": {
-                "id": 176403,
-                "name": "이근호",
+                "id": 19580,
+                "name": "이운재",
                 "season": "TK",
                 "season_no": 864,
-                "ovr": 124,
-                "position": "ST",
+                "ovr": 125,
+                "position": "GK",
                 "nation": 167,
-                "upgrade": 5,
-                "pay": 30
+                "upgrade": 4,
+                "pay": 27
             },
-            "value": 12300000000000,
-            "probability": 0.00850808596358204
-        },
-        {
-            "player": {
-                "id": 7489,
-                "name": "안정환",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 122,
-                "position": "CF",
-                "nation": 167,
-                "upgrade": 3,
-                "pay": 31
-            },
-            "value": 12000000000000,
+            "value": 8040000000000,
             "probability": 0.00850808596358204
         },
         {
@@ -1356,22 +1371,7 @@
                 "upgrade": 5,
                 "pay": 28
             },
-            "value": 11900000000000,
-            "probability": 0.00850808596358204
-        },
-        {
-            "player": {
-                "id": 191910,
-                "name": "김신욱",
-                "season": "TK",
-                "season_no": 864,
-                "ovr": 125,
-                "position": "ST",
-                "nation": 167,
-                "upgrade": 6,
-                "pay": 30
-            },
-            "value": 11800000000000,
+            "value": 8040000000000,
             "probability": 0.00850808596358204
         }
     ]
