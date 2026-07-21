@@ -1,0 +1,48 @@
+{
+    "type": "box",
+    "id": "23591",
+    "name": "[크리스탈 7개] ICON TM 8강 or 동일확률 BP 상자 (~26.07.30 점검 전)",
+    "image": null,
+    "expectedBp": 916496710811273.1,
+    "expectedValue": {
+        "bp_player": 17531710811273.07,
+        "bp_card": 898965000000000.0
+    },
+    "expectedBp1": 916496710811273.1,
+    "expectedValue1": {
+        "bp_player": 17531710811273.07,
+        "bp_card": 898965000000000.0
+    },
+    "percentile": null,
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "23573",
+                "name": "[크리스탈 60개] ICON TM Top Price 123 (8강, 117+)",
+                "image": null,
+                "expectedBp": 1.5244965922846148e+16,
+                "expectedValue": {
+                    "bp_player": 1.5244965922846148e+16
+                }
+            },
+            "amount": 1,
+            "probability": 0.00115
+        },
+        {
+            "item": {
+                "type": "box",
+                "id": "23592",
+                "name": "[동일확률][1, 2, 3, 4, 5개] 300조 BP N개 상자",
+                "image": null,
+                "expectedBp": 900000000000000.0,
+                "expectedValue": {
+                    "bp_card": 900000000000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 0.99885
+        }
+    ],
+    "additionalInfoWithAmount": null
+}
