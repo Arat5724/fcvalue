@@ -1,0 +1,48 @@
+{
+    "type": "box",
+    "id": "23899",
+    "name": "[모두획득][썸머 스페셜] TK 8강 포함 밸류업팩 + BP카드 상자",
+    "image": null,
+    "expectedBp": 527002427525870.1,
+    "expectedValue": {
+        "bp_player": 226489607013049.75,
+        "bp_card": 300512820512820.4
+    },
+    "expectedBp1": 527002427525870.1,
+    "expectedValue1": {
+        "bp_player": 226489607013049.75,
+        "bp_card": 300512820512820.4
+    },
+    "percentile": null,
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "23897",
+                "name": "[썸머 스페셜][TK 8강 포함] Week1 멀티 클래스 밸류업팩 (8~11강)",
+                "image": null,
+                "expectedBp": 226489607013049.75,
+                "expectedValue": {
+                    "bp_player": 226489607013049.75
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "23898",
+                "name": "[썸머 스페셜] 행운의 BP 카드 (6조 ~ 25조 BP)",
+                "image": null,
+                "expectedBp": 7512820512820.509,
+                "expectedValue": {
+                    "bp_card": 7512820512820.509
+                }
+            },
+            "amount": 40,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

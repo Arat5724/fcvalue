@@ -1,0 +1,94 @@
+{
+    "type": "box",
+    "id": "23843",
+    "name": "SPT, 26FSL 8~11강 or WG 포함 11강 상자",
+    "image": "/assets/image/item/201710404_s.png",
+    "expectedBp": 1.4697355818089664e+16,
+    "expectedValue": {
+        "bp_player": 1.1761080818089664e+16,
+        "bp_card": 2936275000000000.0
+    },
+    "expectedBp1": 1.4697355818089664e+16,
+    "expectedValue1": {
+        "bp_player": 1.1761080818089664e+16,
+        "bp_card": 2936275000000000.0
+    },
+    "percentile": {
+        "0": 2710000000000000000,
+        "1": 42600000000000000,
+        "2": 39600000000000000,
+        "5": 32400000000000000,
+        "10": 23500000000000000,
+        "20": 18500000000000000,
+        "30": 16700000000000000,
+        "40": 15700000000000000,
+        "50": 14810000000000000,
+        "60": 10300000000000000,
+        "70": 8360000000000000,
+        "80": 7520000000000000,
+        "90": 6940000000000000,
+        "100": 6490000000000000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "box",
+                "id": "23833",
+                "name": "SPT or 26FSL 11강 + 5500조",
+                "image": null,
+                "expectedBp": 2.9317183735961412e+16,
+                "expectedValue": {
+                    "bp_player": 2.3817183735961412e+16,
+                    "bp_card": 5500000000000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 0.00745
+        },
+        {
+            "item": {
+                "type": "box",
+                "id": "23844",
+                "name": "SPT or 26FSL 10강 + 6000조",
+                "image": null,
+                "expectedBp": 3.2428281142868556e+16,
+                "expectedValue": {
+                    "bp_player": 2.6428281142868556e+16,
+                    "bp_card": 6000000000000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 0.022476
+        },
+        {
+            "item": {
+                "type": "box",
+                "id": "23846",
+                "name": "SPT, 26FSL 8~9강 + 6000조",
+                "image": null,
+                "expectedBp": 1.9394965937973584e+16,
+                "expectedValue": {
+                    "bp_player": 1.3394965937973582e+16,
+                    "bp_card": 6000000000000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 0.460074
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "23821",
+                "name": "WG 포함 Top Price 1010 (11강, 111+)",
+                "image": null,
+                "expectedBp": 9464637634004664.0,
+                "expectedValue": {
+                    "bp_player": 9464637634004664.0
+                }
+            },
+            "amount": 1,
+            "probability": 0.51
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

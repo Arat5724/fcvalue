@@ -1,0 +1,62 @@
+{
+    "type": "box",
+    "id": "23837",
+    "name": "SPT, 26FSL 포함 11강 + 26TOTS 8~9강' 합 20% 골드 상자",
+    "image": null,
+    "expectedBp": 6767220486873744.0,
+    "expectedValue": {
+        "bp_player": 2187220486873744.0,
+        "bp_card": 4580000000000000.0
+    },
+    "expectedBp1": 6767220486873744.0,
+    "expectedValue1": {
+        "bp_player": 2187220486873744.0,
+        "bp_card": 4580000000000000.0
+    },
+    "percentile": null,
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "23808",
+                "name": "[4%] SPT, 26FSL 포함 Top Price 1230 (11강, 110+)",
+                "image": null,
+                "expectedBp": 1.4306555662286484e+16,
+                "expectedValue": {
+                    "bp_player": 1.4306555662286484e+16
+                }
+            },
+            "amount": 1,
+            "probability": 0.04
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "23809",
+                "name": "[16%] 26TOTS Top Price 150 (8~9강, 119+)",
+                "image": null,
+                "expectedBp": 1.009348912738928e+16,
+                "expectedValue": {
+                    "bp_player": 1.009348912738928e+16
+                }
+            },
+            "amount": 1,
+            "probability": 0.16
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "23828",
+                "name": "행운의 BP 카드 (70조~150조)",
+                "image": null,
+                "expectedBp": 114500000000000.0,
+                "expectedValue": {
+                    "bp_card": 114500000000000.0
+                }
+            },
+            "amount": 50,
+            "probability": 0.8
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

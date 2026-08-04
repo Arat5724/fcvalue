@@ -1,0 +1,75 @@
+{
+    "type": "box",
+    "id": "23711",
+    "name": "[티켓 1개] SPT 포함 11강팩 or 26TOTS 8~10강팩 상자",
+    "image": null,
+    "expectedBp": 8.769976428573867e+16,
+    "expectedValue": {
+        "bp_player": 8.769976428573867e+16
+    },
+    "expectedBp1": 8.769976428573867e+16,
+    "expectedValue1": {
+        "bp_player": 8.769976428573867e+16
+    },
+    "percentile": {
+        "0": 2710000000000000000,
+        "1": 147000000000000000,
+        "2": 145000000000000000,
+        "5": 140000000000000000,
+        "10": 130000000000000000,
+        "20": 116000000000000000,
+        "30": 101100000000000000,
+        "40": 92000000000000000,
+        "50": 86000000000000000,
+        "60": 77900000000000000,
+        "70": 70300000000000000,
+        "80": 62000000000000000,
+        "90": 52600000000000000,
+        "100": 22000000000000000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "23674",
+                "name": "[티켓 1개] SPT, 26FSL 포함 Top Price 330 (11강, 112+)",
+                "image": null,
+                "expectedBp": 9.928505172299875e+16,
+                "expectedValue": {
+                    "bp_player": 9.928505172299875e+16
+                }
+            },
+            "amount": 1,
+            "probability": 0.6612309999999999
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "23675",
+                "name": "[티켓 1개] 26TOTS Top Price 50 (10강, 120+)",
+                "image": null,
+                "expectedBp": 6.969734336545537e+16,
+                "expectedValue": {
+                    "bp_player": 6.969734336545537e+16
+                }
+            },
+            "amount": 1,
+            "probability": 0.096502
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "23676",
+                "name": "[티켓 1개] 26TOTS Top Price 85 (8~9강, 119+)",
+                "image": null,
+                "expectedBp": 3.162518465254313e+16,
+                "expectedValue": {
+                    "bp_player": 3.162518465254313e+16
+                }
+            },
+            "amount": 2,
+            "probability": 0.242267
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

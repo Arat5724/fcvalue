@@ -1,0 +1,77 @@
+{
+    "type": "box",
+    "id": "23890",
+    "name": "[AG][200조 BP 찬스][26.07] 위클리 3인 트레이드 의뢰 상자",
+    "image": null,
+    "expectedBp": 2472777777777.7803,
+    "expectedValue": {
+        "bp_card": 2472777777777.7803,
+        "[AG][WS 포함] 멀티 클래스 Top Price 7000 선수팩 (5~8강)": 0.6498999999999999
+    },
+    "expectedBp1": 2472777777777.7803,
+    "expectedValue1": {
+        "bp_card": 2472777777777.7803,
+        "[AG][WS 포함] 멀티 클래스 Top Price 7000 선수팩 (5~8강)": 0.6498999999999999
+    },
+    "percentile": {
+        "0": 200000000000000,
+        "1": 9000000000000,
+        "2": 8500000000000,
+        "5": 7750000000000,
+        "10": 7250000000000,
+        "20": 6750000000000,
+        "30": 6000000000000,
+        "40": 0,
+        "50": 0,
+        "60": 0,
+        "70": 0,
+        "80": 0,
+        "90": 0,
+        "100": 0
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "bp",
+                "id": "23874",
+                "name": "[AG] BP 카드 200조 BP",
+                "image": null,
+                "expectedBp": 200000000000000.0,
+                "expectedValue": {
+                    "bp_card": 200000000000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 0.0001
+        },
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[AG][WS 포함] 멀티 클래스 Top Price 7000 선수팩 (5~8강)",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[AG][WS 포함] 멀티 클래스 Top Price 7000 선수팩 (5~8강)": 1
+                }
+            },
+            "amount": 1,
+            "probability": 0.6498999999999999
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "23876",
+                "name": "[AG] 행운의 BP 카드 (5.5조~40조 BP)",
+                "image": null,
+                "expectedBp": 7007936507936.516,
+                "expectedValue": {
+                    "bp_card": 7007936507936.516
+                }
+            },
+            "amount": 1,
+            "probability": 0.35
+        }
+    ],
+    "additionalInfoWithAmount": null
+}
