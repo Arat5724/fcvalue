@@ -4,57 +4,40 @@
     "name": "[마일리지][SPT, 26FSL기회] 프레스티지 패키지 X4",
     "image": "/assets/image/item/31622_s.png",
     "price": 90000,
-    "efficiency": 0.0,
-    "expectedBp": 0,
+    "efficiency": 6.416287905263836,
+    "expectedBp": 5774659.114737453,
     "expectedValue": {
-        "[마일리지] WG 포함 Top Price 2450 (7강~8강, 108+)": 4,
-        "[마일리지] SPT, 26FSL 기회 상자": 4
+        "bp_player": 5774659.114737453
     },
-    "efficiency1": 0.0,
-    "expectedBp1": 0,
+    "efficiency1": 6.416287905263836,
+    "expectedBp1": 5774659.114737453,
     "expectedValue1": {
-        "[마일리지] WG 포함 Top Price 2450 (7강~8강, 108+)": 4,
-        "[마일리지] SPT, 26FSL 기회 상자": 4
+        "bp_player": 5774659.114737453
     },
-    "percentile": {
-        "0": 0,
-        "1": 0,
-        "2": 0,
-        "5": 0,
-        "10": 0,
-        "20": 0,
-        "30": 0,
-        "40": 0,
-        "50": 0,
-        "60": 0,
-        "70": 0,
-        "80": 0,
-        "90": 0,
-        "100": 0
-    },
+    "percentile": null,
     "itemList": [
         {
             "item": {
-                "type": "other",
-                "id": -1,
-                "name": "[마일리지] WG 포함 Top Price 2450 (7강~8강, 108+)",
+                "type": "player-pack",
+                "id": "23908",
+                "name": "[마일리지] WG 포함 Top Price 2450 (7~8강, 108+)",
                 "image": "/assets/image/item/200237325_s.png",
-                "expectedBp": 0,
+                "expectedBp": 1076951.616255998,
                 "expectedValue": {
-                    "[마일리지] WG 포함 Top Price 2450 (7강~8강, 108+)": 1
+                    "bp_player": 1076951.616255998
                 }
             },
             "amount": 4
         },
         {
             "item": {
-                "type": "other",
-                "id": -1,
+                "type": "box",
+                "id": "23910",
                 "name": "[마일리지] SPT, 26FSL 기회 상자",
                 "image": "/assets/image/item/201710452_s.png",
-                "expectedBp": 0,
+                "expectedBp": 366713.16242836544,
                 "expectedValue": {
-                    "[마일리지] SPT, 26FSL 기회 상자": 1
+                    "bp_player": 366713.16242836544
                 }
             },
             "amount": 4

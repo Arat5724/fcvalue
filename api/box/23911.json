@@ -1,0 +1,61 @@
+{
+    "type": "box",
+    "id": "23911",
+    "name": "[마일리지] SPT, 26FSL 챌린지! 상자",
+    "image": "/assets/image/item/201710455_s.png",
+    "expectedBp": 172588.75587913705,
+    "expectedValue": {
+        "bp_player": 172588.75587913705
+    },
+    "expectedBp1": 172588.75587913705,
+    "expectedValue1": {
+        "bp_player": 172588.75587913705
+    },
+    "percentile": {
+        "0": 1280000000,
+        "1": 581000,
+        "2": 431000,
+        "5": 279000,
+        "10": 245000,
+        "20": 200000,
+        "30": 185000,
+        "40": 168000,
+        "50": 147000,
+        "60": 137000,
+        "70": 132000,
+        "80": 127000,
+        "90": 119000,
+        "100": 73300
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "23906",
+                "name": "[마일리지] SPT, 26FSL 포함 Top Price 80 (1강, 112+)",
+                "image": null,
+                "expectedBp": 258511.05658124323,
+                "expectedValue": {
+                    "bp_player": 258511.05658124323
+                }
+            },
+            "amount": 1,
+            "probability": 0.001
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "23909",
+                "name": "[마일리지] WG 포함 Top Price 2650 (5강~6강, 111+)",
+                "image": null,
+                "expectedBp": 172502.7475701259,
+                "expectedValue": {
+                    "bp_player": 172502.7475701259
+                }
+            },
+            "amount": 1,
+            "probability": 0.9990000000000001
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

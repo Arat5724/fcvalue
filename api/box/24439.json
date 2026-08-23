@@ -1,0 +1,79 @@
+{
+    "type": "box",
+    "id": "24439",
+    "name": "[빙수 만들기] 빙수 재료상자",
+    "image": null,
+    "expectedBp": 0,
+    "expectedValue": {
+        "[빙수 만들기] 귀한 애플망고": 0.05,
+        "[빙수 만들기] 치즈케이크 큐브": 0.45,
+        "[빙수 만들기] 아이스크림": 0.5
+    },
+    "expectedBp1": 0,
+    "expectedValue1": {
+        "[빙수 만들기] 귀한 애플망고": 0.05,
+        "[빙수 만들기] 치즈케이크 큐브": 0.45,
+        "[빙수 만들기] 아이스크림": 0.5
+    },
+    "percentile": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "5": 0,
+        "10": 0,
+        "20": 0,
+        "30": 0,
+        "40": 0,
+        "50": 0,
+        "60": 0,
+        "70": 0,
+        "80": 0,
+        "90": 0,
+        "100": 0
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[빙수 만들기] 귀한 애플망고",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[빙수 만들기] 귀한 애플망고": 1
+                }
+            },
+            "amount": 1,
+            "probability": 0.05
+        },
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[빙수 만들기] 치즈케이크 큐브",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[빙수 만들기] 치즈케이크 큐브": 1
+                }
+            },
+            "amount": 1,
+            "probability": 0.45
+        },
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[빙수 만들기] 아이스크림",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[빙수 만들기] 아이스크림": 1
+                }
+            },
+            "amount": 1,
+            "probability": 0.5
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

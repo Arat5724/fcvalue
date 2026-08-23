@@ -4,57 +4,55 @@
     "name": "[마일리지][SPT, 26FSL기회] 프레스티지 패키지",
     "image": "/assets/image/item/31624_s.png",
     "price": 25000,
-    "efficiency": 0.0,
-    "expectedBp": 0,
+    "efficiency": 5.774659114737453,
+    "expectedBp": 1443664.7786843632,
     "expectedValue": {
-        "[마일리지] WG 포함 Top Price 2450 (7강~8강, 108+)": 1,
-        "[마일리지] SPT, 26FSL 기회 상자": 1
+        "bp_player": 1443664.7786843632
     },
-    "efficiency1": 0.0,
-    "expectedBp1": 0,
+    "efficiency1": 5.774659114737453,
+    "expectedBp1": 1443664.7786843632,
     "expectedValue1": {
-        "[마일리지] WG 포함 Top Price 2450 (7강~8강, 108+)": 1,
-        "[마일리지] SPT, 26FSL 기회 상자": 1
+        "bp_player": 1443664.7786843632
     },
     "percentile": {
-        "0": 0,
-        "1": 0,
-        "2": 0,
-        "5": 0,
-        "10": 0,
-        "20": 0,
-        "30": 0,
-        "40": 0,
-        "50": 0,
-        "60": 0,
-        "70": 0,
-        "80": 0,
-        "90": 0,
-        "100": 0
+        "0": 6810000000,
+        "1": 3740000,
+        "2": 2700000,
+        "5": 1979000,
+        "10": 1745000,
+        "20": 1555000,
+        "30": 1460000,
+        "40": 1367000,
+        "50": 1299000,
+        "60": 1257000,
+        "70": 1205000,
+        "80": 1137000,
+        "90": 1042000,
+        "100": 828000
     },
     "itemList": [
         {
             "item": {
-                "type": "other",
-                "id": -1,
-                "name": "[마일리지] WG 포함 Top Price 2450 (7강~8강, 108+)",
+                "type": "player-pack",
+                "id": "23908",
+                "name": "[마일리지] WG 포함 Top Price 2450 (7~8강, 108+)",
                 "image": "/assets/image/item/200237325_s.png",
-                "expectedBp": 0,
+                "expectedBp": 1076951.616255998,
                 "expectedValue": {
-                    "[마일리지] WG 포함 Top Price 2450 (7강~8강, 108+)": 1
+                    "bp_player": 1076951.616255998
                 }
             },
             "amount": 1
         },
         {
             "item": {
-                "type": "other",
-                "id": -1,
+                "type": "box",
+                "id": "23910",
                 "name": "[마일리지] SPT, 26FSL 기회 상자",
                 "image": "/assets/image/item/201710452_s.png",
-                "expectedBp": 0,
+                "expectedBp": 366713.16242836544,
                 "expectedValue": {
-                    "[마일리지] SPT, 26FSL 기회 상자": 1
+                    "bp_player": 366713.16242836544
                 }
             },
             "amount": 1

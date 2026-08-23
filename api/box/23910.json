@@ -1,0 +1,61 @@
+{
+    "type": "box",
+    "id": "23910",
+    "name": "[마일리지] SPT, 26FSL 기회 상자",
+    "image": "/assets/image/item/201710452_s.png",
+    "expectedBp": 366713.16242836544,
+    "expectedValue": {
+        "bp_player": 366713.16242836544
+    },
+    "expectedBp1": 366713.16242836544,
+    "expectedValue1": {
+        "bp_player": 366713.16242836544
+    },
+    "percentile": {
+        "0": 1280000000,
+        "1": 932000,
+        "2": 685000,
+        "5": 559000,
+        "10": 508000,
+        "20": 420000,
+        "30": 385000,
+        "40": 347000,
+        "50": 321000,
+        "60": 310000,
+        "70": 301000,
+        "80": 294000,
+        "90": 277000,
+        "100": 248000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "23907",
+                "name": "[마일리지] SPT, 26FSL 포함 Top Price 40 (1강, 117+)",
+                "image": null,
+                "expectedBp": 293505.0306496961,
+                "expectedValue": {
+                    "bp_player": 293505.0306496961
+                }
+            },
+            "amount": 1,
+            "probability": 0.05
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "23904",
+                "name": "[마일리지] 26TOTS 포함 Top Price 1650 (5~6강, 113+)",
+                "image": null,
+                "expectedBp": 370566.2219956639,
+                "expectedValue": {
+                    "bp_player": 370566.2219956639
+                }
+            },
+            "amount": 1,
+            "probability": 0.95
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

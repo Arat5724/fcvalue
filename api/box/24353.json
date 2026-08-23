@@ -1,0 +1,62 @@
+{
+    "type": "box",
+    "id": "24353",
+    "name": "26FSL 챔피언 금고",
+    "image": null,
+    "expectedBp": 47686021.239905626,
+    "expectedValue": {
+        "bp_player": 43261.239905628856,
+        "bp_card": 47642760.0
+    },
+    "expectedBp1": 47686021.239905626,
+    "expectedValue1": {
+        "bp_player": 43261.239905628856,
+        "bp_card": 47642760.0
+    },
+    "percentile": null,
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "24318",
+                "name": "[26FSL 챔피언] 26FSL Top Price 65 (8~10강)",
+                "image": null,
+                "expectedBp": 144204133.01876286,
+                "expectedValue": {
+                    "bp_player": 144204133.01876286
+                }
+            },
+            "amount": 1,
+            "probability": 0.0003
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "24341",
+                "name": "[26FSL 챔피언] 행운의 BP 카드 (85만~425만)",
+                "image": null,
+                "expectedBp": 908000.0,
+                "expectedValue": {
+                    "bp_card": 908000.0
+                }
+            },
+            "amount": 100,
+            "probability": 0.049699999999999994
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "24341",
+                "name": "[26FSL 챔피언] 행운의 BP 카드 (85만~425만)",
+                "image": null,
+                "expectedBp": 908000.0,
+                "expectedValue": {
+                    "bp_card": 908000.0
+                }
+            },
+            "amount": 50,
+            "probability": 0.95
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

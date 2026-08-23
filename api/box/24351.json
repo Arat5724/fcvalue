@@ -1,0 +1,48 @@
+{
+    "type": "box",
+    "id": "24351",
+    "name": "[26FSL 챔피언] 26FSL, SPT 1~7강 x3 + 행운의 BP 카드 상자",
+    "image": null,
+    "expectedBp": 2827119.1958529917,
+    "expectedValue": {
+        "bp_player": 827119.1958529938,
+        "bp_card": 1999999.999999998
+    },
+    "expectedBp1": 2827119.1958529917,
+    "expectedValue1": {
+        "bp_player": 827119.1958529938,
+        "bp_card": 1999999.999999998
+    },
+    "percentile": null,
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "24327",
+                "name": "[26FSL 챔피언] 26FSL, SPT Top Price 680 (1~7강, 116+)",
+                "image": null,
+                "expectedBp": 275706.3986176646,
+                "expectedValue": {
+                    "bp_player": 275706.3986176646
+                }
+            },
+            "amount": 3,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "24342",
+                "name": "[26FSL 챔피언] 행운의 BP 카드 (100만~300만)",
+                "image": null,
+                "expectedBp": 1999999.999999998,
+                "expectedValue": {
+                    "bp_card": 1999999.999999998
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}
