@@ -3,42 +3,27 @@
     "id": "24412",
     "name": "[AG][26.08] TT, TKI, TB, NHD, LIVE Top Price 250 선수팩 (8강)",
     "image": null,
-    "expectedBp": 20893.515836737235,
+    "expectedBp": 21063.238216298607,
     "expectedValue": {
-        "bp_player": 20893.515836737235
+        "bp_player": 21063.238216298607
     },
     "percentile": {
-        "0": 6170000,
-        "1": 45900,
-        "2": 25400,
-        "5": 23000,
-        "10": 21300,
-        "20": 20200,
-        "30": 19600,
-        "40": 19300,
+        "0": 6570000,
+        "1": 43200,
+        "2": 26500,
+        "5": 23100,
+        "10": 21500,
+        "20": 20500,
+        "30": 20200,
+        "40": 19200,
         "50": 19100,
-        "60": 18700,
-        "70": 18000,
-        "80": 17600,
-        "90": 17300,
+        "60": 18900,
+        "70": 18200,
+        "80": 17900,
+        "90": 17500,
         "100": 17300
     },
     "playerList": [
-        {
-            "player": {
-                "id": 239085,
-                "name": "엘링 홀란",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 97,
-                "position": "ST",
-                "nation": 36,
-                "upgrade": 8,
-                "pay": 13
-            },
-            "value": 6170000,
-            "probability": 1.05972111319e-07
-        },
         {
             "player": {
                 "id": 231747,
@@ -51,7 +36,22 @@
                 "upgrade": 8,
                 "pay": 13
             },
-            "value": 5440000,
+            "value": 6570000,
+            "probability": 1.05972111319e-07
+        },
+        {
+            "player": {
+                "id": 239085,
+                "name": "엘링 홀란",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 97,
+                "position": "ST",
+                "nation": 36,
+                "upgrade": 8,
+                "pay": 13
+            },
+            "value": 5650000,
             "probability": 1.05972111319e-07
         },
         {
@@ -81,7 +81,52 @@
                 "upgrade": 8,
                 "pay": 11
             },
-            "value": 2710000,
+            "value": 2900000,
+            "probability": 1.05972111319e-07
+        },
+        {
+            "player": {
+                "id": 252371,
+                "name": "주드 벨링엄",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 96,
+                "position": "CAM",
+                "nation": 14,
+                "upgrade": 8,
+                "pay": 12
+            },
+            "value": 2830000,
+            "probability": 1.05972111319e-07
+        },
+        {
+            "player": {
+                "id": 238794,
+                "name": "비니시우스",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 95,
+                "position": "LW",
+                "nation": 54,
+                "upgrade": 8,
+                "pay": 12
+            },
+            "value": 2820000,
+            "probability": 1.05972111319e-07
+        },
+        {
+            "player": {
+                "id": 231443,
+                "name": "우스만 뎀벨레",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 96,
+                "position": "ST",
+                "nation": 18,
+                "upgrade": 8,
+                "pay": 12
+            },
+            "value": 2670000,
             "probability": 1.05972111319e-07
         },
         {
@@ -97,36 +142,6 @@
                 "pay": 13
             },
             "value": 2630000,
-            "probability": 1.05972111319e-07
-        },
-        {
-            "player": {
-                "id": 24630,
-                "name": "페페 레이나",
-                "season": "TB",
-                "season_no": 206,
-                "ovr": 97,
-                "position": "GK",
-                "nation": 45,
-                "upgrade": 8,
-                "pay": 12
-            },
-            "value": 2620000,
-            "probability": 1.05972111319e-07
-        },
-        {
-            "player": {
-                "id": 202126,
-                "name": "해리 케인",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 95,
-                "position": "ST",
-                "nation": 14,
-                "upgrade": 8,
-                "pay": 12
-            },
-            "value": 2620000,
             "probability": 1.05972111319e-07
         },
         {
@@ -161,32 +176,17 @@
         },
         {
             "player": {
-                "id": 238794,
-                "name": "비니시우스",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 95,
-                "position": "LW",
-                "nation": 54,
+                "id": 24630,
+                "name": "페페 레이나",
+                "season": "TB",
+                "season_no": 206,
+                "ovr": 97,
+                "position": "GK",
+                "nation": 45,
                 "upgrade": 8,
                 "pay": 12
             },
-            "value": 2560000,
-            "probability": 1.05972111319e-07
-        },
-        {
-            "player": {
-                "id": 231443,
-                "name": "우스만 뎀벨레",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 96,
-                "position": "ST",
-                "nation": 18,
-                "upgrade": 8,
-                "pay": 12
-            },
-            "value": 2430000,
+            "value": 2440000,
             "probability": 1.059721113195e-06
         },
         {
@@ -206,32 +206,17 @@
         },
         {
             "player": {
-                "id": 252371,
-                "name": "주드 벨링엄",
+                "id": 202126,
+                "name": "해리 케인",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 96,
-                "position": "CAM",
+                "ovr": 95,
+                "position": "ST",
                 "nation": 14,
                 "upgrade": 8,
                 "pay": 12
             },
-            "value": 2340000,
-            "probability": 1.059721113195e-06
-        },
-        {
-            "player": {
-                "id": 188545,
-                "name": "레반도프스키",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 94,
-                "position": "ST",
-                "nation": 37,
-                "upgrade": 8,
-                "pay": 11
-            },
-            "value": 1910000,
+            "value": 2360000,
             "probability": 1.059721113195e-06
         },
         {
@@ -245,6 +230,36 @@
                 "nation": 38,
                 "upgrade": 8,
                 "pay": 10
+            },
+            "value": 2110000,
+            "probability": 1.059721113195e-06
+        },
+        {
+            "player": {
+                "id": 255253,
+                "name": "비티냐",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 96,
+                "position": "CM",
+                "nation": 38,
+                "upgrade": 8,
+                "pay": 12
+            },
+            "value": 2000000,
+            "probability": 1.059721113195e-06
+        },
+        {
+            "player": {
+                "id": 188545,
+                "name": "레반도프스키",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 94,
+                "position": "ST",
+                "nation": 37,
+                "upgrade": 8,
+                "pay": 11
             },
             "value": 1910000,
             "probability": 1.059721113195e-06
@@ -266,17 +281,17 @@
         },
         {
             "player": {
-                "id": 255253,
-                "name": "비티냐",
+                "id": 237678,
+                "name": "이브라히마 코나테",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 96,
-                "position": "CM",
-                "nation": 38,
+                "ovr": 92,
+                "position": "CB",
+                "nation": 18,
                 "upgrade": 8,
-                "pay": 12
+                "pay": 10
             },
-            "value": 1820000,
+            "value": 1800000,
             "probability": 1.059721113195e-06
         },
         {
@@ -296,36 +311,6 @@
         },
         {
             "player": {
-                "id": 233419,
-                "name": "하피냐",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 95,
-                "position": "LM",
-                "nation": 54,
-                "upgrade": 8,
-                "pay": 12
-            },
-            "value": 1690000,
-            "probability": 1.059721113195e-06
-        },
-        {
-            "player": {
-                "id": 237678,
-                "name": "이브라히마 코나테",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 92,
-                "position": "CB",
-                "nation": 18,
-                "upgrade": 8,
-                "pay": 10
-            },
-            "value": 1640000,
-            "probability": 1.059721113195e-06
-        },
-        {
-            "player": {
                 "id": 158023,
                 "name": "리오넬 메시",
                 "season": "LIVE",
@@ -336,8 +321,8 @@
                 "upgrade": 8,
                 "pay": 10
             },
-            "value": 1600000,
-            "probability": 2.4373585603480003e-06
+            "value": 1750000,
+            "probability": 1.059721113195e-06
         },
         {
             "player": {
@@ -351,7 +336,37 @@
                 "upgrade": 8,
                 "pay": 11
             },
-            "value": 1540000,
+            "value": 1690000,
+            "probability": 2.4373585603480003e-06
+        },
+        {
+            "player": {
+                "id": 233419,
+                "name": "하피냐",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 95,
+                "position": "LM",
+                "nation": 54,
+                "upgrade": 8,
+                "pay": 12
+            },
+            "value": 1690000,
+            "probability": 2.4373585603480003e-06
+        },
+        {
+            "player": {
+                "id": 177683,
+                "name": "얀 조머",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 92,
+                "position": "GK",
+                "nation": 47,
+                "upgrade": 8,
+                "pay": 7
+            },
+            "value": 1510000,
             "probability": 2.4373585603480003e-06
         },
         {
@@ -371,17 +386,17 @@
         },
         {
             "player": {
-                "id": 177683,
-                "name": "얀 조머",
+                "id": 212198,
+                "name": "브루누 페르난데스",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 92,
-                "position": "GK",
-                "nation": 47,
+                "ovr": 93,
+                "position": "CAM",
+                "nation": 38,
                 "upgrade": 8,
-                "pay": 7
+                "pay": 10
             },
-            "value": 1450000,
+            "value": 1440000,
             "probability": 2.4373585603480003e-06
         },
         {
@@ -431,36 +446,6 @@
         },
         {
             "player": {
-                "id": 212198,
-                "name": "브루누 페르난데스",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 93,
-                "position": "CAM",
-                "nation": 38,
-                "upgrade": 8,
-                "pay": 10
-            },
-            "value": 1310000,
-            "probability": 2.4373585603480003e-06
-        },
-        {
-            "player": {
-                "id": 235212,
-                "name": "아슈라프 하키미",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 93,
-                "position": "RB",
-                "nation": 129,
-                "upgrade": 8,
-                "pay": 10
-            },
-            "value": 1250000,
-            "probability": 2.4373585603480003e-06
-        },
-        {
-            "player": {
                 "id": 243715,
                 "name": "윌리암 살리바",
                 "season": "LIVE",
@@ -476,6 +461,36 @@
         },
         {
             "player": {
+                "id": 222665,
+                "name": "마르틴 외데고르",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 93,
+                "position": "CM",
+                "nation": 36,
+                "upgrade": 8,
+                "pay": 10
+            },
+            "value": 1200000,
+            "probability": 2.4373585603480003e-06
+        },
+        {
+            "player": {
+                "id": 246669,
+                "name": "부카요 사카",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 94,
+                "position": "RW",
+                "nation": 14,
+                "upgrade": 8,
+                "pay": 11
+            },
+            "value": 1180000,
+            "probability": 4.344856564098e-06
+        },
+        {
+            "player": {
                 "id": 209331,
                 "name": "모하메드 살라",
                 "season": "LIVE",
@@ -487,6 +502,21 @@
                 "pay": 12
             },
             "value": 1180000,
+            "probability": 4.344856564098e-06
+        },
+        {
+            "player": {
+                "id": 277643,
+                "name": "라민 야말",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 95,
+                "position": "RM",
+                "nation": 45,
+                "upgrade": 8,
+                "pay": 11
+            },
+            "value": 1170000,
             "probability": 4.344856564098e-06
         },
         {
@@ -521,17 +551,17 @@
         },
         {
             "player": {
-                "id": 212831,
-                "name": "알리송",
+                "id": 235212,
+                "name": "아슈라프 하키미",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 95,
-                "position": "GK",
-                "nation": 54,
+                "ovr": 93,
+                "position": "RB",
+                "nation": 129,
                 "upgrade": 8,
                 "pay": 10
             },
-            "value": 1120000,
+            "value": 1110000,
             "probability": 4.344856564098e-06
         },
         {
@@ -566,32 +596,17 @@
         },
         {
             "player": {
-                "id": 222665,
-                "name": "마르틴 외데고르",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 93,
-                "position": "CM",
-                "nation": 36,
+                "id": 37576,
+                "name": "호나우두",
+                "season": "NHD",
+                "season_no": 201,
+                "ovr": 106,
+                "position": "ST",
+                "nation": 54,
                 "upgrade": 8,
-                "pay": 10
+                "pay": 20
             },
-            "value": 1090000,
-            "probability": 4.344856564098e-06
-        },
-        {
-            "player": {
-                "id": 277643,
-                "name": "라민 야말",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 95,
-                "position": "RM",
-                "nation": 45,
-                "upgrade": 8,
-                "pay": 11
-            },
-            "value": 1080000,
+            "value": 1050000,
             "probability": 4.344856564098e-06
         },
         {
@@ -606,23 +621,23 @@
                 "upgrade": 8,
                 "pay": 10
             },
-            "value": 1070000,
+            "value": 960000,
             "probability": 4.344856564098e-06
         },
         {
             "player": {
-                "id": 246669,
-                "name": "부카요 사카",
+                "id": 212831,
+                "name": "알리송",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 94,
-                "position": "RW",
-                "nation": 14,
+                "ovr": 95,
+                "position": "GK",
+                "nation": 54,
                 "upgrade": 8,
-                "pay": 11
+                "pay": 10
             },
-            "value": 1070000,
-            "probability": 4.344856564098e-06
+            "value": 950000,
+            "probability": 8.212838627258e-06
         },
         {
             "player": {
@@ -641,21 +656,6 @@
         },
         {
             "player": {
-                "id": 37576,
-                "name": "호나우두",
-                "season": "NHD",
-                "season_no": 201,
-                "ovr": 106,
-                "position": "ST",
-                "nation": 54,
-                "upgrade": 8,
-                "pay": 20
-            },
-            "value": 950000,
-            "probability": 8.212838627258e-06
-        },
-        {
-            "player": {
                 "id": 194404,
                 "name": "네투",
                 "season": "LIVE",
@@ -666,7 +666,7 @@
                 "upgrade": 8,
                 "pay": 5
             },
-            "value": 949000,
+            "value": 917000,
             "probability": 8.212838627258e-06
         },
         {
@@ -711,7 +711,22 @@
                 "upgrade": 8,
                 "pay": 19
             },
-            "value": 900000,
+            "value": 891000,
+            "probability": 8.212838627258e-06
+        },
+        {
+            "player": {
+                "id": 230621,
+                "name": "잔루이지 돈나룸마",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 94,
+                "position": "GK",
+                "nation": 27,
+                "upgrade": 8,
+                "pay": 10
+            },
+            "value": 886000,
             "probability": 8.212838627258e-06
         },
         {
@@ -731,6 +746,66 @@
         },
         {
             "player": {
+                "id": 220901,
+                "name": "다비드 라야",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 93,
+                "position": "GK",
+                "nation": 45,
+                "upgrade": 8,
+                "pay": 8
+            },
+            "value": 877000,
+            "probability": 8.212838627258e-06
+        },
+        {
+            "player": {
+                "id": 241486,
+                "name": "쥘 쿤데",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 91,
+                "position": "RB",
+                "nation": 18,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 869000,
+            "probability": 8.212838627258e-06
+        },
+        {
+            "player": {
+                "id": 215441,
+                "name": "세루 기라시",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 92,
+                "position": "ST",
+                "nation": 18,
+                "upgrade": 8,
+                "pay": 11
+            },
+            "value": 858000,
+            "probability": 1.2928597580975001e-05
+        },
+        {
+            "player": {
+                "id": 243014,
+                "name": "브라이언 음뵈모",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 92,
+                "position": "RW",
+                "nation": 103,
+                "upgrade": 8,
+                "pay": 10
+            },
+            "value": 844000,
+            "probability": 1.2928597580975001e-05
+        },
+        {
+            "player": {
                 "id": 206075,
                 "name": "샘 존스톤",
                 "season": "LIVE",
@@ -742,7 +817,7 @@
                 "pay": 5
             },
             "value": 823000,
-            "probability": 8.212838627258e-06
+            "probability": 1.2928597580975001e-05
         },
         {
             "player": {
@@ -757,7 +832,7 @@
                 "pay": 10
             },
             "value": 821000,
-            "probability": 8.212838627258e-06
+            "probability": 1.2928597580975001e-05
         },
         {
             "player": {
@@ -772,7 +847,7 @@
                 "pay": 10
             },
             "value": 817000,
-            "probability": 8.212838627258e-06
+            "probability": 1.2928597580975001e-05
         },
         {
             "player": {
@@ -821,51 +896,6 @@
         },
         {
             "player": {
-                "id": 186153,
-                "name": "보이치에흐 슈체스니",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 89,
-                "position": "GK",
-                "nation": 37,
-                "upgrade": 8,
-                "pay": 6
-            },
-            "value": 796000,
-            "probability": 1.2928597580975001e-05
-        },
-        {
-            "player": {
-                "id": 241486,
-                "name": "쥘 쿤데",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
-                "position": "RB",
-                "nation": 18,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 790000,
-            "probability": 1.2928597580975001e-05
-        },
-        {
-            "player": {
-                "id": 220901,
-                "name": "다비드 라야",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 93,
-                "position": "GK",
-                "nation": 45,
-                "upgrade": 8,
-                "pay": 8
-            },
-            "value": 790000,
-            "probability": 1.2928597580975001e-05
-        },
-        {
-            "player": {
                 "id": 218667,
                 "name": "베르나르두 실바",
                 "season": "LIVE",
@@ -875,21 +905,6 @@
                 "nation": 38,
                 "upgrade": 8,
                 "pay": 9
-            },
-            "value": 788000,
-            "probability": 1.2928597580975001e-05
-        },
-        {
-            "player": {
-                "id": 215698,
-                "name": "마이크 메냥",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 93,
-                "position": "GK",
-                "nation": 18,
-                "upgrade": 8,
-                "pay": 8
             },
             "value": 788000,
             "probability": 1.2928597580975001e-05
@@ -911,18 +926,33 @@
         },
         {
             "player": {
-                "id": 215441,
-                "name": "세루 기라시",
+                "id": 193080,
+                "name": "데헤아",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 91,
+                "position": "GK",
+                "nation": 45,
+                "upgrade": 8,
+                "pay": 7
+            },
+            "value": 778000,
+            "probability": 1.7538384423371002e-05
+        },
+        {
+            "player": {
+                "id": 240638,
+                "name": "T. 레인더르스",
                 "season": "LIVE",
                 "season_no": 300,
                 "ovr": 92,
-                "position": "ST",
-                "nation": 18,
+                "position": "CM",
+                "nation": 34,
                 "upgrade": 8,
-                "pay": 11
+                "pay": 10
             },
-            "value": 780000,
-            "probability": 1.2928597580975001e-05
+            "value": 777000,
+            "probability": 1.7538384423371002e-05
         },
         {
             "player": {
@@ -941,47 +971,17 @@
         },
         {
             "player": {
-                "id": 243014,
-                "name": "브라이언 음뵈모",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 92,
-                "position": "RW",
-                "nation": 103,
-                "upgrade": 8,
-                "pay": 10
-            },
-            "value": 767000,
-            "probability": 1.7538384423371002e-05
-        },
-        {
-            "player": {
-                "id": 199987,
-                "name": "야스퍼르 실러선",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 85,
-                "position": "GK",
-                "nation": 34,
-                "upgrade": 8,
-                "pay": 5
-            },
-            "value": 734000,
-            "probability": 1.7538384423371002e-05
-        },
-        {
-            "player": {
-                "id": 230621,
-                "name": "잔루이지 돈나룸마",
+                "id": 200389,
+                "name": "얀 오블라크",
                 "season": "LIVE",
                 "season_no": 300,
                 "ovr": 94,
                 "position": "GK",
-                "nation": 27,
+                "nation": 44,
                 "upgrade": 8,
                 "pay": 10
             },
-            "value": 731000,
+            "value": 758000,
             "probability": 1.7538384423371002e-05
         },
         {
@@ -995,21 +995,6 @@
                 "nation": 52,
                 "upgrade": 8,
                 "pay": 11
-            },
-            "value": 722000,
-            "probability": 1.7538384423371002e-05
-        },
-        {
-            "player": {
-                "id": 213331,
-                "name": "요나탄 타",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 93,
-                "position": "CB",
-                "nation": 21,
-                "upgrade": 8,
-                "pay": 10
             },
             "value": 722000,
             "probability": 1.7538384423371002e-05
@@ -1046,21 +1031,6 @@
         },
         {
             "player": {
-                "id": 193080,
-                "name": "데헤아",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
-                "position": "GK",
-                "nation": 45,
-                "upgrade": 8,
-                "pay": 7
-            },
-            "value": 709000,
-            "probability": 1.7538384423371002e-05
-        },
-        {
-            "player": {
                 "id": 20801,
                 "name": "크리스티아누 호날두",
                 "season": "TB",
@@ -1076,33 +1046,18 @@
         },
         {
             "player": {
-                "id": 240638,
-                "name": "T. 레인더르스",
+                "id": 215698,
+                "name": "마이크 메냥",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 92,
-                "position": "CM",
-                "nation": 34,
-                "upgrade": 8,
-                "pay": 10
-            },
-            "value": 706000,
-            "probability": 2.5115390382713e-05
-        },
-        {
-            "player": {
-                "id": 200389,
-                "name": "얀 오블라크",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 94,
+                "ovr": 93,
                 "position": "GK",
-                "nation": 44,
+                "nation": 18,
                 "upgrade": 8,
-                "pay": 10
+                "pay": 8
             },
-            "value": 689000,
-            "probability": 2.5115390382713e-05
+            "value": 704000,
+            "probability": 1.7538384423371002e-05
         },
         {
             "player": {
@@ -1116,7 +1071,37 @@
                 "upgrade": 8,
                 "pay": 11
             },
-            "value": 678000,
+            "value": 685000,
+            "probability": 1.7538384423371002e-05
+        },
+        {
+            "player": {
+                "id": 186153,
+                "name": "보이치에흐 슈체스니",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 89,
+                "position": "GK",
+                "nation": 37,
+                "upgrade": 8,
+                "pay": 6
+            },
+            "value": 679000,
+            "probability": 2.5115390382713e-05
+        },
+        {
+            "player": {
+                "id": 192119,
+                "name": "티보 쿠르투아",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 95,
+                "position": "GK",
+                "nation": 7,
+                "upgrade": 8,
+                "pay": 10
+            },
+            "value": 675000,
             "probability": 2.5115390382713e-05
         },
         {
@@ -1136,32 +1121,32 @@
         },
         {
             "player": {
-                "id": 192119,
-                "name": "티보 쿠르투아",
+                "id": 213331,
+                "name": "요나탄 타",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 95,
-                "position": "GK",
-                "nation": 7,
+                "ovr": 93,
+                "position": "CB",
+                "nation": 21,
                 "upgrade": 8,
                 "pay": 10
             },
-            "value": 659000,
+            "value": 650000,
             "probability": 2.5115390382713e-05
         },
         {
             "player": {
-                "id": 224836,
-                "name": "V. 밀린코비치-사비치",
+                "id": 234378,
+                "name": "데클런 라이스",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 87,
-                "position": "GK",
-                "nation": 51,
+                "ovr": 93,
+                "position": "CDM",
+                "nation": 14,
                 "upgrade": 8,
-                "pay": 6
+                "pay": 10
             },
-            "value": 626000,
+            "value": 645000,
             "probability": 2.5115390382713e-05
         },
         {
@@ -1181,32 +1166,32 @@
         },
         {
             "player": {
-                "id": 206585,
-                "name": "케파",
+                "id": 199987,
+                "name": "야스퍼르 실러선",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 87,
+                "ovr": 85,
                 "position": "GK",
-                "nation": 45,
+                "nation": 34,
                 "upgrade": 8,
                 "pay": 5
             },
-            "value": 592000,
+            "value": 594000,
             "probability": 2.5115390382713e-05
         },
         {
             "player": {
-                "id": 234378,
-                "name": "데클런 라이스",
+                "id": 224836,
+                "name": "V. 밀린코비치-사비치",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 93,
-                "position": "CDM",
-                "nation": 14,
+                "ovr": 87,
+                "position": "GK",
+                "nation": 51,
                 "upgrade": 8,
-                "pay": 10
+                "pay": 6
             },
-            "value": 586000,
+            "value": 585000,
             "probability": 2.5115390382713e-05
         },
         {
@@ -1237,7 +1222,7 @@
                 "pay": 10
             },
             "value": 573000,
-            "probability": 2.972517722511e-05
+            "probability": 2.5115390382713e-05
         },
         {
             "player": {
@@ -1281,7 +1266,22 @@
                 "upgrade": 8,
                 "pay": 7
             },
-            "value": 547000,
+            "value": 542000,
+            "probability": 2.972517722511e-05
+        },
+        {
+            "player": {
+                "id": 206585,
+                "name": "케파",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 87,
+                "position": "GK",
+                "nation": 45,
+                "upgrade": 8,
+                "pay": 5
+            },
+            "value": 533000,
             "probability": 2.972517722511e-05
         },
         {
@@ -1296,22 +1296,7 @@
                 "upgrade": 8,
                 "pay": 7
             },
-            "value": 542000,
-            "probability": 2.972517722511e-05
-        },
-        {
-            "player": {
-                "id": 226753,
-                "name": "앙드레 오나나",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 87,
-                "position": "GK",
-                "nation": 103,
-                "upgrade": 8,
-                "pay": 5
-            },
-            "value": 518000,
+            "value": 526000,
             "probability": 2.972517722511e-05
         },
         {
@@ -1331,21 +1316,6 @@
         },
         {
             "player": {
-                "id": 223885,
-                "name": "알렉산더 뉘벨",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 87,
-                "position": "GK",
-                "nation": 21,
-                "upgrade": 8,
-                "pay": 6
-            },
-            "value": 511000,
-            "probability": 2.972517722511e-05
-        },
-        {
-            "player": {
                 "id": 247090,
                 "name": "엔소 페르난데스",
                 "season": "LIVE",
@@ -1356,22 +1326,7 @@
                 "upgrade": 8,
                 "pay": 10
             },
-            "value": 501000,
-            "probability": 2.972517722511e-05
-        },
-        {
-            "player": {
-                "id": 244260,
-                "name": "다니 올모",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
-                "position": "CAM",
-                "nation": 45,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 492000,
+            "value": 496000,
             "probability": 2.972517722511e-05
         },
         {
@@ -1387,7 +1342,22 @@
                 "pay": 6
             },
             "value": 490000,
-            "probability": 3.9103709076882e-05
+            "probability": 2.972517722511e-05
+        },
+        {
+            "player": {
+                "id": 226753,
+                "name": "앙드레 오나나",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 87,
+                "position": "GK",
+                "nation": 103,
+                "upgrade": 8,
+                "pay": 5
+            },
+            "value": 466000,
+            "probability": 2.972517722511e-05
         },
         {
             "player": {
@@ -1402,6 +1372,21 @@
                 "pay": 9
             },
             "value": 463000,
+            "probability": 2.972517722511e-05
+        },
+        {
+            "player": {
+                "id": 223885,
+                "name": "알렉산더 뉘벨",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 87,
+                "position": "GK",
+                "nation": 21,
+                "upgrade": 8,
+                "pay": 6
+            },
+            "value": 461000,
             "probability": 3.9103709076882e-05
         },
         {
@@ -1416,37 +1401,7 @@
                 "upgrade": 8,
                 "pay": 7
             },
-            "value": 455000,
-            "probability": 3.9103709076882e-05
-        },
-        {
-            "player": {
-                "id": 192505,
-                "name": "로멜루 루카쿠",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
-                "position": "ST",
-                "nation": 7,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 446000,
-            "probability": 3.9103709076882e-05
-        },
-        {
-            "player": {
-                "id": 193105,
-                "name": "알퐁스 아레올라",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 85,
-                "position": "GK",
-                "nation": 18,
-                "upgrade": 8,
-                "pay": 5
-            },
-            "value": 443000,
+            "value": 452000,
             "probability": 3.9103709076882e-05
         },
         {
@@ -1481,21 +1436,6 @@
         },
         {
             "player": {
-                "id": 228093,
-                "name": "마르쿠스 튀람",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
-                "position": "ST",
-                "nation": 18,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 431000,
-            "probability": 3.9103709076882e-05
-        },
-        {
-            "player": {
                 "id": 235794,
                 "name": "에베레치 에제",
                 "season": "LIVE",
@@ -1511,33 +1451,18 @@
         },
         {
             "player": {
-                "id": 235073,
-                "name": "그레고르 코벨",
+                "id": 167495,
+                "name": "마누엘 노이어",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 92,
+                "ovr": 90,
                 "position": "GK",
-                "nation": 47,
+                "nation": 21,
                 "upgrade": 8,
-                "pay": 8
+                "pay": 7
             },
-            "value": 414000,
+            "value": 409000,
             "probability": 3.9103709076882e-05
-        },
-        {
-            "player": {
-                "id": 227796,
-                "name": "크리스천 풀리식",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 92,
-                "position": "RW",
-                "nation": 95,
-                "upgrade": 8,
-                "pay": 10
-            },
-            "value": 408000,
-            "probability": 5.1820362435218e-05
         },
         {
             "player": {
@@ -1552,6 +1477,81 @@
                 "pay": 9
             },
             "value": 406000,
+            "probability": 3.9103709076882e-05
+        },
+        {
+            "player": {
+                "id": 192505,
+                "name": "로멜루 루카쿠",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 91,
+                "position": "ST",
+                "nation": 7,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 401000,
+            "probability": 3.9103709076882e-05
+        },
+        {
+            "player": {
+                "id": 228093,
+                "name": "마르쿠스 튀람",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 91,
+                "position": "ST",
+                "nation": 18,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 388000,
+            "probability": 3.9103709076882e-05
+        },
+        {
+            "player": {
+                "id": 227796,
+                "name": "크리스천 풀리식",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 92,
+                "position": "RW",
+                "nation": 95,
+                "upgrade": 8,
+                "pay": 10
+            },
+            "value": 388000,
+            "probability": 3.9103709076882e-05
+        },
+        {
+            "player": {
+                "id": 235073,
+                "name": "그레고르 코벨",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 92,
+                "position": "GK",
+                "nation": 47,
+                "upgrade": 8,
+                "pay": 8
+            },
+            "value": 373000,
+            "probability": 5.1820362435218e-05
+        },
+        {
+            "player": {
+                "id": 193105,
+                "name": "알퐁스 아레올라",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 85,
+                "position": "GK",
+                "nation": 18,
+                "upgrade": 8,
+                "pay": 5
+            },
+            "value": 371000,
             "probability": 5.1820362435218e-05
         },
         {
@@ -1571,21 +1571,6 @@
         },
         {
             "player": {
-                "id": 167495,
-                "name": "마누엘 노이어",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 90,
-                "position": "GK",
-                "nation": 21,
-                "upgrade": 8,
-                "pay": 7
-            },
-            "value": 353000,
-            "probability": 5.1820362435218e-05
-        },
-        {
-            "player": {
                 "id": 203841,
                 "name": "닉 포프",
                 "season": "LIVE",
@@ -1596,7 +1581,7 @@
                 "upgrade": 8,
                 "pay": 6
             },
-            "value": 333000,
+            "value": 342000,
             "probability": 5.1820362435218e-05
         },
         {
@@ -1611,7 +1596,7 @@
                 "upgrade": 8,
                 "pay": 17
             },
-            "value": 310000,
+            "value": 341000,
             "probability": 5.1820362435218e-05
         },
         {
@@ -1626,7 +1611,7 @@
                 "upgrade": 8,
                 "pay": 10
             },
-            "value": 289000,
+            "value": 318000,
             "probability": 5.1820362435218e-05
         },
         {
@@ -1646,21 +1631,6 @@
         },
         {
             "player": {
-                "id": 272834,
-                "name": "주앙 네베스",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 93,
-                "position": "CM",
-                "nation": 38,
-                "upgrade": 8,
-                "pay": 10
-            },
-            "value": 270000,
-            "probability": 5.1820362435218e-05
-        },
-        {
-            "player": {
                 "id": 190043,
                 "name": "펠레",
                 "season": "NHD",
@@ -1676,18 +1646,33 @@
         },
         {
             "player": {
-                "id": 251517,
-                "name": "그바르디올",
+                "id": 252145,
+                "name": "누누 멘데스",
                 "season": "LIVE",
                 "season_no": 300,
                 "ovr": 92,
-                "position": "CB",
-                "nation": 10,
+                "position": "LB",
+                "nation": 38,
                 "upgrade": 8,
                 "pay": 9
             },
-            "value": 256000,
-            "probability": 8.6155326502724e-05
+            "value": 245000,
+            "probability": 5.1820362435218e-05
+        },
+        {
+            "player": {
+                "id": 204935,
+                "name": "조던 픽포드",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 91,
+                "position": "GK",
+                "nation": 14,
+                "upgrade": 8,
+                "pay": 7
+            },
+            "value": 238000,
+            "probability": 5.1820362435218e-05
         },
         {
             "player": {
@@ -1706,36 +1691,6 @@
         },
         {
             "player": {
-                "id": 252145,
-                "name": "누누 멘데스",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 92,
-                "position": "LB",
-                "nation": 38,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 223000,
-            "probability": 8.6155326502724e-05
-        },
-        {
-            "player": {
-                "id": 204935,
-                "name": "조던 픽포드",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
-                "position": "GK",
-                "nation": 14,
-                "upgrade": 8,
-                "pay": 7
-            },
-            "value": 218000,
-            "probability": 8.6155326502724e-05
-        },
-        {
-            "player": {
                 "id": 256516,
                 "name": "니코 윌리암스",
                 "season": "LIVE",
@@ -1746,22 +1701,7 @@
                 "upgrade": 8,
                 "pay": 10
             },
-            "value": 212000,
-            "probability": 8.6155326502724e-05
-        },
-        {
-            "player": {
-                "id": 236772,
-                "name": "D. 소보슬러이",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 92,
-                "position": "CAM",
-                "nation": 23,
-                "upgrade": 8,
-                "pay": 10
-            },
-            "value": 205000,
+            "value": 193000,
             "probability": 8.6155326502724e-05
         },
         {
@@ -1776,7 +1716,7 @@
                 "upgrade": 8,
                 "pay": 19
             },
-            "value": 204000,
+            "value": 184000,
             "probability": 8.6155326502724e-05
         },
         {
@@ -1791,22 +1731,7 @@
                 "upgrade": 8,
                 "pay": 9
             },
-            "value": 200000,
-            "probability": 8.6155326502724e-05
-        },
-        {
-            "player": {
-                "id": 199503,
-                "name": "그라니트 자카",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
-                "position": "CDM",
-                "nation": 47,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 190000,
+            "value": 180000,
             "probability": 8.6155326502724e-05
         },
         {
@@ -1826,6 +1751,21 @@
         },
         {
             "player": {
+                "id": 256675,
+                "name": "오마르 마르무시",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 91,
+                "position": "LW",
+                "nation": 111,
+                "upgrade": 8,
+                "pay": 10
+            },
+            "value": 161000,
+            "probability": 8.6155326502724e-05
+        },
+        {
+            "player": {
                 "id": 13128,
                 "name": "안드리 셰우첸코",
                 "season": "TT",
@@ -1837,7 +1777,52 @@
                 "pay": 18
             },
             "value": 160000,
-            "probability": 0.00012859715708617
+            "probability": 8.6155326502724e-05
+        },
+        {
+            "player": {
+                "id": 245367,
+                "name": "차비 시몬스",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 90,
+                "position": "CAM",
+                "nation": 34,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 158000,
+            "probability": 8.6155326502724e-05
+        },
+        {
+            "player": {
+                "id": 226271,
+                "name": "파비안 루이스",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 91,
+                "position": "CM",
+                "nation": 45,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 155000,
+            "probability": 8.6155326502724e-05
+        },
+        {
+            "player": {
+                "id": 236772,
+                "name": "D. 소보슬러이",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 92,
+                "position": "CAM",
+                "nation": 23,
+                "upgrade": 8,
+                "pay": 10
+            },
+            "value": 150000,
+            "probability": 8.6155326502724e-05
         },
         {
             "player": {
@@ -1856,13 +1841,13 @@
         },
         {
             "player": {
-                "id": 256675,
-                "name": "오마르 마르무시",
+                "id": 216393,
+                "name": "유리 틸레만스",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 91,
-                "position": "LW",
-                "nation": 111,
+                "ovr": 92,
+                "position": "CM",
+                "nation": 7,
                 "upgrade": 8,
                 "pay": 10
             },
@@ -1886,6 +1871,21 @@
         },
         {
             "player": {
+                "id": 256197,
+                "name": "P. 인카피에",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 91,
+                "position": "CB",
+                "nation": 57,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 132000,
+            "probability": 0.00012859715708617
+        },
+        {
+            "player": {
                 "id": 222481,
                 "name": "로랑 블랑",
                 "season": "TT",
@@ -1896,7 +1896,22 @@
                 "upgrade": 8,
                 "pay": 17
             },
-            "value": 128000,
+            "value": 126000,
+            "probability": 0.00012859715708617
+        },
+        {
+            "player": {
+                "id": 220502,
+                "name": "마티아 차카니",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 91,
+                "position": "LM",
+                "nation": 27,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 125000,
             "probability": 0.00012859715708617
         },
         {
@@ -1912,51 +1927,6 @@
                 "pay": 18
             },
             "value": 123000,
-            "probability": 0.00012859715708617
-        },
-        {
-            "player": {
-                "id": 238095,
-                "name": "니콜라 밀렌코비치",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 90,
-                "position": "CB",
-                "nation": 51,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 122000,
-            "probability": 0.00012859715708617
-        },
-        {
-            "player": {
-                "id": 247394,
-                "name": "데얀 쿨루세브스키",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
-                "position": "CM",
-                "nation": 46,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 122000,
-            "probability": 0.00012859715708617
-        },
-        {
-            "player": {
-                "id": 216393,
-                "name": "유리 틸레만스",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 92,
-                "position": "CM",
-                "nation": 7,
-                "upgrade": 8,
-                "pay": 10
-            },
-            "value": 121000,
             "probability": 0.00012859715708617
         },
         {
@@ -1987,16 +1957,61 @@
                 "pay": 10
             },
             "value": 117000,
+            "probability": 0.00012859715708617
+        },
+        {
+            "player": {
+                "id": 204638,
+                "name": "빌리 오르반",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 91,
+                "position": "CB",
+                "nation": 23,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 117000,
+            "probability": 0.00012859715708617
+        },
+        {
+            "player": {
+                "id": 192181,
+                "name": "마르코 반바스텐",
+                "season": "TT",
+                "season_no": 207,
+                "ovr": 107,
+                "position": "ST",
+                "nation": 34,
+                "upgrade": 8,
+                "pay": 18
+            },
+            "value": 117000,
             "probability": 0.00016483961915742603
         },
         {
             "player": {
-                "id": 220502,
-                "name": "마티아 차카니",
+                "id": 1116,
+                "name": "마르셀 드사이",
+                "season": "TT",
+                "season_no": 207,
+                "ovr": 107,
+                "position": "CB",
+                "nation": 18,
+                "upgrade": 8,
+                "pay": 18
+            },
+            "value": 117000,
+            "probability": 0.00016483961915742603
+        },
+        {
+            "player": {
+                "id": 241096,
+                "name": "산드로 토날리",
                 "season": "LIVE",
                 "season_no": 300,
                 "ovr": 91,
-                "position": "LM",
+                "position": "CDM",
                 "nation": 27,
                 "upgrade": 8,
                 "pay": 9
@@ -2021,45 +2036,30 @@
         },
         {
             "player": {
-                "id": 1116,
-                "name": "마르셀 드사이",
-                "season": "TT",
-                "season_no": 207,
-                "ovr": 107,
-                "position": "CB",
-                "nation": 18,
+                "id": 242964,
+                "name": "앤서니 고든",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 90,
+                "position": "LW",
+                "nation": 14,
                 "upgrade": 8,
-                "pay": 18
+                "pay": 9
             },
             "value": 106000,
             "probability": 0.00016483961915742603
         },
         {
             "player": {
-                "id": 192181,
-                "name": "마르코 반바스텐",
-                "season": "TT",
-                "season_no": 207,
-                "ovr": 107,
-                "position": "ST",
-                "nation": 34,
-                "upgrade": 8,
-                "pay": 18
-            },
-            "value": 106000,
-            "probability": 0.00016483961915742603
-        },
-        {
-            "player": {
-                "id": 138161,
-                "name": "홍명보",
-                "season": "TKI",
-                "season_no": 202,
-                "ovr": 106,
+                "id": 248550,
+                "name": "비비안",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 91,
                 "position": "CB",
-                "nation": 167,
+                "nation": 45,
                 "upgrade": 8,
-                "pay": 18
+                "pay": 9
             },
             "value": 106000,
             "probability": 0.00016483961915742603
@@ -2081,21 +2081,6 @@
         },
         {
             "player": {
-                "id": 241096,
-                "name": "산드로 토날리",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
-                "position": "CDM",
-                "nation": 27,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 104000,
-            "probability": 0.00016483961915742603
-        },
-        {
-            "player": {
                 "id": 10264,
                 "name": "뤼트 반니스텔로이",
                 "season": "TT",
@@ -2111,66 +2096,6 @@
         },
         {
             "player": {
-                "id": 252154,
-                "name": "M. 카르네세키",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
-                "position": "GK",
-                "nation": 27,
-                "upgrade": 8,
-                "pay": 7
-            },
-            "value": 100000,
-            "probability": 0.00016483961915742603
-        },
-        {
-            "player": {
-                "id": 230869,
-                "name": "우나이 시몬",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 90,
-                "position": "GK",
-                "nation": 45,
-                "upgrade": 8,
-                "pay": 7
-            },
-            "value": 99700,
-            "probability": 0.00018947813503920202
-        },
-        {
-            "player": {
-                "id": 216460,
-                "name": "J. 히메네스",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
-                "position": "CB",
-                "nation": 60,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 99000,
-            "probability": 0.00018947813503920202
-        },
-        {
-            "player": {
-                "id": 246104,
-                "name": "R. 흐라벤베르흐",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 92,
-                "position": "CDM",
-                "nation": 34,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 96000,
-            "probability": 0.00018947813503920202
-        },
-        {
-            "player": {
                 "id": 51,
                 "name": "앨런 시어러",
                 "season": "TT",
@@ -2182,7 +2107,7 @@
                 "pay": 17
             },
             "value": 93400,
-            "probability": 0.00018947813503920202
+            "probability": 0.00016483961915742603
         },
         {
             "player": {
@@ -2197,21 +2122,21 @@
                 "pay": 18
             },
             "value": 91000,
-            "probability": 0.00018947813503920202
+            "probability": 0.00016483961915742603
         },
         {
             "player": {
-                "id": 212616,
-                "name": "로드리고 데폴",
+                "id": 230869,
+                "name": "우나이 시몬",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 91,
-                "position": "CM",
-                "nation": 52,
+                "ovr": 90,
+                "position": "GK",
+                "nation": 45,
                 "upgrade": 8,
-                "pay": 10
+                "pay": 7
             },
-            "value": 89300,
+            "value": 89800,
             "probability": 0.00018947813503920202
         },
         {
@@ -2231,17 +2156,17 @@
         },
         {
             "player": {
-                "id": 210008,
-                "name": "아드리앙 라비오",
+                "id": 246104,
+                "name": "R. 흐라벤베르흐",
                 "season": "LIVE",
                 "season_no": 300,
                 "ovr": 92,
-                "position": "CM",
-                "nation": 18,
+                "position": "CDM",
+                "nation": 34,
                 "upgrade": 8,
-                "pay": 10
+                "pay": 9
             },
-            "value": 81300,
+            "value": 86400,
             "probability": 0.00018947813503920202
         },
         {
@@ -2276,6 +2201,36 @@
         },
         {
             "player": {
+                "id": 138161,
+                "name": "홍명보",
+                "season": "TKI",
+                "season_no": 202,
+                "ovr": 106,
+                "position": "CB",
+                "nation": 167,
+                "upgrade": 8,
+                "pay": 18
+            },
+            "value": 79400,
+            "probability": 0.00018947813503920202
+        },
+        {
+            "player": {
+                "id": 243952,
+                "name": "안드리 루닌",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 88,
+                "position": "GK",
+                "nation": 49,
+                "upgrade": 8,
+                "pay": 6
+            },
+            "value": 78200,
+            "probability": 0.00018947813503920202
+        },
+        {
+            "player": {
                 "id": 7512,
                 "name": "에르난 크레스포",
                 "season": "TT",
@@ -2287,7 +2242,22 @@
                 "pay": 18
             },
             "value": 77600,
-            "probability": 0.000225084764442542
+            "probability": 0.00018947813503920202
+        },
+        {
+            "player": {
+                "id": 193698,
+                "name": "올리버 바우만",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 91,
+                "position": "GK",
+                "nation": 21,
+                "upgrade": 8,
+                "pay": 7
+            },
+            "value": 77200,
+            "probability": 0.00018947813503920202
         },
         {
             "player": {
@@ -2302,6 +2272,21 @@
                 "pay": 9
             },
             "value": 74200,
+            "probability": 0.00018947813503920202
+        },
+        {
+            "player": {
+                "id": 210008,
+                "name": "아드리앙 라비오",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 92,
+                "position": "CM",
+                "nation": 18,
+                "upgrade": 8,
+                "pay": 10
+            },
+            "value": 73200,
             "probability": 0.000225084764442542
         },
         {
@@ -2316,22 +2301,7 @@
                 "upgrade": 8,
                 "pay": 9
             },
-            "value": 73200,
-            "probability": 0.000225084764442542
-        },
-        {
-            "player": {
-                "id": 51539,
-                "name": "에드윈 반데르사르",
-                "season": "NHD",
-                "season_no": 201,
-                "ovr": 95,
-                "position": "GK",
-                "nation": 34,
-                "upgrade": 8,
-                "pay": 12
-            },
-            "value": 64200,
+            "value": 72500,
             "probability": 0.000225084764442542
         },
         {
@@ -2346,82 +2316,22 @@
                 "upgrade": 8,
                 "pay": 19
             },
-            "value": 58000,
+            "value": 70200,
             "probability": 0.000225084764442542
         },
         {
             "player": {
-                "id": 193698,
-                "name": "올리버 바우만",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
+                "id": 51539,
+                "name": "에드윈 반데르사르",
+                "season": "NHD",
+                "season_no": 201,
+                "ovr": 95,
                 "position": "GK",
-                "nation": 21,
+                "nation": 34,
                 "upgrade": 8,
-                "pay": 7
+                "pay": 12
             },
-            "value": 54700,
-            "probability": 0.000225084764442542
-        },
-        {
-            "player": {
-                "id": 185122,
-                "name": "페테르 굴라치",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
-                "position": "GK",
-                "nation": 23,
-                "upgrade": 8,
-                "pay": 7
-            },
-            "value": 52900,
-            "probability": 0.000225084764442542
-        },
-        {
-            "player": {
-                "id": 237086,
-                "name": "김민재",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 90,
-                "position": "CB",
-                "nation": 167,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 47400,
-            "probability": 0.000225084764442542
-        },
-        {
-            "player": {
-                "id": 210035,
-                "name": "그리말도",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
-                "position": "LM",
-                "nation": 45,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 47000,
-            "probability": 0.000225084764442542
-        },
-        {
-            "player": {
-                "id": 190871,
-                "name": "네이마르 Jr.",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
-                "position": "CAM",
-                "nation": 54,
-                "upgrade": 8,
-                "pay": 13
-            },
-            "value": 46100,
+            "value": 66200,
             "probability": 0.000225084764442542
         },
         {
@@ -2436,38 +2346,83 @@
                 "upgrade": 8,
                 "pay": 9
             },
-            "value": 45900,
-            "probability": 0.00027483867070703
+            "value": 61900,
+            "probability": 0.000225084764442542
         },
         {
             "player": {
-                "id": 240950,
-                "name": "페드루 곤살베스",
+                "id": 234236,
+                "name": "파트리크 시크",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 90,
-                "position": "LM",
-                "nation": 38,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 39300,
-            "probability": 0.00027483867070703
-        },
-        {
-            "player": {
-                "id": 200104,
-                "name": "손흥민",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 90,
+                "ovr": 91,
                 "position": "ST",
+                "nation": 12,
+                "upgrade": 8,
+                "pay": 10
+            },
+            "value": 59900,
+            "probability": 0.000225084764442542
+        },
+        {
+            "player": {
+                "id": 237086,
+                "name": "김민재",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 90,
+                "position": "CB",
                 "nation": 167,
                 "upgrade": 8,
                 "pay": 9
             },
-            "value": 36400,
-            "probability": 0.00027483867070703
+            "value": 58600,
+            "probability": 0.000225084764442542
+        },
+        {
+            "player": {
+                "id": 243580,
+                "name": "로이스 오펜다",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 90,
+                "position": "ST",
+                "nation": 7,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 57000,
+            "probability": 0.000225084764442542
+        },
+        {
+            "player": {
+                "id": 224987,
+                "name": "이반 프로베델",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 90,
+                "position": "GK",
+                "nation": 27,
+                "upgrade": 8,
+                "pay": 6
+            },
+            "value": 55900,
+            "probability": 0.000225084764442542
+        },
+        {
+            "player": {
+                "id": 190871,
+                "name": "네이마르 Jr.",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 91,
+                "position": "CAM",
+                "nation": 54,
+                "upgrade": 8,
+                "pay": 13
+            },
+            "value": 45200,
+            "probability": 0.000225084764442542
         },
         {
             "player": {
@@ -2481,82 +2436,22 @@
                 "upgrade": 8,
                 "pay": 9
             },
-            "value": 35600,
+            "value": 43200,
             "probability": 0.00027483867070703
         },
         {
             "player": {
-                "id": 243780,
-                "name": "이강인",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 88,
-                "position": "RW",
-                "nation": 167,
-                "upgrade": 8,
-                "pay": 8
-            },
-            "value": 31900,
-            "probability": 0.00027483867070703
-        },
-        {
-            "player": {
-                "id": 48940,
-                "name": "페트르 체흐",
-                "season": "TB",
-                "season_no": 206,
-                "ovr": 99,
-                "position": "GK",
-                "nation": 12,
-                "upgrade": 8,
-                "pay": 12
-            },
-            "value": 31200,
-            "probability": 0.00027483867070703
-        },
-        {
-            "player": {
-                "id": 231677,
-                "name": "마커스 래시포드",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 89,
-                "position": "LM",
-                "nation": 14,
-                "upgrade": 8,
-                "pay": 8
-            },
-            "value": 30300,
-            "probability": 0.00027483867070703
-        },
-        {
-            "player": {
-                "id": 240243,
-                "name": "마테우스 쿠냐",
+                "id": 185122,
+                "name": "페테르 굴라치",
                 "season": "LIVE",
                 "season_no": 300,
                 "ovr": 91,
-                "position": "CAM",
-                "nation": 54,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 29500,
-            "probability": 0.00027483867070703
-        },
-        {
-            "player": {
-                "id": 192119,
-                "name": "티보 쿠르투아",
-                "season": "TB",
-                "season_no": 206,
-                "ovr": 102,
                 "position": "GK",
-                "nation": 7,
+                "nation": 23,
                 "upgrade": 8,
-                "pay": 13
+                "pay": 7
             },
-            "value": 29200,
+            "value": 40700,
             "probability": 0.00027483867070703
         },
         {
@@ -2571,73 +2466,148 @@
                 "upgrade": 8,
                 "pay": 9
             },
-            "value": 29200,
+            "value": 38500,
             "probability": 0.00027483867070703
         },
         {
             "player": {
-                "id": 235243,
-                "name": "마테이스 더리흐트",
+                "id": 199641,
+                "name": "마츠 셀스",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 90,
-                "position": "CB",
-                "nation": 34,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 28600,
-            "probability": 0.000711019880897944
-        },
-        {
-            "player": {
-                "id": 234577,
-                "name": "디오구 코스타",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 90,
+                "ovr": 89,
                 "position": "GK",
-                "nation": 38,
+                "nation": 7,
                 "upgrade": 8,
                 "pay": 6
             },
-            "value": 28300,
-            "probability": 0.000711019880897944
+            "value": 36200,
+            "probability": 0.00027483867070703
         },
         {
             "player": {
-                "id": 269087,
-                "name": "레니 요로",
+                "id": 243780,
+                "name": "이강인",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 86,
-                "position": "CB",
-                "nation": 18,
+                "ovr": 88,
+                "position": "RW",
+                "nation": 167,
                 "upgrade": 8,
-                "pay": 7
+                "pay": 8
             },
-            "value": 28000,
-            "probability": 0.000711019880897944
+            "value": 35500,
+            "probability": 0.00027483867070703
         },
         {
             "player": {
-                "id": 244675,
-                "name": "산세트",
+                "id": 257289,
+                "name": "위고 에키티케",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 90,
-                "position": "CAM",
-                "nation": 45,
+                "ovr": 91,
+                "position": "ST",
+                "nation": 18,
                 "upgrade": 8,
                 "pay": 9
             },
-            "value": 27700,
+            "value": 34900,
+            "probability": 0.00027483867070703
+        },
+        {
+            "player": {
+                "id": 48940,
+                "name": "페트르 체흐",
+                "season": "TB",
+                "season_no": 206,
+                "ovr": 99,
+                "position": "GK",
+                "nation": 12,
+                "upgrade": 8,
+                "pay": 12
+            },
+            "value": 33000,
+            "probability": 0.00027483867070703
+        },
+        {
+            "player": {
+                "id": 192119,
+                "name": "티보 쿠르투아",
+                "season": "TB",
+                "season_no": 206,
+                "ovr": 102,
+                "position": "GK",
+                "nation": 7,
+                "upgrade": 8,
+                "pay": 13
+            },
+            "value": 32200,
+            "probability": 0.00027483867070703
+        },
+        {
+            "player": {
+                "id": 225645,
+                "name": "G. 데아라스카에타",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 91,
+                "position": "CAM",
+                "nation": null,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 31000,
+            "probability": 0.00027483867070703
+        },
+        {
+            "player": {
+                "id": 191208,
+                "name": "차범근",
+                "season": "TKI",
+                "season_no": 202,
+                "ovr": 106,
+                "position": "CF",
+                "nation": 167,
+                "upgrade": 8,
+                "pay": 18
+            },
+            "value": 31000,
+            "probability": 0.00027483867070703
+        },
+        {
+            "player": {
+                "id": 263578,
+                "name": "발데",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 89,
+                "position": "LB",
+                "nation": 45,
+                "upgrade": 8,
+                "pay": 8
+            },
+            "value": 30300,
             "probability": 0.000711019880897944
         },
         {
             "player": {
-                "id": 227678,
-                "name": "에즈리 콘사",
+                "id": 201269,
+                "name": "F. 뢴노우",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 87,
+                "position": "GK",
+                "nation": 13,
+                "upgrade": 8,
+                "pay": 5
+            },
+            "value": 30200,
+            "probability": 0.000711019880897944
+        },
+        {
+            "player": {
+                "id": 241159,
+                "name": "마크 게히",
                 "season": "LIVE",
                 "season_no": 300,
                 "ovr": 91,
@@ -2646,22 +2616,37 @@
                 "upgrade": 8,
                 "pay": 9
             },
-            "value": 27000,
+            "value": 29900,
             "probability": 0.000711019880897944
         },
         {
             "player": {
-                "id": 232656,
-                "name": "테오 에르난데스",
+                "id": 240243,
+                "name": "마테우스 쿠냐",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 90,
-                "position": "LB",
-                "nation": 18,
+                "ovr": 91,
+                "position": "CAM",
+                "nation": 54,
                 "upgrade": 8,
                 "pay": 9
             },
-            "value": 26800,
+            "value": 29500,
+            "probability": 0.000711019880897944
+        },
+        {
+            "player": {
+                "id": 200104,
+                "name": "손흥민",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 90,
+                "position": "ST",
+                "nation": 167,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 29200,
             "probability": 0.000711019880897944
         },
         {
@@ -2676,7 +2661,67 @@
                 "upgrade": 8,
                 "pay": 9
             },
-            "value": 26300,
+            "value": 29000,
+            "probability": 0.000711019880897944
+        },
+        {
+            "player": {
+                "id": 232656,
+                "name": "테오 에르난데스",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 90,
+                "position": "LB",
+                "nation": 18,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 28600,
+            "probability": 0.000711019880897944
+        },
+        {
+            "player": {
+                "id": 203574,
+                "name": "존 스톤스",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 90,
+                "position": "CB",
+                "nation": 14,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 28100,
+            "probability": 0.000711019880897944
+        },
+        {
+            "player": {
+                "id": 210514,
+                "name": "주앙 칸셀루",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 89,
+                "position": "RB",
+                "nation": 38,
+                "upgrade": 8,
+                "pay": 8
+            },
+            "value": 27900,
+            "probability": 0.000711019880897944
+        },
+        {
+            "player": {
+                "id": 241637,
+                "name": "A. 추아메니",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 91,
+                "position": "CDM",
+                "nation": 18,
+                "upgrade": 8,
+                "pay": 8
+            },
+            "value": 27000,
             "probability": 0.000711019880897944
         },
         {
@@ -2691,38 +2736,23 @@
                 "upgrade": 8,
                 "pay": 17
             },
-            "value": 25900,
-            "probability": 0.000711019880897944
+            "value": 26500,
+            "probability": 0.00242093288309316
         },
         {
             "player": {
-                "id": 225645,
-                "name": "G. 데아라스카에타",
+                "id": 236987,
+                "name": "부바카르 카마라",
                 "season": "LIVE",
                 "season_no": 300,
                 "ovr": 91,
-                "position": "CAM",
-                "nation": null,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 25600,
-            "probability": 0.000711019880897944
-        },
-        {
-            "player": {
-                "id": 230666,
-                "name": "가브리엘 제주스",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 88,
-                "position": "ST",
-                "nation": 54,
+                "position": "CDM",
+                "nation": 18,
                 "upgrade": 8,
                 "pay": 8
             },
-            "value": 25400,
-            "probability": 0.000711019880897944
+            "value": 26100,
+            "probability": 0.00242093288309316
         },
         {
             "player": {
@@ -2736,67 +2766,7 @@
                 "upgrade": 8,
                 "pay": 5
             },
-            "value": 25400,
-            "probability": 0.00242093288309316
-        },
-        {
-            "player": {
-                "id": 263578,
-                "name": "발데",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 89,
-                "position": "LB",
-                "nation": 45,
-                "upgrade": 8,
-                "pay": 8
-            },
-            "value": 25300,
-            "probability": 0.00242093288309316
-        },
-        {
-            "player": {
-                "id": 191208,
-                "name": "차범근",
-                "season": "TKI",
-                "season_no": 202,
-                "ovr": 106,
-                "position": "CF",
-                "nation": 167,
-                "upgrade": 8,
-                "pay": 18
-            },
-            "value": 25200,
-            "probability": 0.00242093288309316
-        },
-        {
-            "player": {
-                "id": 229582,
-                "name": "잔루카 만치니",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
-                "position": "CB",
-                "nation": 27,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 24300,
-            "probability": 0.00242093288309316
-        },
-        {
-            "player": {
-                "id": 167495,
-                "name": "마누엘 노이어",
-                "season": "TB",
-                "season_no": 206,
-                "ovr": 104,
-                "position": "GK",
-                "nation": 21,
-                "upgrade": 8,
-                "pay": 15
-            },
-            "value": 23800,
+            "value": 25600,
             "probability": 0.00242093288309316
         },
         {
@@ -2811,37 +2781,7 @@
                 "upgrade": 8,
                 "pay": 9
             },
-            "value": 23400,
-            "probability": 0.00242093288309316
-        },
-        {
-            "player": {
-                "id": 232488,
-                "name": "크리스티안 로메로",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
-                "position": "CB",
-                "nation": 52,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 23200,
-            "probability": 0.00242093288309316
-        },
-        {
-            "player": {
-                "id": 210514,
-                "name": "주앙 칸셀루",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 89,
-                "position": "RB",
-                "nation": 38,
-                "upgrade": 8,
-                "pay": 8
-            },
-            "value": 23200,
+            "value": 25500,
             "probability": 0.00242093288309316
         },
         {
@@ -2856,8 +2796,98 @@
                 "upgrade": 8,
                 "pay": 9
             },
-            "value": 23100,
+            "value": 25400,
             "probability": 0.00242093288309316
+        },
+        {
+            "player": {
+                "id": 244669,
+                "name": "모르텐 휠만",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 90,
+                "position": "CDM",
+                "nation": 13,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 25300,
+            "probability": 0.00242093288309316
+        },
+        {
+            "player": {
+                "id": 204963,
+                "name": "카르바할",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 90,
+                "position": "RB",
+                "nation": 45,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 25200,
+            "probability": 0.00242093288309316
+        },
+        {
+            "player": {
+                "id": 167495,
+                "name": "마누엘 노이어",
+                "season": "TB",
+                "season_no": 206,
+                "ovr": 104,
+                "position": "GK",
+                "nation": 21,
+                "upgrade": 8,
+                "pay": 15
+            },
+            "value": 25100,
+            "probability": 0.00242093288309316
+        },
+        {
+            "player": {
+                "id": 192563,
+                "name": "베른트 레노",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 88,
+                "position": "GK",
+                "nation": 21,
+                "upgrade": 8,
+                "pay": 6
+            },
+            "value": 24300,
+            "probability": 0.00242093288309316
+        },
+        {
+            "player": {
+                "id": 229582,
+                "name": "잔루카 만치니",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 91,
+                "position": "CB",
+                "nation": 27,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 24100,
+            "probability": 0.00242093288309316
+        },
+        {
+            "player": {
+                "id": 270409,
+                "name": "사비뉴",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 90,
+                "position": "RW",
+                "nation": 54,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 24000,
+            "probability": 0.00505614137527427
         },
         {
             "player": {
@@ -2872,66 +2902,21 @@
                 "pay": 9
             },
             "value": 23100,
-            "probability": 0.00242093288309316
-        },
-        {
-            "player": {
-                "id": 241159,
-                "name": "마크 게히",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
-                "position": "CB",
-                "nation": 14,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 23000,
             "probability": 0.00505614137527427
         },
         {
             "player": {
-                "id": 244669,
-                "name": "모르텐 휠만",
+                "id": 264240,
+                "name": "가비",
                 "season": "LIVE",
                 "season_no": 300,
                 "ovr": 90,
-                "position": "CDM",
-                "nation": 13,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 23000,
-            "probability": 0.00505614137527427
-        },
-        {
-            "player": {
-                "id": 186942,
-                "name": "일카이 귄도안",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 88,
                 "position": "CM",
-                "nation": 21,
+                "nation": 45,
                 "upgrade": 8,
                 "pay": 8
             },
-            "value": 23000,
-            "probability": 0.00505614137527427
-        },
-        {
-            "player": {
-                "id": 213648,
-                "name": "P. 호이비에르",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 89,
-                "position": "CDM",
-                "nation": 13,
-                "upgrade": 8,
-                "pay": 8
-            },
-            "value": 23000,
+            "value": 22900,
             "probability": 0.00505614137527427
         },
         {
@@ -2946,52 +2931,67 @@
                 "upgrade": 8,
                 "pay": 9
             },
-            "value": 22800,
+            "value": 22900,
             "probability": 0.00505614137527427
         },
         {
             "player": {
-                "id": 204963,
-                "name": "카르바할",
+                "id": 177683,
+                "name": "얀 조머",
+                "season": "TB",
+                "season_no": 206,
+                "ovr": 96,
+                "position": "GK",
+                "nation": 47,
+                "upgrade": 8,
+                "pay": 11
+            },
+            "value": 22000,
+            "probability": 0.00505614137527427
+        },
+        {
+            "player": {
+                "id": 220031,
+                "name": "올리버 맥버니",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 90,
-                "position": "RB",
-                "nation": 45,
+                "ovr": 83,
+                "position": "ST",
+                "nation": 42,
                 "upgrade": 8,
-                "pay": 9
+                "pay": 5
             },
-            "value": 21900,
+            "value": 22000,
             "probability": 0.00505614137527427
         },
         {
             "player": {
-                "id": 221671,
-                "name": "이재성",
+                "id": 210257,
+                "name": "에데르송",
+                "season": "TB",
+                "season_no": 206,
+                "ovr": 99,
+                "position": "GK",
+                "nation": 54,
+                "upgrade": 8,
+                "pay": 12
+            },
+            "value": 22000,
+            "probability": 0.00505614137527427
+        },
+        {
+            "player": {
+                "id": 234574,
+                "name": "디오구 달로",
                 "season": "LIVE",
                 "season_no": 300,
                 "ovr": 85,
-                "position": "CAM",
-                "nation": 167,
+                "position": "RB",
+                "nation": 38,
                 "upgrade": 8,
-                "pay": 6
+                "pay": 7
             },
-            "value": 21800,
-            "probability": 0.00505614137527427
-        },
-        {
-            "player": {
-                "id": 241684,
-                "name": "황선홍",
-                "season": "TKI",
-                "season_no": 202,
-                "ovr": 106,
-                "position": "ST",
-                "nation": 167,
-                "upgrade": 8,
-                "pay": 18
-            },
-            "value": 21800,
+            "value": 21700,
             "probability": 0.00505614137527427
         },
         {
@@ -3006,98 +3006,23 @@
                 "upgrade": 8,
                 "pay": 10
             },
-            "value": 21300,
+            "value": 21600,
             "probability": 0.00505614137527427
         },
         {
             "player": {
-                "id": 193747,
-                "name": "코케",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 88,
-                "position": "CM",
-                "nation": 45,
+                "id": 192448,
+                "name": "M. 테어슈테겐",
+                "season": "TB",
+                "season_no": 206,
+                "ovr": 100,
+                "position": "GK",
+                "nation": 21,
                 "upgrade": 8,
-                "pay": 8
+                "pay": 13
             },
-            "value": 21300,
+            "value": 21600,
             "probability": 0.00505614137527427
-        },
-        {
-            "player": {
-                "id": 224293,
-                "name": "후벵 네베스",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 91,
-                "position": "CDM",
-                "nation": 38,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 21300,
-            "probability": 0.012978934333851399
-        },
-        {
-            "player": {
-                "id": 257279,
-                "name": "알렉스 바에나",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 90,
-                "position": "LM",
-                "nation": 45,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 21100,
-            "probability": 0.012978934333851399
-        },
-        {
-            "player": {
-                "id": 230918,
-                "name": "트레보 찰로바",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 88,
-                "position": "CB",
-                "nation": 14,
-                "upgrade": 8,
-                "pay": 7
-            },
-            "value": 20900,
-            "probability": 0.012978934333851399
-        },
-        {
-            "player": {
-                "id": 239231,
-                "name": "마르크 쿠쿠레야",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 90,
-                "position": "LB",
-                "nation": 45,
-                "upgrade": 8,
-                "pay": 8
-            },
-            "value": 20900,
-            "probability": 0.012978934333851399
-        },
-        {
-            "player": {
-                "id": 264240,
-                "name": "가비",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 90,
-                "position": "CM",
-                "nation": 45,
-                "upgrade": 8,
-                "pay": 8
-            },
-            "value": 20800,
-            "probability": 0.012978934333851399
         },
         {
             "player": {
@@ -3111,38 +3036,173 @@
                 "upgrade": 8,
                 "pay": 11
             },
+            "value": 21500,
+            "probability": 0.012978934333851399
+        },
+        {
+            "player": {
+                "id": 250961,
+                "name": "J. 지르크지",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 86,
+                "position": "ST",
+                "nation": 34,
+                "upgrade": 8,
+                "pay": 7
+            },
+            "value": 21300,
+            "probability": 0.012978934333851399
+        },
+        {
+            "player": {
+                "id": 222492,
+                "name": "리로이 사네",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 90,
+                "position": "RM",
+                "nation": 21,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 21300,
+            "probability": 0.012978934333851399
+        },
+        {
+            "player": {
+                "id": 213345,
+                "name": "킹슬레 코망",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 90,
+                "position": "LM",
+                "nation": 18,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 21200,
+            "probability": 0.012978934333851399
+        },
+        {
+            "player": {
+                "id": 248695,
+                "name": "웨슬리 포파나",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 88,
+                "position": "CB",
+                "nation": 18,
+                "upgrade": 8,
+                "pay": 7
+            },
+            "value": 21200,
+            "probability": 0.012978934333851399
+        },
+        {
+            "player": {
+                "id": 202556,
+                "name": "멤피스 데파이",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 89,
+                "position": "ST",
+                "nation": 34,
+                "upgrade": 8,
+                "pay": 8
+            },
+            "value": 21100,
+            "probability": 0.012978934333851399
+        },
+        {
+            "player": {
+                "id": 186942,
+                "name": "일카이 귄도안",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 88,
+                "position": "CM",
+                "nation": 21,
+                "upgrade": 8,
+                "pay": 8
+            },
+            "value": 21100,
+            "probability": 0.012978934333851399
+        },
+        {
+            "player": {
+                "id": 206585,
+                "name": "케파",
+                "season": "TB",
+                "season_no": 206,
+                "ovr": 96,
+                "position": "GK",
+                "nation": 45,
+                "upgrade": 8,
+                "pay": 11
+            },
             "value": 20500,
             "probability": 0.012978934333851399
         },
         {
             "player": {
-                "id": 177683,
-                "name": "얀 조머",
+                "id": 212831,
+                "name": "알리송",
+                "season": "TT",
+                "season_no": 207,
+                "ovr": 102,
+                "position": "GK",
+                "nation": 54,
+                "upgrade": 8,
+                "pay": 13
+            },
+            "value": 20500,
+            "probability": 0.012978934333851399
+        },
+        {
+            "player": {
+                "id": 167948,
+                "name": "위고 요리스",
                 "season": "TB",
                 "season_no": 206,
-                "ovr": 96,
+                "ovr": 100,
                 "position": "GK",
-                "nation": 47,
+                "nation": 18,
                 "upgrade": 8,
                 "pay": 11
             },
-            "value": 20200,
+            "value": 20500,
             "probability": 0.012978934333851399
+        },
+        {
+            "player": {
+                "id": 192119,
+                "name": "티보 쿠르투아",
+                "season": "NHD",
+                "season_no": 201,
+                "ovr": 97,
+                "position": "GK",
+                "nation": 7,
+                "upgrade": 8,
+                "pay": 13
+            },
+            "value": 20300,
+            "probability": 0.0193928963714619
         },
         {
             "player": {
                 "id": 210257,
                 "name": "에데르송",
-                "season": "TB",
-                "season_no": 206,
-                "ovr": 99,
+                "season": "TT",
+                "season_no": 207,
+                "ovr": 100,
                 "position": "GK",
                 "nation": 54,
                 "upgrade": 8,
                 "pay": 12
             },
             "value": 20200,
-            "probability": 0.012978934333851399
+            "probability": 0.0193928963714619
         },
         {
             "player": {
@@ -3157,184 +3217,124 @@
                 "pay": 5
             },
             "value": 20200,
-            "probability": 0.012978934333851399
-        },
-        {
-            "player": {
-                "id": 203263,
-                "name": "해리 매과이어",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 88,
-                "position": "CB",
-                "nation": 14,
-                "upgrade": 8,
-                "pay": 8
-            },
-            "value": 20000,
-            "probability": 0.012978934333851399
-        },
-        {
-            "player": {
-                "id": 270338,
-                "name": "빌라라사",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 75,
-                "position": "LB",
-                "nation": null,
-                "upgrade": 8,
-                "pay": 5
-            },
-            "value": 20000,
             "probability": 0.0193928963714619
         },
         {
             "player": {
-                "id": 192448,
-                "name": "M. 테어슈테겐",
-                "season": "TB",
-                "season_no": 206,
-                "ovr": 100,
-                "position": "GK",
-                "nation": 21,
+                "id": 241684,
+                "name": "황선홍",
+                "season": "TKI",
+                "season_no": 202,
+                "ovr": 106,
+                "position": "ST",
+                "nation": 167,
                 "upgrade": 8,
-                "pay": 13
+                "pay": 18
             },
-            "value": 19900,
+            "value": 20200,
             "probability": 0.0193928963714619
         },
         {
             "player": {
-                "id": 279128,
-                "name": "T. 니오니",
+                "id": 217141,
+                "name": "보지냐",
                 "season": "LIVE",
                 "season_no": 300,
                 "ovr": 74,
-                "position": "CM",
+                "position": "GK",
                 "nation": null,
                 "upgrade": 8,
                 "pay": 5
             },
-            "value": 19700,
+            "value": 19800,
             "probability": 0.0193928963714619
         },
         {
             "player": {
-                "id": 210257,
-                "name": "에데르송",
-                "season": "TT",
-                "season_no": 207,
-                "ovr": 100,
-                "position": "GK",
-                "nation": 54,
-                "upgrade": 8,
-                "pay": 12
-            },
-            "value": 19600,
-            "probability": 0.0193928963714619
-        },
-        {
-            "player": {
-                "id": 167948,
-                "name": "위고 요리스",
+                "id": 203841,
+                "name": "닉 포프",
                 "season": "TB",
                 "season_no": 206,
-                "ovr": 100,
+                "ovr": 91,
                 "position": "GK",
-                "nation": 18,
+                "nation": 14,
                 "upgrade": 8,
-                "pay": 11
+                "pay": 7
             },
             "value": 19500,
             "probability": 0.0193928963714619
         },
         {
             "player": {
-                "id": 212831,
-                "name": "알리송",
-                "season": "TT",
-                "season_no": 207,
-                "ovr": 102,
-                "position": "GK",
-                "nation": 54,
+                "id": 246923,
+                "name": "제이컵 램지",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 85,
+                "position": "CM",
+                "nation": 14,
                 "upgrade": 8,
-                "pay": 13
+                "pay": 7
             },
             "value": 19400,
             "probability": 0.0193928963714619
         },
         {
             "player": {
-                "id": 206585,
-                "name": "케파",
+                "id": 48940,
+                "name": "페트르 체흐",
+                "season": "TT",
+                "season_no": 207,
+                "ovr": 104,
+                "position": "GK",
+                "nation": 12,
+                "upgrade": 8,
+                "pay": 15
+            },
+            "value": 19300,
+            "probability": 0.0193928963714619
+        },
+        {
+            "player": {
+                "id": 5479,
+                "name": "카시야스",
                 "season": "TB",
                 "season_no": 206,
                 "ovr": 96,
                 "position": "GK",
                 "nation": 45,
                 "upgrade": 8,
-                "pay": 11
+                "pay": 10
             },
-            "value": 19300,
+            "value": 19200,
             "probability": 0.0193928963714619
         },
         {
             "player": {
-                "id": 260592,
-                "name": "베냐민 셰슈코",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 89,
-                "position": "ST",
-                "nation": 44,
+                "id": 167495,
+                "name": "마누엘 노이어",
+                "season": "NHD",
+                "season_no": 201,
+                "ovr": 100,
+                "position": "GK",
+                "nation": 21,
                 "upgrade": 8,
-                "pay": 8
+                "pay": 15
             },
-            "value": 19300,
+            "value": 19200,
             "probability": 0.0193928963714619
         },
         {
             "player": {
-                "id": 245037,
-                "name": "에릭 가르시아",
+                "id": 85168,
+                "name": "김예건",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 90,
-                "position": "CB",
-                "nation": 45,
+                "ovr": 62,
+                "position": "CAM",
+                "nation": null,
                 "upgrade": 8,
-                "pay": 9
-            },
-            "value": 19300,
-            "probability": 0.0193928963714619
-        },
-        {
-            "player": {
-                "id": 255069,
-                "name": "니코 곤살레스",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 89,
-                "position": "CDM",
-                "nation": 45,
-                "upgrade": 8,
-                "pay": 8
-            },
-            "value": 19300,
-            "probability": 0.0193928963714619
-        },
-        {
-            "player": {
-                "id": 238616,
-                "name": "페드루 네투",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 89,
-                "position": "RM",
-                "nation": 38,
-                "upgrade": 8,
-                "pay": 9
+                "pay": 5
             },
             "value": 19100,
             "probability": 0.0193928963714619
@@ -3356,58 +3356,13 @@
         },
         {
             "player": {
-                "id": 223959,
-                "name": "루카스 토레이라",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 90,
-                "position": "CDM",
-                "nation": 60,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 19100,
-            "probability": 0.0193928963714619
-        },
-        {
-            "player": {
-                "id": 220031,
-                "name": "올리버 맥버니",
+                "id": 214436,
+                "name": "파울로 디아스",
                 "season": "LIVE",
                 "season_no": 300,
                 "ovr": 83,
-                "position": "ST",
-                "nation": 42,
-                "upgrade": 8,
-                "pay": 5
-            },
-            "value": 19100,
-            "probability": 0.0193928963714619
-        },
-        {
-            "player": {
-                "id": 261277,
-                "name": "J. 브라운",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 69,
-                "position": "RB",
-                "nation": null,
-                "upgrade": 8,
-                "pay": 5
-            },
-            "value": 19100,
-            "probability": 0.0193928963714619
-        },
-        {
-            "player": {
-                "id": 224003,
-                "name": "세르히오 에레라",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 87,
-                "position": "GK",
-                "nation": 45,
+                "position": "CB",
+                "nation": 55,
                 "upgrade": 8,
                 "pay": 6
             },
@@ -3416,77 +3371,137 @@
         },
         {
             "player": {
-                "id": 231521,
-                "name": "E. 팔라시오스",
+                "id": 210047,
+                "name": "파비안 셰어",
                 "season": "LIVE",
                 "season_no": 300,
                 "ovr": 90,
-                "position": "CM",
+                "position": "CB",
+                "nation": 47,
+                "upgrade": 8,
+                "pay": 8
+            },
+            "value": 19100,
+            "probability": 0.0193928963714619
+        },
+        {
+            "player": {
+                "id": 245371,
+                "name": "티아고 알마다",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 88,
+                "position": "CAM",
                 "nation": 52,
                 "upgrade": 8,
                 "pay": 8
+            },
+            "value": 19100,
+            "probability": 0.0193928963714619
+        },
+        {
+            "player": {
+                "id": 167495,
+                "name": "마누엘 노이어",
+                "season": "TT",
+                "season_no": 207,
+                "ovr": 105,
+                "position": "GK",
+                "nation": 21,
+                "upgrade": 8,
+                "pay": 16
             },
             "value": 19000,
             "probability": 0.0193928963714619
         },
         {
             "player": {
-                "id": 192119,
-                "name": "티보 쿠르투아",
-                "season": "NHD",
-                "season_no": 201,
-                "ovr": 97,
-                "position": "GK",
-                "nation": 7,
+                "id": 212218,
+                "name": "에므리크 라포르트",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 90,
+                "position": "CB",
+                "nation": 45,
                 "upgrade": 8,
-                "pay": 13
+                "pay": 9
             },
             "value": 18900,
             "probability": 0.0193928963714619
         },
         {
             "player": {
-                "id": 203841,
-                "name": "닉 포프",
-                "season": "TB",
-                "season_no": 206,
-                "ovr": 91,
-                "position": "GK",
+                "id": 231936,
+                "name": "벤 화이트",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 88,
+                "position": "RB",
                 "nation": 14,
+                "upgrade": 8,
+                "pay": 8
+            },
+            "value": 18900,
+            "probability": 0.0193928963714619
+        },
+        {
+            "player": {
+                "id": 225375,
+                "name": "콘라트 라이머",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 89,
+                "position": "RB",
+                "nation": 4,
+                "upgrade": 8,
+                "pay": 8
+            },
+            "value": 18900,
+            "probability": 0.0193928963714619
+        },
+        {
+            "player": {
+                "id": 209989,
+                "name": "토머스 파티",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 88,
+                "position": "CDM",
+                "nation": 117,
+                "upgrade": 8,
+                "pay": 8
+            },
+            "value": 18900,
+            "probability": 0.0193928963714619
+        },
+        {
+            "player": {
+                "id": 204485,
+                "name": "리야드 마레즈",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 90,
+                "position": "RM",
+                "nation": 97,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 18900,
+            "probability": 0.0193928963714619
+        },
+        {
+            "player": {
+                "id": 279709,
+                "name": "루카스 베라우두",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 87,
+                "position": "CB",
+                "nation": 54,
                 "upgrade": 8,
                 "pay": 7
             },
             "value": 18800,
-            "probability": 0.0193928963714619
-        },
-        {
-            "player": {
-                "id": 206113,
-                "name": "세르주 그나브리",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 90,
-                "position": "CAM",
-                "nation": 21,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 18700,
-            "probability": 0.0193928963714619
-        },
-        {
-            "player": {
-                "id": 217141,
-                "name": "보지냐",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 74,
-                "position": "GK",
-                "nation": null,
-                "upgrade": 8,
-                "pay": 5
-            },
-            "value": 18700,
             "probability": 0.0193928963714619
         },
         {
@@ -3506,62 +3521,32 @@
         },
         {
             "player": {
-                "id": 220746,
-                "name": "A. 지브코비치",
+                "id": 271800,
+                "name": "Y. 민테",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 85,
+                "ovr": 88,
                 "position": "RM",
-                "nation": 51,
+                "nation": 116,
                 "upgrade": 8,
                 "pay": 7
             },
-            "value": 18200,
+            "value": 18400,
             "probability": 0.0193928963714619
         },
         {
             "player": {
-                "id": 85168,
-                "name": "김예건",
+                "id": 258371,
+                "name": "펩 차바리아",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 62,
-                "position": "CAM",
+                "ovr": 84,
+                "position": "LB",
                 "nation": null,
                 "upgrade": 8,
-                "pay": 5
+                "pay": 6
             },
             "value": 18200,
-            "probability": 0.0193928963714619
-        },
-        {
-            "player": {
-                "id": 167495,
-                "name": "마누엘 노이어",
-                "season": "NHD",
-                "season_no": 201,
-                "ovr": 100,
-                "position": "GK",
-                "nation": 21,
-                "upgrade": 8,
-                "pay": 15
-            },
-            "value": 18000,
-            "probability": 0.0193928963714619
-        },
-        {
-            "player": {
-                "id": 237681,
-                "name": "구보 다케후사",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 89,
-                "position": "RM",
-                "nation": 163,
-                "upgrade": 8,
-                "pay": 8
-            },
-            "value": 17800,
             "probability": 0.0193928963714619
         },
         {
@@ -3576,67 +3561,7 @@
                 "upgrade": 8,
                 "pay": 5
             },
-            "value": 17700,
-            "probability": 0.0193928963714619
-        },
-        {
-            "player": {
-                "id": 167495,
-                "name": "마누엘 노이어",
-                "season": "TT",
-                "season_no": 207,
-                "ovr": 105,
-                "position": "GK",
-                "nation": 21,
-                "upgrade": 8,
-                "pay": 16
-            },
-            "value": 17600,
-            "probability": 0.0193928963714619
-        },
-        {
-            "player": {
-                "id": 48940,
-                "name": "페트르 체흐",
-                "season": "TT",
-                "season_no": 207,
-                "ovr": 104,
-                "position": "GK",
-                "nation": 12,
-                "upgrade": 8,
-                "pay": 15
-            },
-            "value": 17600,
-            "probability": 0.0193928963714619
-        },
-        {
-            "player": {
-                "id": 216547,
-                "name": "하파",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 90,
-                "position": "CAM",
-                "nation": 38,
-                "upgrade": 8,
-                "pay": 9
-            },
-            "value": 17600,
-            "probability": 0.0193928963714619
-        },
-        {
-            "player": {
-                "id": 236401,
-                "name": "누사이르 마즈라위",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 87,
-                "position": "RB",
-                "nation": 129,
-                "upgrade": 8,
-                "pay": 8
-            },
-            "value": 17500,
+            "value": 18200,
             "probability": 0.0193928963714619
         },
         {
@@ -3651,37 +3576,52 @@
                 "upgrade": 8,
                 "pay": 5
             },
-            "value": 17500,
+            "value": 18100,
             "probability": 0.0193928963714619
         },
         {
             "player": {
-                "id": 232905,
-                "name": "이토 준야",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 85,
-                "position": "RM",
-                "nation": 163,
+                "id": 51539,
+                "name": "에드윈 반데르사르",
+                "season": "TT",
+                "season_no": 207,
+                "ovr": 105,
+                "position": "GK",
+                "nation": 34,
                 "upgrade": 8,
-                "pay": 7
+                "pay": 15
             },
-            "value": 17400,
+            "value": 18100,
             "probability": 0.0193928963714619
         },
         {
             "player": {
-                "id": 78233,
-                "name": "C. 인자이",
+                "id": 81863,
+                "name": "차비 에스파르",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 64,
-                "position": "CAM",
+                "ovr": 71,
+                "position": "RB",
                 "nation": null,
                 "upgrade": 8,
                 "pay": 5
             },
-            "value": 17300,
+            "value": 17900,
+            "probability": 0.0193928963714619
+        },
+        {
+            "player": {
+                "id": 237681,
+                "name": "구보 다케후사",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 89,
+                "position": "RM",
+                "nation": 163,
+                "upgrade": 8,
+                "pay": 8
+            },
+            "value": 17900,
             "probability": 0.0193928963714619
         },
         {
@@ -3693,6 +3633,111 @@
                 "ovr": 94,
                 "position": "GK",
                 "nation": 18,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 17900,
+            "probability": 0.0193928963714619
+        },
+        {
+            "player": {
+                "id": 85153,
+                "name": "김지호",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 59,
+                "position": "RW",
+                "nation": null,
+                "upgrade": 8,
+                "pay": 5
+            },
+            "value": 17700,
+            "probability": 0.0193928963714619
+        },
+        {
+            "player": {
+                "id": 189596,
+                "name": "토마스 뮐러",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 88,
+                "position": "CAM",
+                "nation": 21,
+                "upgrade": 8,
+                "pay": 8
+            },
+            "value": 17500,
+            "probability": 0.0193928963714619
+        },
+        {
+            "player": {
+                "id": 220793,
+                "name": "다빈손 산체스",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 90,
+                "position": "CB",
+                "nation": 56,
+                "upgrade": 8,
+                "pay": 9
+            },
+            "value": 17500,
+            "probability": 0.0193928963714619
+        },
+        {
+            "player": {
+                "id": 200389,
+                "name": "얀 오블라크",
+                "season": "TB",
+                "season_no": 206,
+                "ovr": 102,
+                "position": "GK",
+                "nation": 44,
+                "upgrade": 8,
+                "pay": 13
+            },
+            "value": 17500,
+            "probability": 0.0193928963714619
+        },
+        {
+            "player": {
+                "id": 255069,
+                "name": "니코 곤살레스",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 89,
+                "position": "CDM",
+                "nation": 45,
+                "upgrade": 8,
+                "pay": 8
+            },
+            "value": 17500,
+            "probability": 0.0193928963714619
+        },
+        {
+            "player": {
+                "id": 5479,
+                "name": "카시야스",
+                "season": "NHD",
+                "season_no": 201,
+                "ovr": 98,
+                "position": "GK",
+                "nation": 45,
+                "upgrade": 8,
+                "pay": 13
+            },
+            "value": 17400,
+            "probability": 0.0193928963714619
+        },
+        {
+            "player": {
+                "id": 208333,
+                "name": "엠레 잔",
+                "season": "LIVE",
+                "season_no": 300,
+                "ovr": 90,
+                "position": "CB",
+                "nation": 21,
                 "upgrade": 8,
                 "pay": 9
             },
@@ -3716,60 +3761,15 @@
         },
         {
             "player": {
-                "id": 5479,
-                "name": "카시야스",
-                "season": "TB",
-                "season_no": 206,
-                "ovr": 96,
-                "position": "GK",
-                "nation": 45,
-                "upgrade": 8,
-                "pay": 10
-            },
-            "value": 17300,
-            "probability": 0.0193928963714619
-        },
-        {
-            "player": {
-                "id": 258371,
-                "name": "펩 차바리아",
+                "id": 233049,
+                "name": "제이든 산초",
                 "season": "LIVE",
                 "season_no": 300,
-                "ovr": 84,
-                "position": "LB",
-                "nation": null,
+                "ovr": 87,
+                "position": "LM",
+                "nation": 14,
                 "upgrade": 8,
-                "pay": 6
-            },
-            "value": 17300,
-            "probability": 0.0193928963714619
-        },
-        {
-            "player": {
-                "id": 255475,
-                "name": "안토니",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 88,
-                "position": "RM",
-                "nation": 54,
-                "upgrade": 8,
-                "pay": 8
-            },
-            "value": 17300,
-            "probability": 0.0193928963714619
-        },
-        {
-            "player": {
-                "id": 245371,
-                "name": "티아고 알마다",
-                "season": "LIVE",
-                "season_no": 300,
-                "ovr": 88,
-                "position": "CAM",
-                "nation": 52,
-                "upgrade": 8,
-                "pay": 8
+                "pay": 7
             },
             "value": 17300,
             "probability": 0.0193928963714619
