@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "24588",
+    "name": "[2500만 BP 찬스][쇼다운] 파이널 쇼다운 보너스 상자",
+    "image": null,
+    "expectedBp": 1291452.5295225924,
+    "expectedValue": {
+        "bp_card": 1250000.0,
+        "bp_player": 41452.529522592515
+    },
+    "expectedBp1": 1291452.5295225924,
+    "expectedValue1": {
+        "bp_card": 1250000.0,
+        "bp_player": 41452.529522592515
+    },
+    "percentile": {
+        "0": 555000000,
+        "1": 25000000,
+        "2": 25000000,
+        "5": 25000000,
+        "10": 245000,
+        "20": 75300,
+        "30": 26700,
+        "40": 12800,
+        "50": 9360,
+        "60": 7880,
+        "70": 6790,
+        "80": 5830,
+        "90": 2420,
+        "100": 1000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "bp",
+                "id": "24586",
+                "name": "[파이널 쇼다운 보너스] BP 카드 2500만 BP",
+                "image": null,
+                "expectedBp": 25000000.0,
+                "expectedValue": {
+                    "bp_card": 25000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 0.05
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "24584",
+                "name": "[쇼다운][FAC 포함] 멀티 클래스 최종 OVR 110+ 선수팩 (1~5강)",
+                "image": null,
+                "expectedBp": 43634.241602728966,
+                "expectedValue": {
+                    "bp_player": 43634.241602728966
+                }
+            },
+            "amount": 1,
+            "probability": 0.95
+        }
+    ],
+    "additionalInfoWithAmount": null
+}
