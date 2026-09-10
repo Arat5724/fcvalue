@@ -1,0 +1,79 @@
+{
+    "type": "box",
+    "id": "25063",
+    "name": "[송편 바구니 만들기] 송편 상자",
+    "image": null,
+    "expectedBp": 0,
+    "expectedValue": {
+        "[송편 바구니 만들기] 귀한 꿀송편": 0.05,
+        "[송편 바구니 만들기] 밤송편": 0.45,
+        "[송편 바구니 만들기] 콩송편": 0.5
+    },
+    "expectedBp1": 0,
+    "expectedValue1": {
+        "[송편 바구니 만들기] 귀한 꿀송편": 0.05,
+        "[송편 바구니 만들기] 밤송편": 0.45,
+        "[송편 바구니 만들기] 콩송편": 0.5
+    },
+    "percentile": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "5": 0,
+        "10": 0,
+        "20": 0,
+        "30": 0,
+        "40": 0,
+        "50": 0,
+        "60": 0,
+        "70": 0,
+        "80": 0,
+        "90": 0,
+        "100": 0
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[송편 바구니 만들기] 귀한 꿀송편",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[송편 바구니 만들기] 귀한 꿀송편": 1
+                }
+            },
+            "amount": 1,
+            "probability": 0.05
+        },
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[송편 바구니 만들기] 밤송편",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[송편 바구니 만들기] 밤송편": 1
+                }
+            },
+            "amount": 1,
+            "probability": 0.45
+        },
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[송편 바구니 만들기] 콩송편",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[송편 바구니 만들기] 콩송편": 1
+                }
+            },
+            "amount": 1,
+            "probability": 0.5
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

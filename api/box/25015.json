@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "25015",
+    "name": "UC 9강 + 4000만",
+    "image": null,
+    "expectedBp": 65074916.8513304,
+    "expectedValue": {
+        "bp_player": 25074916.851330396,
+        "bp_card": 40000000.0
+    },
+    "expectedBp1": 65074916.8513304,
+    "expectedValue1": {
+        "bp_player": 25074916.851330396,
+        "bp_card": 40000000.0
+    },
+    "percentile": {
+        "0": 20440000000,
+        "1": 172000000,
+        "2": 168000000,
+        "5": 155000000,
+        "10": 93000000,
+        "20": 67300000,
+        "30": 56900000,
+        "40": 56600000,
+        "50": 53000000,
+        "60": 52500000,
+        "70": 51700000,
+        "80": 49040000,
+        "90": 48710000,
+        "100": 46580000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "24991",
+                "name": "UC Top Price 105 (9강)",
+                "image": null,
+                "expectedBp": 25074916.851330396,
+                "expectedValue": {
+                    "bp_player": 25074916.851330396
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25001",
+                "name": "BP 카드 4000만",
+                "image": null,
+                "expectedBp": 40000000.0,
+                "expectedValue": {
+                    "bp_card": 40000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

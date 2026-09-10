@@ -1,0 +1,79 @@
+{
+    "type": "box",
+    "id": "25043",
+    "name": "[AG][26.09] 데일리 ICON TM 의뢰 상자",
+    "image": null,
+    "expectedBp": 1460508.739582903,
+    "expectedValue": {
+        "bp_player": 550.2333588371375,
+        "[AG][SPT 포함] 멀티 클래스 최종 OVR 131+ 스페셜팩 (6~8강)": 0.6999,
+        "bp_card": 1459958.5062240658
+    },
+    "expectedBp1": 1460508.739582903,
+    "expectedValue1": {
+        "bp_player": 550.2333588371375,
+        "[AG][SPT 포함] 멀티 클래스 최종 OVR 131+ 스페셜팩 (6~8강)": 0.6999,
+        "bp_card": 1459958.5062240658
+    },
+    "percentile": {
+        "0": 966000000,
+        "1": 7000000,
+        "2": 6500000,
+        "5": 6000000,
+        "10": 5500000,
+        "20": 4000000,
+        "30": 3000000,
+        "40": 0,
+        "50": 0,
+        "60": 0,
+        "70": 0,
+        "80": 0,
+        "90": 0,
+        "100": 0
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25019",
+                "name": "[AG][26.09] 데일리 ICON TM 클래스 ALL 선수팩 (1~4강)",
+                "image": null,
+                "expectedBp": 5502333.588371375,
+                "expectedValue": {
+                    "bp_player": 5502333.588371375
+                }
+            },
+            "amount": 1,
+            "probability": 0.0001
+        },
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[AG][SPT 포함] 멀티 클래스 최종 OVR 131+ 스페셜팩 (6~8강)",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[AG][SPT 포함] 멀티 클래스 최종 OVR 131+ 스페셜팩 (6~8강)": 1
+                }
+            },
+            "amount": 1,
+            "probability": 0.6999
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25032",
+                "name": "[AG] 행운의 BP 카드 (300만~2500만 BP)",
+                "image": null,
+                "expectedBp": 4866528.35408022,
+                "expectedValue": {
+                    "bp_card": 4866528.35408022
+                }
+            },
+            "amount": 1,
+            "probability": 0.3
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

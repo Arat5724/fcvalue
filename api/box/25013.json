@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "25013",
+    "name": "UC 10강 + 2.3억",
+    "image": null,
+    "expectedBp": 297122350.2882823,
+    "expectedValue": {
+        "bp_player": 67122350.28828225,
+        "bp_card": 230000000.0
+    },
+    "expectedBp1": 297122350.2882823,
+    "expectedValue1": {
+        "bp_player": 67122350.28828225,
+        "bp_card": 230000000.0
+    },
+    "percentile": {
+        "0": 29830000000,
+        "1": 511000000,
+        "2": 477000000,
+        "5": 423000000,
+        "10": 385000000,
+        "20": 310000000,
+        "30": 305000000,
+        "40": 277600000,
+        "50": 273900000,
+        "60": 272100000,
+        "70": 259700000,
+        "80": 255200000,
+        "90": 254700000,
+        "100": 254000000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "24966",
+                "name": "UC Top Price 65 (10강, 119+)",
+                "image": null,
+                "expectedBp": 67122350.28828225,
+                "expectedValue": {
+                    "bp_player": 67122350.28828225
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "24999",
+                "name": "BP 카드 2.3억",
+                "image": null,
+                "expectedBp": 230000000.0,
+                "expectedValue": {
+                    "bp_card": 230000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

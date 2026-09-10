@@ -1,0 +1,79 @@
+{
+    "type": "box",
+    "id": "25066",
+    "name": "[1.5억 BP or SPT, 26FSL 8강 확정 찬스] 진짜 귀한 송편바구니",
+    "image": null,
+    "expectedBp": 50476400.75633246,
+    "expectedValue": {
+        "bp_card": 17665000.0,
+        "bp_player": 32811400.75633246
+    },
+    "expectedBp1": 50476400.75633246,
+    "expectedValue1": {
+        "bp_card": 17665000.0,
+        "bp_player": 32811400.75633246
+    },
+    "percentile": {
+        "0": 9267000000,
+        "1": 105400000,
+        "2": 105400000,
+        "5": 88800000,
+        "10": 79700000,
+        "20": 60700000,
+        "30": 56200000,
+        "40": 48300000,
+        "50": 45700000,
+        "60": 38700000,
+        "70": 36700000,
+        "80": 34300000,
+        "90": 31400000,
+        "100": 18400000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "bp",
+                "id": "25060",
+                "name": "[송편 바구니] BP 카드 1.5억 BP",
+                "image": null,
+                "expectedBp": 150000000.0,
+                "expectedValue": {
+                    "bp_card": 150000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 0.005
+        },
+        {
+            "item": {
+                "type": "box",
+                "id": "25064",
+                "name": "[모두 획득][SPT, 26FSL 8강 확정 + 1700만 BP] 진짜 귀한 송편바구니 프리미엄 상자",
+                "image": null,
+                "expectedBp": 69565025.88576128,
+                "expectedValue": {
+                    "bp_player": 52565025.885761276,
+                    "bp_card": 17000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 0.015
+        },
+        {
+            "item": {
+                "type": "box",
+                "id": "25065",
+                "name": "[모두 획득][SPT, 26FSL 8강 찬스 + 1700만 BP] 진짜 귀한 송편바구니 상자",
+                "image": null,
+                "expectedBp": 49676454.45718984,
+                "expectedValue": {
+                    "bp_player": 32676454.45718984,
+                    "bp_card": 17000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 0.98
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

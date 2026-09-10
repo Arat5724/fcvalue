@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "25014",
+    "name": "[SSS] UC 11강 + 2.5억",
+    "image": null,
+    "expectedBp": 319460007.71976876,
+    "expectedValue": {
+        "bp_player": 69460007.71976875,
+        "bp_card": 250000000.0
+    },
+    "expectedBp1": 319460007.71976876,
+    "expectedValue1": {
+        "bp_player": 69460007.71976875,
+        "bp_card": 250000000.0
+    },
+    "percentile": {
+        "0": 46150000000,
+        "1": 542000000,
+        "2": 515000000,
+        "5": 478000000,
+        "10": 370000000,
+        "20": 337000000,
+        "30": 318000000,
+        "40": 297800000,
+        "50": 289300000,
+        "60": 288400000,
+        "70": 287900000,
+        "80": 284900000,
+        "90": 278800000,
+        "100": 277300000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "24973",
+                "name": "[SSS] UC Top Price 75 (11강, 119+)",
+                "image": null,
+                "expectedBp": 69460007.71976875,
+                "expectedValue": {
+                    "bp_player": 69460007.71976875
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25000",
+                "name": "BP 카드 2.5억",
+                "image": null,
+                "expectedBp": 250000000.0,
+                "expectedValue": {
+                    "bp_card": 250000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

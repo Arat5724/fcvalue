@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "25067",
+    "name": "[모두 획득][10강 찬스 + 500만 BP] 맛있는 송편바구니",
+    "image": null,
+    "expectedBp": 14769482.942420857,
+    "expectedValue": {
+        "bp_player": 9769482.942420857,
+        "bp_card": 5000000.0
+    },
+    "expectedBp1": 14769482.942420857,
+    "expectedValue1": {
+        "bp_player": 9769482.942420857,
+        "bp_card": 5000000.0
+    },
+    "percentile": {
+        "0": 8125000000,
+        "1": 26200000,
+        "2": 24300000,
+        "5": 22900000,
+        "10": 21500000,
+        "20": 19100000,
+        "30": 16600000,
+        "40": 14400000,
+        "50": 13950000,
+        "60": 12980000,
+        "70": 11880000,
+        "80": 10870000,
+        "90": 10010000,
+        "100": 6060000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25053",
+                "name": "[맛있는 송편바구니] 멀티 클래스 최종 OVR 127+ 스페셜팩 (8~10강)",
+                "image": null,
+                "expectedBp": 9769482.942420857,
+                "expectedValue": {
+                    "bp_player": 9769482.942420857
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25058",
+                "name": "[송편 바구니] BP 카드 500만 BP",
+                "image": null,
+                "expectedBp": 5000000.0,
+                "expectedValue": {
+                    "bp_card": 5000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

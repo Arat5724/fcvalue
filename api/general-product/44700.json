@@ -1,0 +1,65 @@
+{
+    "type": "general-product",
+    "id": "44700",
+    "name": "[쓸돌][UC 11강 획득 기회] SSS or S or A 패키지",
+    "image": "/assets/image/item/14700_s.png",
+    "price": 14900,
+    "efficiency": 2091.084633080573,
+    "expectedBp": 311571610.32900536,
+    "expectedValue": {
+        "bp_player": 217822360.32900533,
+        "bp_card": 93749250.0,
+        "[가을맞이!] 쓸돌 코인": 30
+    },
+    "efficiency1": 2091.084633080573,
+    "expectedBp1": 311571610.32900536,
+    "expectedValue1": {
+        "bp_player": 217822360.32900533,
+        "bp_card": 93749250.0,
+        "[가을맞이!] 쓸돌 코인": 30
+    },
+    "percentile": null,
+    "itemList": [
+        {
+            "item": {
+                "type": "box",
+                "id": "25006",
+                "name": "[UC 11강 획득 기회] SSS or S or A 상자",
+                "image": "/assets/image/item/201710595_s.png",
+                "expectedBp": 299522817.047067,
+                "expectedValue": {
+                    "bp_player": 205773567.047067,
+                    "bp_card": 93749250.0
+                }
+            },
+            "amount": 1
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "24987",
+                "name": "UC Top Price 750 (1~7강)",
+                "image": "/assets/image/item/200242468_s.png",
+                "expectedBp": 4016264.427312779,
+                "expectedValue": {
+                    "bp_player": 4016264.427312779
+                }
+            },
+            "amount": 3
+        },
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[가을맞이!] 쓸돌 코인",
+                "image": "/assets/image/item/201802803_s.png",
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[가을맞이!] 쓸돌 코인": 1
+                }
+            },
+            "amount": 30
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

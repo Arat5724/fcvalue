@@ -1,0 +1,77 @@
+{
+    "type": "box",
+    "id": "24903",
+    "name": "[열쇠 60개][선수팩 70%] 세컨드 찬스 드로우 상자 (09.10)",
+    "image": null,
+    "expectedBp": 685072893.9027618,
+    "expectedValue": {
+        "bp_player": 589222893.9027618,
+        "bp_card": 95850000.0
+    },
+    "expectedBp1": 685072893.9027618,
+    "expectedValue1": {
+        "bp_player": 589222893.9027618,
+        "bp_card": 95850000.0
+    },
+    "percentile": {
+        "0": 65300000000,
+        "1": 1580000000,
+        "2": 1310000000,
+        "5": 1200000000,
+        "10": 1080000000,
+        "20": 915000000,
+        "30": 827000000,
+        "40": 756000000,
+        "50": 690000000,
+        "60": 634000000,
+        "70": 531000000,
+        "80": 300000000,
+        "90": 300000000,
+        "100": 300000000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "24937",
+                "name": "[열쇠 120개] 26FSL 포함 Top Price 300 (8~11강, 112+)",
+                "image": null,
+                "expectedBp": 1427476259.5319755,
+                "expectedValue": {
+                    "bp_player": 1427476259.5319755
+                }
+            },
+            "amount": 1,
+            "probability": 0.03
+        },
+        {
+            "item": {
+                "type": "box",
+                "id": "24957",
+                "name": "[열쇠 75개] UC 11강 기회 선수팩 상자",
+                "image": null,
+                "expectedBp": 815520307.6370188,
+                "expectedValue": {
+                    "bp_player": 815520307.6370188
+                }
+            },
+            "amount": 1,
+            "probability": 0.67
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "24940",
+                "name": "[열쇠 60개] 행운의 BP 카드 (3억~6억)",
+                "image": null,
+                "expectedBp": 319500000.0,
+                "expectedValue": {
+                    "bp_card": 319500000.0
+                }
+            },
+            "amount": 1,
+            "probability": 0.3
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

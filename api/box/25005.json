@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "25005",
+    "name": "UC 8~9강 + 2.3억",
+    "image": null,
+    "expectedBp": 374682827.79372597,
+    "expectedValue": {
+        "bp_player": 144682827.79372597,
+        "bp_card": 230000000.0
+    },
+    "expectedBp1": 374682827.79372597,
+    "expectedValue1": {
+        "bp_player": 144682827.79372597,
+        "bp_card": 230000000.0
+    },
+    "percentile": {
+        "0": 20630000000,
+        "1": 536000000,
+        "2": 518000000,
+        "5": 508000000,
+        "10": 490000000,
+        "20": 383000000,
+        "30": 365000000,
+        "40": 359000000,
+        "50": 354000000,
+        "60": 353000000,
+        "70": 346000000,
+        "80": 327700000,
+        "90": 318200000,
+        "100": 314600000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "24964",
+                "name": "UC Top Price 60 (8~9강, 118+)",
+                "image": null,
+                "expectedBp": 144682827.79372597,
+                "expectedValue": {
+                    "bp_player": 144682827.79372597
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "24999",
+                "name": "BP 카드 2.3억",
+                "image": null,
+                "expectedBp": 230000000.0,
+                "expectedValue": {
+                    "bp_card": 230000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

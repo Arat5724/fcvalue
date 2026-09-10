@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "25016",
+    "name": "UC 8강 + 3000만",
+    "image": null,
+    "expectedBp": 52715934.76303184,
+    "expectedValue": {
+        "bp_player": 22715934.76303184,
+        "bp_card": 30000000.0
+    },
+    "expectedBp1": 52715934.76303184,
+    "expectedValue1": {
+        "bp_player": 22715934.76303184,
+        "bp_card": 30000000.0
+    },
+    "percentile": {
+        "0": 14130000000,
+        "1": 119200000,
+        "2": 118200000,
+        "5": 114600000,
+        "10": 100000000,
+        "20": 64400000,
+        "30": 49800000,
+        "40": 44100000,
+        "50": 41300000,
+        "60": 41100000,
+        "70": 38570000,
+        "80": 38060000,
+        "90": 35990000,
+        "100": 35500000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "24992",
+                "name": "UC Top Price 100 (8강)",
+                "image": null,
+                "expectedBp": 22715934.76303184,
+                "expectedValue": {
+                    "bp_player": 22715934.76303184
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25002",
+                "name": "BP 카드 3000만",
+                "image": null,
+                "expectedBp": 30000000.0,
+                "expectedValue": {
+                    "bp_card": 30000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}
