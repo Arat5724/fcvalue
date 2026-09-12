@@ -3,25 +3,25 @@
     "id": "24909",
     "name": "[열쇠 800개] UC Top Price 20 (8~10강, 124+)",
     "image": null,
-    "expectedBp": 2194619844.2356715,
+    "expectedBp": 2885598784.6191454,
     "expectedValue": {
-        "bp_player": 2194619844.2356715
+        "bp_player": 2885598784.6191454
     },
     "percentile": {
-        "0": 41200000000,
-        "1": 16000000000,
-        "2": 16000000000,
-        "5": 3320000000,
-        "10": 3010000000,
-        "20": 2240000000,
-        "30": 2180000000,
-        "40": 1780000000,
-        "50": 1620000000,
-        "60": 1520000000,
-        "70": 1480000000,
-        "80": 1430000000,
-        "90": 1390000000,
-        "100": 1330000000
+        "0": 45000000000,
+        "1": 17700000000,
+        "2": 17700000000,
+        "5": 4220000000,
+        "10": 4190000000,
+        "20": 3130000000,
+        "30": 2730000000,
+        "40": 2690000000,
+        "50": 2430000000,
+        "60": 2160000000,
+        "70": 1900000000,
+        "80": 1870000000,
+        "90": 1860000000,
+        "100": 1650000000
     },
     "playerList": [
         {
@@ -36,7 +36,7 @@
                 "upgrade": 10,
                 "pay": 34
             },
-            "value": 41200000000,
+            "value": 45000000000,
             "probability": 5.2387105787029003e-05
         },
         {
@@ -51,7 +51,7 @@
                 "upgrade": 9,
                 "pay": 34
             },
-            "value": 28400000000,
+            "value": 31000000000,
             "probability": 5.2387105787029003e-05
         },
         {
@@ -66,7 +66,7 @@
                 "upgrade": 8,
                 "pay": 34
             },
-            "value": 16000000000,
+            "value": 17700000000,
             "probability": 0.0227010791743792
         },
         {
@@ -81,8 +81,23 @@
                 "upgrade": 10,
                 "pay": 34
             },
-            "value": 4000000000,
+            "value": 4340000000,
             "probability": 0.0227010791743792
+        },
+        {
+            "player": {
+                "id": 41236,
+                "name": "즐라탄",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 143,
+                "position": "ST",
+                "nation": 46,
+                "upgrade": 10,
+                "pay": 34
+            },
+            "value": 4220000000,
+            "probability": 0.0488946320678937
         },
         {
             "player": {
@@ -96,7 +111,7 @@
                 "upgrade": 10,
                 "pay": 34
             },
-            "value": 3320000000,
+            "value": 4190000000,
             "probability": 0.0488946320678937
         },
         {
@@ -111,53 +126,8 @@
                 "upgrade": 10,
                 "pay": 35
             },
-            "value": 3010000000,
+            "value": 3190000000,
             "probability": 0.0488946320678937
-        },
-        {
-            "player": {
-                "id": 41236,
-                "name": "즐라탄",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 143,
-                "position": "ST",
-                "nation": 46,
-                "upgrade": 10,
-                "pay": 34
-            },
-            "value": 2350000000,
-            "probability": 0.0488946320678937
-        },
-        {
-            "player": {
-                "id": 28130,
-                "name": "호나우지뉴",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 143,
-                "position": "LW",
-                "nation": 54,
-                "upgrade": 9,
-                "pay": 34
-            },
-            "value": 2240000000,
-            "probability": 0.0488946320678937
-        },
-        {
-            "player": {
-                "id": 188545,
-                "name": "레반도프스키",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 143,
-                "position": "ST",
-                "nation": 37,
-                "upgrade": 9,
-                "pay": 34
-            },
-            "value": 2180000000,
-            "probability": 0.0593720532252995
         },
         {
             "player": {
@@ -171,23 +141,8 @@
                 "upgrade": 10,
                 "pay": 33
             },
-            "value": 1790000000,
-            "probability": 0.0593720532252995
-        },
-        {
-            "player": {
-                "id": 192985,
-                "name": "케빈 더브라위너",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 144,
-                "position": "CAM",
-                "nation": 7,
-                "upgrade": 10,
-                "pay": 34
-            },
-            "value": 1780000000,
-            "probability": 0.0628645269444347
+            "value": 3130000000,
+            "probability": 0.0488946320678937
         },
         {
             "player": {
@@ -201,7 +156,52 @@
                 "upgrade": 10,
                 "pay": 34
             },
-            "value": 1700000000,
+            "value": 2730000000,
+            "probability": 0.0593720532252995
+        },
+        {
+            "player": {
+                "id": 28130,
+                "name": "호나우지뉴",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 143,
+                "position": "LW",
+                "nation": 54,
+                "upgrade": 9,
+                "pay": 34
+            },
+            "value": 2710000000,
+            "probability": 0.0593720532252995
+        },
+        {
+            "player": {
+                "id": 188545,
+                "name": "레반도프스키",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 143,
+                "position": "ST",
+                "nation": 37,
+                "upgrade": 9,
+                "pay": 34
+            },
+            "value": 2690000000,
+            "probability": 0.0628645269444347
+        },
+        {
+            "player": {
+                "id": 192985,
+                "name": "케빈 더브라위너",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 144,
+                "position": "CAM",
+                "nation": 7,
+                "upgrade": 10,
+                "pay": 34
+            },
+            "value": 2560000000,
             "probability": 0.0628645269444347
         },
         {
@@ -216,7 +216,22 @@
                 "upgrade": 9,
                 "pay": 34
             },
-            "value": 1620000000,
+            "value": 2430000000,
+            "probability": 0.0572765689938183
+        },
+        {
+            "player": {
+                "id": 153079,
+                "name": "세르히오 아구에로",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 142,
+                "position": "ST",
+                "nation": 52,
+                "upgrade": 9,
+                "pay": 33
+            },
+            "value": 2160000000,
             "probability": 0.0572765689938183
         },
         {
@@ -231,8 +246,8 @@
                 "upgrade": 10,
                 "pay": 34
             },
-            "value": 1520000000,
-            "probability": 0.0572765689938183
+            "value": 2050000000,
+            "probability": 0.0647853874899591
         },
         {
             "player": {
@@ -246,37 +261,22 @@
                 "upgrade": 9,
                 "pay": 35
             },
-            "value": 1490000000,
+            "value": 1900000000,
             "probability": 0.0647853874899591
         },
         {
             "player": {
-                "id": 165153,
-                "name": "카림 벤제마",
+                "id": 1625,
+                "name": "티에리 앙리",
                 "season": "UC",
                 "season_no": 877,
-                "ovr": 144,
-                "position": "CF",
-                "nation": 18,
-                "upgrade": 10,
-                "pay": 34
-            },
-            "value": 1480000000,
-            "probability": 0.0647853874899591
-        },
-        {
-            "player": {
-                "id": 188545,
-                "name": "레반도프스키",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 141,
+                "ovr": 142,
                 "position": "ST",
-                "nation": 37,
-                "upgrade": 8,
+                "nation": 18,
+                "upgrade": 9,
                 "pay": 34
             },
-            "value": 1430000000,
+            "value": 1880000000,
             "probability": 0.061816784828694196
         },
         {
@@ -291,37 +291,37 @@
                 "upgrade": 8,
                 "pay": 34
             },
-            "value": 1430000000,
+            "value": 1870000000,
             "probability": 0.061816784828694196
         },
         {
             "player": {
-                "id": 13128,
-                "name": "안드리 셰우첸코",
+                "id": 165153,
+                "name": "카림 벤제마",
                 "season": "UC",
                 "season_no": 877,
                 "ovr": 144,
-                "position": "ST",
-                "nation": 49,
+                "position": "CF",
+                "nation": 18,
                 "upgrade": 10,
                 "pay": 34
             },
-            "value": 1390000000,
+            "value": 1860000000,
             "probability": 0.0733419481018405
         },
         {
             "player": {
-                "id": 156616,
-                "name": "프랑크 리베리",
+                "id": 7826,
+                "name": "로빈 반페르시",
                 "season": "UC",
                 "season_no": 877,
-                "ovr": 145,
-                "position": "LW",
-                "nation": 18,
+                "ovr": 144,
+                "position": "ST",
+                "nation": 34,
                 "upgrade": 10,
-                "pay": 35
+                "pay": 34
             },
-            "value": 1330000000,
+            "value": 1650000000,
             "probability": 0.0733419481018405
         }
     ]
