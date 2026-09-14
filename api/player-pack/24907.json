@@ -3,25 +3,25 @@
     "id": "24907",
     "name": "[열쇠 800개] UC Top Price 30 (11강, 120+)",
     "image": null,
-    "expectedBp": 2554582480.621798,
+    "expectedBp": 2732491861.6857705,
     "expectedValue": {
-        "bp_player": 2554582480.621798
+        "bp_player": 2732491861.6857705
     },
     "percentile": {
         "0": 69800000000,
-        "1": 6600000000,
-        "2": 6420000000,
-        "5": 6360000000,
+        "1": 7270000000,
+        "2": 6980000000,
+        "5": 6880000000,
         "10": 5100000000,
         "20": 3860000000,
-        "30": 3100000000,
-        "40": 2210000000,
-        "50": 2100000000,
-        "60": 1910000000,
-        "70": 1840000000,
-        "80": 1130000000,
-        "90": 908000000,
-        "100": 688000000
+        "30": 3120000000,
+        "40": 2340000000,
+        "50": 2230000000,
+        "60": 2150000000,
+        "70": 2090000000,
+        "80": 1330000000,
+        "90": 991000000,
+        "100": 698000000
     },
     "playerList": [
         {
@@ -81,23 +81,8 @@
                 "upgrade": 11,
                 "pay": 34
             },
-            "value": 6600000000,
+            "value": 7270000000,
             "probability": 0.0095433000731653
-        },
-        {
-            "player": {
-                "id": 158023,
-                "name": "리오넬 메시",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 147,
-                "position": "CF",
-                "nation": 52,
-                "upgrade": 11,
-                "pay": 35
-            },
-            "value": 6420000000,
-            "probability": 0.0201469668211267
         },
         {
             "player": {
@@ -111,7 +96,22 @@
                 "upgrade": 11,
                 "pay": 33
             },
-            "value": 6360000000,
+            "value": 6980000000,
+            "probability": 0.0201469668211267
+        },
+        {
+            "player": {
+                "id": 158023,
+                "name": "리오넬 메시",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 147,
+                "position": "CF",
+                "nation": 52,
+                "upgrade": 11,
+                "pay": 35
+            },
+            "value": 6880000000,
             "probability": 0.0201469668211267
         },
         {
@@ -126,7 +126,7 @@
                 "upgrade": 11,
                 "pay": 34
             },
-            "value": 6180000000,
+            "value": 6290000000,
             "probability": 0.0275695335446998
         },
         {
@@ -186,7 +186,22 @@
                 "upgrade": 11,
                 "pay": 34
             },
-            "value": 3320000000,
+            "value": 3390000000,
+            "probability": 0.0551390670893995
+        },
+        {
+            "player": {
+                "id": 13128,
+                "name": "안드리 셰우첸코",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 146,
+                "position": "ST",
+                "nation": 49,
+                "upgrade": 11,
+                "pay": 34
+            },
+            "value": 3120000000,
             "probability": 0.0551390670893995
         },
         {
@@ -202,36 +217,6 @@
                 "pay": 34
             },
             "value": 3100000000,
-            "probability": 0.0551390670893995
-        },
-        {
-            "player": {
-                "id": 13128,
-                "name": "안드리 셰우첸코",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 146,
-                "position": "ST",
-                "nation": 49,
-                "upgrade": 11,
-                "pay": 34
-            },
-            "value": 2360000000,
-            "probability": 0.0553511404243587
-        },
-        {
-            "player": {
-                "id": 7763,
-                "name": "안드레아 피를로",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 145,
-                "position": "CM",
-                "nation": 27,
-                "upgrade": 11,
-                "pay": 33
-            },
-            "value": 2210000000,
             "probability": 0.0553511404243587
         },
         {
@@ -246,8 +231,68 @@
                 "upgrade": 11,
                 "pay": 35
             },
-            "value": 2130000000,
+            "value": 2340000000,
+            "probability": 0.0553511404243587
+        },
+        {
+            "player": {
+                "id": 138449,
+                "name": "카카",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 145,
+                "position": "CAM",
+                "nation": 54,
+                "upgrade": 11,
+                "pay": 33
+            },
+            "value": 2250000000,
             "probability": 0.0534424804097257
+        },
+        {
+            "player": {
+                "id": 182521,
+                "name": "토니 크로스",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 144,
+                "position": "CAM",
+                "nation": 21,
+                "upgrade": 11,
+                "pay": 32
+            },
+            "value": 2230000000,
+            "probability": 0.0534424804097257
+        },
+        {
+            "player": {
+                "id": 7763,
+                "name": "안드레아 피를로",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 145,
+                "position": "CM",
+                "nation": 27,
+                "upgrade": 11,
+                "pay": 33
+            },
+            "value": 2210000000,
+            "probability": 0.049360068711760505
+        },
+        {
+            "player": {
+                "id": 231866,
+                "name": "로드리",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 143,
+                "position": "CDM",
+                "nation": 45,
+                "upgrade": 11,
+                "pay": 31
+            },
+            "value": 2150000000,
+            "probability": 0.049360068711760505
         },
         {
             "player": {
@@ -262,22 +307,7 @@
                 "pay": 32
             },
             "value": 2100000000,
-            "probability": 0.0534424804097257
-        },
-        {
-            "player": {
-                "id": 138449,
-                "name": "카카",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 145,
-                "position": "CAM",
-                "nation": 54,
-                "upgrade": 11,
-                "pay": 33
-            },
-            "value": 2050000000,
-            "probability": 0.049360068711760505
+            "probability": 0.044535400341438096
         },
         {
             "player": {
@@ -291,8 +321,8 @@
                 "upgrade": 11,
                 "pay": 33
             },
-            "value": 1910000000,
-            "probability": 0.049360068711760505
+            "value": 2090000000,
+            "probability": 0.044535400341438096
         },
         {
             "player": {
@@ -307,36 +337,6 @@
                 "pay": 32
             },
             "value": 1860000000,
-            "probability": 0.044535400341438096
-        },
-        {
-            "player": {
-                "id": 182521,
-                "name": "토니 크로스",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 144,
-                "position": "CAM",
-                "nation": 21,
-                "upgrade": 11,
-                "pay": 32
-            },
-            "value": 1840000000,
-            "probability": 0.044535400341438096
-        },
-        {
-            "player": {
-                "id": 231866,
-                "name": "로드리",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 143,
-                "position": "CDM",
-                "nation": 45,
-                "upgrade": 11,
-                "pay": 31
-            },
-            "value": 1410000000,
             "probability": 0.0421495753231467
         },
         {
@@ -351,7 +351,7 @@
                 "upgrade": 11,
                 "pay": 32
             },
-            "value": 1130000000,
+            "value": 1330000000,
             "probability": 0.0421495753231467
         },
         {
@@ -371,33 +371,18 @@
         },
         {
             "player": {
-                "id": 203376,
-                "name": "버질 반다이크",
+                "id": 143001,
+                "name": "카를로스 테베스",
                 "season": "UC",
                 "season_no": 877,
                 "ovr": 145,
-                "position": "CB",
-                "nation": 34,
+                "position": "CF",
+                "nation": 52,
                 "upgrade": 11,
                 "pay": 33
             },
-            "value": 919000000,
+            "value": 1020000000,
             "probability": 0.037536980287783496
-        },
-        {
-            "player": {
-                "id": 1668,
-                "name": "클로드 마켈렐레",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 144,
-                "position": "CDM",
-                "nation": 18,
-                "upgrade": 11,
-                "pay": 32
-            },
-            "value": 908000000,
-            "probability": 0.0302204502316901
         },
         {
             "player": {
@@ -411,8 +396,38 @@
                 "upgrade": 11,
                 "pay": 32
             },
-            "value": 901000000,
+            "value": 991000000,
             "probability": 0.0302204502316901
+        },
+        {
+            "player": {
+                "id": 1668,
+                "name": "클로드 마켈렐레",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 144,
+                "position": "CDM",
+                "nation": 18,
+                "upgrade": 11,
+                "pay": 32
+            },
+            "value": 950000000,
+            "probability": 0.0302204502316901
+        },
+        {
+            "player": {
+                "id": 203376,
+                "name": "버질 반다이크",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 145,
+                "position": "CB",
+                "nation": 34,
+                "upgrade": 11,
+                "pay": 33
+            },
+            "value": 919000000,
+            "probability": 0.0207831868260044
         },
         {
             "player": {
@@ -442,7 +457,7 @@
                 "pay": 30
             },
             "value": 817000000,
-            "probability": 0.0207831868260044
+            "probability": 0.010709703415441101
         },
         {
             "player": {
@@ -457,21 +472,6 @@
                 "pay": 33
             },
             "value": 698000000,
-            "probability": 0.010709703415441101
-        },
-        {
-            "player": {
-                "id": 1041,
-                "name": "하비에르 사네티",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 144,
-                "position": "CDM",
-                "nation": 52,
-                "upgrade": 11,
-                "pay": 32
-            },
-            "value": 688000000,
             "probability": 0.010709703415441101
         }
     ]
