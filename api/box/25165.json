@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "25165",
+    "name": "[일반SSS] 26TOTS, SPT, 26FSL 8~11강 상자 + 1000만 BP",
+    "image": null,
+    "expectedBp": 94038498.24017549,
+    "expectedValue": {
+        "bp_player": 84038498.24017549,
+        "bp_card": 10000000.0
+    },
+    "expectedBp1": 94038498.24017549,
+    "expectedValue1": {
+        "bp_player": 84038498.24017549,
+        "bp_card": 10000000.0
+    },
+    "percentile": {
+        "0": 53210000000,
+        "1": 408000000,
+        "2": 282000000,
+        "5": 189000000,
+        "10": 144000000,
+        "20": 106900000,
+        "30": 92800000,
+        "40": 84200000,
+        "50": 73900000,
+        "60": 69200000,
+        "70": 65500000,
+        "80": 58700000,
+        "90": 51000000,
+        "100": 40900000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "box",
+                "id": "25157",
+                "name": "[일반SSS] 26TOTS, SPT, 26FSL 8~11강 상자",
+                "image": null,
+                "expectedBp": 84038498.24017549,
+                "expectedValue": {
+                    "bp_player": 84038498.24017549
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25135",
+                "name": "BP 카드 1000만",
+                "image": null,
+                "expectedBp": 10000000.0,
+                "expectedValue": {
+                    "bp_card": 10000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

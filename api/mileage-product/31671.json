@@ -1,0 +1,62 @@
+{
+    "type": "mileage-product",
+    "id": "31671",
+    "name": "[마일리지] 최고급 패키지",
+    "image": "/assets/image/item/31671_s.png",
+    "price": 200000,
+    "efficiency": 48.86901976048456,
+    "expectedBp": 97738039.52096912,
+    "expectedValue": {
+        "bp_player": 57738039.520969115,
+        "bp_card": 40000000.0
+    },
+    "efficiency1": 48.86901976048456,
+    "expectedBp1": 97738039.52096912,
+    "expectedValue1": {
+        "bp_player": 57738039.520969115,
+        "bp_card": 40000000.0
+    },
+    "percentile": null,
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25172",
+                "name": "[마일리지] PTG 포함 Top Price 550 (8~9강, 110+)",
+                "image": "/assets/image/item/200237329_s.png",
+                "expectedBp": 57052832.61925566,
+                "expectedValue": {
+                    "bp_player": 57052832.61925566
+                }
+            },
+            "amount": 1
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25175",
+                "name": "[마일리지] BP 카드 4000만",
+                "image": "/assets/image/item/200337124_s.png",
+                "expectedBp": 40000000.0,
+                "expectedValue": {
+                    "bp_card": 40000000.0
+                }
+            },
+            "amount": 1
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25173",
+                "name": "[마일리지] UC Top Price 60 (1강, 120+)",
+                "image": "/assets/image/item/200237327_s.png",
+                "expectedBp": 685206.9017134524,
+                "expectedValue": {
+                    "bp_player": 685206.9017134524
+                }
+            },
+            "amount": 1
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

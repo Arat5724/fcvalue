@@ -1,0 +1,64 @@
+{
+    "type": "mileage-product",
+    "id": "31674",
+    "name": "[마일리지] 고급 패키지",
+    "image": "/assets/image/item/31674_s.png",
+    "price": 25000,
+    "efficiency": 42.59522977339694,
+    "expectedBp": 10648807.443349235,
+    "expectedValue": {
+        "bp_player": 7648807.443349234,
+        "bp_card": 3000000.0
+    },
+    "efficiency1": 42.59522977339694,
+    "expectedBp1": 10648807.443349235,
+    "expectedValue1": {
+        "bp_player": 7648807.443349234,
+        "bp_card": 3000000.0
+    },
+    "percentile": {
+        "0": 12703000000,
+        "1": 17900000,
+        "2": 17400000,
+        "5": 15600000,
+        "10": 14200000,
+        "20": 12250000,
+        "30": 11330000,
+        "40": 10810000,
+        "50": 10210000,
+        "60": 9350000,
+        "70": 8860000,
+        "80": 8610000,
+        "90": 8320000,
+        "100": 7820000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25174",
+                "name": "[마일리지] PTG 포함 Top Price 2550 (5~9강, 102+)",
+                "image": "/assets/image/item/200237328_s.png",
+                "expectedBp": 7648807.443349234,
+                "expectedValue": {
+                    "bp_player": 7648807.443349234
+                }
+            },
+            "amount": 1
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25176",
+                "name": "[마일리지] BP 카드 300만",
+                "image": "/assets/image/item/200337125_s.png",
+                "expectedBp": 3000000.0,
+                "expectedValue": {
+                    "bp_card": 3000000.0
+                }
+            },
+            "amount": 1
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "25163",
+    "name": "[일반SSS] UC 8~11강 상자 + 5000만 BP",
+    "image": null,
+    "expectedBp": 193793852.21406925,
+    "expectedValue": {
+        "bp_player": 143793852.21406925,
+        "bp_card": 50000000.0
+    },
+    "expectedBp1": 193793852.21406925,
+    "expectedValue1": {
+        "bp_player": 143793852.21406925,
+        "bp_card": 50000000.0
+    },
+    "percentile": {
+        "0": 73350000000,
+        "1": 749000000,
+        "2": 655000000,
+        "5": 478000000,
+        "10": 294000000,
+        "20": 204000000,
+        "30": 174000000,
+        "40": 159000000,
+        "50": 148200000,
+        "60": 139700000,
+        "70": 132900000,
+        "80": 123100000,
+        "90": 112400000,
+        "100": 94700000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "box",
+                "id": "25156",
+                "name": "[일반SSS] UC 8~11강 상자",
+                "image": null,
+                "expectedBp": 143793852.21406925,
+                "expectedValue": {
+                    "bp_player": 143793852.21406925
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25134",
+                "name": "BP 카드 5000만",
+                "image": null,
+                "expectedBp": 50000000.0,
+                "expectedValue": {
+                    "bp_card": 50000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

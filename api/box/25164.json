@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "25164",
+    "name": "[치얼업] UC 8~11강 상자 + 4000만 BP",
+    "image": null,
+    "expectedBp": 177229328.2027213,
+    "expectedValue": {
+        "bp_player": 137229328.2027213,
+        "bp_card": 40000000.0
+    },
+    "expectedBp1": 177229328.2027213,
+    "expectedValue1": {
+        "bp_player": 137229328.2027213,
+        "bp_card": 40000000.0
+    },
+    "percentile": {
+        "0": 73340000000,
+        "1": 1029000000,
+        "2": 543000000,
+        "5": 247000000,
+        "10": 207000000,
+        "20": 177000000,
+        "30": 164000000,
+        "40": 157000000,
+        "50": 148000000,
+        "60": 136900000,
+        "70": 130000000,
+        "80": 123500000,
+        "90": 114600000,
+        "100": 103200000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "box",
+                "id": "25158",
+                "name": "UC 8~11강 상자",
+                "image": null,
+                "expectedBp": 137229328.2027213,
+                "expectedValue": {
+                    "bp_player": 137229328.2027213
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25001",
+                "name": "BP 카드 4000만",
+                "image": null,
+                "expectedBp": 40000000.0,
+                "expectedValue": {
+                    "bp_card": 40000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

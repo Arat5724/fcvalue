@@ -1,0 +1,34 @@
+{
+    "type": "mileage-product",
+    "id": "31675",
+    "name": "[마일리지] BP 카드 1만 X 10",
+    "image": "/assets/image/item/31675_s.png",
+    "price": 1000,
+    "efficiency": 10.0,
+    "expectedBp": 100000.0,
+    "expectedValue": {
+        "bp_card": 100000.0
+    },
+    "efficiency1": 10.0,
+    "expectedBp1": 100000.0,
+    "expectedValue1": {
+        "bp_card": 100000.0
+    },
+    "percentile": null,
+    "itemList": [
+        {
+            "item": {
+                "type": "bp",
+                "id": "25177",
+                "name": "[마일리지] BP 카드 1만",
+                "image": "/assets/image/item/200337126_s.png",
+                "expectedBp": 10000.0,
+                "expectedValue": {
+                    "bp_card": 10000.0
+                }
+            },
+            "amount": 10
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

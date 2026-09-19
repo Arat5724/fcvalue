@@ -1,0 +1,61 @@
+{
+    "type": "box",
+    "id": "25167",
+    "name": "UC 10강 + WG, TK, PTG 포함 11강",
+    "image": null,
+    "expectedBp": 3574163449.758263,
+    "expectedValue": {
+        "bp_player": 3574163449.758263
+    },
+    "expectedBp1": 3574163449.758263,
+    "expectedValue1": {
+        "bp_player": 3574163449.758263
+    },
+    "percentile": {
+        "0": 114700000000,
+        "1": 8810000000,
+        "2": 8159000000,
+        "5": 7250000000,
+        "10": 5640000000,
+        "20": 4340000000,
+        "30": 3768000000,
+        "40": 3320000000,
+        "50": 3042000000,
+        "60": 2820000000,
+        "70": 2542000000,
+        "80": 2330000000,
+        "90": 2096000000,
+        "100": 1671000000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25100",
+                "name": "UC Top Price 20 선수팩 (10강)",
+                "image": null,
+                "expectedBp": 2182912850.812408,
+                "expectedValue": {
+                    "bp_player": 2182912850.812408
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25106",
+                "name": "WG, TK, PTG 포함 Top Price 210 선수팩 (11강, 114+)",
+                "image": null,
+                "expectedBp": 1391250598.9458551,
+                "expectedValue": {
+                    "bp_player": 1391250598.9458551
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

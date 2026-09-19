@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "25162",
+    "name": "[스페셜S] UC 8~9강 상자 + 2000만 BP",
+    "image": null,
+    "expectedBp": 119829536.22310868,
+    "expectedValue": {
+        "bp_player": 99829536.22310868,
+        "bp_card": 20000000.0
+    },
+    "expectedBp1": 119829536.22310868,
+    "expectedValue1": {
+        "bp_player": 99829536.22310868,
+        "bp_card": 20000000.0
+    },
+    "percentile": {
+        "0": 32620000000,
+        "1": 320000000,
+        "2": 236000000,
+        "5": 185000000,
+        "10": 150000000,
+        "20": 135000000,
+        "30": 124000000,
+        "40": 112700000,
+        "50": 108100000,
+        "60": 100600000,
+        "70": 93500000,
+        "80": 87000000,
+        "90": 77900000,
+        "100": 64700000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "box",
+                "id": "25154",
+                "name": "[스페셜S] UC 8~9강 상자",
+                "image": null,
+                "expectedBp": 99829536.22310868,
+                "expectedValue": {
+                    "bp_player": 99829536.22310868
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25133",
+                "name": "BP 카드 2000만",
+                "image": null,
+                "expectedBp": 20000000.0,
+                "expectedValue": {
+                    "bp_card": 20000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

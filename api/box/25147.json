@@ -1,0 +1,64 @@
+{
+    "type": "box",
+    "id": "25147",
+    "name": "절구 SSS+ 상자 (프리미엄 상자 80%)",
+    "image": null,
+    "expectedBp": 998534592.410585,
+    "expectedValue": {
+        "bp_player": 783034592.410585,
+        "bp_card": 215500000.0
+    },
+    "expectedBp1": 998534592.410585,
+    "expectedValue1": {
+        "bp_player": 783034592.410585,
+        "bp_card": 215500000.0
+    },
+    "percentile": {
+        "0": 73300000000,
+        "1": 3000000000,
+        "2": 2500000000,
+        "5": 1720000000,
+        "10": 1380000000,
+        "20": 1140000000,
+        "30": 988000000,
+        "40": 947000000,
+        "50": 894000000,
+        "60": 817000000,
+        "70": 798000000,
+        "80": 735000000,
+        "90": 550000000,
+        "100": 550000000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "box",
+                "id": "25149",
+                "name": "절구 프리미엄 상자",
+                "image": null,
+                "expectedBp": 1083793240.5132313,
+                "expectedValue": {
+                    "bp_player": 978793240.5132313,
+                    "bp_card": 105000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 0.8
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25136",
+                "name": "행운의 BP 카드 (5.5억~12억)",
+                "image": null,
+                "expectedBp": 657500000.0,
+                "expectedValue": {
+                    "bp_card": 657500000.0
+                }
+            },
+            "amount": 1,
+            "probability": 0.2
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

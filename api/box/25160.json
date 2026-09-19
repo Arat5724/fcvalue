@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "25160",
+    "name": "[스페셜SSS] UC 8~11강 상자 + 2억 BP",
+    "image": null,
+    "expectedBp": 535657039.55955786,
+    "expectedValue": {
+        "bp_player": 335657039.55955786,
+        "bp_card": 200000000.0
+    },
+    "expectedBp1": 535657039.55955786,
+    "expectedValue1": {
+        "bp_player": 335657039.55955786,
+        "bp_card": 200000000.0
+    },
+    "percentile": {
+        "0": 73500000000,
+        "1": 2050000000,
+        "2": 1200000000,
+        "5": 952000000,
+        "10": 876000000,
+        "20": 650000000,
+        "30": 560000000,
+        "40": 498000000,
+        "50": 455000000,
+        "60": 389000000,
+        "70": 356000000,
+        "80": 332000000,
+        "90": 320000000,
+        "100": 296900000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "box",
+                "id": "25150",
+                "name": "[스페셜SSS] UC 8~11강 상자",
+                "image": null,
+                "expectedBp": 335657039.55955786,
+                "expectedValue": {
+                    "bp_player": 335657039.55955786
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25131",
+                "name": "BP 카드 2억",
+                "image": null,
+                "expectedBp": 200000000.0,
+                "expectedValue": {
+                    "bp_card": 200000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}
