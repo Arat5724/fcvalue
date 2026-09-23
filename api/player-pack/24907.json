@@ -3,25 +3,25 @@
     "id": "24907",
     "name": "[열쇠 800개] UC Top Price 30 (11강, 120+)",
     "image": null,
-    "expectedBp": 7756067948.296518,
+    "expectedBp": 8326670342.604469,
     "expectedValue": {
-        "bp_player": 7756067948.296518
+        "bp_player": 8326670342.604469
     },
     "percentile": {
         "0": 88700000000,
-        "1": 17600000000,
-        "2": 16500000000,
-        "5": 13100000000,
-        "10": 11000000000,
-        "20": 10000000000,
-        "30": 9150000000,
-        "40": 8230000000,
-        "50": 7670000000,
-        "60": 6890000000,
-        "70": 5400000000,
-        "80": 4690000000,
-        "90": 3930000000,
-        "100": 3250000000
+        "1": 19400000000,
+        "2": 15500000000,
+        "5": 13600000000,
+        "10": 11900000000,
+        "20": 10800000000,
+        "30": 9890000000,
+        "40": 9200000000,
+        "50": 8530000000,
+        "60": 7670000000,
+        "70": 5870000000,
+        "80": 5120000000,
+        "90": 4390000000,
+        "100": 3500000000
     },
     "playerList": [
         {
@@ -51,7 +51,7 @@
                 "upgrade": 11,
                 "pay": 33
             },
-            "value": 28100000000,
+            "value": 27900000000,
             "probability": 3.7112833617865004e-05
         },
         {
@@ -66,7 +66,7 @@
                 "upgrade": 11,
                 "pay": 34
             },
-            "value": 18500000000,
+            "value": 24600000000,
             "probability": 0.0095433000731653
         },
         {
@@ -81,7 +81,7 @@
                 "upgrade": 11,
                 "pay": 34
             },
-            "value": 17600000000,
+            "value": 19400000000,
             "probability": 0.0095433000731653
         },
         {
@@ -96,7 +96,7 @@
                 "upgrade": 11,
                 "pay": 34
             },
-            "value": 16500000000,
+            "value": 15500000000,
             "probability": 0.0201469668211267
         },
         {
@@ -111,8 +111,23 @@
                 "upgrade": 11,
                 "pay": 34
             },
-            "value": 13100000000,
+            "value": 13600000000,
             "probability": 0.0201469668211267
+        },
+        {
+            "player": {
+                "id": 138449,
+                "name": "카카",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 145,
+                "position": "CAM",
+                "nation": 54,
+                "upgrade": 11,
+                "pay": 33
+            },
+            "value": 12200000000,
+            "probability": 0.0275695335446998
         },
         {
             "player": {
@@ -126,22 +141,7 @@
                 "upgrade": 11,
                 "pay": 30
             },
-            "value": 12800000000,
-            "probability": 0.0275695335446998
-        },
-        {
-            "player": {
-                "id": 5680,
-                "name": "클라위베르트",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 145,
-                "position": "ST",
-                "nation": 34,
-                "upgrade": 11,
-                "pay": 33
-            },
-            "value": 11000000000,
+            "value": 11900000000,
             "probability": 0.0275695335446998
         },
         {
@@ -161,18 +161,33 @@
         },
         {
             "player": {
-                "id": 7826,
-                "name": "로빈 반페르시",
+                "id": 5680,
+                "name": "클라위베르트",
                 "season": "UC",
                 "season_no": 877,
-                "ovr": 146,
+                "ovr": 145,
                 "position": "ST",
                 "nation": 34,
                 "upgrade": 11,
-                "pay": 34
+                "pay": 33
             },
-            "value": 10000000000,
+            "value": 10800000000,
             "probability": 0.043475033666641905
+        },
+        {
+            "player": {
+                "id": 156616,
+                "name": "프랑크 리베리",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 147,
+                "position": "LW",
+                "nation": 18,
+                "upgrade": 11,
+                "pay": 35
+            },
+            "value": 10100000000,
+            "probability": 0.0551390670893995
         },
         {
             "player": {
@@ -191,18 +206,33 @@
         },
         {
             "player": {
-                "id": 156616,
-                "name": "프랑크 리베리",
+                "id": 7826,
+                "name": "로빈 반페르시",
                 "season": "UC",
                 "season_no": 877,
-                "ovr": 147,
-                "position": "LW",
-                "nation": 18,
+                "ovr": 146,
+                "position": "ST",
+                "nation": 34,
+                "upgrade": 11,
+                "pay": 34
+            },
+            "value": 9820000000,
+            "probability": 0.0553511404243587
+        },
+        {
+            "player": {
+                "id": 5471,
+                "name": "프랭크 램파드",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 146,
+                "position": "CAM",
+                "nation": 14,
                 "upgrade": 11,
                 "pay": 35
             },
-            "value": 9150000000,
-            "probability": 0.0551390670893995
+            "value": 9200000000,
+            "probability": 0.0553511404243587
         },
         {
             "player": {
@@ -217,22 +247,7 @@
                 "pay": 32
             },
             "value": 8550000000,
-            "probability": 0.0553511404243587
-        },
-        {
-            "player": {
-                "id": 138449,
-                "name": "카카",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 145,
-                "position": "CAM",
-                "nation": 54,
-                "upgrade": 11,
-                "pay": 33
-            },
-            "value": 8230000000,
-            "probability": 0.0553511404243587
+            "probability": 0.0534424804097257
         },
         {
             "player": {
@@ -246,22 +261,7 @@
                 "upgrade": 11,
                 "pay": 34
             },
-            "value": 7750000000,
-            "probability": 0.0534424804097257
-        },
-        {
-            "player": {
-                "id": 158023,
-                "name": "리오넬 메시",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 147,
-                "position": "CF",
-                "nation": 52,
-                "upgrade": 11,
-                "pay": 35
-            },
-            "value": 7670000000,
+            "value": 8530000000,
             "probability": 0.0534424804097257
         },
         {
@@ -276,7 +276,22 @@
                 "upgrade": 11,
                 "pay": 33
             },
-            "value": 6980000000,
+            "value": 7680000000,
+            "probability": 0.049360068711760505
+        },
+        {
+            "player": {
+                "id": 158023,
+                "name": "리오넬 메시",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 147,
+                "position": "CF",
+                "nation": 52,
+                "upgrade": 11,
+                "pay": 35
+            },
+            "value": 7670000000,
             "probability": 0.049360068711760505
         },
         {
@@ -291,22 +306,7 @@
                 "upgrade": 11,
                 "pay": 33
             },
-            "value": 6890000000,
-            "probability": 0.049360068711760505
-        },
-        {
-            "player": {
-                "id": 5471,
-                "name": "프랭크 램파드",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 146,
-                "position": "CAM",
-                "nation": 14,
-                "upgrade": 11,
-                "pay": 35
-            },
-            "value": 6890000000,
+            "value": 7100000000,
             "probability": 0.044535400341438096
         },
         {
@@ -321,8 +321,23 @@
                 "upgrade": 11,
                 "pay": 32
             },
-            "value": 5400000000,
+            "value": 5870000000,
             "probability": 0.044535400341438096
+        },
+        {
+            "player": {
+                "id": 182521,
+                "name": "토니 크로스",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 144,
+                "position": "CAM",
+                "nation": 21,
+                "upgrade": 11,
+                "pay": 32
+            },
+            "value": 5490000000,
+            "probability": 0.0421495753231467
         },
         {
             "player": {
@@ -341,18 +356,18 @@
         },
         {
             "player": {
-                "id": 1845,
-                "name": "올레 군나르 솔샤르",
+                "id": 143001,
+                "name": "카를로스 테베스",
                 "season": "UC",
                 "season_no": 877,
-                "ovr": 142,
-                "position": "ST",
-                "nation": 36,
+                "ovr": 145,
+                "position": "CF",
+                "nation": 52,
                 "upgrade": 11,
-                "pay": 32
+                "pay": 33
             },
-            "value": 4690000000,
-            "probability": 0.0421495753231467
+            "value": 5020000000,
+            "probability": 0.037536980287783496
         },
         {
             "player": {
@@ -371,21 +386,6 @@
         },
         {
             "player": {
-                "id": 246104,
-                "name": "R. 흐라벤베르흐",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 142,
-                "position": "CDM",
-                "nation": 34,
-                "upgrade": 11,
-                "pay": 30
-            },
-            "value": 4040000000,
-            "probability": 0.037536980287783496
-        },
-        {
-            "player": {
                 "id": 192505,
                 "name": "로멜루 루카쿠",
                 "season": "UC",
@@ -396,53 +396,8 @@
                 "upgrade": 11,
                 "pay": 33
             },
-            "value": 3930000000,
+            "value": 4390000000,
             "probability": 0.0302204502316901
-        },
-        {
-            "player": {
-                "id": 143001,
-                "name": "카를로스 테베스",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 145,
-                "position": "CF",
-                "nation": 52,
-                "upgrade": 11,
-                "pay": 33
-            },
-            "value": 3860000000,
-            "probability": 0.0302204502316901
-        },
-        {
-            "player": {
-                "id": 242516,
-                "name": "코디 각포",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 141,
-                "position": "LW",
-                "nation": 34,
-                "upgrade": 11,
-                "pay": 30
-            },
-            "value": 3840000000,
-            "probability": 0.0207831868260044
-        },
-        {
-            "player": {
-                "id": 182521,
-                "name": "토니 크로스",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 144,
-                "position": "CAM",
-                "nation": 21,
-                "upgrade": 11,
-                "pay": 32
-            },
-            "value": 3840000000,
-            "probability": 0.0207831868260044
         },
         {
             "player": {
@@ -456,22 +411,67 @@
                 "upgrade": 11,
                 "pay": 34
             },
-            "value": 3770000000,
+            "value": 4150000000,
+            "probability": 0.0302204502316901
+        },
+        {
+            "player": {
+                "id": 246104,
+                "name": "R. 흐라벤베르흐",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 142,
+                "position": "CDM",
+                "nation": 34,
+                "upgrade": 11,
+                "pay": 30
+            },
+            "value": 4070000000,
+            "probability": 0.0207831868260044
+        },
+        {
+            "player": {
+                "id": 242516,
+                "name": "코디 각포",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 141,
+                "position": "LW",
+                "nation": 34,
+                "upgrade": 11,
+                "pay": 30
+            },
+            "value": 3600000000,
+            "probability": 0.0207831868260044
+        },
+        {
+            "player": {
+                "id": 1845,
+                "name": "올레 군나르 솔샤르",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 142,
+                "position": "ST",
+                "nation": 36,
+                "upgrade": 11,
+                "pay": 32
+            },
+            "value": 3600000000,
             "probability": 0.010709703415441101
         },
         {
             "player": {
-                "id": 189596,
-                "name": "토마스 뮐러",
+                "id": 7763,
+                "name": "안드레아 피를로",
                 "season": "UC",
                 "season_no": 877,
-                "ovr": 144,
-                "position": "CF",
-                "nation": 21,
+                "ovr": 145,
+                "position": "CM",
+                "nation": 27,
                 "upgrade": 11,
                 "pay": 33
             },
-            "value": 3250000000,
+            "value": 3500000000,
             "probability": 0.010709703415441101
         }
     ]
