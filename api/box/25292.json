@@ -1,0 +1,79 @@
+{
+    "type": "box",
+    "id": "25292",
+    "name": "[가을전어구이 만들기] 구이 재료 상자",
+    "image": null,
+    "expectedBp": 0,
+    "expectedValue": {
+        "[가을전어구이 만들기] 귀한 가을전어": 0.05,
+        "[가을전어구이 만들기] 굵은 소금": 0.45,
+        "[가을전어구이 만들기] 숯불": 0.5
+    },
+    "expectedBp1": 0,
+    "expectedValue1": {
+        "[가을전어구이 만들기] 귀한 가을전어": 0.05,
+        "[가을전어구이 만들기] 굵은 소금": 0.45,
+        "[가을전어구이 만들기] 숯불": 0.5
+    },
+    "percentile": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "5": 0,
+        "10": 0,
+        "20": 0,
+        "30": 0,
+        "40": 0,
+        "50": 0,
+        "60": 0,
+        "70": 0,
+        "80": 0,
+        "90": 0,
+        "100": 0
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[가을전어구이 만들기] 귀한 가을전어",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[가을전어구이 만들기] 귀한 가을전어": 1
+                }
+            },
+            "amount": 1,
+            "probability": 0.05
+        },
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[가을전어구이 만들기] 굵은 소금",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[가을전어구이 만들기] 굵은 소금": 1
+                }
+            },
+            "amount": 1,
+            "probability": 0.45
+        },
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[가을전어구이 만들기] 숯불",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[가을전어구이 만들기] 숯불": 1
+                }
+            },
+            "amount": 1,
+            "probability": 0.5
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

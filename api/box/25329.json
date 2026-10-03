@@ -1,0 +1,79 @@
+{
+    "type": "box",
+    "id": "25329",
+    "name": "[AG][9강 찬스][26.10] 위클리 프리미엄 3인 트레이드 의뢰 상자",
+    "image": null,
+    "expectedBp": 874818.8073394494,
+    "expectedValue": {
+        "[AG][26.10][PTG 포함] 멀티 클래스 Top Price 500 스페셜팩 (9강)": 0.0005,
+        "[AG][26.10][TK 포함] 멀티 클래스 Top Price 3000 스페셜팩 (5~8강)": 0.65,
+        "bp_card": 874818.8073394494
+    },
+    "expectedBp1": 874818.8073394494,
+    "expectedValue1": {
+        "[AG][26.10][PTG 포함] 멀티 클래스 Top Price 500 스페셜팩 (9강)": 0.0005,
+        "[AG][26.10][TK 포함] 멀티 클래스 Top Price 3000 스페셜팩 (5~8강)": 0.65,
+        "bp_card": 874818.8073394494
+    },
+    "percentile": {
+        "0": 15000000,
+        "1": 4000000,
+        "2": 3000000,
+        "5": 2750000,
+        "10": 2750000,
+        "20": 2250000,
+        "30": 1750000,
+        "40": 0,
+        "50": 0,
+        "60": 0,
+        "70": 0,
+        "80": 0,
+        "90": 0,
+        "100": 0
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[AG][26.10][PTG 포함] 멀티 클래스 Top Price 500 스페셜팩 (9강)",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[AG][26.10][PTG 포함] 멀티 클래스 Top Price 500 스페셜팩 (9강)": 1
+                }
+            },
+            "amount": 1,
+            "probability": 0.0005
+        },
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[AG][26.10][TK 포함] 멀티 클래스 Top Price 3000 스페셜팩 (5~8강)",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[AG][26.10][TK 포함] 멀티 클래스 Top Price 3000 스페셜팩 (5~8강)": 1
+                }
+            },
+            "amount": 1,
+            "probability": 0.65
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25319",
+                "name": "[AG] 행운의 BP 카드 (150만~1500만 BP)",
+                "image": null,
+                "expectedBp": 2503058.1039755344,
+                "expectedValue": {
+                    "bp_card": 2503058.1039755344
+                }
+            },
+            "amount": 1,
+            "probability": 0.34950000000000003
+        }
+    ],
+    "additionalInfoWithAmount": null
+}
