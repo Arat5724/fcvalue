@@ -1,0 +1,66 @@
+{
+    "type": "box",
+    "id": "25390",
+    "name": "[스페셜 접속][UC 8강 찬스 + 1200만 BP 확정] Week 5 프리미엄 상자",
+    "image": null,
+    "expectedBp": 38661647.42168545,
+    "expectedValue": {
+        "[스페셜 접속] UC 클래스 Top Price ALL 선수팩 (8강)": 0.0001,
+        "bp_player": 26661647.42168545,
+        "bp_card": 12000000.0
+    },
+    "expectedBp1": 38661647.42168545,
+    "expectedValue1": {
+        "[스페셜 접속] UC 클래스 Top Price ALL 선수팩 (8강)": 0.0001,
+        "bp_player": 26661647.42168545,
+        "bp_card": 12000000.0
+    },
+    "percentile": {
+        "0": 21212000000,
+        "1": 102600000,
+        "2": 94000000,
+        "5": 71500000,
+        "10": 59400000,
+        "20": 43700000,
+        "30": 39900000,
+        "40": 36800000,
+        "50": 34900000,
+        "60": 30700000,
+        "70": 28200000,
+        "80": 27400000,
+        "90": 24300000,
+        "100": 12000000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "box",
+                "id": "25389",
+                "name": "[스페셜 접속][UC 8강 찬스] Week 5 Top Price 8~11강 상자",
+                "image": null,
+                "expectedBp": 26661647.42168545,
+                "expectedValue": {
+                    "[스페셜 접속] UC 클래스 Top Price ALL 선수팩 (8강)": 0.0001,
+                    "bp_player": 26661647.42168545
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25386",
+                "name": "[스페셜 접속] BP 카드 1200만 BP",
+                "image": null,
+                "expectedBp": 12000000.0,
+                "expectedValue": {
+                    "bp_card": 12000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}
