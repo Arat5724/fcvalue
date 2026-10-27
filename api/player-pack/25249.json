@@ -3,25 +3,25 @@
     "id": "25249",
     "name": "[열쇠 75개] UC 포함 Top Price 55 (8~9강, 117+)",
     "image": null,
-    "expectedBp": 1462537832.4593365,
+    "expectedBp": 1447512901.1043236,
     "expectedValue": {
-        "bp_player": 1462537832.4593365
+        "bp_player": 1447512901.1043236
     },
     "percentile": {
-        "0": 41000000000,
-        "1": 2710000000,
+        "0": 43100000000,
+        "1": 2650000000,
         "2": 2620000000,
-        "5": 2570000000,
-        "10": 2470000000,
-        "20": 1810000000,
-        "30": 1580000000,
+        "5": 2550000000,
+        "10": 2380000000,
+        "20": 1700000000,
+        "30": 1660000000,
         "40": 1360000000,
-        "50": 1320000000,
-        "60": 1250000000,
-        "70": 1140000000,
+        "50": 1280000000,
+        "60": 1190000000,
+        "70": 1160000000,
         "80": 1070000000,
         "90": 1020000000,
-        "100": 894000000
+        "100": 824000000
     },
     "playerList": [
         {
@@ -36,7 +36,7 @@
                 "upgrade": 9,
                 "pay": 34
             },
-            "value": 41000000000,
+            "value": 43100000000,
             "probability": 1.5102992212e-08
         },
         {
@@ -51,7 +51,7 @@
                 "upgrade": 8,
                 "pay": 34
             },
-            "value": 28300000000,
+            "value": 29700000000,
             "probability": 3.0205984425e-08
         },
         {
@@ -96,7 +96,7 @@
                 "upgrade": 9,
                 "pay": 32
             },
-            "value": 5640000000,
+            "value": 5740000000,
             "probability": 4.5308976636999995e-08
         },
         {
@@ -111,22 +111,7 @@
                 "upgrade": 9,
                 "pay": 34
             },
-            "value": 4820000000,
-            "probability": 9.061795327399999e-08
-        },
-        {
-            "player": {
-                "id": 214100,
-                "name": "루드 굴리트",
-                "season": "26FSL",
-                "season_no": 868,
-                "ovr": 137,
-                "position": "CAM",
-                "nation": 34,
-                "upgrade": 9,
-                "pay": 33
-            },
-            "value": 4340000000,
+            "value": 4770000000,
             "probability": 9.061795327399999e-08
         },
         {
@@ -141,8 +126,8 @@
                 "upgrade": 8,
                 "pay": 32
             },
-            "value": 3890000000,
-            "probability": 1.35926929911e-07
+            "value": 3960000000,
+            "probability": 9.061795327399999e-08
         },
         {
             "player": {
@@ -165,13 +150,28 @@
                 "name": "루드 굴리트",
                 "season": "26FSL",
                 "season_no": 868,
-                "ovr": 135,
+                "ovr": 137,
                 "position": "CAM",
                 "nation": 34,
-                "upgrade": 8,
+                "upgrade": 9,
                 "pay": 33
             },
-            "value": 2990000000,
+            "value": 3450000000,
+            "probability": 1.35926929911e-07
+        },
+        {
+            "player": {
+                "id": 1625,
+                "name": "티에리 앙리",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 142,
+                "position": "ST",
+                "nation": 18,
+                "upgrade": 9,
+                "pay": 34
+            },
+            "value": 2850000000,
             "probability": 1.5102992212369e-05
         },
         {
@@ -186,23 +186,8 @@
                 "upgrade": 9,
                 "pay": 33
             },
-            "value": 2760000000,
+            "value": 2780000000,
             "probability": 1.5102992212369e-05
-        },
-        {
-            "player": {
-                "id": 1625,
-                "name": "티에리 앙리",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 142,
-                "position": "ST",
-                "nation": 18,
-                "upgrade": 9,
-                "pay": 34
-            },
-            "value": 2710000000,
-            "probability": 0.0151029922123686
         },
         {
             "player": {
@@ -216,7 +201,7 @@
                 "upgrade": 9,
                 "pay": 31
             },
-            "value": 2620000000,
+            "value": 2650000000,
             "probability": 0.0151029922123686
         },
         {
@@ -231,8 +216,8 @@
                 "upgrade": 8,
                 "pay": 34
             },
-            "value": 2600000000,
-            "probability": 0.0188787402654608
+            "value": 2620000000,
+            "probability": 0.0151029922123686
         },
         {
             "player": {
@@ -261,8 +246,8 @@
                 "upgrade": 9,
                 "pay": 34
             },
-            "value": 2520000000,
-            "probability": 0.0234096379291714
+            "value": 2550000000,
+            "probability": 0.0188787402654608
         },
         {
             "player": {
@@ -276,7 +261,22 @@
                 "upgrade": 9,
                 "pay": 31
             },
-            "value": 2470000000,
+            "value": 2420000000,
+            "probability": 0.0234096379291714
+        },
+        {
+            "player": {
+                "id": 214100,
+                "name": "루드 굴리트",
+                "season": "26FSL",
+                "season_no": 868,
+                "ovr": 135,
+                "position": "CAM",
+                "nation": 34,
+                "upgrade": 8,
+                "pay": 33
+            },
+            "value": 2380000000,
             "probability": 0.0234096379291714
         },
         {
@@ -291,7 +291,7 @@
                 "upgrade": 9,
                 "pay": 31
             },
-            "value": 1970000000,
+            "value": 1910000000,
             "probability": 0.0249199371504082
         },
         {
@@ -306,7 +306,7 @@
                 "upgrade": 9,
                 "pay": 34
             },
-            "value": 1900000000,
+            "value": 1870000000,
             "probability": 0.0249199371504082
         },
         {
@@ -321,7 +321,7 @@
                 "upgrade": 8,
                 "pay": 31
             },
-            "value": 1810000000,
+            "value": 1830000000,
             "probability": 0.0264302363716451
         },
         {
@@ -336,23 +336,8 @@
                 "upgrade": 9,
                 "pay": 34
             },
-            "value": 1810000000,
-            "probability": 0.0264302363716451
-        },
-        {
-            "player": {
-                "id": 20801,
-                "name": "크리스티아누 호날두",
-                "season": "DCB",
-                "season_no": 846,
-                "ovr": 136,
-                "position": "ST",
-                "nation": 38,
-                "upgrade": 9,
-                "pay": 32
-            },
             "value": 1700000000,
-            "probability": 0.0271853859822635
+            "probability": 0.0264302363716451
         },
         {
             "player": {
@@ -366,23 +351,8 @@
                 "upgrade": 8,
                 "pay": 31
             },
-            "value": 1680000000,
+            "value": 1670000000,
             "probability": 0.0271853859822635
-        },
-        {
-            "player": {
-                "id": 158023,
-                "name": "리오넬 메시",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 143,
-                "position": "CF",
-                "nation": 52,
-                "upgrade": 9,
-                "pay": 35
-            },
-            "value": 1580000000,
-            "probability": 0.0286956852035004
         },
         {
             "player": {
@@ -396,7 +366,22 @@
                 "upgrade": 8,
                 "pay": 34
             },
-            "value": 1560000000,
+            "value": 1660000000,
+            "probability": 0.0271853859822635
+        },
+        {
+            "player": {
+                "id": 20801,
+                "name": "크리스티아누 호날두",
+                "season": "DCB",
+                "season_no": 846,
+                "ovr": 136,
+                "position": "ST",
+                "nation": 38,
+                "upgrade": 9,
+                "pay": 32
+            },
+            "value": 1660000000,
             "probability": 0.0286956852035004
         },
         {
@@ -411,7 +396,22 @@
                 "upgrade": 9,
                 "pay": 34
             },
-            "value": 1480000000,
+            "value": 1550000000,
+            "probability": 0.0286956852035004
+        },
+        {
+            "player": {
+                "id": 158023,
+                "name": "리오넬 메시",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 143,
+                "position": "CF",
+                "nation": 52,
+                "upgrade": 9,
+                "pay": 35
+            },
+            "value": 1550000000,
             "probability": 0.030961134035355702
         },
         {
@@ -426,7 +426,7 @@
                 "upgrade": 8,
                 "pay": 33
             },
-            "value": 1410000000,
+            "value": 1360000000,
             "probability": 0.030961134035355702
         },
         {
@@ -456,22 +456,22 @@
                 "upgrade": 8,
                 "pay": 31
             },
-            "value": 1360000000,
+            "value": 1320000000,
             "probability": 0.0339817324778294
         },
         {
             "player": {
-                "id": 231443,
-                "name": "우스만 뎀벨레",
-                "season": "25UCL",
-                "season_no": 856,
-                "ovr": 134,
-                "position": "RW",
-                "nation": 18,
-                "upgrade": 9,
-                "pay": 23
+                "id": 188545,
+                "name": "레반도프스키",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 141,
+                "position": "ST",
+                "nation": 37,
+                "upgrade": 8,
+                "pay": 34
             },
-            "value": 1320000000,
+            "value": 1280000000,
             "probability": 0.0362471813096847
         },
         {
@@ -486,22 +486,37 @@
                 "upgrade": 9,
                 "pay": 33
             },
-            "value": 1320000000,
+            "value": 1280000000,
             "probability": 0.0362471813096847
         },
         {
             "player": {
-                "id": 188545,
-                "name": "레반도프스키",
+                "id": 176580,
+                "name": "루이스 수아레스",
                 "season": "UC",
                 "season_no": 877,
-                "ovr": 141,
+                "ovr": 142,
                 "position": "ST",
-                "nation": 37,
-                "upgrade": 8,
+                "nation": 60,
+                "upgrade": 9,
                 "pay": 34
             },
-            "value": 1310000000,
+            "value": 1280000000,
+            "probability": 0.0377574805309215
+        },
+        {
+            "player": {
+                "id": 239085,
+                "name": "엘링 홀란",
+                "season": "PTG",
+                "season_no": 863,
+                "ovr": 139,
+                "position": "ST",
+                "nation": 36,
+                "upgrade": 9,
+                "pay": 31
+            },
+            "value": 1190000000,
             "probability": 0.0377574805309215
         },
         {
@@ -516,37 +531,22 @@
                 "upgrade": 8,
                 "pay": 34
             },
-            "value": 1250000000,
-            "probability": 0.0377574805309215
-        },
-        {
-            "player": {
-                "id": 176580,
-                "name": "루이스 수아레스",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 142,
-                "position": "ST",
-                "nation": 60,
-                "upgrade": 9,
-                "pay": 34
-            },
-            "value": 1180000000,
+            "value": 1170000000,
             "probability": 0.036700271076055696
         },
         {
             "player": {
-                "id": 239085,
-                "name": "엘링 홀란",
-                "season": "PTG",
-                "season_no": 863,
-                "ovr": 139,
+                "id": 202126,
+                "name": "해리 케인",
+                "season": "WS",
+                "season_no": 848,
+                "ovr": 137,
                 "position": "ST",
-                "nation": 36,
+                "nation": 14,
                 "upgrade": 9,
                 "pay": 31
             },
-            "value": 1150000000,
+            "value": 1160000000,
             "probability": 0.036700271076055696
         },
         {
@@ -561,38 +561,23 @@
                 "upgrade": 9,
                 "pay": 28
             },
-            "value": 1140000000,
+            "value": 1160000000,
             "probability": 0.0326224631787162
         },
         {
             "player": {
-                "id": 202126,
-                "name": "해리 케인",
-                "season": "WS",
-                "season_no": 848,
-                "ovr": 137,
-                "position": "ST",
-                "nation": 14,
+                "id": 231443,
+                "name": "우스만 뎀벨레",
+                "season": "25UCL",
+                "season_no": 856,
+                "ovr": 134,
+                "position": "RW",
+                "nation": 18,
                 "upgrade": 9,
-                "pay": 31
+                "pay": 23
             },
-            "value": 1130000000,
+            "value": 1150000000,
             "probability": 0.0326224631787162
-        },
-        {
-            "player": {
-                "id": 158023,
-                "name": "리오넬 메시",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 141,
-                "position": "CF",
-                "nation": 52,
-                "upgrade": 8,
-                "pay": 35
-            },
-            "value": 1090000000,
-            "probability": 0.0301304694636754
         },
         {
             "player": {
@@ -606,23 +591,23 @@
                 "upgrade": 9,
                 "pay": 32
             },
-            "value": 1070000000,
+            "value": 1090000000,
             "probability": 0.0301304694636754
         },
         {
             "player": {
-                "id": 20801,
-                "name": "크리스티아누 호날두",
-                "season": "DCB",
-                "season_no": 846,
-                "ovr": 134,
-                "position": "ST",
-                "nation": 38,
+                "id": 158023,
+                "name": "리오넬 메시",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 141,
+                "position": "CF",
+                "nation": 52,
                 "upgrade": 8,
-                "pay": 32
+                "pay": 35
             },
-            "value": 1030000000,
-            "probability": 0.026279206449521402
+            "value": 1070000000,
+            "probability": 0.0301304694636754
         },
         {
             "player": {
@@ -637,6 +622,21 @@
                 "pay": 33
             },
             "value": 1030000000,
+            "probability": 0.026279206449521402
+        },
+        {
+            "player": {
+                "id": 20801,
+                "name": "크리스티아누 호날두",
+                "season": "DCB",
+                "season_no": 846,
+                "ovr": 134,
+                "position": "ST",
+                "nation": 38,
+                "upgrade": 8,
+                "pay": 32
+            },
+            "value": 1020000000,
             "probability": 0.026279206449521402
         },
         {
@@ -656,21 +656,6 @@
         },
         {
             "player": {
-                "id": 37576,
-                "name": "호나우두",
-                "season": "CH",
-                "season_no": 845,
-                "ovr": 138,
-                "position": "ST",
-                "nation": 54,
-                "upgrade": 9,
-                "pay": 33
-            },
-            "value": 1020000000,
-            "probability": 0.0230320631238621
-        },
-        {
-            "player": {
                 "id": 239085,
                 "name": "엘링 홀란",
                 "season": "25UCL",
@@ -681,53 +666,23 @@
                 "upgrade": 9,
                 "pay": 31
             },
-            "value": 1010000000,
-            "probability": 0.0187277103433371
+            "value": 1020000000,
+            "probability": 0.0230320631238621
         },
         {
             "player": {
-                "id": 183277,
-                "name": "에덴 아자르",
-                "season": "26FSL",
-                "season_no": 868,
-                "ovr": 137,
-                "position": "LW",
-                "nation": 7,
+                "id": 202126,
+                "name": "해리 케인",
+                "season": "PTG",
+                "season_no": 863,
+                "ovr": 140,
+                "position": "ST",
+                "nation": 14,
                 "upgrade": 9,
                 "pay": 31
             },
             "value": 1000000000,
             "probability": 0.0187277103433371
-        },
-        {
-            "player": {
-                "id": 9676,
-                "name": "사뮈엘 에토",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 141,
-                "position": "ST",
-                "nation": 103,
-                "upgrade": 9,
-                "pay": 32
-            },
-            "value": 977000000,
-            "probability": 0.0140457827575028
-        },
-        {
-            "player": {
-                "id": 208722,
-                "name": "사디오 마네",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 139,
-                "position": "LW",
-                "nation": 136,
-                "upgrade": 9,
-                "pay": 33
-            },
-            "value": 974000000,
-            "probability": 0.0140457827575028
         },
         {
             "player": {
@@ -741,7 +696,52 @@
                 "upgrade": 9,
                 "pay": 31
             },
-            "value": 966000000,
+            "value": 1000000000,
+            "probability": 0.0187277103433371
+        },
+        {
+            "player": {
+                "id": 5680,
+                "name": "클라위베르트",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 141,
+                "position": "ST",
+                "nation": 34,
+                "upgrade": 9,
+                "pay": 33
+            },
+            "value": 999000000,
+            "probability": 0.0140457827575028
+        },
+        {
+            "player": {
+                "id": 183277,
+                "name": "에덴 아자르",
+                "season": "26FSL",
+                "season_no": 868,
+                "ovr": 137,
+                "position": "LW",
+                "nation": 7,
+                "upgrade": 9,
+                "pay": 31
+            },
+            "value": 998000000,
+            "probability": 0.0140457827575028
+        },
+        {
+            "player": {
+                "id": 138449,
+                "name": "카카",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 141,
+                "position": "CAM",
+                "nation": 54,
+                "upgrade": 9,
+                "pay": 33
+            },
+            "value": 993000000,
             "probability": 0.00966591501591591
         },
         {
@@ -756,67 +756,52 @@
                 "upgrade": 9,
                 "pay": 30
             },
-            "value": 948000000,
+            "value": 973000000,
             "probability": 0.00966591501591591
         },
         {
             "player": {
-                "id": 5680,
-                "name": "클라위베르트",
+                "id": 37576,
+                "name": "호나우두",
+                "season": "CH",
+                "season_no": 845,
+                "ovr": 138,
+                "position": "ST",
+                "nation": 54,
+                "upgrade": 9,
+                "pay": 33
+            },
+            "value": 973000000,
+            "probability": 0.0052105323132671695
+        },
+        {
+            "player": {
+                "id": 9676,
+                "name": "사뮈엘 에토",
                 "season": "UC",
                 "season_no": 877,
                 "ovr": 141,
                 "position": "ST",
-                "nation": 34,
+                "nation": 103,
                 "upgrade": 9,
-                "pay": 33
+                "pay": 32
             },
-            "value": 947000000,
+            "value": 971000000,
             "probability": 0.0052105323132671695
         },
         {
             "player": {
-                "id": 202126,
-                "name": "해리 케인",
-                "season": "PTG",
-                "season_no": 863,
-                "ovr": 140,
-                "position": "ST",
-                "nation": 14,
-                "upgrade": 9,
-                "pay": 31
-            },
-            "value": 943000000,
-            "probability": 0.0052105323132671695
-        },
-        {
-            "player": {
-                "id": 231443,
-                "name": "우스만 뎀벨레",
-                "season": "25UCL",
-                "season_no": 856,
-                "ovr": 132,
-                "position": "RW",
-                "nation": 18,
-                "upgrade": 8,
-                "pay": 23
-            },
-            "value": 912000000,
-            "probability": 1.5102992212e-08
-        },
-        {
-            "player": {
-                "id": 153079,
-                "name": "세르히오 아구에로",
+                "id": 208722,
+                "name": "사디오 마네",
                 "season": "UC",
                 "season_no": 877,
-                "ovr": 140,
-                "position": "ST",
-                "nation": 52,
-                "upgrade": 8,
+                "ovr": 139,
+                "position": "LW",
+                "nation": 136,
+                "upgrade": 9,
                 "pay": 33
             },
-            "value": 908000000,
+            "value": 922000000,
             "probability": 1.5102992212e-08
         },
         {
@@ -831,22 +816,37 @@
                 "upgrade": 9,
                 "pay": 30
             },
-            "value": 903000000,
+            "value": 900000000,
             "probability": 1.5102992212e-08
         },
         {
             "player": {
-                "id": 138449,
-                "name": "카카",
+                "id": 153079,
+                "name": "세르히오 아구에로",
                 "season": "UC",
                 "season_no": 877,
-                "ovr": 141,
-                "position": "CAM",
-                "nation": 54,
-                "upgrade": 9,
+                "ovr": 140,
+                "position": "ST",
+                "nation": 52,
+                "upgrade": 8,
                 "pay": 33
             },
-            "value": 894000000,
+            "value": 880000000,
+            "probability": 1.5102992212e-08
+        },
+        {
+            "player": {
+                "id": 239085,
+                "name": "엘링 홀란",
+                "season": "PTG",
+                "season_no": 863,
+                "ovr": 137,
+                "position": "ST",
+                "nation": 36,
+                "upgrade": 8,
+                "pay": 31
+            },
+            "value": 824000000,
             "probability": 1.5102992212e-08
         }
     ]
