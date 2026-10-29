@@ -1,0 +1,63 @@
+{
+    "type": "general-product",
+    "id": "44733",
+    "name": "26UP UPGRADE 패키지",
+    "image": "/assets/image/item/14733_s.png",
+    "price": 7500,
+    "efficiency": 4730.28803324495,
+    "expectedBp": 354771602.49337125,
+    "expectedValue": {
+        "bp_player": 239771602.49337122,
+        "bp_card": 115000000.0
+    },
+    "efficiency1": 4730.28803324495,
+    "expectedBp1": 354771602.49337125,
+    "expectedValue1": {
+        "bp_player": 239771602.49337122,
+        "bp_card": 115000000.0
+    },
+    "percentile": null,
+    "itemList": [
+        {
+            "item": {
+                "type": "box",
+                "id": "25487",
+                "name": "26UP UPGRADE 상자",
+                "image": "/assets/image/item/201710869_s.png",
+                "expectedBp": 349795344.11457986,
+                "expectedValue": {
+                    "bp_player": 234795344.11457986,
+                    "bp_card": 115000000.0
+                }
+            },
+            "amount": 1
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25458",
+                "name": "[동일확률] 26UP Top Price 1435 (1~7강)",
+                "image": "/assets/image/item/200242555_s.png",
+                "expectedBp": 1610115.0714285716,
+                "expectedValue": {
+                    "bp_player": 1610115.0714285716
+                }
+            },
+            "amount": 3
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25460",
+                "name": "26PL Top Price 5500 (1~11강)",
+                "image": "/assets/image/item/200242557_s.png",
+                "expectedBp": 72956.58225283578,
+                "expectedValue": {
+                    "bp_player": 72956.58225283578
+                }
+            },
+            "amount": 2
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

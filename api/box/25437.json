@@ -1,0 +1,61 @@
+{
+    "type": "box",
+    "id": "25437",
+    "name": "[열쇠 800개] '26UP 10~11강팩' + '멀티클래스 11강팩 2개'",
+    "image": null,
+    "expectedBp": 19768136301.787045,
+    "expectedValue": {
+        "bp_player": 19768136301.787045
+    },
+    "expectedBp1": 19768136301.787045,
+    "expectedValue1": {
+        "bp_player": 19768136301.787045
+    },
+    "percentile": {
+        "0": 236310000000,
+        "1": 26120000000,
+        "2": 25048000000,
+        "5": 23750000000,
+        "10": 22572000000,
+        "20": 21490000000,
+        "30": 20631000000,
+        "40": 19994000000,
+        "50": 19317000000,
+        "60": 18551000000,
+        "70": 18140000000,
+        "80": 17600000000,
+        "90": 17176000000,
+        "100": 14338000000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25405",
+                "name": "[열쇠 800개] 26UP Top Price 15 (10~11강, 120+)",
+                "image": null,
+                "expectedBp": 883444933.9207048,
+                "expectedValue": {
+                    "bp_player": 883444933.9207048
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25406",
+                "name": "[열쇠 800개] SPT 포함 Top Price 55 (11강, 113+)",
+                "image": null,
+                "expectedBp": 9442345683.93317,
+                "expectedValue": {
+                    "bp_player": 9442345683.93317
+                }
+            },
+            "amount": 2,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

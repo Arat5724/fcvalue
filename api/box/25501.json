@@ -1,0 +1,79 @@
+{
+    "type": "box",
+    "id": "25501",
+    "name": "[스페셜 접속][EVO DNA 토큰 상자 포함] 보너스 올인원 상자",
+    "image": null,
+    "expectedBp": 426133.64285714255,
+    "expectedValue": {
+        "[EVO 8~11강 찬스!] DNA 토큰 상자": 3.0,
+        "[가을 영양밥] 영양밥 재료 상자": 20.0,
+        "bp_player": 426133.64285714255
+    },
+    "expectedBp1": 426133.64285714255,
+    "expectedValue1": {
+        "[EVO 8~11강 찬스!] DNA 토큰 상자": 3.0,
+        "[가을 영양밥] 영양밥 재료 상자": 20.0,
+        "bp_player": 426133.64285714255
+    },
+    "percentile": {
+        "0": 67400000,
+        "1": 2310000,
+        "2": 2080000,
+        "5": 1600000,
+        "10": 1050000,
+        "20": 612000,
+        "30": 347000,
+        "40": 218000,
+        "50": 172000,
+        "60": 140000,
+        "70": 115000,
+        "80": 101000,
+        "90": 63500,
+        "100": 1190
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[EVO 8~11강 찬스!] DNA 토큰 상자",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[EVO 8~11강 찬스!] DNA 토큰 상자": 1
+                }
+            },
+            "amount": 3,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[가을 영양밥] 영양밥 재료 상자",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[가을 영양밥] 영양밥 재료 상자": 1
+                }
+            },
+            "amount": 20,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25491",
+                "name": "[스페셜 접속][동일 확률] CU, 24EP 클래스 ALL 보너스팩 (1~7강)",
+                "image": null,
+                "expectedBp": 426133.64285714255,
+                "expectedValue": {
+                    "bp_player": 426133.64285714255
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}
