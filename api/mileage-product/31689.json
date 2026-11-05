@@ -1,0 +1,64 @@
+{
+    "type": "mileage-product",
+    "id": "31689",
+    "name": "[마일리지] BP 패키지",
+    "image": "/assets/image/item/31689_s.png",
+    "price": 100000,
+    "efficiency": 60.0,
+    "expectedBp": 60000000,
+    "expectedValue": {
+        "bp_card": 60000000,
+        "[마일리지][동일확률] 26UP Top Price 205 (1강)": 1
+    },
+    "efficiency1": 60.0,
+    "expectedBp1": 60000000,
+    "expectedValue1": {
+        "bp_card": 60000000,
+        "[마일리지][동일확률] 26UP Top Price 205 (1강)": 1
+    },
+    "percentile": {
+        "0": 60000000,
+        "1": 60000000,
+        "2": 60000000,
+        "5": 60000000,
+        "10": 60000000,
+        "20": 60000000,
+        "30": 60000000,
+        "40": 60000000,
+        "50": 60000000,
+        "60": 60000000,
+        "70": 60000000,
+        "80": 60000000,
+        "90": 60000000,
+        "100": 60000000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "bp",
+                "id": -1,
+                "name": "[마일리지] BP 카드 6000만",
+                "image": null,
+                "expectedBp": 60000000,
+                "expectedValue": {
+                    "bp_card": 60000000
+                }
+            },
+            "amount": 1
+        },
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[마일리지][동일확률] 26UP Top Price 205 (1강)",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[마일리지][동일확률] 26UP Top Price 205 (1강)": 1
+                }
+            },
+            "amount": 1
+        }
+    ],
+    "additionalInfoWithAmount": null
+}
