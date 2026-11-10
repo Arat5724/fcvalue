@@ -1,0 +1,79 @@
+{
+    "type": "box",
+    "id": "25642",
+    "name": "[5억 BP or 프리미엄 보상 찬스] 진짜 귀한 가을 영양밥",
+    "image": null,
+    "expectedBp": 164196813.4185761,
+    "expectedValue": {
+        "bp_card": 124704619.88304086,
+        "bp_player": 39492193.53553523
+    },
+    "expectedBp1": 164196813.4185761,
+    "expectedValue1": {
+        "bp_card": 124704619.88304086,
+        "bp_player": 39492193.53553523
+    },
+    "percentile": {
+        "0": 53245000000,
+        "1": 488000000,
+        "2": 405000000,
+        "5": 295000000,
+        "10": 239000000,
+        "20": 185000000,
+        "30": 175000000,
+        "40": 165000000,
+        "50": 155000000,
+        "60": 145000000,
+        "70": 135000000,
+        "80": 116000000,
+        "90": 95000000,
+        "100": 50550000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "bp",
+                "id": "25632",
+                "name": "[영양밥] BP 카드 5억 BP",
+                "image": null,
+                "expectedBp": 500000000.0,
+                "expectedValue": {
+                    "bp_card": 500000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 0.005
+        },
+        {
+            "item": {
+                "type": "box",
+                "id": "25640",
+                "name": "[모두 획득] UC, SPT, 26FSL 8강 확정 + 진짜 귀한 가을 영양밥 상자",
+                "image": null,
+                "expectedBp": 260655946.56005517,
+                "expectedValue": {
+                    "bp_player": 137837233.10976285,
+                    "bp_card": 122818713.45029232
+                }
+            },
+            "amount": 1,
+            "probability": 0.015
+        },
+        {
+            "item": {
+                "type": "box",
+                "id": "25641",
+                "name": "[모두 획득] 진짜 귀한 가을 영양밥 상자",
+                "image": null,
+                "expectedBp": 161007116.55119926,
+                "expectedValue": {
+                    "bp_player": 38188403.10090693,
+                    "bp_card": 122818713.45029232
+                }
+            },
+            "amount": 1,
+            "probability": 0.98
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

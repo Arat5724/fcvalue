@@ -1,0 +1,75 @@
+{
+    "type": "box",
+    "id": "25608",
+    "name": "선수팩 상자",
+    "image": null,
+    "expectedBp": 2859513806.7984557,
+    "expectedValue": {
+        "bp_player": 2859513806.7984557
+    },
+    "expectedBp1": 2859513806.7984557,
+    "expectedValue1": {
+        "bp_player": 2859513806.7984557
+    },
+    "percentile": {
+        "0": 317000000000,
+        "1": 6620000000,
+        "2": 5530000000,
+        "5": 4730000000,
+        "10": 4180000000,
+        "20": 3590000000,
+        "30": 2930000000,
+        "40": 2730000000,
+        "50": 2490000000,
+        "60": 2390000000,
+        "70": 2210000000,
+        "80": 2140000000,
+        "90": 2060000000,
+        "100": 1970000000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "box",
+                "id": "25616",
+                "name": "26UP 8~11강 + SPT 포함 11강",
+                "image": null,
+                "expectedBp": 4562614918.412401,
+                "expectedValue": {
+                    "bp_player": 4562614918.412401
+                }
+            },
+            "amount": 1,
+            "probability": 0.09
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25581",
+                "name": "UC 포함 Top Price 210 선수팩 (11강, 116+)",
+                "image": null,
+                "expectedBp": 2539313555.568175,
+                "expectedValue": {
+                    "bp_player": 2539313555.568175
+                }
+            },
+            "amount": 1,
+            "probability": 0.6
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25582",
+                "name": "26UP, UC 포함 Top Price 55 선수팩 (8~10강, 116+)",
+                "image": null,
+                "expectedBp": 2984807518.7110796,
+                "expectedValue": {
+                    "bp_player": 2984807518.7110796
+                }
+            },
+            "amount": 1,
+            "probability": 0.31
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

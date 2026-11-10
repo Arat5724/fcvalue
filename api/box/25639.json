@@ -1,0 +1,79 @@
+{
+    "type": "box",
+    "id": "25639",
+    "name": "[가을 영양밥] 영양밥 재료 상자",
+    "image": null,
+    "expectedBp": 0,
+    "expectedValue": {
+        "[가을 영양밥] 귀한 햇밤": 0.05,
+        "[가을 영양밥] 버섯": 0.45,
+        "[가을 영양밥] 대추": 0.5
+    },
+    "expectedBp1": 0,
+    "expectedValue1": {
+        "[가을 영양밥] 귀한 햇밤": 0.05,
+        "[가을 영양밥] 버섯": 0.45,
+        "[가을 영양밥] 대추": 0.5
+    },
+    "percentile": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "5": 0,
+        "10": 0,
+        "20": 0,
+        "30": 0,
+        "40": 0,
+        "50": 0,
+        "60": 0,
+        "70": 0,
+        "80": 0,
+        "90": 0,
+        "100": 0
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[가을 영양밥] 귀한 햇밤",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[가을 영양밥] 귀한 햇밤": 1
+                }
+            },
+            "amount": 1,
+            "probability": 0.05
+        },
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[가을 영양밥] 버섯",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[가을 영양밥] 버섯": 1
+                }
+            },
+            "amount": 1,
+            "probability": 0.45
+        },
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[가을 영양밥] 대추",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[가을 영양밥] 대추": 1
+                }
+            },
+            "amount": 1,
+            "probability": 0.5
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "25605",
+    "name": "[동일확률] 26UP 8~10강 + 55억 BP",
+    "image": null,
+    "expectedBp": 6618570588.235294,
+    "expectedValue": {
+        "bp_player": 1118570588.2352939,
+        "bp_card": 5500000000.0
+    },
+    "expectedBp1": 6618570588.235294,
+    "expectedValue1": {
+        "bp_player": 1118570588.2352939,
+        "bp_card": 5500000000.0
+    },
+    "percentile": {
+        "0": 20300000000,
+        "1": 15700000000,
+        "2": 10790000000,
+        "5": 8810000000,
+        "10": 7750000000,
+        "20": 7010000000,
+        "30": 6447000000,
+        "40": 6204000000,
+        "50": 6071000000,
+        "60": 5980000000,
+        "70": 5925000000,
+        "80": 5878000000,
+        "90": 5826000000,
+        "100": 5791000000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25573",
+                "name": "[동일확률] 26UP Top Price 170 선수팩 (8~10강)",
+                "image": null,
+                "expectedBp": 1118570588.2352939,
+                "expectedValue": {
+                    "bp_player": 1118570588.2352939
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25592",
+                "name": "BP 카드 55억",
+                "image": null,
+                "expectedBp": 5500000000.0,
+                "expectedValue": {
+                    "bp_card": 5500000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

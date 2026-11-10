@@ -1,0 +1,75 @@
+{
+    "type": "box",
+    "id": "25615",
+    "name": "[일반SSS] UC 8~11강 상자",
+    "image": null,
+    "expectedBp": 401390042.5019759,
+    "expectedValue": {
+        "bp_player": 401390042.5019759
+    },
+    "expectedBp1": 401390042.5019759,
+    "expectedValue1": {
+        "bp_player": 401390042.5019759
+    },
+    "percentile": {
+        "0": 317000000000,
+        "1": 984000000,
+        "2": 933000000,
+        "5": 804000000,
+        "10": 605000000,
+        "20": 456000000,
+        "30": 425000000,
+        "40": 396000000,
+        "50": 365000000,
+        "60": 310000000,
+        "70": 297000000,
+        "80": 272000000,
+        "90": 263000000,
+        "100": 250000000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25541",
+                "name": "UC Top Price 110 선수팩 (11강)",
+                "image": null,
+                "expectedBp": 796261664.3220214,
+                "expectedValue": {
+                    "bp_player": 796261664.3220214
+                }
+            },
+            "amount": 1,
+            "probability": 0.095
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25542",
+                "name": "UC Top Price 90 선수팩 (10강, 118+)",
+                "image": null,
+                "expectedBp": 408727631.0282283,
+                "expectedValue": {
+                    "bp_player": 408727631.0282283
+                }
+            },
+            "amount": 1,
+            "probability": 0.28
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25543",
+                "name": "UC Top Price 80 선수팩 (8~9강, 120+)",
+                "image": null,
+                "expectedBp": 338082316.32556796,
+                "expectedValue": {
+                    "bp_player": 338082316.32556796
+                }
+            },
+            "amount": 1,
+            "probability": 0.625
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

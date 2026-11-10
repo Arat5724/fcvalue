@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "25643",
+    "name": "[모두 획득] 맛있는 가을 영양밥",
+    "image": null,
+    "expectedBp": 22567674.966609664,
+    "expectedValue": {
+        "bp_player": 16067674.966609664,
+        "bp_card": 6500000.0
+    },
+    "expectedBp1": 22567674.966609664,
+    "expectedValue1": {
+        "bp_player": 16067674.966609664,
+        "bp_card": 6500000.0
+    },
+    "percentile": {
+        "0": 26606500000,
+        "1": 109500000,
+        "2": 81800000,
+        "5": 46700000,
+        "10": 36000000,
+        "20": 27600000,
+        "30": 22700000,
+        "40": 20100000,
+        "50": 17200000,
+        "60": 14920000,
+        "70": 13680000,
+        "80": 12200000,
+        "90": 10560000,
+        "100": 8230000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25624",
+                "name": "[영양밥][UC 8강 포함] 멀티 클래스 최종 OVR 127+ 스페셜팩 (8~10강)",
+                "image": null,
+                "expectedBp": 16067674.966609664,
+                "expectedValue": {
+                    "bp_player": 16067674.966609664
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25630",
+                "name": "[영양밥] BP 카드 650만 BP",
+                "image": null,
+                "expectedBp": 6500000.0,
+                "expectedValue": {
+                    "bp_card": 6500000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}
