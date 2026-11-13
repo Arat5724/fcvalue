@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "25705",
+    "name": "[크리스탈400개] 26UP, UC 포함 11강 + 35억 BP",
+    "image": null,
+    "expectedBp": 7592145062.636007,
+    "expectedValue": {
+        "bp_player": 4092145062.636007,
+        "bp_card": 3500000000.0
+    },
+    "expectedBp1": 7592145062.636007,
+    "expectedValue1": {
+        "bp_player": 4092145062.636007,
+        "bp_card": 3500000000.0
+    },
+    "percentile": {
+        "0": 320500000000,
+        "1": 12460000000,
+        "2": 12040000000,
+        "5": 10930000000,
+        "10": 10320000000,
+        "20": 9000000000,
+        "30": 8170000000,
+        "40": 7660000000,
+        "50": 7300000000,
+        "60": 6680000000,
+        "70": 6380000000,
+        "80": 5970000000,
+        "90": 5660000000,
+        "100": 5430000000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25659",
+                "name": "26UP, UC 포함 Top Price 230 선수팩 (11강, 119+)",
+                "image": null,
+                "expectedBp": 4092145062.636007,
+                "expectedValue": {
+                    "bp_player": 4092145062.636007
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25684",
+                "name": "BP 카드 35억",
+                "image": null,
+                "expectedBp": 3500000000.0,
+                "expectedValue": {
+                    "bp_card": 3500000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "25703",
+    "name": "[크리스탈400개] ICON TM 8~10강 + 35억 BP",
+    "image": null,
+    "expectedBp": 7333738062.507806,
+    "expectedValue": {
+        "bp_player": 3833738062.507806,
+        "bp_card": 3500000000.0
+    },
+    "expectedBp1": 7333738062.507806,
+    "expectedValue1": {
+        "bp_player": 3833738062.507806,
+        "bp_card": 3500000000.0
+    },
+    "percentile": {
+        "0": 170500000000,
+        "1": 11790000000,
+        "2": 11060000000,
+        "5": 10210000000,
+        "10": 9550000000,
+        "20": 8460000000,
+        "30": 7800000000,
+        "40": 7310000000,
+        "50": 6980000000,
+        "60": 6800000000,
+        "70": 6480000000,
+        "80": 6030000000,
+        "90": 5680000000,
+        "100": 5260000000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25662",
+                "name": "ICON TM Top Price 220 선수팩 (8~10강, 122+)",
+                "image": null,
+                "expectedBp": 3833738062.507806,
+                "expectedValue": {
+                    "bp_player": 3833738062.507806
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25684",
+                "name": "BP 카드 35억",
+                "image": null,
+                "expectedBp": 3500000000.0,
+                "expectedValue": {
+                    "bp_card": 3500000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

@@ -1,0 +1,77 @@
+{
+    "type": "box",
+    "id": "25695",
+    "name": "[크리스탈1999개] ICON TM 11강 + 180억 BP",
+    "image": null,
+    "expectedBp": 39458241709.015335,
+    "expectedValue": {
+        "bp_player": 21458241709.015335,
+        "bp_card": 18000000000.0
+    },
+    "expectedBp1": 39458241709.015335,
+    "expectedValue1": {
+        "bp_player": 21458241709.015335,
+        "bp_card": 18000000000.0
+    },
+    "percentile": {
+        "0": 288700000000,
+        "1": 75928000000,
+        "2": 74304000000,
+        "5": 57842000000,
+        "10": 50735000000,
+        "20": 45840000000,
+        "30": 44184000000,
+        "40": 37597000000,
+        "50": 35697000000,
+        "60": 33577000000,
+        "70": 32642000000,
+        "80": 31331000000,
+        "90": 29977000000,
+        "100": 27494000000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25651",
+                "name": "ICON TM Top Price 70 선수팩 (11강)",
+                "image": null,
+                "expectedBp": 20872555260.8311,
+                "expectedValue": {
+                    "bp_player": 20872555260.8311
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25681",
+                "name": "BP 카드 180억",
+                "image": null,
+                "expectedBp": 18000000000.0,
+                "expectedValue": {
+                    "bp_card": 18000000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25657",
+                "name": "[미니보너스] NEW ICON TM 선수팩 (8~10강)",
+                "image": null,
+                "expectedBp": 585686448.1842338,
+                "expectedValue": {
+                    "bp_player": 585686448.1842338
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

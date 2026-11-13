@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "25718",
+    "name": "[스페셜 접속][ICON TM 7강 찬스] Week 3 리워드 상자",
+    "image": null,
+    "expectedBp": 29293895.078835677,
+    "expectedValue": {
+        "bp_player": 17293895.078835677,
+        "bp_card": 12000000.0
+    },
+    "expectedBp1": 29293895.078835677,
+    "expectedValue1": {
+        "bp_player": 17293895.078835677,
+        "bp_card": 12000000.0
+    },
+    "percentile": {
+        "0": 39812000000,
+        "1": 90800000,
+        "2": 73500000,
+        "5": 50600000,
+        "10": 38700000,
+        "20": 32500000,
+        "30": 27400000,
+        "40": 26000000,
+        "50": 25300000,
+        "60": 23800000,
+        "70": 23100000,
+        "80": 22800000,
+        "90": 22500000,
+        "100": 12681000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "box",
+                "id": "25717",
+                "name": "[스페셜 접속][ICON TM 7강 찬스] Week 3 선수팩 상자",
+                "image": null,
+                "expectedBp": 17293895.078835677,
+                "expectedValue": {
+                    "bp_player": 17293895.078835677
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25715",
+                "name": "[스페셜 접속] BP 카드 1200만 BP",
+                "image": null,
+                "expectedBp": 12000000.0,
+                "expectedValue": {
+                    "bp_card": 12000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

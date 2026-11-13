@@ -1,0 +1,47 @@
+{
+    "type": "box",
+    "id": "25694",
+    "name": "참여권 1개 (BP카드 1000만)",
+    "image": null,
+    "expectedBp": 10000000.0,
+    "expectedValue": {
+        "bp_card": 10000000.0
+    },
+    "expectedBp1": 10000000.0,
+    "expectedValue1": {
+        "bp_card": 10000000.0
+    },
+    "percentile": {
+        "0": 10000000,
+        "1": 10000000,
+        "2": 10000000,
+        "5": 10000000,
+        "10": 10000000,
+        "20": 10000000,
+        "30": 10000000,
+        "40": 10000000,
+        "50": 10000000,
+        "60": 10000000,
+        "70": 10000000,
+        "80": 10000000,
+        "90": 10000000,
+        "100": 10000000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "bp",
+                "id": "25680",
+                "name": "BP 카드 500만",
+                "image": null,
+                "expectedBp": 5000000.0,
+                "expectedValue": {
+                    "bp_card": 5000000.0
+                }
+            },
+            "amount": 2,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}
