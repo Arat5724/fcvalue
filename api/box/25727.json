@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "25727",
+    "name": "[2번] 25KB 11강 + 1.7억 BP",
+    "image": null,
+    "expectedBp": 760596851.2009549,
+    "expectedValue": {
+        "bp_player": 590596851.2009549,
+        "bp_card": 170000000.0
+    },
+    "expectedBp1": 760596851.2009549,
+    "expectedValue1": {
+        "bp_player": 590596851.2009549,
+        "bp_card": 170000000.0
+    },
+    "percentile": {
+        "0": 5530000000,
+        "1": 2730000000,
+        "2": 2490000000,
+        "5": 2490000000,
+        "10": 1290000000,
+        "20": 869000000,
+        "30": 679000000,
+        "40": 670000000,
+        "50": 642000000,
+        "60": 592000000,
+        "70": 480000000,
+        "80": 465000000,
+        "90": 435000000,
+        "100": 252800000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25721",
+                "name": "25KB Top Price 40 (11강, 113+)",
+                "image": null,
+                "expectedBp": 590596851.2009549,
+                "expectedValue": {
+                    "bp_player": 590596851.2009549
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25724",
+                "name": "BP 카드 1.7억",
+                "image": null,
+                "expectedBp": 170000000.0,
+                "expectedValue": {
+                    "bp_card": 170000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

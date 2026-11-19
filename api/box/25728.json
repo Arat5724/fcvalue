@@ -1,0 +1,60 @@
+{
+    "type": "box",
+    "id": "25728",
+    "name": "[3번] 행운의 BP 꾸러미",
+    "image": null,
+    "expectedBp": 569500000.0,
+    "expectedValue": {
+        "bp_card": 569500000.0
+    },
+    "expectedBp1": 569500000.0,
+    "expectedValue1": {
+        "bp_card": 569500000.0
+    },
+    "percentile": null,
+    "itemList": [
+        {
+            "item": {
+                "type": "bp",
+                "id": "25725",
+                "name": "행운의 BP 카드 (1500만~2500만)",
+                "image": null,
+                "expectedBp": 17000000.0,
+                "expectedValue": {
+                    "bp_card": 17000000.0
+                }
+            },
+            "amount": 60,
+            "probability": 0.05
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25725",
+                "name": "행운의 BP 카드 (1500만~2500만)",
+                "image": null,
+                "expectedBp": 17000000.0,
+                "expectedValue": {
+                    "bp_card": 17000000.0
+                }
+            },
+            "amount": 40,
+            "probability": 0.2
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25725",
+                "name": "행운의 BP 카드 (1500만~2500만)",
+                "image": null,
+                "expectedBp": 17000000.0,
+                "expectedValue": {
+                    "bp_card": 17000000.0
+                }
+            },
+            "amount": 30,
+            "probability": 0.75
+        }
+    ],
+    "additionalInfoWithAmount": null
+}
