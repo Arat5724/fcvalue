@@ -3,25 +3,25 @@
     "id": "25578",
     "name": "26UP, UC 포함 Top Price 30 선수팩 (8~10강, 122+)",
     "image": null,
-    "expectedBp": 3381520895.529495,
+    "expectedBp": 3340890672.8374786,
     "expectedValue": {
-        "bp_player": 3381520895.529495
+        "bp_player": 3340890672.8374786
     },
     "percentile": {
         "0": 72300000000,
-        "1": 9220000000,
-        "2": 7700000000,
-        "5": 5700000000,
-        "10": 4330000000,
-        "20": 3800000000,
+        "1": 8000000000,
+        "2": 7620000000,
+        "5": 5850000000,
+        "10": 4300000000,
+        "20": 3770000000,
         "30": 3400000000,
-        "40": 2970000000,
-        "50": 2920000000,
-        "60": 2710000000,
-        "70": 2640000000,
-        "80": 2620000000,
-        "90": 2570000000,
-        "100": 2490000000
+        "40": 2990000000,
+        "50": 2910000000,
+        "60": 2780000000,
+        "70": 2760000000,
+        "80": 2600000000,
+        "90": 2540000000,
+        "100": 2310000000
     },
     "playerList": [
         {
@@ -81,8 +81,23 @@
                 "upgrade": 10,
                 "pay": 34
             },
-            "value": 13000000000,
+            "value": 13800000000,
             "probability": 9.522857238086e-06
+        },
+        {
+            "player": {
+                "id": 1625,
+                "name": "티에리 앙리",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 144,
+                "position": "ST",
+                "nation": 18,
+                "upgrade": 10,
+                "pay": 34
+            },
+            "value": 12900000000,
+            "probability": 1.4284285857129001e-05
         },
         {
             "player": {
@@ -97,21 +112,6 @@
                 "pay": 34
             },
             "value": 12500000000,
-            "probability": 1.4284285857129001e-05
-        },
-        {
-            "player": {
-                "id": 1625,
-                "name": "티에리 앙리",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 144,
-                "position": "ST",
-                "nation": 18,
-                "upgrade": 10,
-                "pay": 34
-            },
-            "value": 11700000000,
             "probability": 1.9045714476171e-05
         },
         {
@@ -126,22 +126,7 @@
                 "upgrade": 10,
                 "pay": 33
             },
-            "value": 11200000000,
-            "probability": 1.9045714476171e-05
-        },
-        {
-            "player": {
-                "id": 37576,
-                "name": "호나우두",
-                "season": "26FSL",
-                "season_no": 868,
-                "ovr": 141,
-                "position": "ST",
-                "nation": 54,
-                "upgrade": 10,
-                "pay": 33
-            },
-            "value": 9600000000,
+            "value": 11000000000,
             "probability": 1.9045714476171e-05
         },
         {
@@ -156,22 +141,22 @@
                 "upgrade": 10,
                 "pay": 34
             },
-            "value": 9400000000,
-            "probability": 0.00476142861904286
+            "value": 10000000000,
+            "probability": 1.9045714476171e-05
         },
         {
             "player": {
-                "id": 158023,
-                "name": "리오넬 메시",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 145,
-                "position": "CF",
-                "nation": 52,
+                "id": 37576,
+                "name": "호나우두",
+                "season": "26FSL",
+                "season_no": 868,
+                "ovr": 141,
+                "position": "ST",
+                "nation": 54,
                 "upgrade": 10,
-                "pay": 35
+                "pay": 33
             },
-            "value": 9240000000,
+            "value": 9100000000,
             "probability": 0.00476142861904286
         },
         {
@@ -186,7 +171,22 @@
                 "upgrade": 10,
                 "pay": 34
             },
-            "value": 9220000000,
+            "value": 8990000000,
+            "probability": 0.00476142861904286
+        },
+        {
+            "player": {
+                "id": 158023,
+                "name": "리오넬 메시",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 145,
+                "position": "CF",
+                "nation": 52,
+                "upgrade": 10,
+                "pay": 35
+            },
+            "value": 8000000000,
             "probability": 0.00952285723808572
         },
         {
@@ -201,7 +201,7 @@
                 "upgrade": 9,
                 "pay": 33
             },
-            "value": 7700000000,
+            "value": 7620000000,
             "probability": 0.00952285723808572
         },
         {
@@ -216,22 +216,7 @@
                 "upgrade": 10,
                 "pay": 34
             },
-            "value": 6100000000,
-            "probability": 0.0190457144761714
-        },
-        {
-            "player": {
-                "id": 78012,
-                "name": "얀 디오만데",
-                "season": "26UP",
-                "season_no": 878,
-                "ovr": 140,
-                "position": "RW",
-                "nation": null,
-                "upgrade": 8,
-                "pay": 33
-            },
-            "value": 5700000000,
+            "value": 6070000000,
             "probability": 0.0190457144761714
         },
         {
@@ -244,6 +229,21 @@
                 "position": "CAM",
                 "nation": 54,
                 "upgrade": 10,
+                "pay": 33
+            },
+            "value": 5850000000,
+            "probability": 0.0190457144761714
+        },
+        {
+            "player": {
+                "id": 78012,
+                "name": "얀 디오만데",
+                "season": "26UP",
+                "season_no": 878,
+                "ovr": 140,
+                "position": "RW",
+                "nation": null,
+                "upgrade": 8,
                 "pay": 33
             },
             "value": 5560000000,
@@ -261,7 +261,7 @@
                 "upgrade": 9,
                 "pay": 34
             },
-            "value": 4330000000,
+            "value": 4300000000,
             "probability": 0.0285685717142572
         },
         {
@@ -276,7 +276,7 @@
                 "upgrade": 10,
                 "pay": 33
             },
-            "value": 4080000000,
+            "value": 3790000000,
             "probability": 0.038091428952342896
         },
         {
@@ -291,22 +291,22 @@
                 "upgrade": 10,
                 "pay": 32
             },
-            "value": 3800000000,
+            "value": 3770000000,
             "probability": 0.038091428952342896
         },
         {
             "player": {
-                "id": 238794,
-                "name": "비니시우스",
-                "season": "26UP",
-                "season_no": 878,
-                "ovr": 144,
-                "position": "LW",
-                "nation": 54,
+                "id": 31432,
+                "name": "디디에 드로그바",
+                "season": "SPT",
+                "season_no": 867,
+                "ovr": 143,
+                "position": "ST",
+                "nation": 108,
                 "upgrade": 10,
-                "pay": 33
+                "pay": 34
             },
-            "value": 3800000000,
+            "value": 3440000000,
             "probability": 0.0476142861904286
         },
         {
@@ -321,20 +321,20 @@
                 "upgrade": 10,
                 "pay": 35
             },
-            "value": 3420000000,
+            "value": 3410000000,
             "probability": 0.0476142861904286
         },
         {
             "player": {
-                "id": 31432,
-                "name": "디디에 드로그바",
-                "season": "SPT",
-                "season_no": 867,
-                "ovr": 143,
-                "position": "ST",
-                "nation": 108,
+                "id": 238794,
+                "name": "비니시우스",
+                "season": "26UP",
+                "season_no": 878,
+                "ovr": 144,
+                "position": "LW",
+                "nation": 54,
                 "upgrade": 10,
-                "pay": 34
+                "pay": 33
             },
             "value": 3400000000,
             "probability": 0.0952285723808571
@@ -351,7 +351,7 @@
                 "upgrade": 10,
                 "pay": 33
             },
-            "value": 2970000000,
+            "value": 2990000000,
             "probability": 0.0952285723808571
         },
         {
@@ -366,7 +366,22 @@
                 "upgrade": 10,
                 "pay": 33
             },
-            "value": 2920000000,
+            "value": 2910000000,
+            "probability": 0.0952285723808571
+        },
+        {
+            "player": {
+                "id": 260247,
+                "name": "모건 로저스",
+                "season": "26UP",
+                "season_no": 878,
+                "ovr": 142,
+                "position": "CAM",
+                "nation": 14,
+                "upgrade": 10,
+                "pay": 32
+            },
+            "value": 2780000000,
             "probability": 0.0952285723808571
         },
         {
@@ -381,22 +396,22 @@
                 "upgrade": 9,
                 "pay": 34
             },
-            "value": 2710000000,
-            "probability": 0.0952285723808571
+            "value": 2760000000,
+            "probability": 0.0714214292856429
         },
         {
             "player": {
-                "id": 156616,
-                "name": "프랑크 리베리",
+                "id": 41236,
+                "name": "즐라탄",
                 "season": "UC",
                 "season_no": 877,
-                "ovr": 145,
-                "position": "LW",
-                "nation": 18,
-                "upgrade": 10,
-                "pay": 35
+                "ovr": 141,
+                "position": "ST",
+                "nation": 46,
+                "upgrade": 9,
+                "pay": 34
             },
-            "value": 2640000000,
+            "value": 2600000000,
             "probability": 0.0714214292856429
         },
         {
@@ -411,37 +426,7 @@
                 "upgrade": 10,
                 "pay": 32
             },
-            "value": 2620000000,
-            "probability": 0.0714214292856429
-        },
-        {
-            "player": {
-                "id": 260247,
-                "name": "모건 로저스",
-                "season": "26UP",
-                "season_no": 878,
-                "ovr": 142,
-                "position": "CAM",
-                "nation": 14,
-                "upgrade": 10,
-                "pay": 32
-            },
-            "value": 2570000000,
-            "probability": 0.0476142861904286
-        },
-        {
-            "player": {
-                "id": 41236,
-                "name": "즐라탄",
-                "season": "UC",
-                "season_no": 877,
-                "ovr": 141,
-                "position": "ST",
-                "nation": 46,
-                "upgrade": 9,
-                "pay": 34
-            },
-            "value": 2570000000,
+            "value": 2590000000,
             "probability": 0.0476142861904286
         },
         {
@@ -457,21 +442,36 @@
                 "pay": 31
             },
             "value": 2540000000,
+            "probability": 0.0476142861904286
+        },
+        {
+            "player": {
+                "id": 5680,
+                "name": "클라위베르트",
+                "season": "UC",
+                "season_no": 877,
+                "ovr": 143,
+                "position": "ST",
+                "nation": 34,
+                "upgrade": 10,
+                "pay": 33
+            },
+            "value": 2450000000,
             "probability": 0.0428528575713857
         },
         {
             "player": {
-                "id": 246669,
-                "name": "부카요 사카",
+                "id": 261188,
+                "name": "I. 은디아예",
                 "season": "26UP",
                 "season_no": 878,
                 "ovr": 141,
                 "position": "RW",
-                "nation": 14,
-                "upgrade": 9,
-                "pay": 32
+                "nation": 136,
+                "upgrade": 10,
+                "pay": 31
             },
-            "value": 2490000000,
+            "value": 2310000000,
             "probability": 0.0428528575713857
         }
     ]
