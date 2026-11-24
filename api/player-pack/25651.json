@@ -3,9 +3,9 @@
     "id": "25651",
     "name": "ICON TM Top Price 70 선수팩 (11강)",
     "image": null,
-    "expectedBp": 25417904509.28379,
+    "expectedBp": 25518744473.916855,
     "expectedValue": {
-        "bp_player": 25417904509.28379
+        "bp_player": 25518744473.916855
     },
     "percentile": {
         "0": 391000000000,
@@ -16,12 +16,12 @@
         "20": 32500000000,
         "30": 28800000000,
         "40": 26200000000,
-        "50": 20800000000,
+        "50": 21000000000,
         "60": 20300000000,
         "70": 16900000000,
         "80": 14900000000,
         "90": 13600000000,
-        "100": 11300000000
+        "100": 11400000000
     },
     "playerList": [
         {
@@ -411,7 +411,7 @@
                 "upgrade": 11,
                 "pay": 33
             },
-            "value": 29900000000,
+            "value": 31900000000,
             "probability": 0.017683465959328
         },
         {
@@ -576,7 +576,22 @@
                 "upgrade": 11,
                 "pay": 33
             },
-            "value": 24200000000,
+            "value": 24300000000,
+            "probability": 0.02210433244916
+        },
+        {
+            "player": {
+                "id": 6235,
+                "name": "파벨 네드베드",
+                "season": "ICONTM",
+                "season_no": 100,
+                "ovr": 144,
+                "position": "CAM",
+                "nation": 12,
+                "upgrade": 11,
+                "pay": 32
+            },
+            "value": 22300000000,
             "probability": 0.02210433244916
         },
         {
@@ -637,21 +652,6 @@
                 "pay": 30
             },
             "value": 20600000000,
-            "probability": 0.02210433244916
-        },
-        {
-            "player": {
-                "id": 6235,
-                "name": "파벨 네드베드",
-                "season": "ICONTM",
-                "season_no": 100,
-                "ovr": 144,
-                "position": "CAM",
-                "nation": 12,
-                "upgrade": 11,
-                "pay": 32
-            },
-            "value": 20500000000,
             "probability": 0.02210433244916
         },
         {
@@ -821,6 +821,21 @@
         },
         {
             "player": {
+                "id": 82092,
+                "name": "마리오 켐페스",
+                "season": "ICONTM",
+                "season_no": 100,
+                "ovr": 144,
+                "position": "CF",
+                "nation": null,
+                "upgrade": 11,
+                "pay": 31
+            },
+            "value": 14600000000,
+            "probability": 0.017683465959328
+        },
+        {
+            "player": {
                 "id": 166691,
                 "name": "지쿠",
                 "season": "ICONTM",
@@ -922,21 +937,6 @@
                 "pay": 31
             },
             "value": 13300000000,
-            "probability": 0.017683465959328
-        },
-        {
-            "player": {
-                "id": 82092,
-                "name": "마리오 켐페스",
-                "season": "ICONTM",
-                "season_no": 100,
-                "ovr": 144,
-                "position": "CF",
-                "nation": null,
-                "upgrade": 11,
-                "pay": 31
-            },
-            "value": 13300000000,
             "probability": 0.00884173297966401
         },
         {
@@ -1001,13 +1001,13 @@
         },
         {
             "player": {
-                "id": 1040,
-                "name": "호베르투 카를루스",
+                "id": 1419,
+                "name": "파트리크 비에이라",
                 "season": "ICONTM",
                 "season_no": 100,
-                "ovr": 145,
-                "position": "LB",
-                "nation": 54,
+                "ovr": 144,
+                "position": "CDM",
+                "nation": 18,
                 "upgrade": 11,
                 "pay": 32
             },
@@ -1028,6 +1028,21 @@
             },
             "value": 12400000000,
             "probability": 0.00884173297966401
+        },
+        {
+            "player": {
+                "id": 1040,
+                "name": "호베르투 카를루스",
+                "season": "ICONTM",
+                "season_no": 100,
+                "ovr": 145,
+                "position": "LB",
+                "nation": 54,
+                "upgrade": 11,
+                "pay": 32
+            },
+            "value": 12400000000,
+            "probability": 0.000442086648983201
         },
         {
             "player": {
@@ -1057,21 +1072,6 @@
                 "pay": 31
             },
             "value": 11400000000,
-            "probability": 0.000442086648983201
-        },
-        {
-            "player": {
-                "id": 1419,
-                "name": "파트리크 비에이라",
-                "season": "ICONTM",
-                "season_no": 100,
-                "ovr": 144,
-                "position": "CDM",
-                "nation": 18,
-                "upgrade": 11,
-                "pay": 32
-            },
-            "value": 11300000000,
             "probability": 0.000442086648983201
         }
     ]
