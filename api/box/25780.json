@@ -1,0 +1,61 @@
+{
+    "type": "box",
+    "id": "25780",
+    "name": "[열쇠 75개] '26KB 8~11강 동일확률팩' + '26UP 포함 8~11강팩'",
+    "image": null,
+    "expectedBp": 3051967140.3010178,
+    "expectedValue": {
+        "bp_player": 3051967140.3010178
+    },
+    "expectedBp1": 3051967140.3010178,
+    "expectedValue1": {
+        "bp_player": 3051967140.3010178
+    },
+    "percentile": {
+        "0": 155381000000,
+        "1": 5162400000,
+        "2": 5119000000,
+        "5": 4852400000,
+        "10": 4234300000,
+        "20": 3886010000,
+        "30": 3438200000,
+        "40": 3135500000,
+        "50": 2911200000,
+        "60": 2676700000,
+        "70": 2465800000,
+        "80": 2235700000,
+        "90": 2076000000,
+        "100": 1772660000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25753",
+                "name": "[열쇠 75개][동일확률] 26KB Top Price 200 (8~11강, 118+)",
+                "image": null,
+                "expectedBp": 58053900.0,
+                "expectedValue": {
+                    "bp_player": 58053900.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25752",
+                "name": "[열쇠 75개] 26UP 포함 Top Price 320 (8~11강, 112+)",
+                "image": null,
+                "expectedBp": 2993913240.3010178,
+                "expectedValue": {
+                    "bp_player": 2993913240.3010178
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

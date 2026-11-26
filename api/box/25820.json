@@ -1,0 +1,91 @@
+{
+    "type": "box",
+    "id": "25820",
+    "name": "[DR, 26KB 11강 기회] 3스타 선수팩 맛집 찾기",
+    "image": "/assets/image/item/201711059_s.png",
+    "expectedBp": 1077645544.1450377,
+    "expectedValue": {
+        "bp_player": 777645544.1450377,
+        "bp_card": 300000000.0
+    },
+    "expectedBp1": 1077645544.1450377,
+    "expectedValue1": {
+        "bp_player": 777645544.1450377,
+        "bp_card": 300000000.0
+    },
+    "percentile": {
+        "0": 330000000000,
+        "1": 3070000000,
+        "2": 2720000000,
+        "5": 2320000000,
+        "10": 1950000000,
+        "20": 1520000000,
+        "30": 1230000000,
+        "40": 987000000,
+        "50": 600000000,
+        "60": 600000000,
+        "70": 600000000,
+        "80": 600000000,
+        "90": 600000000,
+        "100": 4040000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25788",
+                "name": "[★★★] DR, 26KB, 26UP, UC Top Price 180 (11강, 118+)",
+                "image": null,
+                "expectedBp": 1949064976.2282104,
+                "expectedValue": {
+                    "bp_player": 1949064976.2282104
+                }
+            },
+            "amount": 1,
+            "probability": 0.027200000000000002
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25789",
+                "name": "[★★] DR 포함 Top Price 120 (10강, 118+)",
+                "image": null,
+                "expectedBp": 1554865006.5399027,
+                "expectedValue": {
+                    "bp_player": 1554865006.5399027
+                }
+            },
+            "amount": 1,
+            "probability": 0.165
+        },
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25790",
+                "name": "[★★] DR 포함 Top Price 100 (8~9강, 118+)",
+                "image": null,
+                "expectedBp": 1520722062.0940425,
+                "expectedValue": {
+                    "bp_player": 1520722062.0940425
+                }
+            },
+            "amount": 1,
+            "probability": 0.3078
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25817",
+                "name": "[★] BP 카드 6억",
+                "image": null,
+                "expectedBp": 600000000.0,
+                "expectedValue": {
+                    "bp_card": 600000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 0.5
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

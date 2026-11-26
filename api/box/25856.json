@@ -1,0 +1,77 @@
+{
+    "type": "box",
+    "id": "25856",
+    "name": "[AG][FOVR 125+] 위클리 3인 트레이드 의뢰 상자",
+    "image": null,
+    "expectedBp": 246999.99999999997,
+    "expectedValue": {
+        "bp_card": 246999.99999999997,
+        "[AG][WG 포함] 멀티 클래스 Top Price 7000 선수팩 (5~8강)": 0.6498999999999999
+    },
+    "expectedBp1": 246999.99999999997,
+    "expectedValue1": {
+        "bp_card": 246999.99999999997,
+        "[AG][WG 포함] 멀티 클래스 Top Price 7000 선수팩 (5~8강)": 0.6498999999999999
+    },
+    "percentile": {
+        "0": 20000000,
+        "1": 700000,
+        "2": 700000,
+        "5": 700000,
+        "10": 700000,
+        "20": 700000,
+        "30": 700000,
+        "40": 0,
+        "50": 0,
+        "60": 0,
+        "70": 0,
+        "80": 0,
+        "90": 0,
+        "100": 0
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "bp",
+                "id": "25846",
+                "name": "[AG] BP 카드 20,000,000",
+                "image": null,
+                "expectedBp": 20000000.0,
+                "expectedValue": {
+                    "bp_card": 20000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 0.0001
+        },
+        {
+            "item": {
+                "type": "other",
+                "id": -1,
+                "name": "[AG][WG 포함] 멀티 클래스 Top Price 7000 선수팩 (5~8강)",
+                "image": null,
+                "expectedBp": 0,
+                "expectedValue": {
+                    "[AG][WG 포함] 멀티 클래스 Top Price 7000 선수팩 (5~8강)": 1
+                }
+            },
+            "amount": 1,
+            "probability": 0.6498999999999999
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25848",
+                "name": "[AG] BP 카드 700,000",
+                "image": null,
+                "expectedBp": 700000.0,
+                "expectedValue": {
+                    "bp_card": 700000.0
+                }
+            },
+            "amount": 1,
+            "probability": 0.35
+        }
+    ],
+    "additionalInfoWithAmount": null
+}

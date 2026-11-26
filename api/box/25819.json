@@ -1,0 +1,63 @@
+{
+    "type": "box",
+    "id": "25819",
+    "name": "26KB 11강 + 10억 BP",
+    "image": null,
+    "expectedBp": 1196291600.1656363,
+    "expectedValue": {
+        "bp_player": 196291600.1656363,
+        "bp_card": 1000000000.0
+    },
+    "expectedBp1": 1196291600.1656363,
+    "expectedValue1": {
+        "bp_player": 196291600.1656363,
+        "bp_card": 1000000000.0
+    },
+    "percentile": {
+        "0": 1381000000,
+        "1": 1381000000,
+        "2": 1381000000,
+        "5": 1323000000,
+        "10": 1265000000,
+        "20": 1243000000,
+        "30": 1192000000,
+        "40": 1177000000,
+        "50": 1176000000,
+        "60": 1175000000,
+        "70": 1172000000,
+        "80": 1160000000,
+        "90": 1129000000,
+        "100": 1113000000
+    },
+    "itemList": [
+        {
+            "item": {
+                "type": "player-pack",
+                "id": "25785",
+                "name": "26KB Top Price 40 (11강, 118+)",
+                "image": null,
+                "expectedBp": 196291600.1656363,
+                "expectedValue": {
+                    "bp_player": 196291600.1656363
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        },
+        {
+            "item": {
+                "type": "bp",
+                "id": "25816",
+                "name": "BP 카드 10억",
+                "image": null,
+                "expectedBp": 1000000000.0,
+                "expectedValue": {
+                    "bp_card": 1000000000.0
+                }
+            },
+            "amount": 1,
+            "probability": 1.0
+        }
+    ],
+    "additionalInfoWithAmount": null
+}
