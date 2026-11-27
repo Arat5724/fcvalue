@@ -3,25 +3,25 @@
     "id": "25748",
     "name": "[열쇠 120개] DR Top Price 16 (8~10강, 120+)",
     "image": null,
-    "expectedBp": 1052131156.2909093,
+    "expectedBp": 2060846158.6557288,
     "expectedValue": {
-        "bp_player": 1052131156.2909093
+        "bp_player": 2060846158.6557288
     },
     "percentile": {
-        "0": 7430000000,
-        "1": 2680000000,
-        "2": 2680000000,
-        "5": 1760000000,
-        "10": 1760000000,
-        "20": 1330000000,
-        "30": 1000000000,
-        "40": 968000000,
-        "50": 950000000,
-        "60": 938000000,
-        "70": 896000000,
-        "80": 619000000,
-        "90": 618000000,
-        "100": 582000000
+        "0": 11200000000,
+        "1": 4000000000,
+        "2": 4000000000,
+        "5": 3990000000,
+        "10": 3990000000,
+        "20": 3100000000,
+        "30": 2300000000,
+        "40": 2290000000,
+        "50": 1660000000,
+        "60": 1630000000,
+        "70": 1360000000,
+        "80": 1160000000,
+        "90": 970000000,
+        "100": 899000000
     },
     "playerList": [
         {
@@ -36,23 +36,8 @@
                 "upgrade": 10,
                 "pay": 34
             },
-            "value": 7430000000,
+            "value": 11200000000,
             "probability": 2.1785528875299998e-07
-        },
-        {
-            "player": {
-                "id": 37576,
-                "name": "호나우두",
-                "season": "DR",
-                "season_no": 881,
-                "ovr": 140,
-                "position": "ST",
-                "nation": 54,
-                "upgrade": 9,
-                "pay": 34
-            },
-            "value": 3080000000,
-            "probability": 4.3571057750599996e-07
         },
         {
             "player": {
@@ -66,8 +51,8 @@
                 "upgrade": 10,
                 "pay": 34
             },
-            "value": 2910000000,
-            "probability": 4.3571057750605005e-05
+            "value": 4510000000,
+            "probability": 4.3571057750599996e-07
         },
         {
             "player": {
@@ -81,8 +66,8 @@
                 "upgrade": 10,
                 "pay": 34
             },
-            "value": 2680000000,
-            "probability": 0.0435710577506049
+            "value": 4310000000,
+            "probability": 4.3571057750605005e-05
         },
         {
             "player": {
@@ -90,14 +75,14 @@
                 "name": "호나우두",
                 "season": "DR",
                 "season_no": 881,
-                "ovr": 138,
+                "ovr": 140,
                 "position": "ST",
                 "nation": 54,
-                "upgrade": 8,
+                "upgrade": 9,
                 "pay": 34
             },
-            "value": 1760000000,
-            "probability": 0.0653565866259074
+            "value": 4000000000,
+            "probability": 0.0435710577506049
         },
         {
             "player": {
@@ -111,7 +96,7 @@
                 "upgrade": 10,
                 "pay": 35
             },
-            "value": 1500000000,
+            "value": 3990000000,
             "probability": 0.0653565866259074
         },
         {
@@ -126,7 +111,22 @@
                 "upgrade": 10,
                 "pay": 34
             },
-            "value": 1330000000,
+            "value": 3280000000,
+            "probability": 0.0653565866259074
+        },
+        {
+            "player": {
+                "id": 37576,
+                "name": "호나우두",
+                "season": "DR",
+                "season_no": 881,
+                "ovr": 138,
+                "position": "ST",
+                "nation": 54,
+                "upgrade": 8,
+                "pay": 34
+            },
+            "value": 3100000000,
             "probability": 0.0871421155012099
         },
         {
@@ -141,7 +141,7 @@
                 "upgrade": 9,
                 "pay": 35
             },
-            "value": 1000000000,
+            "value": 2300000000,
             "probability": 0.0871421155012099
         },
         {
@@ -156,52 +156,7 @@
                 "upgrade": 10,
                 "pay": 34
             },
-            "value": 968000000,
-            "probability": 0.0871421155012099
-        },
-        {
-            "player": {
-                "id": 10535,
-                "name": "차비",
-                "season": "DR",
-                "season_no": 881,
-                "ovr": 145,
-                "position": "CM",
-                "nation": 45,
-                "upgrade": 10,
-                "pay": 34
-            },
-            "value": 950000000,
-            "probability": 0.0871421155012099
-        },
-        {
-            "player": {
-                "id": 7826,
-                "name": "로빈 반페르시",
-                "season": "DR",
-                "season_no": 881,
-                "ovr": 143,
-                "position": "ST",
-                "nation": 34,
-                "upgrade": 9,
-                "pay": 34
-            },
-            "value": 938000000,
-            "probability": 0.0980348799388611
-        },
-        {
-            "player": {
-                "id": 28130,
-                "name": "호나우지뉴",
-                "season": "DR",
-                "season_no": 881,
-                "ovr": 143,
-                "position": "LW",
-                "nation": 54,
-                "upgrade": 9,
-                "pay": 34
-            },
-            "value": 896000000,
+            "value": 2290000000,
             "probability": 0.0871421155012099
         },
         {
@@ -216,8 +171,23 @@
                 "upgrade": 8,
                 "pay": 35
             },
-            "value": 666000000,
-            "probability": 0.0762493510635586
+            "value": 1660000000,
+            "probability": 0.0871421155012099
+        },
+        {
+            "player": {
+                "id": 28130,
+                "name": "호나우지뉴",
+                "season": "DR",
+                "season_no": 881,
+                "ovr": 143,
+                "position": "LW",
+                "nation": 54,
+                "upgrade": 9,
+                "pay": 34
+            },
+            "value": 1630000000,
+            "probability": 0.0980348799388611
         },
         {
             "player": {
@@ -231,23 +201,38 @@
                 "upgrade": 8,
                 "pay": 34
             },
-            "value": 619000000,
-            "probability": 0.07842790395108891
+            "value": 1360000000,
+            "probability": 0.0871421155012099
         },
         {
             "player": {
-                "id": 10535,
-                "name": "차비",
+                "id": 190042,
+                "name": "마라도나",
                 "season": "DR",
                 "season_no": 881,
                 "ovr": 143,
-                "position": "CM",
-                "nation": 45,
+                "position": "CAM",
+                "nation": 52,
+                "upgrade": 10,
+                "pay": 33
+            },
+            "value": 1290000000,
+            "probability": 0.0762493510635586
+        },
+        {
+            "player": {
+                "id": 7826,
+                "name": "로빈 반페르시",
+                "season": "DR",
+                "season_no": 881,
+                "ovr": 143,
+                "position": "ST",
+                "nation": 34,
                 "upgrade": 9,
                 "pay": 34
             },
-            "value": 618000000,
-            "probability": 0.0762493510635586
+            "value": 1160000000,
+            "probability": 0.07842790395108891
         },
         {
             "player": {
@@ -261,7 +246,22 @@
                 "upgrade": 8,
                 "pay": 34
             },
-            "value": 582000000,
+            "value": 970000000,
+            "probability": 0.0762493510635586
+        },
+        {
+            "player": {
+                "id": 10535,
+                "name": "차비",
+                "season": "DR",
+                "season_no": 881,
+                "ovr": 145,
+                "position": "CM",
+                "nation": 45,
+                "upgrade": 10,
+                "pay": 34
+            },
+            "value": 899000000,
             "probability": 0.0609994808508469
         }
     ]
