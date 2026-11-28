@@ -3,25 +3,25 @@
     "id": "25740",
     "name": "[열쇠 800개] 26KB Top Price 10 (11강, 119+)",
     "image": null,
-    "expectedBp": 716072992.7007312,
+    "expectedBp": 847905109.4890525,
     "expectedValue": {
-        "bp_player": 716072992.7007312
+        "bp_player": 847905109.4890525
     },
     "percentile": {
-        "0": 976000000,
-        "1": 976000000,
-        "2": 976000000,
-        "5": 976000000,
-        "10": 879000000,
-        "20": 879000000,
-        "30": 825000000,
-        "40": 695000000,
-        "50": 695000000,
-        "60": 626000000,
-        "70": 607000000,
-        "80": 601000000,
-        "90": 578000000,
-        "100": 520000000
+        "0": 1180000000,
+        "1": 1180000000,
+        "2": 1180000000,
+        "5": 1180000000,
+        "10": 1060000000,
+        "20": 1060000000,
+        "30": 917000000,
+        "40": 800000000,
+        "50": 800000000,
+        "60": 765000000,
+        "70": 746000000,
+        "80": 735000000,
+        "90": 689000000,
+        "100": 638000000
     },
     "playerList": [
         {
@@ -36,7 +36,7 @@
                 "upgrade": 11,
                 "pay": 32
             },
-            "value": 976000000,
+            "value": 1180000000,
             "probability": 0.072992700729927
         },
         {
@@ -51,68 +51,23 @@
                 "upgrade": 11,
                 "pay": 32
             },
-            "value": 879000000,
+            "value": 1060000000,
             "probability": 0.131386861313869
         },
         {
             "player": {
-                "id": 240280,
-                "name": "마테우스",
+                "id": 222052,
+                "name": "이명재",
                 "season": "26KB",
                 "season_no": 883,
-                "ovr": 143,
-                "position": "CAM",
-                "nation": 54,
-                "upgrade": 11,
-                "pay": 31
-            },
-            "value": 825000000,
-            "probability": 0.175182481751825
-        },
-        {
-            "player": {
-                "id": 245054,
-                "name": "이동경",
-                "season": "26KB",
-                "season_no": 883,
-                "ovr": 143,
-                "position": "CAM",
+                "ovr": 141,
+                "position": "LB",
                 "nation": 167,
                 "upgrade": 11,
-                "pay": 32
+                "pay": 30
             },
-            "value": 695000000,
-            "probability": 0.153284671532847
-        },
-        {
-            "player": {
-                "id": 259325,
-                "name": "갈레고",
-                "season": "26KB",
-                "season_no": 883,
-                "ovr": 142,
-                "position": "LW",
-                "nation": 54,
-                "upgrade": 11,
-                "pay": 31
-            },
-            "value": 626000000,
-            "probability": 0.131386861313869
-        },
-        {
-            "player": {
-                "id": 236757,
-                "name": "P. 클리말라",
-                "season": "26KB",
-                "season_no": 883,
-                "ovr": 142,
-                "position": "ST",
-                "nation": null,
-                "upgrade": 11,
-                "pay": 31
-            },
-            "value": 607000000,
-            "probability": 0.109489051094891
+            "value": 917000000,
+            "probability": 0.175182481751825
         },
         {
             "player": {
@@ -126,52 +81,97 @@
                 "upgrade": 11,
                 "pay": 30
             },
-            "value": 601000000,
+            "value": 800000000,
+            "probability": 0.153284671532847
+        },
+        {
+            "player": {
+                "id": 245054,
+                "name": "이동경",
+                "season": "26KB",
+                "season_no": 883,
+                "ovr": 143,
+                "position": "CAM",
+                "nation": 167,
+                "upgrade": 11,
+                "pay": 32
+            },
+            "value": 765000000,
+            "probability": 0.131386861313869
+        },
+        {
+            "player": {
+                "id": 276140,
+                "name": "강투지",
+                "season": "26KB",
+                "season_no": 883,
+                "ovr": 141,
+                "position": "CB",
+                "nation": 15,
+                "upgrade": 11,
+                "pay": 30
+            },
+            "value": 746000000,
+            "probability": 0.109489051094891
+        },
+        {
+            "player": {
+                "id": 236757,
+                "name": "P. 클리말라",
+                "season": "26KB",
+                "season_no": 883,
+                "ovr": 142,
+                "position": "ST",
+                "nation": null,
+                "upgrade": 11,
+                "pay": 31
+            },
+            "value": 735000000,
             "probability": 0.08759124087591241
         },
         {
             "player": {
-                "id": 263029,
-                "name": "로스",
+                "id": 259325,
+                "name": "갈레고",
                 "season": "26KB",
                 "season_no": 883,
                 "ovr": 142,
+                "position": "LW",
+                "nation": 54,
+                "upgrade": 11,
+                "pay": 31
+            },
+            "value": 689000000,
+            "probability": 0.0656934306569343
+        },
+        {
+            "player": {
+                "id": 234748,
+                "name": "구성윤",
+                "season": "26KB",
+                "season_no": 883,
+                "ovr": 141,
+                "position": "GK",
+                "nation": 167,
+                "upgrade": 11,
+                "pay": 27
+            },
+            "value": 657000000,
+            "probability": 0.043795620437956206
+        },
+        {
+            "player": {
+                "id": 239596,
+                "name": "J. 셀레스틴",
+                "season": "26KB",
+                "season_no": 883,
+                "ovr": 141,
                 "position": "CB",
                 "nation": null,
                 "upgrade": 11,
                 "pay": 30
             },
-            "value": 578000000,
-            "probability": 0.0656934306569343
-        },
-        {
-            "player": {
-                "id": 270203,
-                "name": "야구 카리엘루",
-                "season": "26KB",
-                "season_no": 883,
-                "ovr": 142,
-                "position": "ST",
-                "nation": 54,
-                "upgrade": 11,
-                "pay": 31
-            },
-            "value": 543000000,
-            "probability": 0.043795620437956206
-        },
-        {
-            "player": {
-                "id": 261128,
-                "name": "이기혁",
-                "season": "26KB",
-                "season_no": 883,
-                "ovr": 142,
-                "position": "CB",
-                "nation": 167,
-                "upgrade": 11,
-                "pay": 31
-            },
-            "value": 520000000,
+            "value": 638000000,
             "probability": 0.0291970802919708
         }
     ]

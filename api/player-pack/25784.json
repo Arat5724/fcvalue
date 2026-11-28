@@ -3,23 +3,23 @@
     "id": "25784",
     "name": "DR Top Price 30 (11강, 121+)",
     "image": null,
-    "expectedBp": 961529363.8381358,
+    "expectedBp": 1032381981.5947373,
     "expectedValue": {
-        "bp_player": 961529363.8381358
+        "bp_player": 1032381981.5947373
     },
     "percentile": {
         "0": 69900000000,
-        "1": 1610000000,
-        "2": 1610000000,
-        "5": 1600000000,
-        "10": 1320000000,
-        "20": 1180000000,
-        "30": 1120000000,
-        "40": 1020000000,
-        "50": 852000000,
-        "60": 798000000,
+        "1": 1940000000,
+        "2": 1940000000,
+        "5": 1610000000,
+        "10": 1380000000,
+        "20": 1300000000,
+        "30": 1180000000,
+        "40": 1160000000,
+        "50": 937000000,
+        "60": 904000000,
         "70": 781000000,
-        "80": 664000000,
+        "80": 730000000,
         "90": 640000000,
         "100": 496000000
     },
@@ -41,6 +41,21 @@
         },
         {
             "player": {
+                "id": 7826,
+                "name": "로빈 반페르시",
+                "season": "DR",
+                "season_no": 881,
+                "ovr": 147,
+                "position": "ST",
+                "nation": 34,
+                "upgrade": 11,
+                "pay": 34
+            },
+            "value": 38400000000,
+            "probability": 5.12938620226e-07
+        },
+        {
+            "player": {
                 "id": 28130,
                 "name": "호나우지뉴",
                 "season": "DR",
@@ -52,21 +67,6 @@
                 "pay": 34
             },
             "value": 29000000000,
-            "probability": 5.12938620226e-07
-        },
-        {
-            "player": {
-                "id": 7826,
-                "name": "로빈 반페르시",
-                "season": "DR",
-                "season_no": 881,
-                "ovr": 147,
-                "position": "ST",
-                "nation": 34,
-                "upgrade": 11,
-                "pay": 34
-            },
-            "value": 27700000000,
             "probability": 5.12938620226e-07
         },
         {
@@ -116,6 +116,21 @@
         },
         {
             "player": {
+                "id": 10535,
+                "name": "차비",
+                "season": "DR",
+                "season_no": 881,
+                "ovr": 147,
+                "position": "CM",
+                "nation": 45,
+                "upgrade": 11,
+                "pay": 34
+            },
+            "value": 5870000000,
+            "probability": 3.0776317213553e-05
+        },
+        {
+            "player": {
                 "id": 254642,
                 "name": "페렌츠 푸스카스",
                 "season": "DR",
@@ -127,21 +142,6 @@
                 "pay": 32
             },
             "value": 5560000000,
-            "probability": 3.0776317213553e-05
-        },
-        {
-            "player": {
-                "id": 10535,
-                "name": "차비",
-                "season": "DR",
-                "season_no": 881,
-                "ovr": 147,
-                "position": "CM",
-                "nation": 45,
-                "upgrade": 11,
-                "pay": 34
-            },
-            "value": 5340000000,
             "probability": 3.0776317213553e-05
         },
         {
@@ -176,6 +176,21 @@
         },
         {
             "player": {
+                "id": 166149,
+                "name": "우고 산체스",
+                "season": "DR",
+                "season_no": 881,
+                "ovr": 145,
+                "position": "ST",
+                "nation": 83,
+                "upgrade": 11,
+                "pay": 33
+            },
+            "value": 1940000000,
+            "probability": 0.0445798032470041
+        },
+        {
+            "player": {
                 "id": 183277,
                 "name": "에덴 아자르",
                 "season": "DR",
@@ -191,17 +206,17 @@
         },
         {
             "player": {
-                "id": 166149,
-                "name": "우고 산체스",
+                "id": 162895,
+                "name": "세스크 파브레가스",
                 "season": "DR",
                 "season_no": 881,
-                "ovr": 145,
-                "position": "ST",
-                "nation": 83,
+                "ovr": 143,
+                "position": "CAM",
+                "nation": 45,
                 "upgrade": 11,
-                "pay": 33
+                "pay": 31
             },
-            "value": 1600000000,
+            "value": 1380000000,
             "probability": 0.0445798032470041
         },
         {
@@ -221,18 +236,33 @@
         },
         {
             "player": {
-                "id": 162895,
-                "name": "세스크 파브레가스",
+                "id": 5479,
+                "name": "카시야스",
                 "season": "DR",
                 "season_no": 881,
-                "ovr": 143,
-                "position": "CAM",
+                "ovr": 145,
+                "position": "GK",
                 "nation": 45,
                 "upgrade": 11,
-                "pay": 31
+                "pay": 29
             },
-            "value": 1250000000,
+            "value": 1300000000,
             "probability": 0.0445798032470041
+        },
+        {
+            "player": {
+                "id": 214267,
+                "name": "게리 리네커",
+                "season": "DR",
+                "season_no": 881,
+                "ovr": 144,
+                "position": "ST",
+                "nation": 14,
+                "upgrade": 11,
+                "pay": 32
+            },
+            "value": 1230000000,
+            "probability": 0.0682768493873718
         },
         {
             "player": {
@@ -247,36 +277,21 @@
                 "pay": 32
             },
             "value": 1180000000,
-            "probability": 0.0445798032470041
-        },
-        {
-            "player": {
-                "id": 5479,
-                "name": "카시야스",
-                "season": "DR",
-                "season_no": 881,
-                "ovr": 145,
-                "position": "GK",
-                "nation": 45,
-                "upgrade": 11,
-                "pay": 29
-            },
-            "value": 1180000000,
             "probability": 0.0682768493873718
         },
         {
             "player": {
-                "id": 214267,
-                "name": "게리 리네커",
+                "id": 30110,
+                "name": "디미타르 베르바토프",
                 "season": "DR",
                 "season_no": 881,
-                "ovr": 144,
+                "ovr": 143,
                 "position": "ST",
-                "nation": 14,
+                "nation": 9,
                 "upgrade": 11,
                 "pay": 32
             },
-            "value": 1120000000,
+            "value": 1160000000,
             "probability": 0.0682768493873718
         },
         {
@@ -296,6 +311,21 @@
         },
         {
             "player": {
+                "id": 214101,
+                "name": "파울루 푸트리",
+                "season": "DR",
+                "season_no": 881,
+                "ovr": 143,
+                "position": "CAM",
+                "nation": 38,
+                "upgrade": 11,
+                "pay": 32
+            },
+            "value": 937000000,
+            "probability": 0.0682768493873718
+        },
+        {
+            "player": {
                 "id": 262271,
                 "name": "디에고 밀리토",
                 "season": "DR",
@@ -307,22 +337,7 @@
                 "pay": 32
             },
             "value": 904000000,
-            "probability": 0.0682768493873718
-        },
-        {
-            "player": {
-                "id": 214101,
-                "name": "파울루 푸트리",
-                "season": "DR",
-                "season_no": 881,
-                "ovr": 143,
-                "position": "CAM",
-                "nation": 38,
-                "upgrade": 11,
-                "pay": 32
-            },
-            "value": 852000000,
-            "probability": 0.0682768493873718
+            "probability": 0.0675036457112433
         },
         {
             "player": {
@@ -337,21 +352,6 @@
                 "pay": 33
             },
             "value": 798000000,
-            "probability": 0.0675036457112433
-        },
-        {
-            "player": {
-                "id": 30110,
-                "name": "디미타르 베르바토프",
-                "season": "DR",
-                "season_no": 881,
-                "ovr": 143,
-                "position": "ST",
-                "nation": 9,
-                "upgrade": 11,
-                "pay": 32
-            },
-            "value": 789000000,
             "probability": 0.0675036457112433
         },
         {
@@ -381,7 +381,7 @@
                 "upgrade": 11,
                 "pay": 32
             },
-            "value": 664000000,
+            "value": 730000000,
             "probability": 0.0675036457112433
         },
         {
@@ -416,6 +416,21 @@
         },
         {
             "player": {
+                "id": 171877,
+                "name": "마레크 함시크",
+                "season": "DR",
+                "season_no": 881,
+                "ovr": 142,
+                "position": "CAM",
+                "nation": 43,
+                "upgrade": 11,
+                "pay": 31
+            },
+            "value": 584000000,
+            "probability": 0.028636132114522803
+        },
+        {
+            "player": {
                 "id": 173210,
                 "name": "클라우디오 마르키시오",
                 "season": "DR",
@@ -427,21 +442,6 @@
                 "pay": 30
             },
             "value": 578000000,
-            "probability": 0.028636132114522803
-        },
-        {
-            "player": {
-                "id": 171877,
-                "name": "마레크 함시크",
-                "season": "DR",
-                "season_no": 881,
-                "ovr": 142,
-                "position": "CAM",
-                "nation": 43,
-                "upgrade": 11,
-                "pay": 31
-            },
-            "value": 531000000,
             "probability": 0.028636132114522803
         },
         {
